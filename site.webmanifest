@@ -1,0 +1,13 @@
+{
+  "short_name": "Monkey13",
+  "name": "Monkey13 | WebStudio",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "index.html",
+  "display" : "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
