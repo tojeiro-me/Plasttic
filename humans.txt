@@ -1,15 +1,14 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */    
 
-# TEAM
+Company: Monkey13 WebStudio                           
+Site: dev [at] monkey13.studio                                                     
+Location: Porto, Portugal.
 
-    <name> -- <role> -- <twitter>
+                            
+/* SITE */
 
-# THANKS
+Standards: HTML5, CSS3, Javascript                           
+Components: Vue, sanitize.css                        
+Software: VS Code, Github, Affinity, Figma
 
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+/* humanstxt.org */
