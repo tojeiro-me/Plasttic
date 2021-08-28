@@ -2,8 +2,10 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 node_modules
+.cache
+
+.DS_Store
+
 dist
 dev
 pub
-.cache
-.DS_Store
