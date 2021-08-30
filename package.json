@@ -1,0 +1,21 @@
+{
+  "name": "WebSite-Template",
+  "version": "1.0.0",
+  "description": "Website Template: HTML boilerplate, File structure, Conventions & more",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monkey13-ws/WebSite-Template.git"
+  },
+  "keywords": [],
+  "author": "Monkey13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monkey13-ws/WebSite-Template/issues"
+  },
+  "homepage": "https://github.com/monkey13-ws/WebSite-Template#readme"
+}
