@@ -1,7 +1,7 @@
 {
   "name": "WebSite-Template",
   "version": "1.0.0",
-  "description": "Website Template: HTML boilerplate, File structure, Conventions & more",
+  "description": "A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure, Conventions & more",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/monkey13-ws/WebSite-Template/issues"
   },
-  "homepage": "https://github.com/monkey13-ws/WebSite-Template#readme"
+  "homepage": "https://github.com/monkey13-ws/WebSite-Template#readme",
+  "devDependencies": {
+    "sass": "^1.38.2"
+  }
 }

@@ -1,14 +1,14 @@
 # WebSite Template
 
-(about, references, node, npm, parcel, cli, modules)
+## About
 
-### ABOUT
+A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure, Conventions & more.
 
-### TODO
+## ToDo
 
 - Check "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
-### Parcel Workflow
+## Parcel Workflow
 
 SETUP:
 
@@ -18,7 +18,7 @@ SETUP:
 - package.json (edit Package Info)
 -
 
-### References
+## References
 
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
 - [sanitize.css](https://csstools.github.io/sanitize.css/)
