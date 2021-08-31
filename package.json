@@ -6,7 +6,10 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "pub": "parcel build src/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monkey13-ws/WebSite-Template.git"

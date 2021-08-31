@@ -13,11 +13,23 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 SETUP:
 
 - Node.js install (https://nodejs.org/)
-- npm -v (NPM version check)
-- npm init -y (Initialize NPM Package)
-- package.json (edit Package Info)
-- npm install parcel-bundler --D (Parcel install)
-- npm install sass --D
+- `npm -v` (NPM version check)
+- `npm init -y` (Initialize NPM Package)
+- edit package.json (Package Info)
+- `npm install parcel-bundler --save-dev` (Parcel install)
+- `npm install sass --save-dev` (SASS install)
+
+DEVELOPMENT:
+
+- `npm run dev`
+
+PUBLISH:
+
+- `npm run pub`
+
+## Reuse
+
+- Clone the Github repository and run `npm install` to reinstall the dependencies on package.json.
 
 ## References
 
