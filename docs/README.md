@@ -18,6 +18,7 @@ SETUP:
 - edit package.json (Package Info)
 - `npm install parcel-bundler --save-dev` (Parcel install)
 - `npm install sass --save-dev` (SASS install)
+- `npm install --save-dev parcel-plugin-static-files-copy`
 
 DEVELOPMENT:
 
