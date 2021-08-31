@@ -10,21 +10,21 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 ## Parcel Workflow
 
-SETUP:
+Setup:
 
 - Node.js install (https://nodejs.org/)
 - `npm -v` (NPM version check)
 - `npm init -y` (Initialize NPM Package)
 - edit package.json (Package Info)
-- `npm install parcel-bundler --save-dev` (Parcel install)
-- `npm install sass --save-dev` (SASS install)
-- `npm install --save-dev parcel-plugin-static-files-copy`
+- `npm install parcel-bundler --save-dev` (Parcel)
+- `npm install sass --save-dev` (SASS)
+- `npm install --save-dev parcel-plugin-static-files-copy` (Parcel plugin Static Files Copy)
 
-DEVELOPMENT:
+Development:
 
 - `npm run dev`
 
-PUBLISH:
+Publish:
 
 - `npm run pub`
 
@@ -37,3 +37,7 @@ PUBLISH:
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
 - [sanitize.css](https://csstools.github.io/sanitize.css/)
 - [Vue.js](https://vuejs.org/)
+- [Sass](https://www.npmjs.com/package/sass)
+- [Parcel](https://parceljs.org/)
+- Parcel Plugins:
+  - [Static Files Copy](https://github.com/elwin013/parcel-plugin-static-files-copy)
