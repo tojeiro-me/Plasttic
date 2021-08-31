@@ -16,7 +16,8 @@ SETUP:
 - npm -v (NPM version check)
 - npm init -y (Initialize NPM Package)
 - package.json (edit Package Info)
--
+- npm install parcel-bundler --D (Parcel install)
+- npm install sass --D
 
 ## References
 

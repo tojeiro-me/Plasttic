@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/monkey13-ws/WebSite-Template#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.5",
     "sass": "^1.38.2"
   }
 }
