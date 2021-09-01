@@ -9,3 +9,5 @@ node_modules
 dist
 dev
 pub
+
+config.codekit3
