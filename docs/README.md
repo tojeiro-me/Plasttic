@@ -8,7 +8,17 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - Check "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
-## Parcel Workflow
+## Codekit / Prepros
+
+- Until Parcel resolve issues?
+
+-
+
+## Parcel Workflow (ISSUE with Build) !!!
+
+Issue:
+
+- Build Error: `@parcel/namer-default: Target "main" declares an output file path of "index.js" which does not match the compiled bundle type "html".`
 
 Setup:
 
@@ -16,9 +26,7 @@ Setup:
 - `npm -v` (NPM version check)
 - `npm init -y` (Initialize NPM Package)
 - edit package.json (Package Info)
-- `npm install parcel-bundler --save-dev` (Parcel)
-- `npm install sass --save-dev` (SASS)
-- `npm install --save-dev parcel-plugin-static-files-copy` (Parcel plugin Static Files Copy)
+- `npm install parcel --save-dev` (Parcel 2 install)
 
 Development:
 
@@ -28,7 +36,7 @@ Publish:
 
 - `npm run pub`
 
-## Reuse
+Reuse:
 
 - Clone the Github repository and run `npm install` to reinstall the dependencies on package.json.
 
@@ -37,7 +45,5 @@ Publish:
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
 - [sanitize.css](https://csstools.github.io/sanitize.css/)
 - [Vue.js](https://vuejs.org/)
-- [Sass](https://www.npmjs.com/package/sass)
-- [Parcel](https://parceljs.org/)
-- Parcel Plugins:
-  - [Static Files Copy](https://github.com/elwin013/parcel-plugin-static-files-copy)
+-
+- [Parcel](https://v2.parceljs.org/)
