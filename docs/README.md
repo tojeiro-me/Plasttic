@@ -8,13 +8,16 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - Check "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
-## Codekit / Prepros
+## Codekit
 
-- Until Parcel resolve issues?
+(Until Parcel resolve issues?)
 
--
+- [Codekit](https://codekitapp.com/)
+- Alternative: [Prepos](https://prepros.io/)
 
 ## Parcel Workflow (ISSUE with Build) !!!
+
+- [Parcel v2](https://v2.parceljs.org/)
 
 Issue:
 
@@ -45,5 +48,3 @@ Reuse:
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
 - [sanitize.css](https://csstools.github.io/sanitize.css/)
 - [Vue.js](https://vuejs.org/)
--
-- [Parcel](https://v2.parceljs.org/)
