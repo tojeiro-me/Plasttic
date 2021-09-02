@@ -7,6 +7,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 ## Best Practices
 
 - Semantic HTML
+- Clean Code
 
 ## Naming
 
