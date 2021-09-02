@@ -4,6 +4,12 @@
 
 A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure, Conventions & more.
 
+## Naming
+
+- Naming: Prefix, BEM, camelcase
+- Prefix: CSS (`.m13_form__button--hidden`, ID: `#m13i_ID`) and JS (`m13f_functionName`) Note: avoid naming collisions and provide context
+- CSS: [BEM](http://getbem.com)
+
 ## ToDo
 
 - Check "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
