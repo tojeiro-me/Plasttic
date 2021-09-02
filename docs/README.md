@@ -4,15 +4,19 @@
 
 A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure, Conventions & more.
 
+## Best Practices
+
+- Semantic HTML
+
 ## Naming
 
 - Naming: Prefix, BEM, camelcase
 - Prefix: CSS (`.m13_form__button--hidden`, ID: `#m13i_ID`) and JS (`m13f_functionName`) Note: avoid naming collisions and provide context
 - CSS: [BEM](http://getbem.com)
 
-## ToDo
+## Publish
 
-- Check "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
+- HTML/CSS/JS Files: Find "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
 ## Codekit
 
