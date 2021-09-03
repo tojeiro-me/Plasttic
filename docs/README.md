@@ -19,6 +19,11 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - HTML/CSS/JS Files: Find "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
+## VS Code
+
+- [VS Code](https://code.visualstudio.com/)
+- Extensions:
+
 ## Codekit
 
 (Until Parcel resolve issues?)
