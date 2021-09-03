@@ -6,13 +6,13 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 ## Best Practices
 
-- Semantic HTML
+- Semantic HTML (`header / nav / div / main / section / article / aside / footer`)
 - Clean Code
 
 ## Naming
 
 - Naming: Prefix, BEM, camelcase
-- Prefix: CSS (`.m13_form__button--hidden`, ID: `#m13i_ID`) and JS (`m13f_functionName`) Note: avoid naming collisions and provide context
+- Prefix: CSS (`.m13-form__button--hidden`, ID: `#m13i-ID`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming collisions and provide context
 - CSS: [BEM](http://getbem.com)
 
 ## Publish
@@ -36,7 +36,7 @@ Issue:
 
 Setup:
 
-- Node.js install (https://nodejs.org/)
+- Node.js install [https://nodejs.org/](https://nodejs.org/)
 - `npm -v` (NPM version check)
 - `npm init -y` (Initialize NPM Package)
 - edit package.json (Package Info)
@@ -57,5 +57,5 @@ Reuse:
 ## References
 
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
-- [sanitize.css](https://csstools.github.io/sanitize.css/)
+- [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
 - [Vue.js](https://vuejs.org/)

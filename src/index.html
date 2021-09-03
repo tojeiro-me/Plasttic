@@ -70,7 +70,8 @@
     />
 
     <!-- TODO: Website CSS -->
-    <link rel="stylesheet" href="assets/css/global.min.css" />
+    <link rel="stylesheet" href="assets/css/_global.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/animation.min.css" /> -->
     <link rel="stylesheet" href="assets/css/layout.min.css" />
     <!-- <link rel="stylesheet" href="assets/css/modules.min.css" /> -->
     <link rel="stylesheet" href="assets/css/print.min.css" media="print" />
@@ -85,23 +86,24 @@
     <!-- Website JS init/defer/async -->
     <script src="assets/js/site/global.min.js" defer></script>
   </head>
-  <body id="m13i_page-home" class="m13_page m13_page-home">
-    <header class="m13_header">
+  <body id="m13i-page__home" class="m13_page m13-page__home">
+    <header class="m13-header" id="m13-header">
       <div class="m13_container">
-        <nav class="m13_header__nav"></nav>
+        <nav class="m13-header__nav"></nav>
       </div>
     </header>
-    <section class="m13_banner">
-      <div class="m13_container">
-        <h1>Hello world!</h1>
+    <main class="m13-main">
+      <section class="m13-main__banner" id="m13i-main__banner">
+        <div class="m13-container">
+          <h1>Hello world!</h1>
 
-        <p>HTML Boilerplate, Files Structure, Conventions, etc.</p>
-      </div>
-    </section>
-
-    <footer class="m13_footer">
-      <div class="m13_container">
-        <ul class="m13_footer__nav">
+          <p>HTML Boilerplate, Files Structure, Conventions, etc.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="m13-footer" id="m13i-footer">
+      <div class="m13-container">
+        <ul class="m13-footer__nav">
           <li></li>
         </ul>
       </div>
