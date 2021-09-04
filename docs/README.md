@@ -25,11 +25,16 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - [VS Code](https://code.visualstudio.com/)
 - Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur.
 
-## Chrome
+## Browsers
 
 - [Chrome](https://www.google.com/chrome/)
 - Extensions: Cacher, JavaScript and CSS Code Beautifier, Lightshot, Live Server Web Extension, MarkUp For Chrome, Sizzy, Stark, Vue.js devtools, Wappalyzer, Web Vitals, What Font, Window Resizer.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+## UI/UX
+
+- [Figma](https://www.figma.com/)
+- Plugins:
 
 ## Codekit
 
