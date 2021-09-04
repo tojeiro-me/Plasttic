@@ -10,6 +10,9 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - Clean Code
 - Code Splitting
 
+- More:
+  - [Design Principles](https://principles.adactio.com/)
+
 ## Naming
 
 - Naming: Prefix, BEM, camelcase
@@ -71,7 +74,7 @@ Reuse:
 
 - Clone the Github repository and run `npm install` to reinstall the dependencies on package.json.
 
-## References
+## Other references
 
 - [HTML5 Boilerplate](https://html5boilerplate.com/)
 - [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
