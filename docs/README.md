@@ -1,4 +1,4 @@
-# [Monkey13: WebSite Template](https://monkey13.studio)
+# [Monkey13: WebSite Template](https://monkey13.studio) - github link?
 
 ## About
 
@@ -9,17 +9,18 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - Semantic HTML (`header / nav / div / main / section / article / aside / footer`)
 - Clean Code
 - Code Splitting
+- CSS Reset
+- SASS Partials
 
-- More:
-  - [Design Principles](https://principles.adactio.com/)
+- More: [SASS Guidelines](https://sass-guidelin.es/), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
-## Naming
+## Namespace
 
-- Naming: Prefix, BEM, camelcase
-- Prefix: CSS (`.m13-form__button--hidden`, ID: `#m13i-ID`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming collisions and provide context
+- Naming: Prefix, BEM, Camelcase
+- Prefix: CSS (`.m13-form__button--hidden`, ID: `#m13i-ID`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming conflicts and provide context
 - CSS: [BEM](http://getbem.com)
 
-## Publish
+## Customization
 
 - HTML/CSS/JS Files: Find "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
 
@@ -27,6 +28,8 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - [VS Code](https://code.visualstudio.com/)
 - Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur.
+- [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 ## Browsers
 
