@@ -12,7 +12,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - CSS Reset
 - SASS Partials
 
-- More: [SASS Guidelines](https://sass-guidelin.es/), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+- More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
 ## Namespace
 

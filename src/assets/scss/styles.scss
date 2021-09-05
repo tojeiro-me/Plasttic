@@ -1,6 +1,20 @@
-// BEM: http://getbem.com/
+// 1. Configuration and helpers
+@use '/abstracts';
 
-// Global values: Colors, Font sizes, etc. (Variables)
-body {
-  background-color: yellowgreen;
-}
+// 2. Vendors
+@use '/vendors';
+
+// 3. Base stuff
+@use '/base';
+
+// 4. Layout-related sections
+@use '/layout';
+
+// 5. Components
+@use '/components';
+
+// 6. Page-specific styles
+@use '/pages';
+
+// 7. Themes
+@use '/themes';
