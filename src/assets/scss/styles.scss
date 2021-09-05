@@ -1,17 +1,17 @@
 // 1. Configuration and helpers
 @use '/abstracts';
 
-// 2. Vendors
-@use '/vendors';
-
-// 3. Base stuff
+// 2. Base stuff
 @use '/base';
 
-// 4. Layout-related sections
-@use '/layout';
+// 3. Vendors
+@use '/vendors';
 
-// 5. Components
+// 4. Components
 @use '/components';
+
+// 5. Layout-related sections
+@use '/layout';
 
 // 6. Page-specific styles
 @use '/pages';

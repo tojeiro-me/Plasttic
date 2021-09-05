@@ -9,8 +9,10 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - Semantic HTML (`header / nav / div / main / section / article / aside / footer`)
 - Clean Code
 - Code Splitting
+- Commenting
 - CSS Reset
 - SASS Partials
+- Color System: HSL
 
 - More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
