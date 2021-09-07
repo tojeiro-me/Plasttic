@@ -1,7 +1,6 @@
 v3.0.0 Sept 05 2021
 - Replaced Sanitize.css with A Modern CSS Reset
 - Implemented SASS Partials with a new SASS Boilerplate
-- Color System: hsl
 
 v2.0.0 Sept 01 2021
 
