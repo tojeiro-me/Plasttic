@@ -4,8 +4,8 @@
 node_modules
 .cache
 
-.DS_Store
-
 dist
 dev
 pub
+
+.DS_Store
