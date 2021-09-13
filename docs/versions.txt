@@ -1,8 +1,10 @@
-v3.0.0 Sept 05 2021
+v1.3.0 Sept 05 2021
 - Replaced Sanitize.css with A Modern CSS Reset
 - Implemented SASS Partials with a new SASS Boilerplate
 
-v2.0.0 Sept 01 2021
+v1.2.0 Sept 01 2021
+
+v1.1.0 Aug 25 2021
 
 v1.0.0 Aug 21 2021
 - Start with HTML5 Boilerplate
