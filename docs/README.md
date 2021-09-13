@@ -51,6 +51,14 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
 
+## Other references
+
+- [HTML5 Boilerplate](https://html5boilerplate.com/)
+- [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
+- [Vue.js](https://vuejs.org/)
+
++++++++++++++++++++++++++ REVIEW +++++++++++++++++++++++++++
+
 ## Parcel Workflow (ISSUE with Build) !!!
 
 - [Parcel v2](https://v2.parceljs.org/)
@@ -78,9 +86,3 @@ Publish:
 Reuse:
 
 - Clone the Github repository and run `npm install` to reinstall the dependencies on package.json.
-
-## Other references
-
-- [HTML5 Boilerplate](https://html5boilerplate.com/)
-- [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
-- [Vue.js](https://vuejs.org/)
