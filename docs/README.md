@@ -13,8 +13,13 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - CSS Reset
 - SASS Partials
 - Color System: HSL
+- Performance
 
 - More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+
+## Performance
+
+- Lazy Loading (images, ...)
 
 ## Namespace
 
@@ -43,10 +48,9 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - [Figma](https://www.figma.com/)
 - Plugins:
+- Templates: Wireframe (StoryTeller), ERD (Arctype ERD), 
 
 ## Codekit
-
-(Until Parcel resolve issues?)
 
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
@@ -57,6 +61,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 - [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
 - [Vue.js](https://vuejs.org/)
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++ REVIEW +++++++++++++++++++++++++++
 
 ## Parcel Workflow (ISSUE with Build) !!!
