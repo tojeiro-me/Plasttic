@@ -34,7 +34,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 ## VS Code
 
 - [VS Code](https://code.visualstudio.com/)
-- Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur.
+- Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, File Utils, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur.
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
@@ -48,7 +48,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 
 - [Figma](https://www.figma.com/)
 - Plugins:
-- Templates: Wireframe (StoryTeller), ERD (Arctype ERD), 
+- Templates: Wireframe (StoryTeller), ERD (Arctype ERD),
 
 ## Codekit
 
