@@ -34,21 +34,22 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 ## VS Code
 
 - [VS Code](https://code.visualstudio.com/)
-- Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, File Utils, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur.
+- Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, File Utils, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
-## Browsers
+## Chrome & Firefox
 
 - [Chrome](https://www.google.com/chrome/)
-- Extensions: Cacher, JavaScript and CSS Code Beautifier, Lightshot, Live Server Web Extension, MarkUp For Chrome, Sizzy, Stark, Vue.js devtools, Wappalyzer, Web Vitals, What Font, Window Resizer.
+- Extensions: Cacher, JavaScript and CSS Code Beautifier, Lightshot, Live Server Web Extension, MarkUp For Chrome, Measure-it, Sizzy, Stark, Vue.js devtools, Wappalyzer, Web Vitals, What Font, Window Resizer
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
-## UI/UX
+## Figma
 
 - [Figma](https://www.figma.com/)
-- Plugins:
-- Templates: Wireframe (StoryTeller), ERD (Arctype ERD),
+- Plugins: Anima, Arc, Chart, Coda, Color Palettes, Content Reel, Figmotion, FigPug Units, Font Preview, Hand>>over, Iconify, Illustrations, Isometric, Lorem Ipsum, LottieFiles, Product Planner, Rename It, SkewDat, Stark, Unsplash, Wireframe
+- Templates: ERD (Arctype ERD), Flowchart ISO 5807, Site Map, Wireframe (StoryTeller)
+- Alternatives: [Sketch](https://www.sketch.com/), [Adobe XD](https://www.adobe.com/products/xd.html)
 
 ## Codekit
 
