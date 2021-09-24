@@ -1,18 +1,18 @@
-# [Monkey13: WebSite Template](https://monkey13.studio) - github link?
+# [Monkey13: WebSite Boilerplate](https://monkey13.studio)
 
 ## About
 
-A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure, Conventions & more.
+A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 
 ## Best Practices
 
-- Semantic HTML (`header / nav / div / main / section / article / aside / footer`)
+- Semantic HTML (`header / nav / div / main / section / article / aside / address / footer`)
 - Clean Code
 - Code Splitting
 - Commenting
 - CSS Reset
 - SASS Partials
-- Color System: HSL
+- Style Guide
 - Performance
 
 - More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
@@ -47,7 +47,7 @@ A Front-End Template for Websites and Web Apps: HTML boilerplate, File structure
 ## Figma
 
 - [Figma](https://www.figma.com/)
-- Plugins: Anima, Arc, Chart, Coda, Color Palettes, Content Reel, Figmotion, FigPug Units, Font Preview, Hand>>over, Iconify, Illustrations, Isometric, Lorem Ipsum, LottieFiles, Product Planner, Rename It, SkewDat, Stark, Unsplash, Wireframe
+- Plugins: Anima, Arc, Chart, Coda, Color Palettes, Content Reel, Export styles to CSS variables, Figmotion, FigPug Units, Font Preview, Hand>>over, Iconify, Illustrations, Isometric, Lorem Ipsum, LottieFiles, Product Planner, Rename It, SkewDat, Stark, Unsplash, Wireframe
 - Templates: ERD (Arctype ERD), Flowchart ISO 5807, Site Map, Wireframe (StoryTeller)
 - Alternatives: [Sketch](https://www.sketch.com/), [Adobe XD](https://www.adobe.com/products/xd.html)
 
