@@ -6,14 +6,16 @@ A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File 
 
 ## Best Practices
 
-- Semantic HTML (`header / nav / div / main / section / article / aside / address / footer`)
+- Semantic HTML
+- Naming Convention
 - Clean Code
 - Code Splitting
-- Commenting
+- Commenting Strategy
 - CSS Reset
 - SASS Partials
-- Style Guide
+- Style Guides
 - Performance
+- SEO
 
 - More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
 
