@@ -1,7 +1,5 @@
 # Apache Server Configs v4.0.0 | MIT License
 
-a
-
 # https://github.com/h5bp/server-configs-apache
 
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have
