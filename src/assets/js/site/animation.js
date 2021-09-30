@@ -1,2 +1,3 @@
-// Animation functions: event listeners, etc.
-as;
+/**
+ * Animation functions: event listeners, etc.
+ */

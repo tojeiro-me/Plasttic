@@ -1,2 +1,5 @@
-console.log('Hello World!');
-as;
+/**
+ * Global functions
+ */
+
+// console.log('Hello World!');
