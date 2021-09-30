@@ -59,35 +59,6 @@ See links for more information on the different boilerplates and references.
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
 
-## Other references
+## License
 
-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-  +++++++++++++++++++++++++ REVIEW +++++++++++++++++++++++++++
-
-## Parcel Workflow (ISSUE with Build) !!!
-
-- [Parcel v2](https://v2.parceljs.org/)
-
-Issue:
-
-- Build Error: `@parcel/namer-default: Target "main" declares an output file path of "index.js" which does not match the compiled bundle type "html".`
-
-Setup:
-
-- Node.js install [https://nodejs.org/](https://nodejs.org/)
-- `npm -v` (NPM version check)
-- `npm init -y` (Initialize NPM Package)
-- edit package.json (Package Info)
-- `npm install parcel --save-dev` (Parcel 2 install)
-
-Development:
-
-- `npm run dev`
-
-Publish:
-
-- `npm run pub`
-
-Reuse:
-
-- Clone the Github repository and run `npm install` to reinstall the dependencies on package.json.
+- [MIT license](https://opensource.org/licenses/MIT)
