@@ -28,4 +28,3 @@
 @function font($path, $base: $base-url) {
   @return asset($base, 'fonts/', $path);
 }
-a
