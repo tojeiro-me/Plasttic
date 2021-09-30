@@ -3,6 +3,7 @@
 ## About
 
 A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
+See links for more information on the different boilerplates and references.
 
 ## Best Practices
 
@@ -17,11 +18,11 @@ A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File 
 - Performance
 - SEO
 
-- More: [SASS Guidelines](https://sass-guidelin.es/), [SASS Boilerplate](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+- More: [HTML5 Boilerplate v8.0.0)](https://html5boilerplate.com/), [SASS Boilerplate - March 2021](https://github.com/KittyGiraudel/sass-boilerplate),[A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
 
 ## Performance
 
-- Lazy Loading (images, ...)
+- Lazy Loading (images, youtube, ...)
 
 ## Namespace
 
@@ -36,7 +37,7 @@ A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File 
 ## VS Code
 
 - [VS Code](https://code.visualstudio.com/)
-- Extensions: Auto Close Tag, Auto Rename Tag, Bracket Pair Colorizer, CSS Peek, File Utils, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur
+- Extensions: Auto Close Tag, Auto Rename Tag, CSS Peek, File Utils, GistPad, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
@@ -60,12 +61,8 @@ A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File 
 
 ## Other references
 
-- [HTML5 Boilerplate](https://html5boilerplate.com/)
-- [sanitize.css](https://nicedoc.io/jonathantneal/sanitize.css/)
-- [Vue.js](https://vuejs.org/)
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++ REVIEW +++++++++++++++++++++++++++
+- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  +++++++++++++++++++++++++ REVIEW +++++++++++++++++++++++++++
 
 ## Parcel Workflow (ISSUE with Build) !!!
 

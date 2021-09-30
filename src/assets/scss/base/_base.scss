@@ -1,32 +1,4 @@
 // -----------------------------------------------------------------------------
-// This file contains very basic styles.
+// This file contains very global basic styles (links, etc.).
+// (Some global values (box-sizing, line-height, ...) are included in base/_reset.scss)
 // -----------------------------------------------------------------------------
-
-/**
- * Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
- */
-
-/**
- * Global margin for mobile
- */
-body {
-  margin: 1em;
-  @media (min-width: 768px) {
-  margin: 0;
-  }
-}
-
-
-
-/**
- * Basic styles for links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
-}
