@@ -9,6 +9,7 @@ See links for more information on the different boilerplates and references.
 
 - Semantic HTML
 - Namespaces
+- CSS Units Usecases
 - Clean Code
 - Code Splitting
 - Commenting Conventions
@@ -30,7 +31,7 @@ See links for more information on the different boilerplates and references.
 
 ## Customization
 
-- HTML/CSS/JS Files: Find "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
+- HTML/CSS/JS Files: Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:"
 
 ## Performance (TODO)
 
