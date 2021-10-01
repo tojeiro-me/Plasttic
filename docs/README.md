@@ -18,7 +18,7 @@ See links for more information on the different boilerplates and references.
 - Performance
 - SEO
 
-- References used: [HTML5 Boilerplate v8.0.0](https://html5boilerplate.com/), [SASS Boilerplate - March 2021](https://github.com/KittyGiraudel/sass-boilerplate), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
+- References used: [HTML5 Boilerplate v8.0.0](https://html5boilerplate.com/), [SASS Boilerplate - March 2021](https://github.com/KittyGiraudel/sass-boilerplate)(see Sass Guidelines in Reference Material), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
 
 ## Performance
 
@@ -59,8 +59,8 @@ See links for more information on the different boilerplates and references.
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
 
-## Reference material
-- [Design Principles](https://principles.adactio.com/)
+## Reference Material
+- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
 
 ## License
 
