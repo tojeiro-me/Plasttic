@@ -26,8 +26,7 @@ See links for more information on the different boilerplates and references.
 ## Namespace
 
 - Naming: Prefix, BEM, Camelcase
-- Prefix: CSS (`.m13-form__button--hidden`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming conflicts and provide context
-- CSS: [BEM](http://getbem.com)
+- Prefix: HTML/CSS (`.m13-form__button--hidden`), JS (`m13j_functionName`) and PHP/Python (`m13f_funtionName`) Note: avoid naming conflicts and provide context
 
 ## Customization
 
@@ -38,11 +37,12 @@ See links for more information on the different boilerplates and references.
 - Preconnect and DNS-prefetch
 - Defer and Async
 - Async and Await
-- Lazy Loading (images, youtube)
-- Minification 
+- Lazy Loading (Images, Youtube)
+- Minification (Code, Images)
+- SVG
 
 ## Reference Material
-- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
+- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/), [BEM](http://getbem.com)
 
 ## VS Code
 
@@ -51,7 +51,7 @@ See links for more information on the different boilerplates and references.
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
-## Chrome & Firefox
+## Firefox & Chrome
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - Firefox Webdeveloper Tools
