@@ -34,8 +34,10 @@ See links for more information on the different boilerplates and references.
 
 ## Performance (TODO)
 
-- Preconnect and DNS-fetch
-- Lazy Loading (images, youtube, ...)
+- Preconnect and DNS-prefetch
+- Defer and Async
+- Async and Await
+- Lazy Loading (images, youtube)
 - Minification 
 
 ## Reference Material
