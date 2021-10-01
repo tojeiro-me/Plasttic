@@ -5,34 +5,41 @@
 A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 See links for more information on the different boilerplates and references.
 
-## Best Practices
+## Practices Guidelines
 
 - Semantic HTML
-- Naming Convention
+- Namespaces
 - Clean Code
 - Code Splitting
-- Commenting Strategy
+- Commenting Conventions
 - CSS Reset
 - SASS Partials
 - Style Guides
 - Performance
 - SEO
 
-- References used: [HTML5 Boilerplate v8.0.0](https://html5boilerplate.com/), [SASS Boilerplate - March 2021](https://github.com/KittyGiraudel/sass-boilerplate)(see Sass Guidelines in Reference Material), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
+## Starting Point
 
-## Performance
-
-- Lazy Loading (images, youtube, ...)
+- [HTML5 Boilerplate v8.0.0](https://html5boilerplate.com/), [SASS Boilerplate - March 2021](https://github.com/KittyGiraudel/sass-boilerplate)(see Sass Guidelines in Reference Material), [A Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/)
 
 ## Namespace
 
 - Naming: Prefix, BEM, Camelcase
-- Prefix: CSS (`.m13-form__button--hidden`, ID: `#m13i-ID`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming conflicts and provide context
+- Prefix: CSS (`.m13-form__button--hidden`), JS (`m13j_functionName`) and PHP (`m13f_funtionName`) Note: avoid naming conflicts and provide context
 - CSS: [BEM](http://getbem.com)
 
 ## Customization
 
 - HTML/CSS/JS Files: Find "TODO:" in comments, for info that needs to be changed or checked. After, change to "DONE:"
+
+## Performance (TODO)
+
+- Preconnect and DNS-fetch
+- Lazy Loading (images, youtube, ...)
+- Minification 
+
+## Reference Material
+- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
 
 ## VS Code
 
@@ -43,9 +50,10 @@ See links for more information on the different boilerplates and references.
 
 ## Chrome & Firefox
 
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- Firefox Webdeveloper Tools
 - [Chrome](https://www.google.com/chrome/)
 - Extensions: Cacher, JavaScript and CSS Code Beautifier, Lightshot, Live Server Web Extension, MarkUp For Chrome, Measure-it, Sizzy, Stark, Vue.js devtools, Wappalyzer, Web Vitals, What Font, Window Resizer
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Figma
 
@@ -58,9 +66,6 @@ See links for more information on the different boilerplates and references.
 
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
-
-## Reference Material
-- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines - Outdated](https://sass-guidelin.es/)
 
 ## License
 
