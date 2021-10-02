@@ -25,8 +25,7 @@ $vars_type: (
   /// Code (monospace) font family
 );
 
-/// Colors map
-$vars_clr: ();
+@debug map-get($vars_type, 'mono'); /// Colors map
 
 /// Breakpoints map
 $vars_bkp: (
