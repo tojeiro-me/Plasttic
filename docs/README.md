@@ -22,6 +22,7 @@ See links for more information on the different boilerplates and references.
 - Style Guides
 - Performance
 - SEO
+- Test and Debug
 
 ## Starting Point
 
