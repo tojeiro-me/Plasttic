@@ -3,23 +3,23 @@
 // -----------------------------------------------------------------------------
 
 /// Type
-$m13-fnt__default: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
+$vars-fnt-default: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
   'Helvetica', 'Arial', sans-serif !default; /// Global default font family
-$m13-fnt__mono: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+$vars-fnt-mono: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
   'Monaco', monospace !default; /// Code (monospace) font family
 
 /// Colors map
 
 /// Breakpoints map
-$m13-glb__breakpoints: (
+$vars-brk: (
   'sm': 360px,
   'md': 768px,
   'lg': 1024px,
 );
 
 /// Container's maximum width
-$m13-glb__maxWidth: 1200px;
+$vars-ctn-maxWidth: 1200px;
 
 /// Relative or absolute URL where all assets are served from
 /// External: 'http://cdn.example.com/assets/';
-$m13-URL__assets: '/assets/';
+$vars-url-assets: '/assets/';
