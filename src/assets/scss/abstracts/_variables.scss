@@ -26,7 +26,7 @@ $vars_type: (
 );
 
 @each $type, $family in $vars_type {
-  .#{$type} {
+  .type__#{$type} {
     font-family: $family;
   }
 }
