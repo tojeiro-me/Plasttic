@@ -1,25 +1,43 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
+// Breakpoints, Colors, Type, ...
 // -----------------------------------------------------------------------------
 
 /// Type
-$vars-fnt-default: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
-  'Helvetica', 'Arial', sans-serif !default; /// Global default font family
-$vars-fnt-mono: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
-  'Monaco', monospace !default; /// Code (monospace) font family
+$vars_type: (
+  'default': (
+    Open Sans,
+    Helvetica Neue Light,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif,
+  ),
+  /// Global default font family
+  'mono':
+    (
+      Courier New,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Monaco,
+      monospace,
+    ),
+  /// Code (monospace) font family
+);
 
 /// Colors map
+$vars_clr: ();
 
 /// Breakpoints map
-$vars-brk: (
+$vars_bkp: (
   'sm': 360px,
   'md': 768px,
   'lg': 1024px,
 );
 
 /// Container's maximum width
-$vars-ctn-maxWidth: 1200px;
+$vars_ctn-maxWidth: 1200px;
 
 /// Relative or absolute URL where all assets are served from
 /// External: 'http://cdn.example.com/assets/';
-$vars-url-assets: '/assets/';
+$vars_url-assets: '/assets/';
