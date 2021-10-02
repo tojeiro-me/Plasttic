@@ -1,3 +1,25 @@
 // -----------------------------------------------------------------------------
 //  Typography styles.
 // -----------------------------------------------------------------------------
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1rem;
+  line-height: inherit;
+}

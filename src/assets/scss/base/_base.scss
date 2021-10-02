@@ -2,3 +2,9 @@
 // This file contains very global basic styles (links, etc.).
 // (Some global values (box-sizing, line-height, ...) are included in base/_reset.scss)
 // -----------------------------------------------------------------------------
+
+html {
+  background: #ffffff;
+  color: #000000;
+  font-family: Monaco, 'Lucida Console', 'Courier New', monospace, sans-serif;
+}

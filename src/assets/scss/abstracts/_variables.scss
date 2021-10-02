@@ -2,16 +2,13 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-/// Font Families
+/// Type
 $m13-fnt__default: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
   'Helvetica', 'Arial', sans-serif !default; /// Global default font family
-$m13-fnt__code: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+$m13-fnt__mono: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
   'Monaco', monospace !default; /// Code (monospace) font family
 
-/// Colors
-
-/// Container's maximum width
-$m13-glb__maxWidth: 1200px;
+/// Colors map
 
 /// Breakpoints map
 $m13-glb__breakpoints: (
@@ -19,6 +16,9 @@ $m13-glb__breakpoints: (
   'md': 768px,
   'lg': 1024px,
 );
+
+/// Container's maximum width
+$m13-glb__maxWidth: 1200px;
 
 /// Relative or absolute URL where all assets are served from
 /// External: 'http://cdn.example.com/assets/';
