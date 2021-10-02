@@ -6,24 +6,30 @@
 /// Type
 $vars_type: (
   'default': (
-    Open Sans,
-    Helvetica Neue Light,
-    Helvetica Neue,
-    Helvetica,
+    'Open Sans',
+    'Helvetica Neue Light',
+    'Helvetica Neue',
+    'Helvetica',
     Arial,
     sans-serif,
   ),
   /// Global default font family
   'mono':
     (
-      Courier New,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
+      'Courier New',
+      'DejaVu Sans Mono',
+      'Bitstream Vera Sans Mono',
       Monaco,
       monospace,
     ),
   /// Code (monospace) font family
 );
+
+@each $type, $family in $vars_type {
+  .#{$type} {
+    font-family: $family;
+  }
+}
 
 /// Breakpoints map
 $vars_bkp: (

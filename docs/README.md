@@ -54,6 +54,12 @@ See links for more information on the different boilerplates and references.
 - Minification (Code, Images)
 - SVG
 
+## More Information
+
+---
+
+- Check for `README.md` files on other folders
+
 ## Reference Material
 
 ---
