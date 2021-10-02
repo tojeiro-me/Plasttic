@@ -16,3 +16,4 @@
 6. To watch and Compile Sass files run `sass --watch src/assets/scss:dev/css`
 7. Use [@error, @warn and @debug directives](https://www.sitepoint.com/using-sass-error-warn-and-debug-directives/)
 8. Ctrl + C to stop Sass watching
+
