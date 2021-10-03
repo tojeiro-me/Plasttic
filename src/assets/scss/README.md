@@ -1,10 +1,10 @@
 # [Monkey13: WebSite Boilerplate](https://monkey13.studio)
 
-## Sass
+## Sass / CSS
 
 ---
 
-### Rapid Debugging
+### Sass Rapid Debugging
 
 (Debug Sass flies in the Terminal)
 
@@ -16,6 +16,66 @@
 6. To watch and Compile Sass files run `sass --watch src/assets/scss:dev/css`
 7. Use [@error, @warn and @debug directives](https://www.sitepoint.com/using-sass-error-warn-and-debug-directives/)
 8. Ctrl + C to stop Sass watching
+
+---
+
+### Declaration Sorting
+
+.class {
+
+// content
+
+content: '';
+
+// display
+
+display: flex;
+
+flex-direction: column;
+
+// position
+
+position: relative;
+
+top: 10rem;
+
+left: 10rem;
+
+z-index: -1;
+
+// box-model
+
+background: inherit;
+
+height: 30%;
+
+padding: 2em;
+
+// typography
+
+color: #000;
+
+font-size: 10rem;
+
+text-align: center;
+
+// decoration
+
+border-radius: 0.5rem;
+
+box-shadow: 0 0 20px rgba(0,0,0,1.0);
+
+// manipulation
+
+transform: perspective(10rem);
+
+filter: blur(3rem);
+
+opacity: 0.5;
+
+// animation
+
+}
 
 ---
 
@@ -41,42 +101,42 @@
 
 abstracts/
 
-- functions: _fnct\__
-- mixins: _mixn\__
-- variables: _vars\__
-- (breakpoints: _brkp\__)
-- (colors: _clrs\__)
-- (type: _type\__)
+- functions: \_fnct\_\_
+- mixins: \_mixn\_\_
+- variables: \_vars\_\_
+- (breakpoints: \_brkp\_\_)
+- (colors: \_clrs\_\_)
+- (type: \_type\_\_)
 
 base/
 
-- animations: _anim\__
-- base: _base\__
-- font: _font\__
-- helpers: _hlpr\__
+- animations: \_anim\_\_
+- base: \_base\_\_
+- font: \_font\_\_
+- helpers: \_hlpr\_\_
 - reset: _not applicable_
 - root: _css namespace (—element-attribute-variant)_
-- typography: _typg\__
+- typography: \_typg\_\_
 
 components/
 
-- buttons: _bttn\__
-- cards: _crds\__
-- navigation: _navg\__
+- buttons: \_bttn\_\_
+- cards: \_crds\_\_
+- navigation: \_navg\_\_
 
 layout/
 
-- footer: _foot\__
-- header: _head\__
+- footer: \_foot\_\_
+- header: \_head\_\_
 
 pages/
 
-- home: _home\__ / _pghome\__
-- contacts: _cntc\__ / _pgcntc\__
+- home: \_home\_\_ / \_pghome\_\_
+- contacts: \_cntc\_\_ / \_pgcntc\_\_
 
 themes/
 
-- default: _thmdft\__
+- default: \_thmdft\_\_
 
 vendors/
 
