@@ -1,10 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass variables.
-// Breakpoints, Colors, Type, ...
 // -----------------------------------------------------------------------------
 
 /// Type
-$vars_type: (
+// -----------------------------------------------------------------------------
+$var_type: (
   'default': (
     'Open Sans',
     'Helvetica Neue Light',
@@ -25,22 +25,34 @@ $vars_type: (
   /// Code (monospace) font family
 );
 
-@each $type, $family in $vars_type {
+@each $type, $family in $var_type {
   .type__#{$type} {
     font-family: $family;
   }
 }
 
-/// Breakpoints map
-$vars_bkp: (
+/// Colors
+// -----------------------------------------------------------------------------
+
+/// Breakpoints
+// -----------------------------------------------------------------------------
+$var_bkp: (
   'sm': 360px,
   'md': 768px,
   'lg': 1024px,
 );
 
-/// Container's maximum width
-$vars_ctn-maxWidth: 1200px;
+/// Layout
+// -----------------------------------------------------------------------------
 
-/// Relative or absolute URL where all assets are served from
-/// External: 'http://cdn.example.com/assets/';
-$vars_url-assets: '/assets/';
+/// Container's maximum width
+$var_ctn-maxWidth: 1200px;
+
+/// Utility Vars
+// -----------------------------------------------------------------------------
+
+/**
+ * Relative or absolute URL where all assets are served from
+ * External: 'http://cdn.example.com/assets/';
+ */
+$var_url-assets: '/assets/';

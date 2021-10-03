@@ -19,65 +19,63 @@
 
 ---
 
-### Namespace (TEST)
+### Namespace (TESTING)
 
----
-CSS Variable Namespace 
 
-—fnt-sansserif
-—fnt-serif
-—fnt-monospace
+**1. CSS Variable Namespace**
 
-—fwt-
+- —fnt-sansserif
+- —fnt-serif
+- —fnt-monospace
+- —fwt-bold
+- —clr-primary-grey
+- —clr-primary-blue 
+- *(--element/type-attribute/description-attribute/variant)*
 
-—clr-primary-grey
-—clr-primary-blue 
 
----
-Sass Variables Namespace 
+**2. Sass Variables Namespace** 
 
-vars_clr-logo-blue
-clrs_logo-blue-light
+- vars_clr-logo-blue
+- clrs_logo-blue-light
+- *(file_element/type-attribute/description-attribute/variant)*
 
-(file_element/type-attribute/description-attribute/variant)
 
----
-Files: Variables Prefixes 
+**3. Files: Variables Prefixes** 
 
 abstracts/
-functions: fctn_
-mixins: mixn_
-variables: vars_
-(breakpoints: brkp_)
-(colors: clrs_)
-(type: type_)
+- functions: fct_
+- mixins: mxn_
+- variables: var_
+- (breakpoints: brk_)
+- (colors: clr_)
+- (type: typ_)
 
 base/
-animations: anim_
-base: base_
-font: font_
-helpers: help_
-reset: not applicable 
-root: css namespace (—element-attribute-variant)
-typography: typg_
+- animations: anm_
+- base: bse_
+- font: fnt_
+- helpers: hlp_
+- reset: *not applicable*
+- root: *css namespace (—element-attribute-variant)*
+- typography: tpg_
 
 components/
-buttons: bttn_
-cards: card_
-navigation: navi_
+- buttons: btn_
+- cards: crd_
+- navigation: nav_
 
 layout/
-footer: foot_
-header: head_
+- footer: ftr_
+- header: hdr_
 
 pages/
-home: home_ / pghome_
-contacts: cnct_ / pgcont_
+- home: home_ / pghme_
+- contacts: cnct_ / pgcnt_
 
 themes_/
-default: thmdft_
+- default: thdft_
 
 vendors/
-(not applicable)
+- *(not applicable)*
 
 
