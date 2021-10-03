@@ -13,7 +13,7 @@ $var_type: (
     Arial,
     sans-serif,
   ),
-  /// Global default font family
+  // Global default font family
   'mono':
     (
       'Courier New',
@@ -22,7 +22,7 @@ $var_type: (
       Monaco,
       monospace,
     ),
-  /// Code (monospace) font family
+  // Code (monospace) font family
 );
 
 @each $type, $family in $var_type {
@@ -31,10 +31,10 @@ $var_type: (
   }
 }
 
-/// Colors
+// Colors
 // -----------------------------------------------------------------------------
 
-/// Breakpoints
+// Breakpoints
 // -----------------------------------------------------------------------------
 $var_bkp: (
   'sm': 360px,
@@ -48,11 +48,9 @@ $var_bkp: (
 /// Container's maximum width
 $var_ctn-maxWidth: 1200px;
 
-/// Utility Vars
+// Utility Vars
 // -----------------------------------------------------------------------------
 
-/**
- * Relative or absolute URL where all assets are served from
- * External: 'http://cdn.example.com/assets/';
- */
+/// Relative or absolute URL where all assets are served from
+/// External: 'http://cdn.example.com/assets/';
 $var_url-assets: '/assets/';

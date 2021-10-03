@@ -11,7 +11,7 @@
 1. Install [Node.js](https://nodejs.org)
 2. Check if Node.js is installed: run `npm -v`
 3. Run `npm init -y`
-4. Check file *package.json*
+4. Check file _package.json_
 5. Instal Sass `npm install sass --save-dev`
 6. To watch and Compile Sass files run `sass --watch src/assets/scss:dev/css`
 7. Use [@error, @warn and @debug directives](https://www.sitepoint.com/using-sass-error-warn-and-debug-directives/)
@@ -21,7 +21,6 @@
 
 ### Namespace (TESTING)
 
-
 **1. CSS Variable Namespace**
 
 - —fnt-sansserif
@@ -29,53 +28,56 @@
 - —fnt-monospace
 - —fwt-bold
 - —clr-primary-grey
-- —clr-primary-blue 
-- *(--element/type-attribute/description-attribute/variant)*
+- —clr-primary-blue
+- _(--element/type-attribute/description-attribute/variant)_
 
-
-**2. Sass Variables Namespace** 
+**2. Sass Variables Namespace**
 
 - vars_clr-logo-blue
 - clrs_logo-blue-light
-- *(file_element/type-attribute/description-attribute/variant)*
+- _(file_element/type-attribute/description-attribute/variant)_
 
-
-**3. Files: Variables Prefixes** 
+**3. Files: Variables Prefixes**
 
 abstracts/
-- functions: fct_
-- mixins: mxn_
-- variables: var_
-- (breakpoints: brk_)
-- (colors: clr_)
-- (type: typ_)
+
+- functions: _fnct\__
+- mixins: _mixn\__
+- variables: _vars\__
+- (breakpoints: _brkp\__)
+- (colors: _clrs\__)
+- (type: _type\__)
 
 base/
-- animations: anm_
-- base: bse_
-- font: fnt_
-- helpers: hlp_
-- reset: *not applicable*
-- root: *css namespace (—element-attribute-variant)*
-- typography: tpg_
+
+- animations: _anim\__
+- base: _base\__
+- font: _font\__
+- helpers: _hlpr\__
+- reset: _not applicable_
+- root: _css namespace (—element-attribute-variant)_
+- typography: _typg\__
 
 components/
-- buttons: btn_
-- cards: crd_
-- navigation: nav_
+
+- buttons: _bttn\__
+- cards: _crds\__
+- navigation: _navg\__
 
 layout/
-- footer: ftr_
-- header: hdr_
+
+- footer: _foot\__
+- header: _head\__
 
 pages/
-- home: home_ / pghme_
-- contacts: cnct_ / pgcnt_
 
-themes_/
-- default: thdft_
+- home: _home\__ / _pghome\__
+- contacts: _cntc\__ / _pgcntc\__
+
+themes/
+
+- default: _thmdft\__
 
 vendors/
-- *(not applicable)*
 
-
+- _(not applicable)_
