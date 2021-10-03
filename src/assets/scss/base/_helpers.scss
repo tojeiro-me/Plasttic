@@ -5,7 +5,7 @@
 /**
  * Clear inner floats
  */
-.clearfix::after {
+.help_clearfix::after {
   clear: both;
   content: '';
   display: table;
@@ -17,7 +17,7 @@
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
  */
-.container {
+.help_container {
   max-width: 1200px; /* 1 */
   margin-left: auto; /* 2 */
   margin-right: auto; /* 2 */
@@ -31,7 +31,7 @@
  * 1. Needed in WebKit-based browsers because of an implementation bug;
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
-.hide-text {
+.help_hide-text {
   overflow: hidden;
   padding: 0; /* 1 */
   text-indent: 101%;
@@ -43,7 +43,7 @@
  * Shamelessly borrowed from HTML5Boilerplate:
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
-.visually-hidden {
+.help_visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
