@@ -101,43 +101,57 @@ opacity: 0.5;
 
 abstracts/
 
-- functions: \_fnct\_\_
-- mixins: \_mixn\_\_
-- variables: \_vars\_\_
-- (breakpoints: \_brkp\_\_)
-- (colors: \_clrs\_\_)
-- (type: \_type\_\_)
+- functions: fnct\_
+- mixins: mixn\_
+- variables: vars\_
+- (breakpoints: brkp\_)
+- (colors: clrs\_)
+- (type: type\_)
 
 base/
 
-- animations: \_anim\_\_
-- base: \_base\_\_
-- font: \_font\_\_
-- helpers: \_hlpr\_\_
+- animations: anim\_
+- base: base\_
+- font: font\_
+- helpers: hlpr\_
 - reset: _not applicable_
 - root: _css namespace (—element-attribute-variant)_
-- typography: \_typg\_\_
+- typography: typg\_
 
 components/
 
-- buttons: \_bttn\_\_
-- cards: \_crds\_\_
-- navigation: \_navg\_\_
+- buttons: bttn\_
+- cards: crds\_
+- navigation: navg\_
 
 layout/
 
-- footer: \_foot\_\_
-- header: \_head\_\_
+- footer: foot\_
+- header: head\_
 
 pages/
 
-- home: \_home\_\_ / \_pghome\_\_
-- contacts: \_cntc\_\_ / \_pgcntc\_\_
+- home: home\_ / pghome\_
+- contacts: cntc\_ / pgcntc\_
 
 themes/
 
-- default: \_thmdft\_\_
+- default: thmdft\_
 
 vendors/
 
 - _(not applicable)_
+
+---
+
+### Units
+
+- rem, em, %, ch, vh, px
+- rem (font-size)
+- em (padding)
+- % (horizontal box size)
+- ch (text block - max:40/75)
+- vh (vertical box size)\*
+- px (min-width)\*
+
+\*only when justified. Avoid fixed sizes.
