@@ -148,10 +148,10 @@ vendors/
 
 - rem, em, %, ch, vh, px
 - rem (font-size)
-- em (padding)
-- % (horizontal box size)
-- ch (line length - max:40/75ch)
-- vh (vertical box size)\*
-- px (min-width)\*
+- em/rem (padding)
+- % (width size)
+- ch (line length - max: 45 to 75ch)
+- vh (height size - min-height)\*
+- px (min-width/max-width)\*
 
 \*only when justified. Avoid fixed sizes.
