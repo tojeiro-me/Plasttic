@@ -35,3 +35,19 @@
     @content;
   }
 }
+
+/// TODO:
+/**
+* From Kevin Powell 
+* https://github.com/kevin-powell/demo-starter-template-with-sass
+*/
+// @use 'variables' as *; // or breakpoints
+
+// @mixin mq($key) {
+
+//   $size: map-get($breakpoints, $key);
+
+//   @media only screen and (min-width: $size) {
+//     @content;
+//   }
+// }

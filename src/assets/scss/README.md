@@ -115,7 +115,7 @@ base/
 - font: font\_
 - helpers: hlpr\_
 - reset: _not applicable_
-- root: _css namespace (—element-attribute-variant)_
+- root: _css namespace (—-element-attribute-variant)_
 - typography: typg\_
 
 components/
@@ -150,7 +150,7 @@ vendors/
 - rem (font-size)
 - em (padding)
 - % (horizontal box size)
-- ch (text block - max:40/75)
+- ch (line length - max:40/75ch)
 - vh (vertical box size)\*
 - px (min-width)\*
 

@@ -2,41 +2,41 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-/// Type
+/// Type sizes
 // -----------------------------------------------------------------------------
-$var_type: (
-  'default': (
-    'Open Sans',
-    'Helvetica Neue Light',
-    'Helvetica Neue',
-    'Helvetica',
-    Arial,
-    sans-serif,
-  ),
-  // Global default font family
-  'mono':
-    (
-      'Courier New',
-      'DejaVu Sans Mono',
-      'Bitstream Vera Sans Mono',
-      Monaco,
-      monospace,
-    ),
-  // Code (monospace) font family
-);
-
-@each $type, $family in $var_type {
-  .type__#{$type} {
-    font-family: $family;
-  }
-}
 
 // Colors
 // -----------------------------------------------------------------------------
+$vars_color: (
+  'brand-blue': #40a9bf,
+  // hsl: 190/50/50
+  'brand-grey': #2d2d2d,
+  // hsl: 0/0/18
+);
+
+/// TODO:
+/**
+* From Kevin Powell 
+* https://github.com/kevin-powell/demo-starter-template-with-sass
+*/
+// @each $color,
+// $shade in $colors {
+
+//   @each $prop,
+//   $value in $shade {
+//     .text-#{$color}-#{$prop} {
+//       color: var(--clr-#{$color}-#{$prop}) !important;
+//     }
+
+//     .bg-#{$color}-#{$prop} {
+//       background-color: var(--clr-#{$color}-#{$prop}) !important;
+//     }
+//   }
+// }
 
 // Breakpoints
 // -----------------------------------------------------------------------------
-$var_bkp: (
+$vars_bkp: (
   'sm': 360px,
   'md': 768px,
   'lg': 1024px,
@@ -46,11 +46,11 @@ $var_bkp: (
 // -----------------------------------------------------------------------------
 
 /// Container's maximum width
-$var_ctn-maxWidth: 1200px;
+$vars_ctn-maxWidth: 1200px;
 
 // Utility Vars
 // -----------------------------------------------------------------------------
 
 /// Relative or absolute URL where all assets are served from
 /// External: 'http://cdn.example.com/assets/';
-$var_url-assets: '/assets/';
+$vars_url-assets: '/assets/';
