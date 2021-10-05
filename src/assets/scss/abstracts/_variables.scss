@@ -5,14 +5,15 @@
 /// Type sizes
 // -----------------------------------------------------------------------------
 $vars_type: (
-      'h1': 2.5rem,
-      'h2': 2rem,
-      'h3': 1.5rem,
-      'h4': 1.05rem,
-      'p': 1.05rem,
-    )
-    @each $type,
-  $size in $vars_type {
+  'body': 1.05rem,
+  'h1': 2.5rem,
+  'h2': 2rem,
+  'h3': 1.5rem,
+  'h4': 1.05rem,
+  //'p': 1.05rem,
+);
+
+@each $type, $size in $vars_type {
   #{$type} {
     font-size: $size;
   }
