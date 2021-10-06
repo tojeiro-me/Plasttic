@@ -4,24 +4,29 @@
 
 /// Defaults
 $font_default: (
-  'default': (
-    'Open Sans',
-    'Helvetica Neue Light',
-    'Helvetica Neue',
-    'Helvetica',
+  'sans': (
+    Verdana,
+    Helvetica,
     Arial,
     sans-serif,
   ),
-  // Global default font family
+  // Default Sans-serif font family
+  'serif':
+    (
+      Georgia,
+      'Times New Roman',
+      Times,
+      serif,
+    ),
+  // Default Serif font family
   'mono':
     (
       'Courier New',
-      'DejaVu Sans Mono',
-      'Bitstream Vera Sans Mono',
+      Courier,
       Monaco,
       monospace,
     ),
-  // Code (monospace) font family
+  // Default Monospace font family
 );
 
 @each $type, $family in $font_default {
