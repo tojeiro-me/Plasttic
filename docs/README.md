@@ -7,7 +7,7 @@
 A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 See links for more information on the different boilerplates and references.
 
-## Practices Guidelines
+## Practices Guidelines (...in Progress)
 
 ---
 
@@ -44,13 +44,13 @@ See links for more information on the different boilerplates and references.
 
 - HTML/CSS/JS Files: Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:"
 
-## Performance (TODO)
+## Performance (...in Progress)
 
 ---
 
-- Preconnect and DNS-prefetch
-- Defer and Async
-- Lazy Loading (Images, Youtube)
+- Preconnect and DNS-prefetch (CDNs, Fonts)
+- Defer and Async (Javascript files)
+- Lazy Loading (Images, Youtube) + Async Decode
 - Minification (Code, Images)
 - SVG
 

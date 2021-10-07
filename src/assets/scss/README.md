@@ -19,63 +19,98 @@
 
 ---
 
+### Folder Structure
+
+abstract/
+
+    x
+
+- functions
+- mixins
+- variables
+
+base/
+
+    everything that is general in a website project
+
+- animations
+- base
+- fonts
+- helpers
+- reset
+- root
+- typography
+
+---
+
 ### Declaration Sorting
 
+```
 .class {
+```
 
 // content
 
+```
 content: '';
+```
 
 // display
 
+```
 display: flex;
-
 flex-direction: column;
+```
 
 // position
 
+```
 position: relative;
-
 top: 10rem;
-
 left: 10rem;
-
 z-index: -1;
+```
 
 // box-model
 
+```
 background: inherit;
-
 height: 30%;
-
 padding: 2em;
+```
 
 // typography
 
+```
 color: #000;
-
 font-size: 10rem;
-
 text-align: center;
+```
 
 // decoration
 
+```
 border-radius: 0.5rem;
-
 box-shadow: 0 0 20px rgba(0,0,0,1.0);
+```
 
 // manipulation
 
+```
 transform: perspective(10rem);
-
 filter: blur(3rem);
-
 opacity: 0.5;
+```
 
 // animation
 
+```
+transition: all 1s ease-out;
+```
+
+```
 }
+```
 
 ---
 
@@ -95,70 +130,73 @@ opacity: 0.5;
 
 - vars_clr-logo-blue
 - clrs_logo-blue-light
-- _(file_element/type-attribute/description-attribute/variant)_
+- _(prefix_element/type-attribute/description-attribute/variant)_
 
 **3. Files: Variables Prefixes**
 
 abstracts/
 
-- functions: fnct\_
-- mixins: mixn\_
-- variables: vars\_
-- (breakpoints: brkp\_)
-- (colors: clrs\_)
-- (type: type\_)
+- functions: `fnct_`
+- mixins: `mixn_`
+- variables: `vars_`
+- breakpoints: `brkp_` \*
+- colors: `clrs_` \*
+- type: `type_` \*
+
+\*used when needed, to breakdown the variables file
 
 base/
 
-- animations: anim\_
-- base: base\_
-- font: font\_
-- helpers: hlpr\_
-- reset: _not applicable_
-- root: _css namespace (—-element-attribute-variant)_
-- typography: typg\_
+- animations: `anim_`
+- base: `base_`
+- font: `font_`
+- helpers: `hlpr_`
+- reset: _`(not applicable)`_
+- root: _`(css namespace: —-element-attribute-variant)`_
+- typography: `typg_`
 
 components/
 
-- buttons: bttn\_
-- cards: crds\_
-- navigation: navg\_
+- buttons: `bttn_`
+- cards: `crds_`
+- navigation: `navg_`
 
 layout/
 
-- footer: foot\_
-- header: head\_
+- footer: `foot_`
+- header: `head_`
 
 pages/
 
-- home: home\_ / pghome\_
-- contacts: cntc\_ / pgcntc\_
+- home: `home_` / `pghome_`
+- contacts: `cntc_` / `pgcntc_`
 
 themes/
 
-- default: thmdft\_
+- default: `thmdft_`
 
 vendors/
 
-- _(not applicable)_
+- _`(not applicable)`_
 
 ---
 
 ### Units
 
-- rem, em, %, ch, vh, px
-- rem (font-size)
-- em/rem (padding)
-- % (width size)
-- ch (line length - max: 45 to 75ch)
-- vh (height size - min-height)\*
-- px (min-width/max-width)\*
+- `rem` (font-size)
+- `em/rem` (padding)
+- `%` (width size)
+- `ch` (line length - max: 45 to 75ch)
+- `vh` (height size - min-height) \*
+- `px` (min-width/max-width) \*
 
-\*only when justified. Avoid fixed sizes.
+\*only when justified. Avoid fixed sizes and height setting.
 
 Experiment:
 
-- vw (responsive big titles)
+- `vw` (responsive big titles)
+
+---
 
 ### Screen Sizes and Breakpoints (2021)
 
