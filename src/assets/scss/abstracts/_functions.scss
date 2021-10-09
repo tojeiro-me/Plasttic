@@ -7,6 +7,9 @@
 /// @param {String} $type - asset type folder (e.g. `fonts/`)
 /// @param {String} $path - asset path
 /// @return {Url}
+///
+/// see $vars_url-assets in variables
+
 @function asset($base, $type, $path) {
   @return url($base + $type + $path);
 }

@@ -13,17 +13,17 @@ $vars_type: (
   //'p': 1.05rem,
 );
 
-/// TODO: mixin?
+/// REVIEW: mixin?
 @each $type, $size in $vars_type {
   #{$type} {
     font-size: $size;
   }
 }
 
-// Colors
+/// Colors
 // -----------------------------------------------------------------------------
 
-/// TODO:
+/// REVIEW:
 $vars_color: (
   'brand-blue': #40a9bf,
   // hsl: 190/50/50
@@ -31,7 +31,7 @@ $vars_color: (
   // hsl: 0/0/18
 );
 
-/// TODO:
+/// REVIEW:
 /**
 * From Kevin Powell 
 * https://github.com/kevin-powell/demo-starter-template-with-sass
@@ -65,7 +65,7 @@ $vars_brkp: (
 /// Container's maximum width
 $vars_ctn-maxWidth: 1200px;
 
-// Utility Vars
+/// Utility Vars
 // -----------------------------------------------------------------------------
 
 /// Relative or absolute URL where all assets are served from
