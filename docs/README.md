@@ -7,7 +7,7 @@
 A Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 See links for more information on the different boilerplates and references.
 
-## Practices Guidelines (...in Progress)
+## Practices Guidelines
 
 ---
 
@@ -44,15 +44,60 @@ See links for more information on the different boilerplates and references.
 
 - HTML/CSS/JS Files: Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:"
 
-## Performance (...in Progress)
+## Performance
 
 ---
 
 - Preconnect, DNS-prefetch, Preload (CDNs, Fonts)
-- Defer and Async (Javascript files)
+
+```
+<link rel="preconnect" href="https://unpkg.com/" crossorigin />
+<link rel="dns-prefetch" href="https://unpkg.com/" />
+
+<link
+  rel="preload"
+  href="assets/fonts/fontawesome.woff2?14663396"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
+```
+
+- Defer, Async (Javascript files)
+
+```
+<script src="assets/js/site/_global.min.js" defer></script>
+```
+
 - Lazy Loading (Images, Youtube) + Async Decode
+
+```
+<picture>
+  <!-- If this type(avif) is supported, use this src -->
+  <source
+    type="image/avif"
+    srcset="my-image.avif"
+  />
+  <!-- Else, if this type(webp) is supported, use this src instead -->
+  <source
+    type="image/webp"
+    srcset="my-image.webp"
+  />
+  <!-- Else, fall back to jpg -->
+  <img
+    src="my-image.jpg"
+    alt="A test image"
+    loading="lazy"
+    decoding="async"
+  />
+</picture>
+
+Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
+loading="lazy" full support is still limited to Chrome (Oct 2021)
+```
+
 - Minification (Code, Images)
-- SVG
+- SVG (use whenever possible)
 
 ## More Information
 
