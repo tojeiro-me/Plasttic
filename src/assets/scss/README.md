@@ -21,25 +21,58 @@
 
 ### Folder Structure
 
+(Development order: base > abstract > layout > components > pages > themes)
+
 abstract/
 
-    x
+    code not processed by Sass (variables, mixins, functions, ...)
+    to reuse on styles across the other files
 
+- animations (@keyframes)
 - functions
 - mixins
-- variables
+- utilities (utility classes)
+- variables (maps and single variables)
 
 base/
 
-    everything that is general in a website project
+    everything that is generic in a website project
 
-- animations
-- base
-- fonts
+- base (body, links)
+- fonts (font-face)
 - helpers
-- reset
-- root
-- typography
+- root (custom Properties)
+- typography (h1-h6, paragraphs)
+
+components/
+
+    reusable layout elements
+
+- buttons
+- cards
+- forms
+
+layout/
+
+    global layout styles
+
+- footer
+- header
+- layout (grid, flexbox)
+- navigation (top, bottom, mobile, sidebar)
+
+pages/
+
+    page specific styles
+
+- home
+
+themes/
+
+    theme variation styles
+    defined in theming implementation
+
+- default
 
 ---
 
@@ -136,8 +169,10 @@ transition: all 1s ease-out;
 
 abstracts/
 
+- animations: `anim_`
 - functions: `fnct_`
 - mixins: `mixn_`
+- utilities `util_`
 - variables: `vars_`
 - breakpoints: `brkp_` \*
 - colors: `clrs_` \*
@@ -147,11 +182,9 @@ abstracts/
 
 base/
 
-- animations: `anim_`
 - base: `base_`
-- font: `font_`
+- fonts: `fnts_`
 - helpers: `hlpr_`
-- reset: _`(not applicable)`_
 - root: _`(css namespace: —-element-attribute-variant)`_
 - typography: `typg_`
 
@@ -159,12 +192,14 @@ components/
 
 - buttons: `bttn_`
 - cards: `crds_`
-- navigation: `navg_`
+- forms: `frms_`
 
 layout/
 
 - footer: `foot_`
 - header: `head_`
+- layout: `layt_`
+- navigation: `navg_`
 
 pages/
 

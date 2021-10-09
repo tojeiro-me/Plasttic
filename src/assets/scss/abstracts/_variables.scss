@@ -13,6 +13,7 @@ $vars_type: (
   //'p': 1.05rem,
 );
 
+/// TODO: mixin?
 @each $type, $size in $vars_type {
   #{$type} {
     font-size: $size;
@@ -21,6 +22,8 @@ $vars_type: (
 
 // Colors
 // -----------------------------------------------------------------------------
+
+/// TODO:
 $vars_color: (
   'brand-blue': #40a9bf,
   // hsl: 190/50/50
@@ -50,10 +53,10 @@ $vars_color: (
 
 // Breakpoints
 // -----------------------------------------------------------------------------
-$vars_bkp: (
+$vars_brkp: (
   'sm': 360px,
   'md': 768px,
-  'lg': 1024px,
+  'xl': 1024px,
 );
 
 /// Layout

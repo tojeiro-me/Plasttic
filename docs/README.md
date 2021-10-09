@@ -48,7 +48,7 @@ See links for more information on the different boilerplates and references.
 
 ---
 
-- Preconnect and DNS-prefetch (CDNs, Fonts)
+- Preconnect, DNS-prefetch, Preload (CDNs, Fonts)
 - Defer and Async (Javascript files)
 - Lazy Loading (Images, Youtube) + Async Decode
 - Minification (Code, Images)

@@ -6,7 +6,7 @@
 html {
   background: #ffffff;
   color: #000000;
-  font-family: Monaco, 'Lucida Console', 'Courier New', monospace, sans-serif; // TODO: use variables
+  font-family: map-get($font_default, 'sans');
 }
 
 /// TODO:
