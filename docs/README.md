@@ -96,7 +96,7 @@ Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
 loading="lazy" full support is still limited to Chrome (Oct 2021)
 ```
 
-- Minification (Code, Images)
+- Minification (Code, Images) and Gziping
 - SVG (use whenever possible)
 
 ## More Information

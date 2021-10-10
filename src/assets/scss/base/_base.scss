@@ -3,6 +3,8 @@
 // (Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
+@use 'fonts' as *;
+
 html {
   background: #ffffff;
   color: #000000;

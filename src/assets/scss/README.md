@@ -41,6 +41,7 @@ base/
 - base (body, links)
 - fonts (font-face)
 - helpers
+- reset (A modern css reset)
 - root (custom Properties)
 - typography (h1-h6, paragraphs)
 
@@ -185,6 +186,7 @@ base/
 - base: `base_`
 - fonts: `fnts_`
 - helpers: `hlpr_`
+- reset _`(not applicable)`_
 - root: _`(css namespace: —-element-attribute-variant)`_
 - typography: `typg_`
 

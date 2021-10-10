@@ -7,27 +7,31 @@
 /// @param {String} $type - asset type folder (e.g. `fonts/`)
 /// @param {String} $path - asset path
 /// @return {Url}
-///
-/// see $vars_url-assets in variables
 
 @function asset($base, $type, $path) {
   @return url($base + $type + $path);
 }
 
+/// REVIEW:
+/// less parameters? other variables?
+/// see $vars_url map in variables
+
 /// Returns URL to an image based on its path
 /// @param {String} $path - image path
-/// @param {String} $base [$base-url] - base URL
+/// @param {String} $base - base URL - $vars_url
 /// @return {Url}
 /// @require $base-url
-@function image($path, $base: $base-url) {
-  @return asset($base, 'images/', $path);
-}
+
+// @function image($path, $base: $vars_url-assets) {
+//   @return asset($base, 'img/', $path);
+// }
 
 /// Returns URL to a font based on its path
 /// @param {String} $path - font path
-/// @param {String} $base [$base-url] - base URL
+/// @param {String} $base - base URL - $vars_url
 /// @return {Url}
 /// @require $base-url
-@function font($path, $base: $base-url) {
-  @return asset($base, 'fonts/', $path);
-}
+
+// @function font($path, $base: $vars_url-assets) {
+//   @return asset($base, 'fonts/', $path);
+// }
