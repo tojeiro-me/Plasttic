@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the print media.
+// -----------------------------------------------------------------------------
+
+@media print {
+  @page {
+    margin: 0.5cm;
+  }
+
+  body {
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-weight: normal;
+    line-height: 1.3;
+    background: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  aside h2 {
+    font-size: 18pt;
+  }
+
+  a:link,
+  a:visited {
+    color: #000;
+    text-decoration: underline;
+  }
+  /* print URLs after link text (from: simplebits.com) */
+  a:link::after,
+  a:visited::after {
+    content: ' (' attr(href) ') ';
+  }
+
+  img {
+    max-width: 100%;
+    float: left;
+    margin: 1.5em 1.5em 1.5em 0;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+  }
+
+  blockquote {
+    font-style: italic;
+    font-size: 90%;
+  }
+
+  // TODO: Hide sections
+
+  .m13-header nav,
+  .m13-footer footer {
+    display: none;
+  }
+}
