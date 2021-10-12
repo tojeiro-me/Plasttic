@@ -42,12 +42,11 @@ body {
   line-height: 1.45; // M13: Replace 1.5
 }
 
-// M13: Set best line height for headings
 h1,
 h2,
 h3,
 h4 {
-  line-height: 1.2;
+  line-height: 1.2; // M13: Set best line height for headings
   margin-bottom: 0.5em;
 }
 
