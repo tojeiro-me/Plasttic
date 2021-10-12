@@ -2,6 +2,8 @@
 // This file contains styles that are specific to the print media.
 // -----------------------------------------------------------------------------
 
+/// TODO: Logo for media print?
+
 @media print {
   @page {
     margin: 0.5cm;
@@ -50,6 +52,11 @@
     content: ' (' attr(href) ') ';
   }
 
+  /// TODO: exclude internal links from the style above?
+  // a[href^="http"]:not([href*="monkey13.studio"]):after {
+  //   content: " (" attr(href) ")";
+  // }
+
   img {
     max-width: 100%;
     float: left;
@@ -66,7 +73,20 @@
     font-size: 90%;
   }
 
-  // TODO: Hide sections
+  /// TODO: Hide sections
+  /// use .m13-noprint and .m13-printonly class
+
+  /// helper classes
+  .m13-noprint {
+    display: none;
+  }
+
+  .m13-printonly {
+    // sections not displayed until print
+    display: unset !important;
+  }
+
+  /// Specific sections
 
   .m13-header nav,
   .m13-footer footer {
