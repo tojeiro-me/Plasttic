@@ -57,9 +57,24 @@ See links for more information on the different boilerplates and references.
 <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
 
 <link
-  href="https://fonts.googleapis.com/css?family=Roboto&dispkay="swap"
-  rel="stylesheet"
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
 />
+<noscript>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+  />
+</noscript>
+```
+
+```
+<link rel="preconnect" href="https://unpkg.com/" crossorigin>
+<link rel="dns-prefetch" href="https://unpkg.com/">
+
+
+<script src="https://unpkg.com/petite-vue" defer init></script>
 ```
 
 - Defer, Async (Javascript files)
