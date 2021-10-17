@@ -50,7 +50,7 @@ See links for more information on the different boilerplates and references.
 
 ---
 
-- Preconnect, DNS-prefetch, Preload (CDNs, Fonts)
+- Preconnect, DNS-prefetch, Preload (CDN, Fonts)
 
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -77,9 +77,10 @@ See links for more information on the different boilerplates and references.
 <script src="https://unpkg.com/petite-vue" defer init></script>
 ```
 
-- Defer, Async (Javascript files)
+- Defer, Async, Init (Javascript files)
 
 ```
+<script src="https://unpkg.com/petite-vue" defer init></script>
 <script src="assets/js/site/_global.min.js" defer></script>
 ```
 
