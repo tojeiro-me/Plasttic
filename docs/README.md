@@ -111,7 +111,7 @@ loading="lazy" full support is still limited to Chrome (Oct 2021)
 
 ---
 
-- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines](https://sass-guidelin.es/) - Outdated but still relevant, [BEM](http://getbem.com)
+- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [SASS Guidelines](https://sass-guidelin.es/) (Outdated but still relevant), [BEM](http://getbem.com)
 
 ## Software
 
