@@ -53,15 +53,12 @@ See links for more information on the different boilerplates and references.
 - Preconnect, DNS-prefetch, Preload (CDNs, Fonts)
 
 ```
-<link rel="preconnect" href="https://unpkg.com/" crossorigin />
-<link rel="dns-prefetch" href="https://unpkg.com/" />
+<link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
 
 <link
-  rel="preload"
-  href="assets/fonts/fontawesome.woff2?14663396"
-  as="font"
-  type="font/woff2"
-  crossorigin
+  href="https://fonts.googleapis.com/css?family=Roboto&dispkay="swap"
+  rel="stylesheet"
 />
 ```
 
