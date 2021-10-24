@@ -1,9 +1,11 @@
-v1.4.0 Oct 24 2021
+v1.4.0 - working
 - Sass folder structure redesigned
-- Continuing Sass/CSS boilerplate code
+- HTML/Sass/CSS boilerplate code
+- Documentation 
 
-v1.3.1
-- Sass/CSS boilerplate code
+v1.3.1 Oct 24 2021
+- HTML/Sass/CSS boilerplate code optimization
+- Project documentation update and new Sass documentation
 
 v1.3.0 Sept 05 2021
 - Replaced Sanitize.css with A Modern CSS Reset
