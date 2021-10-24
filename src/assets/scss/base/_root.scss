@@ -1,6 +1,11 @@
 // -----------------------------------------------------------------------------
-//  :root variables.
+//  This file contains all Custom Properties to be used as Values
+//  the variables used are specified in _variables
 // -----------------------------------------------------------------------------
+
+// https://css-tricks.com/building-a-scalable-css-architecture-with-bem-and-utility-classes/
+
+@use '../abstracts' as *;
 
 :root {
 }
