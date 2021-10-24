@@ -148,25 +148,30 @@ transition: all 1s ease-out;
 
 ---
 
-### Namespace (TESTING)
+### Namespace (TESTING) - TODO: abbreviations list
 
 **1. CSS Variable Namespace**
 
-- —fnt-sansserif
-- —fnt-serif
-- —fnt-monospace
-- —fwt-bold
-- —clr-primary-grey
-- —clr-primary-blue
-- _(--element/type-attribute/description-attribute/variant)_
+(Prefix: --m13-)
+
+- ff-ss
+- ff-s
+- ff-m
+- fw-bold
+- fs-sm
+- clr-prim
+- clr-secd
+- _(--prefix-element/type-attribute/description-attribute/variant)_
 
 **2. Sass Variables Namespace**
 
-- vars_clr-logo-blue
-- clrs_logo-blue-light
-- _(prefix_element/type-attribute/description-attribute/variant)_
+(Prefix: file abbreviation)
 
-**3. Files: Variables Prefixes**
+- vars_clr-prim-normal (file: _variables.scss)
+- clrs_prim-light (file: _colors.scss - separation of _variables.scss)
+- _(prefix-file/type-attribute/description-attribute/variant)_
+
+**3. Files: Sass Variables Prefixes**
 
 abstracts/
 
@@ -231,7 +236,7 @@ vendors/
 
 Experiment:
 
-- `vw` (responsive big titles)
+- `vw/clamp` (responsive big titles)
 
 ---
 
