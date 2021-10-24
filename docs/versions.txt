@@ -1,6 +1,6 @@
 v1.4.0 Oct 24 2021
 - Sass folder structure redesigned
-- Continuing with Sass/CSS boilerplate code
+- Continuing Sass/CSS boilerplate code
 
 v1.3.1
 - Sass/CSS boilerplate code
