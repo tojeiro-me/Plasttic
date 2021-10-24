@@ -1,6 +1,11 @@
 // -----------------------------------------------------------------------------
-// This file contains all application-wide Sass variables.
+// This file contains all application-wide Values
+// to be converted to Custom Properties in _root.scss
 // -----------------------------------------------------------------------------
+
+// REVIEW: use some Values in _reset.scss
+
+// REVIEW: mixins in _root.scss
 
 /// Type sizes
 // -----------------------------------------------------------------------------
@@ -10,20 +15,13 @@ $vars_type: (
   'h2': 2rem,
   'h3': 1.5rem,
   'h4': 1.05rem,
-  //'p': 1.05rem,
 );
 
-/// REVIEW: mixin?
-@each $type, $size in $vars_type {
-  #{$type} {
-    font-size: $size;
-  }
-}
 
 /// Colors
 // -----------------------------------------------------------------------------
 
-/// REVIEW:
+/// REVIEW: use HSL
 $vars_color: (
   'brand-blue': #40a9bf,
   // hsl: 190/50/50
@@ -36,6 +34,8 @@ $vars_color: (
 * From Kevin Powell 
 * https://github.com/kevin-powell/demo-starter-template-with-sass
 */
+// Text utility class > _utility.scss ????
+//
 // @each $color,
 // $shade in $colors {
 
