@@ -16,14 +16,17 @@ See links for more information on the different boilerplates and references.
 - Semantic HTML
 - Namespaces
 - CSS Units Usecases
+- Mobile First
 - Clean Code
 - Code Splitting
 - Commenting Conventions
 - CSS Reset
 - SASS Partials
 - Style Guides
+- Documentation
 - Performance
 - SEO
+- Version Control Repository
 - Test and Debug
 
 ## Starting Point
@@ -155,6 +158,8 @@ loading="lazy" full support is still limited to Chrome (Oct 2021)
 
 - [Codekit](https://codekitapp.com/)
 - Alternative: [Prepos](https://prepros.io/)
+
+- Note: Still testing package managers solutions
 
 ## License
 
