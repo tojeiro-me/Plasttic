@@ -31,19 +31,17 @@ abstract/
 - animations (@keyframes)
 - functions
 - mixins
-- utilities (utility classes)
-- variables (maps and single variables)
+- variables (maps)
 
 base/
 
     everything that is generic in a website project
 
-- base (body, links)
-- fonts (font-face)
+- base (body, links, ...)
 - helpers
 - reset (A modern css reset)
 - root (custom Properties)
-- typography (h1-h6, paragraphs)
+- typography (h1-h6, paragraphs, ...)
 
 components/
 
@@ -178,7 +176,6 @@ abstracts/
 - animations: `anim_`
 - functions: `fnct_`
 - mixins: `mixn_`
-- utilities `util_`
 - variables: `vars_`
 - breakpoints: `brkp_` \*
 - colors: `clrs_` \*
@@ -189,7 +186,6 @@ abstracts/
 base/
 
 - base: `base_`
-- fonts: `fnts_`
 - helpers: `hlpr_`
 - reset _`(not applicable)`_
 - root: _`(css namespace: —-element-attribute-variant)`_
