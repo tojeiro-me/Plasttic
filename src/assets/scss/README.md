@@ -66,6 +66,12 @@ pages/
 
 - home
 
+print/
+
+    @media print specific styles
+
+- print
+
 themes/
 
     theme variation styles
@@ -208,6 +214,10 @@ pages/
 
 - home: `home_` / `pghome_`
 - contacts: `cntc_` / `pgcntc_`
+
+print/
+
+- _`(not applicable)`_
 
 themes/
 
