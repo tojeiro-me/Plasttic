@@ -43,8 +43,8 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 ---
 
 - Naming: Prefix, BEM, Camelcase
-- Prefix: HTML/CSS (`.m13-form__button--hidden`), CSS (`--m13-property-variation`), JS (`m13j_functionName`) and PHP/Python (`m13f_funtionName`)
-  _Note: avoid naming conflicts and provide context_
+- Prefix: HTML/CSS `.m13-form__button--hidden`, CSS `--m13-property-variation`, JS `m13j_functionName`, other language (`m13f_funtionName`)
+- _Note: avoid naming conflicts and provide context_
 
 ## Customization
 
