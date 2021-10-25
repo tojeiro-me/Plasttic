@@ -39,6 +39,7 @@ base/
     everything that is generic in a website project
 
 - base (body, links, ...)
+- fonts (local stored fonts)
 - reset (A modern css reset)
 - root (custom Properties)
 - typography (h1-h6, paragraphs, ...)
@@ -205,6 +206,7 @@ abstracts/
 base/
 
 - base: `base_`
+- fonts: `font_`
 - reset _`(not applicable)`_
 - root: _`(css namespace: —-element-attribute-variant)`_
 - typography: `typg_`
