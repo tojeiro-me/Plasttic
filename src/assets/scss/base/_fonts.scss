@@ -2,42 +2,4 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
-/// Defaults
-$font_default: (
-  'sans': (
-    Verdana,
-    Helvetica,
-    Arial,
-    sans-serif,
-  ),
-  // Default Sans-serif font family
-  'serif':
-    (
-      Georgia,
-      'Times New Roman',
-      Times,
-      serif,
-    ),
-  // Default Serif font family
-  'mono':
-    (
-      'Courier New',
-      Courier,
-      Monaco,
-      monospace,
-    ),
-  // Default Monospace font family
-);
 
-/// REVIEW: is it useful?
-// @each $type, $family in $font_default {
-//   .m13_font-#{$type} {
-//     font-family: $family;
-//   }
-// }
-
-// @font-face {
-//     font-family: "Example";
-//     src: url("../fonts/example.ttf") format("truetype");
-//     font-display: swap;
-//   }
