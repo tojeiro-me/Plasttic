@@ -7,7 +7,9 @@
 An opinionated Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 See links for more information on the different boilerplates and references.
 
-(There will be more documentation on the different assets folders - documentation is a lot of work, but I'll do my best)
+(There will be more documentation on the different assets folders, until there's no website - documentation is a lot of work, but I'll do my best)
+
+Gonçalo Tojeiro | Monkey13 WebStudio
 
 ## Practices Guidelines
 
@@ -20,9 +22,9 @@ See links for more information on the different boilerplates and references.
 - DRY
 - Clean Code
 - Code Splitting
+- SASS Partials
 - Commenting Conventions
 - CSS Reset
-- SASS Partials
 - Style Guides
 - Documentation
 - Performance
