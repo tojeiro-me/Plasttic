@@ -58,6 +58,7 @@ layout/
 - footer
 - header
 - layout (grid, flexbox)
+- main
 - navigation (top, bottom, mobile, sidebar)
 
 pages/
@@ -208,6 +209,7 @@ layout/
 - footer: `foot_`
 - header: `head_`
 - layout: `layt_`
+- main: `main_`
 - navigation: `navg_`
 
 pages/
