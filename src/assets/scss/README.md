@@ -39,7 +39,6 @@ base/
     everything that is generic in a website project
 
 - base (body, links, ...)
-- helpers
 - reset (A modern css reset)
 - root (custom Properties)
 - typography (h1-h6, paragraphs, ...)
@@ -206,7 +205,6 @@ abstracts/
 base/
 
 - base: `base_`
-- helpers: `hlpr_`
 - reset _`(not applicable)`_
 - root: _`(css namespace: —-element-attribute-variant)`_
 - typography: `typg_`
