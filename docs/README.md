@@ -17,6 +17,7 @@ See links for more information on the different boilerplates and references.
 - Namespaces
 - CSS Units Usecases
 - Mobile First
+- DRY
 - Clean Code
 - Code Splitting
 - Commenting Conventions
