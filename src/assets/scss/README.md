@@ -27,6 +27,7 @@ abstract/
 
     code not processed by Sass (variables, mixins, functions, ...)
     to reuse on styles across the other files
+    in bigger projects split the variables file
 
 - animations (@keyframes)
 - functions
@@ -45,7 +46,7 @@ base/
 
 components/
 
-    reusable layout elements
+    reusable layout elements (expand as necessary)
 
 - buttons
 - cards
@@ -53,7 +54,7 @@ components/
 
 layout/
 
-    global layout styles
+    global layout styles (expand as necessary)
 
 - footer
 - header
@@ -63,7 +64,7 @@ layout/
 
 pages/
 
-    page specific styles
+    page specific styles (expand as necessary)
 
 - home
 
@@ -79,6 +80,18 @@ themes/
     defined in theming implementation
 
 - default
+
+utilities/
+
+    utility classes (if absolutely necessary)
+
+- utilities
+
+vendors/
+
+    external libraries
+
+- (library)
 
 ---
 
@@ -224,6 +237,10 @@ print/
 themes/
 
 - default: `thmdft_`
+
+utilities/
+
+- utilities: `util_`
 
 vendors/
 
