@@ -11,15 +11,15 @@
 /// Fonts
 // -----------------------------------------------------------------------------
 
-// Generic font-faces
-$font_default: (
+// Generic font-faces with system fonts
+
+$font_system: (
   'sans': (
     Verdana,
     Helvetica,
     Arial,
     sans-serif,
   ),
-  // Default Sans-serif font family
   'serif':
     (
       Georgia,
@@ -27,7 +27,6 @@ $font_default: (
       Times,
       serif,
     ),
-  // Default Serif font family
   'mono':
     (
       'Courier New',
@@ -35,7 +34,6 @@ $font_default: (
       Monaco,
       monospace,
     ),
-  // Default Monospace font family
 );
 
 /// REVIEW: is it useful?
