@@ -48,7 +48,11 @@
     <link rel="icon" href="assets/img/logo/favicon.ico" type="image/x-icon" />
 
     <!-- TODO: Fonts -->
-    <!-- 1. CDN hosted
+    <!-- 1. Local hosted (preload for @font-face)
+    <link rel="preload" as="font"
+      href="assets/fonts/roboto-regular.woff2"
+      type="font/woff2" crossorigin>
+    <!-- 2. CDN hosted
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,11 +61,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
-    -->
-    <!-- 2. Local hosted (preload for @font-face)
-    <link rel="preload" as="font"
-      href="assets/fonts/fontawesome.woff2"
-      type="font/woff2" crossorigin>
     -->
 
     <link rel="stylesheet" href="assets/css/styles.min.css" />
