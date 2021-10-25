@@ -4,8 +4,15 @@
 // - see index.html
 // -----------------------------------------------------------------------------
 
+// for every @font-face set the right font-weight and font-style
+// and font-display: swap;
+// So you you don't different font family names, change to the same family name
+// and set the variant with font-weight and font-style
+
 @font-face {
-  font-family: "Roboto Regular";
+  font-family: "Roboto";
   src: url("../assets/fonts/roboto-regular.woff2") format("woff2");
   font-display: swap;
+  font-weight: normal; // 400
+  font-style: normal;
 }
