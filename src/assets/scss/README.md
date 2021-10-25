@@ -83,7 +83,7 @@ themes/
 
 utilities/
 
-    utility classes (if absolutely necessary)
+    utility/helper classes (if absolutely necessary)
 
 - utilities
 
