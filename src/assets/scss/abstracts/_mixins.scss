@@ -120,9 +120,10 @@
 
 /// REVIEW:
 
-/// Define the general styles 
-/// of the container element
+/// Define the general styles of the container element
+/// Extend using .sectionSelector + .m13-container
 /// @author Kitty Giraudel
+/// Use: .m13-container
 @mixin container {
   margin-left: auto;
   margin-right: auto;
