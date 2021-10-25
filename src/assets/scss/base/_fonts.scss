@@ -1,7 +1,7 @@
 // -----------------------------------------------------------------------------
-// This file contains local stored fonts.
-// For better performace Fonts should use the <link> in the HTML <head>, 
-// pre-loadind externally stored fonts (like googlefonts.com) - see index.html
+// This file contains local hosted fonts.
+// For better performace also use <link rel="preload"> in the HTML <head>
+// - see index.html
 // -----------------------------------------------------------------------------
 
 @font-face {
