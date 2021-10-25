@@ -7,6 +7,44 @@
 
 // REVIEW: mixins in _root.scss
 
+/// Fonts
+// -----------------------------------------------------------------------------
+
+// Generic font-faces
+$font_default: (
+  'sans': (
+    Verdana,
+    Helvetica,
+    Arial,
+    sans-serif,
+  ),
+  // Default Sans-serif font family
+  'serif':
+    (
+      Georgia,
+      'Times New Roman',
+      Times,
+      serif,
+    ),
+  // Default Serif font family
+  'mono':
+    (
+      'Courier New',
+      Courier,
+      Monaco,
+      monospace,
+    ),
+  // Default Monospace font family
+);
+
+/// REVIEW: is it useful?
+// @each $type, $family in $font_default {
+//   .m13_font-#{$type} {
+//     font-family: $family;
+//   }
+// }
+
+
 /// Type sizes
 // -----------------------------------------------------------------------------
 $vars_type: (
