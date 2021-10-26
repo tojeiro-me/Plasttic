@@ -96,10 +96,11 @@
 // -----------------------------------------------------------------------------
 @mixin media-query($brkpoint) {
   $size: map-get($vars_brkp, $brkpoint);
-  @if $size {
+  @if ($size != null) {
     @media screen and (min-width: $size) {
       @content;
-    }
+  } @else {
+    @warn "Breakpoint #{$vars_brkp);} wasn't found in $breakpoints.";
   }
 }
 
