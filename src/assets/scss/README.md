@@ -38,10 +38,10 @@ base/
 
     everything that is generic in a website project
 
-- base (body, links, ...)
+- base (body, ...)
 - fonts (local stored fonts)
 - reset (A modern css reset)
-- root (custom Properties)
+- root (Custom Properties)
 - typography (h1-h6, paragraphs, ...)
 
 components/
@@ -201,7 +201,7 @@ abstracts/
 - colors: `clrs_` \*
 - type: `type_` \*
 
-\*used when needed, to breakdown the variables file
+\*used when needed, to split the variables file
 
 base/
 
