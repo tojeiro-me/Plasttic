@@ -1,14 +1,14 @@
 // -----------------------------------------------------------------------------
 // This file contains very global basic styles (links, etc.).
-// (Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
+// Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
+@use 'abstracts' as *;
 @use 'fonts' as *;
 
-html {
+body {
   background: #ffffff;
   color: #000000;
-  font-family: map-get($font_default, 'sans');
+  // font-family: map-get($font_default, 'sans'); // REVIEW: change to custom properties
 }
-
 
