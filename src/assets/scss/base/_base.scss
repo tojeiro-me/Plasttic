@@ -1,14 +1,12 @@
 // -----------------------------------------------------------------------------
-// This file contains very global basic styles (links, etc.).
+// This file contains very global basic styles to common tags.
+// Font styling will be defined in the typography file.
 // Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
 @use 'abstracts' as *;
-@use 'fonts' as *;
 
 body {
   background: #ffffff;
-  color: #000000;
-  // font-family: map-get($font_default, 'sans'); // REVIEW: change to custom properties
 }
 
