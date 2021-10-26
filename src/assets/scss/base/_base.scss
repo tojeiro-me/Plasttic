@@ -6,7 +6,10 @@
 @use 'abstracts' as *;
 
 
-// REVIEW: use custom properties in _root.scss
+// REVIEW: use custom properties set in _root.scss
+
+html {
+}
 
 body {
   background: #fff;
