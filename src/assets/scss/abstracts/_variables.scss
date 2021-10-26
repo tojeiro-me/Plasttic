@@ -92,10 +92,14 @@ $vars_color: (
 // Breakpoints
 // -----------------------------------------------------------------------------
 $vars_brkp: (
-  'sm': 360px,
+  'sm': 480px,
   'md': 768px,
   'xl': 1024px,
+  'xxl': 1280px,
 );
+// These are the most used breakpoints.
+// Use them as a starting point 
+// and adjust to the right ones for your layout.
 
 /// Layout
 // -----------------------------------------------------------------------------
