@@ -108,13 +108,15 @@ Gonçalo Tojeiro | Monkey13 WebStudio
   <img
     src="my-image.jpg"
     alt="A test image"
+    width="400px"
+    height="200px"
     loading="lazy"
     decoding="async"
   />
 </picture>
 
 Note: use lazy load on images that are not immediately visible.
-You can use just the img tag for code simplicity.
+You can use just the <img> code for simplicity.
 
 Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
 loading="lazy" full support is still limited to Chrome (Oct 2021)
