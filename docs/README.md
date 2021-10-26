@@ -113,6 +113,8 @@ Gonçalo Tojeiro | Monkey13 WebStudio
   />
 </picture>
 
+Note: use lazy load on images that are not immediately visible
+
 Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
 loading="lazy" full support is still limited to Chrome (Oct 2021)
 
