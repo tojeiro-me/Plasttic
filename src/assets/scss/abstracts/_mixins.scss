@@ -2,7 +2,7 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
-@use 'root' as *;
+@use './base' as *;
 
 /**
 * Event wrapper
