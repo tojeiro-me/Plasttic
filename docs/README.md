@@ -5,7 +5,7 @@
 ---
 
 An opinionated Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
-See links for more information on the different boilerplates and references.
+See links for more information on the different references.
 
 (There will be more documentation on the different assets folders, until there's no website - documentation is a lot of work, but I'll do my best)
 
