@@ -39,8 +39,21 @@
 //   @return asset($base, 'fonts/', $path);
 // }
 
+// REVIEW:
+
 // Source: https://github.com/sass-mq/_mq.scss
 // Change: px2rem
+
+/// Convert pixels to ems
+///
+/// @param {Number} $px - value to convert
+///
+/// @example scss
+///  $font-size-in-ems: px2em(16px);
+///  p { font-size: px2em(16px); }
+///
+/// @returns {Number}
+
 @function px2em($px) {
   @if math.is-unitless($px) {
     @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels.";
