@@ -3,7 +3,7 @@
 // Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
-@use 'abstracts' as *;
+@use 'root' as *;
 
 
 // REVIEW: use custom properties set in _root.scss
