@@ -1,13 +1,19 @@
 // -----------------------------------------------------------------------------
-// This file contains very global basic styles to common tags.
+// This file contains global basic styles to general tags.
 // Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
 @use 'abstracts' as *;
 
+
+// REVIEW: use custom properties in _root.scss
+
 body {
   background: #fff;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue', sans-serif;
   color: #000;
-  font-family: sans-serif;
+  line-height: 1;
+  letter-spacing: -.5px;
 }
 
