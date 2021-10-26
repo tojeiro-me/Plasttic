@@ -1,12 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains very global basic styles to common tags.
-// Font styling will be defined in the typography file.
 // Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
 @use 'abstracts' as *;
 
 body {
-  background: #ffffff;
+  background: #fff;
+  color: #000;
+  font-family: sans-serif;
 }
 
