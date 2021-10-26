@@ -115,6 +115,10 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 
 Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
 loading="lazy" full support is still limited to Chrome (Oct 2021)
+
+Also check IntersectionObserver
+https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/
+https://youtu.be/mC93zsEsSrg
 ```
 
 - Minification (Code, Images) and Gziping
