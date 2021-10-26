@@ -124,6 +124,7 @@ https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-obs
 https://youtu.be/mC93zsEsSrg
 ```
 
+- Resize images to the max size you will need
 - Minification (Code, Images) and Gziping
 - SVG (use whenever possible)
 
