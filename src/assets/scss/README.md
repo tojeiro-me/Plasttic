@@ -84,6 +84,7 @@ themes/
 utilities/
 
     utility/helper classes (if absolutely necessary)
+    prefer mixins to avoid extra classes
 
 - utilities
 
@@ -189,7 +190,7 @@ transition: all 1s ease-out;
 - clrs_prim-light (file: _colors.scss - separation of _variables.scss)
 - _(prefix-file/type-attribute/description-attribute/variant)_
 
-**3. Files: Sass Variables Prefixes**
+**3. Files: Sass Variables Prefixes (Abbreviations)**
 
 abstracts/
 
