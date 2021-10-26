@@ -1,5 +1,6 @@
 // -----------------------------------------------------------------------------
-// This file contains global basic styles to general tags.
+// This file contains global basic styles to general tags that are not set
+// on the _reset file or does not belong in any other file.
 // Some global values (box-sizing, line-height, ...) are included in base/_reset.scss
 // -----------------------------------------------------------------------------
 
@@ -7,9 +8,6 @@
 
 
 // REVIEW: use custom properties set in _root.scss
-
-html {
-}
 
 body {
   background: #fff;
