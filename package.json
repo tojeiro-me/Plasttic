@@ -1,20 +1,19 @@
 {
-  "name": "website-template",
+  "name": "website-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "WebSite Boilerplate",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monkey13-ws/WebSite-Boilerplate.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Monkey13 WebStudio",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/monkey13-ws/WebSite-Boilerplate/issues"
   },
