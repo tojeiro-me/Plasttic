@@ -7,6 +7,8 @@
 An opinionated Front-End Template for Websites and Web Apps: HTML and Sass boilerplate, File structure, Conventions & more.
 See links for more information on the different references.
 
+This is not intended to be a framework, but rather a starting point. It includes starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
+
 (There will be more documentation on the different assets folders, until there's no website - documentation is a lot of work, but I'll do my best)
 
 Gonçalo Tojeiro | Monkey13 WebStudio
