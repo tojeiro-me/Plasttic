@@ -3,9 +3,14 @@
   "name": "Monkey13 | WebStudio",
   "icons": [
     {
-      "src": "assets/img/logo/icon.png",
+      "src": "assets/img/logo/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "assets/img/logo/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": "index.html",

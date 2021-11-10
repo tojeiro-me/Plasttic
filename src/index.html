@@ -2,9 +2,9 @@
 <!-- TODO: pt-PT / en-US -->
 <html lang="en">
   <head>
-    <title>Monkey13: WebSite Template</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Monkey13: WebSite Template</title>
 
     <!-- TODO: No Crawling on Dev pages and others -->
     <!-- 
@@ -12,14 +12,13 @@
     <meta name="googlebot" content="noindex">
 -->
 
-    <!-- TODO: Website description and keywords -->
+    <!-- TODO: Website description  -->
     <meta name="description" content="Strategic Web Solutions." />
-    <meta name="keywords" content="" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- TODO: Website URL -->
-    <link rel="canonical" href="hhttps://monkey13.studio/" />
+    <link rel="canonical" href="https://monkey13.studio/" />
 
     <!-- TODO: Preconnect for js/css CDNs -->
     <!--
@@ -27,25 +26,40 @@
     <link rel="dns-prefetch" href="https://unpkg.com/" />
     -->
 
-    <!-- TODO: Open Graph https://ogp.me for Facebook and more -->
-    <!-- <meta property="fb:page_id" content="1321836767955949"> -->
-    <meta name="og:url" content="https://monkey13.studio/" />
-    <meta name="og:title" content="Monkey13 | WebStudio" />
-    <meta name="og:type" content="website" />
-    <meta name="og:description" content="Strategic Web Solutions." />
+    <!-- TODO: Open Graph https://ogp.me -->
+    <meta property="og:title" content="Monkey13 | WebStudio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://monkey13.studio/" />
+    <meta property="og:description" content="Strategic Web Solutions." />
     <meta
       name="og:image"
-      content="https://monkey13.studio/assets/img/logo/og_logo.png"
+      content="https://monkey13.studio/assets/img/logo/social_logo.png"
     />
-    <!-- Optional Extend: see Twitter Cards -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- TODO: Twitter Cards -->
+    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
+    <meta
+      name="twitter:image"
+      content="https://monkey13.studio/assets/img/logo/social_logo.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Monkey13WS" />
 
     <!-- TODO: About -->
     <link rel="author" href="humans.txt" />
-    <link rel="manifest" href="site.webmanifest" />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!-- TODO: Icons -->
-    <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png" />
-    <link rel="icon" href="assets/img/logo/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/assets/img/logo/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/img/logo/favicon.svg" type="image/svg+xml" />
+
+    <link rel="apple-touch-icon" href="/assets/img/logo/apple-touch-icon.png" />
 
     <!-- TODO: Fonts -->
     <!-- 1. Local hosted (preload for @font-face)

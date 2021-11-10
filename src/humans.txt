@@ -1,14 +1,17 @@
+/* SITE BY */
+Name: Monkey13, https://monkey13.studio /
+
 /* TEAM */    
 
 Company: Monkey13 WebStudio                           
-Contact: dev [at] monkey13.studio                                                     
+Contact: work [at] monkey13.studio                                                     
 Location: Porto, Portugal.
 
                             
 /* SITE */
 
-Standards: HTML5, CSS3, Javascript                           
-Components: Vue, sanitize.css                        
+Standards: HTML5, CSS3                           
+Components: Sass, Vanilla JS                        
 Software: VS Code, Github, Affinity, Figma
 
 /* humanstxt.org */
