@@ -95,22 +95,25 @@
     <script src="assets/js/site/_global.min.js" defer></script>
     <!-- <script src="assets/js/site/animation.min.js" defer></script> -->
   </head>
-  <body id="m13-page__home" class="m13_page m13-page__home">
-    <!-- Semantic HTML: header / nav / div / main / section / article / aside / address / footer -->
-    <header id="m13-header" class="m13-header">
-      <div class="m13_container">
-        <div class="m13-header__logo">Logo Image</div>
-        <nav class="m13-header__nav">
-          <ul>
-            <li>Menu Item</li>
-            <li>Menu Item</li>
-            <li>Menu Item</li>
-          </ul>
-        </nav>
+  <body id="m13-page__home-id" class="m13-page m13-page__home">
+    <!-- Semantic HTML: nav / header / main / section / article / aside / address / footer -->
+    <nav id="m13-nav-id" class="m13-nav">
+      <div class="m13-container">
+        <img class="m13-nav__logo" src="/assets/img/logo/logo_nav.svg" alt="" />
+        <ul>
+          <li>Menu Item</li>
+          <li>Menu Item</li>
+          <li>Menu Item</li>
+        </ul>
+      </div>
+    </nav>
+    <header id="m13-header-id" class="m13-header">
+      <div class="m13-container">
+        <div class="m13-header__hero">Hero Banner</div>
       </div>
     </header>
     <main class="m13-main">
-      <section id="m13-banner" class="m13-main__banner">
+      <section id="m13-banner-id" class="m13-main__banner">
         <div class="m13-container">
           <h1>Headline</h1>
           <p>Copy text.</p>
@@ -118,7 +121,7 @@
           <p>Banner Image</p>
         </div>
       </section>
-      <section id="m13-content" class="m13-main__content">
+      <section id="m13-content-id" class="m13-main__content">
         <div class="m13-container">
           <h2>Title</h2>
           <p>Paragraph</p>
@@ -126,7 +129,7 @@
         </div>
       </section>
     </main>
-    <footer id="m13-footer" class="m13-footer">
+    <footer id="m13-footer-id" class="m13-footer">
       <div class="m13-container">
         <ul class="m13-footer__nav">
           <li>Menu Item</li>
@@ -140,7 +143,7 @@
             <li>Country</li>
             <li></li>
             <!-- TODO: ofuscate email[at]example[dot]com / phone? -->
-            <li id="m13-footer__email" class="m13-footer__email">
+            <li id="m13-footer__email-id" class="m13-footer__email">
               <a href="mailto:email@example.com">email@example.com</a>
             </li>
             <li class="m13-footer__phone">

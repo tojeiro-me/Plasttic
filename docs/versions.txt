@@ -1,6 +1,7 @@
 v1.4.0 - working
 - Sass folder structure redesigned
 - HTML/Sass/CSS boilerplate code
+    - <Head> tags reviewed and improved
 - Documentation 
 
 v1.3.1 Oct 24 2021
