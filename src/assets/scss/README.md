@@ -1,4 +1,4 @@
-# [Monkey13: WebSite Boilerplate](https://monkey13.studio)
+# [Monkey13: Web Boilerplate](https://monkey13.studio)
 
 ## Sass / CSS
 
