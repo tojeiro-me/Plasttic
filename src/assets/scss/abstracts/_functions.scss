@@ -42,9 +42,8 @@
 // REVIEW:
 
 // Source: https://github.com/sass-mq/_mq.scss
-// Change: px2rem
 
-/// Convert pixels to ems
+/// Convert pixels to rems
 ///
 /// @param {Number} $px - value to convert
 ///
@@ -54,14 +53,19 @@
 ///
 /// @returns {Number}
 
-@function px2em($px) {
+@function px2rem($px) {
   @if math.is-unitless($px) {
     @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels.";
     @return px2em($px * 1px);
   }
   // if $px is compatible with em units then return value unchanged
-  @if math.compatible($px, 1em) {
+  @if math.compatible($px, 1rem) {
     @return $px;
   }
-  @return math.div($px, 16px) * 1em;
+  @return math.div($px, 16px) * 1rem;
 }
+
+// REVIEW:
+
+// darken($color, 10%) > mix($color, black, 90%)
+// lighten($color, 10%) > mix($color, white, 90%)
