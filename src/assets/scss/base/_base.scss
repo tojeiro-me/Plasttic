@@ -6,15 +6,11 @@
 
 @use 'root' as *;
 
-
-// REVIEW: use custom properties set in _root.scss
-
 body {
   background: #fff;
   font-size: 1rem;
   font-family: 'Helvetica Neue', sans-serif;
   color: #000;
   line-height: 1;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
 }
-

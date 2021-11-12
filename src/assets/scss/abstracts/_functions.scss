@@ -14,33 +14,6 @@
   @return url($base + $type + $path);
 }
 
-/// REVIEW:
-/// less parameters? other variables?
-/// external URL?
-/// see $vars_url map in variables
-
-/// Returns URL to an image based on its path
-/// @param {String} $path - image path
-/// @param {String} $base - base URL - $vars_url
-/// @return {Url}
-/// @require $base-url
-
-// @function image($path, $base: $vars_url-assets) {
-//   @return asset($base, 'img/', $path);
-// }
-
-/// Returns URL to a font based on its path
-/// @param {String} $path - font path
-/// @param {String} $base - base URL - $vars_url
-/// @return {Url}
-/// @require $base-url
-
-// @function font($path, $base: $vars_url-assets) {
-//   @return asset($base, 'fonts/', $path);
-// }
-
-// REVIEW:
-
 // Source: https://github.com/sass-mq/_mq.scss
 
 /// Convert pixels to rems
@@ -64,8 +37,3 @@
   }
   @return math.div($px, 16px) * 1rem;
 }
-
-// REVIEW:
-
-// darken($color, 10%) > mix($color, black, 90%)
-// lighten($color, 10%) > mix($color, white, 90%)

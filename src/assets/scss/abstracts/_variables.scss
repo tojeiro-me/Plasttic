@@ -4,135 +4,20 @@
 // Note: in larger projects split in different files: colors, type, breakpoints
 // -----------------------------------------------------------------------------
 
-// REVIEW: use some Values in _reset.scss
-
-// REVIEW: mixins in _root.scss
-
 /// Fonts
 // -----------------------------------------------------------------------------
 
-// Generic font-faces with system fonts
-
-$font_system: (
-  'sans': (
-    Verdana,
-    Helvetica,
-    Arial,
-    sans-serif,
-  ),
-  'serif':
-    (
-      Georgia,
-      'Times New Roman',
-      Times,
-      serif,
-    ),
-  'mono':
-    (
-      'Courier New',
-      Courier,
-      Monaco,
-      monospace,
-    ),
-);
-
-/// REVIEW: is it useful?
-// @each $type, $family in $font_default {
-//   .m13_font-#{$type} {
-//     font-family: $family;
-//   }
-// }
-
-
 /// Type sizes
 // -----------------------------------------------------------------------------
-$vars_type: (
-  'body': 1.05rem,
-  'h1': 2.5rem,
-  'h2': 2rem,
-  'h3': 1.5rem,
-  'h4': 1.05rem,
-);
-
 
 /// Colors
 // -----------------------------------------------------------------------------
 
-/// REVIEW: use HSL
-$vars_color: (
-  'brand-blue': #40a9bf,
-  // hsl: 190/50/50
-  'brand-grey': #2d2d2d,
-  // hsl: 0/0/18
-);
-
-/// REVIEW:
-/**
-* From Kevin Powell 
-* https://github.com/kevin-powell/demo-starter-template-with-sass
-*/
-// Text utility class > _utilities.scss ????
-// https://css-tricks.com/building-a-scalable-css-architecture-with-bem-and-utility-classes/
-//
-// @each $color,
-// $shade in $colors {
-
-//   @each $prop,
-//   $value in $shade {
-//     .text-#{$color}-#{$prop} {
-//       color: var(--clr-#{$color}-#{$prop}) !important;
-//     }
-
-//     .bg-#{$color}-#{$prop} {
-//       background-color: var(--clr-#{$color}-#{$prop}) !important;
-//     }
-//   }
-// }
-
 // Breakpoints
 // -----------------------------------------------------------------------------
-$vars_brkp: (
-  'sm': 480px,
-  'md': 768px,
-  'xl': 1024px,
-  'xxl': 1280px,
-);
-// These are the most used breakpoints.
-// Use them as a starting point 
-// and adjust to the right ones for your layout.
 
 /// Layout
 // -----------------------------------------------------------------------------
 
-/// Container's maximum width
-$vars_ctn-maxWidth: 1200px;
-
 /// Utility Vars
 // -----------------------------------------------------------------------------
-
-/// Relative or absolute URL where all assets are served from
-$vars_url-cdn: ''; // External CDN: 'https://cdn.monkey13.studio/';
-$vars_url-assets: 'assets/';
-$vars_url: (
-  'images': $vars_url-cdn + $vars_url-assets + 'img/',
-  'fonts': $vars_url-cdn + $vars_url-assets + 'fonts',
-  'script': $vars_url-cdn + $vars_url-assets + 'js/',
-  'styles': $vars_url-cdn + $vars_url-assets + 'css/',
-);
-
-/// REVIEW: mixin(Fonts)? & functions with preload, preconnect, dns-prefetch, defer
-/// see Functions
-
-// @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-// <link rel="preconnect" href="https://unpkg.com/" crossorigin />
-// <link rel="dns-prefetch" href="https://unpkg.com/" />
-// <link
-//       rel="preload"
-//       href="assets/fonts/fontawesome.woff2?14663396"
-//       as="font" type="font/woff2"
-//       crossorigin
-// />
-
-// <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-// <link rel="stylesheet" href="assets/css/reset.min.css" />
-// <script src="https://unpkg.com/petite-vue" defer init></script>
