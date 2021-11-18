@@ -1,4 +1,4 @@
-![Web.Boilerplate by Monkey13](https://boilerplate.monkey13.studio/assets/img/logo/og_logo.png)
+![Web.Boilerplate by Monkey13](http://boilerplate.monkey13.studio/assets/img/logo/og_logo.png)
 
 # [Monkey13: Web Boilerplate](https://monkey13.studio)
 
