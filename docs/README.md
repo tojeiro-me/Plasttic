@@ -9,6 +9,9 @@ See links for more information on the different references.
 
 This is not intended to be a framework, but rather a starting point. It includes a starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 
+You will find documentation (developing as I go) in the `docs` folder, and some references in the comments.
+
+Thank you!
 Gonçalo Tojeiro | Monkey13 WebStudio
 
 ## Practices Guidelines
