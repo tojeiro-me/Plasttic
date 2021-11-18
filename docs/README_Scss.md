@@ -1,4 +1,4 @@
-# [Monkey13: Web Boilerplate](https://monkey13.studio)
+# [Monkey13: Web Boilerplate](http://boilerplate.monkey13.studio)
 
 ## Sass / CSS
 
@@ -186,8 +186,8 @@ transition: all 1s ease-out;
 
 (Prefix: file abbreviation)
 
-- vars_clr-prim-normal (file: _variables.scss)
-- clrs_prim-light (file: _colors.scss - separation of _variables.scss)
+- vars_clr-prim-normal (file: \_variables.scss)
+- clrs_prim-light (file: \_colors.scss - separation of \_variables.scss)
 - _(prefix-file/type-attribute/description-attribute/variant)_
 
 **3. Files: Sass Variables Prefixes (Abbreviations)**
