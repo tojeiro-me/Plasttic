@@ -1,4 +1,4 @@
-v1.4.0 - working
+v1.4.0
 - Sass folder structure redesigned
 - HTML/Sass/CSS boilerplate code
     - <Head> tags reviewed and improved
