@@ -6,7 +6,10 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "parcel src/index.html --dist-dir ./dev --no-cache",
+    "build": "parcel build src/index.html --dist-dir ./public  --no-source-maps --no-cache"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monkey13-ws/WebSite-Boilerplate.git"
@@ -17,8 +20,6 @@
     "url": "https://github.com/monkey13-ws/WebSite-Boilerplate/issues"
   },
   "homepage": "https://github.com/monkey13-ws/WebSite-Boilerplate#readme",
-  "devDependencies": {
-    "sass": "^1.43.4"
-  },
+  "devDependencies": {},
   "keywords": []
 }
