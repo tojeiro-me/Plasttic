@@ -6,7 +6,7 @@
 
 ### Sass Rapid Debugging
 
-(Debug Sass flies in the Terminal)
+(If not working with the Parcel Worlkflow)
 
 1. Install [Node.js](https://nodejs.org)
 2. Check if Node.js is installed: run `npm -v`
