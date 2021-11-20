@@ -27,6 +27,7 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 - Clean Code
 - Code Splitting
 - SASS Partials
+- Web Components
 - Commenting Conventions
 - CSS Reset
 - Style Guides
