@@ -1,3 +1,6 @@
+v1.4.1 Nov 19 2021
+- Bug Fixes
+
 v1.4.0 Nov 18 2021
 - Sass folder structure redesigned
 - HTML/Sass/CSS boilerplate code
