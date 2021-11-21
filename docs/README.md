@@ -19,17 +19,19 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 
 ---
 
+- UX/UI/CX
 - Semantic HTML
+- Clean Code
 - Namespaces
+- Commenting Conventions
 - CSS Units Usecases
 - Mobile First
 - DRY
-- Clean Code
 - Code Splitting
 - SASS Partials
 - Web Components
-- Commenting Conventions
 - CSS Reset
+- Atomic Design
 - Style Guides
 - Documentation
 - Performance
