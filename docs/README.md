@@ -1,6 +1,6 @@
 ![Web.Boilerplate by Monkey13](http://boilerplate.monkey13.studio/assets/img/logo/og_logo.png)
 
-# [Monkey13: Web Boilerplate](http://boilerplate.monkey13.studio)
+# [Web.Boilerplate](http://boilerplate.monkey13.studio)
 
 ## About
 
@@ -19,17 +19,20 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 
 ---
 
+- UX/UI/CX
 - Semantic HTML
+- Clean Code
 - Namespaces
+- Commenting Conventions
 - CSS Units Usecases
 - Mobile First
 - DRY
-- Clean Code
 - Code Splitting
 - SASS Partials
-- Commenting Conventions
+- Web Components
 - CSS Reset
-- Style Guides
+- Atomic Design
+- Style Guides / Design System
 - Documentation
 - Performance
 - SEO
@@ -132,7 +135,7 @@ https://youtu.be/mC93zsEsSrg
 
 ---
 
-- Check for `README.md` files on other folders
+- Check other `README.md` files
 
 ## Reference Material
 

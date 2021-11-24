@@ -1,12 +1,10 @@
-# [Monkey13: Web Boilerplate](http://boilerplate.monkey13.studio)
+# [Web.Boilerplate](http://boilerplate.monkey13.studio)
 
 ## Sass / CSS
 
 ---
 
 ### Sass Rapid Debugging
-
-(If not working with the Parcel Worlkflow)
 
 1. Install [Node.js](https://nodejs.org)
 2. Check if Node.js is installed: run `npm -v`

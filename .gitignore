@@ -6,6 +6,4 @@ node_modules
 
 dist
 dev
-pub
-
-.DS_Store
+public
