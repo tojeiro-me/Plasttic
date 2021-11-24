@@ -135,7 +135,7 @@ https://youtu.be/mC93zsEsSrg
 
 ---
 
-- Check for `README.md` files on other folders
+- Check other `README.md` files
 
 ## Reference Material
 
