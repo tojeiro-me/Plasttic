@@ -33,6 +33,7 @@ Gonçalo Tojeiro | Monkey13 WebStudio
 - CSS Reset
 - Atomic Design
 - Style Guides / Design System
+- Accessability
 - Documentation
 - Performance
 - SEO
