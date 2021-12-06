@@ -17,8 +17,6 @@
     "url": "https://github.com/monkey13-ws/WebSite-Boilerplate/issues"
   },
   "homepage": "https://github.com/monkey13-ws/WebSite-Boilerplate#readme",
-  "devDependencies": {
-    "sass": "^1.43.4"
-  },
+  "devDependencies": {},
   "keywords": []
 }

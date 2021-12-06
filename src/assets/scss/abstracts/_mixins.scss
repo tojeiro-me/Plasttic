@@ -2,7 +2,7 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
-@use './base' as *;
+@use '../base' as *;
 
 /**
 * Event wrapper
@@ -91,33 +91,3 @@
 // .no-flexbox .my-element {
 //   display: table;
 // }
-
-// For Media Queries based on Breakpoints map
-// -----------------------------------------------------------------------------
-@mixin media-query($brkpoint) {
-  $size: map-get($vars_brkp, $brkpoint);
-  @if ($size != null) {
-    @media screen and (min-width: $size) {
-      @content;
-  } @else {
-    @warn "Breakpoint #{$vars_brkp);} wasn't found in $breakpoints.";
-  }
-}
-
-// in Variables:
-
-// $vars_brkp: (
-//   'sm': 360px,
-//   'md': 768px,
-//   'xl': 1024px,
-// );
-
-// Use:
-
-// body {
-//   font-size: 2rem;
-//   @include media-query(sm) {
-//     font-size: 1rem;
-//   }
-// }
-
