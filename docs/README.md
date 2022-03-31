@@ -151,7 +151,7 @@ https://youtu.be/mC93zsEsSrg
 ### VS Code
 
 - [VS Code](https://code.visualstudio.com/)
-- _Extensions: Auto Close Tag, Auto Rename Tag, CSS Peek, File Utils, GistPad, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur_
+- _Extensions: Auto Close Tag, Auto Rename Tag, CSS Peek, ESLint, File Utils, GistPad, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur_
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 

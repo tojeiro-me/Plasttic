@@ -1,3 +1,9 @@
+- VSCode Plugins: ESLint, Compare Folders
+
+-------------------------------------------------
+PREPARING FOR v2 -- Atomic Design Implementation
+-------------------------------------------------
+
 v1.4.2
 - Website info files and icons review
 
