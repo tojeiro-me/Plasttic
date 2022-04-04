@@ -272,5 +272,5 @@ _(sizes in pixels / worldwide use in %)_
 - Most used screen resolutions: 1920x1080, 1366x768, 360x640, 414x896
 - Screen resolution market share:
 - Desktop sizes: 1024x768 (3%) to 1920x1080 (22%) - 1366x768 (20%)
-- Tablet Sizes: 962x601 (4%) to 1280x800 (7%) - 1024x768 (40%)
+- Tablet/Laptop Sizes: 962x601 (4%) to 1280x800 (7%) - 1024x768 (40%)
 - Mobile: 360x640 (9%) to 414x896 (7%)
