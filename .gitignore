@@ -3,7 +3,7 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 node_modules/
 .parcel-cache
-.vscode
+.vscode/
 **/.DS_Store
 
 dist
