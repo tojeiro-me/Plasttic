@@ -4,6 +4,7 @@
 node_modules
 .parcel-cache
 .vscode
+.DS_Store
 
 dist
 dev
