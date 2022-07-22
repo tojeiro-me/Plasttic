@@ -8,3 +8,5 @@ node_modules/
 dev/
 dist/
 public/
+
+config.codekit3
