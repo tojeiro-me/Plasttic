@@ -4,7 +4,7 @@
 
 ---
 -------------------------------------------------
-WORKING ON v2 -- Atomic Design Implementation
+:loudspeaker: WORKING ON v2 -- Atomic Design Implementation
 -------------------------------------------------
 ---
 
