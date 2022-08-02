@@ -4,7 +4,7 @@
 
 ---
 -------------------------------------------------
-:loudspeaker:  Working on v2 -- Atomic Design Implementation
+:loudspeaker:  Working on v2 -- Atomic Design Implementation with Sass
 -------------------------------------------------
 ---
 
