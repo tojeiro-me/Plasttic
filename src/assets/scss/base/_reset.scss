@@ -39,14 +39,16 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.45; // Plasttic: Replace 1.5
+  // Plasttic: Replace 1.5
+  line-height: 1.45;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  line-height: 1.2; // Plasttic: Set best line height for headings
+  // Plasttic: Set best line height for headings
+  line-height: 1.2;
   margin-bottom: 0.5em;
 }
 
