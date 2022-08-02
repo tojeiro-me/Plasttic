@@ -2,6 +2,12 @@
 
 # [Web.Boilerplate](http://boilerplate.monkey13.studio)
 
+---
+-------------------------------------------------
+WORKING ON v2 -- Atomic Design Implementation
+-------------------------------------------------
+---
+
 ## About
 
 ---
