@@ -1,4 +1,5 @@
-- VSCode Plugins: ESLint, Compare Folders
+- VSCode Extensions: see .vscode folder
+- VSCode Project settings.json: see .vscode folder
 
 -------------------------------------------------
 PREPARING FOR v2 -- Atomic Design Implementation

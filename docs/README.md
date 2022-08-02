@@ -2,6 +2,12 @@
 
 # [Web.Boilerplate](http://boilerplate.monkey13.studio)
 
+---
+-------------------------------------------------
+:loudspeaker:  Working on v2 -- Atomic Design Implementation with Sass
+-------------------------------------------------
+---
+
 ## About
 
 ---
