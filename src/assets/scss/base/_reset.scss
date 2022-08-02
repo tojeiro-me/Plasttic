@@ -1,6 +1,9 @@
 /**
 * A Modern CSS Reset (Jan 18 2021)
+* https://piccalil.li/blog/a-modern-css-reset/
 * https://github.com/andy-piccalilli/modern-css-reset
+*
+* Changes to the original are commented using "// Plasttic: Comment"
 */
 
 /* Box sizing rules */
@@ -11,17 +14,10 @@
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+// Plasttic: Remove margin and padding globally
+* {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -36,8 +32,13 @@ html:focus-within {
 }
 
 /* Set core body defaults */
+// Plasttic: Set document height
+html,
 body {
-  min-height: 100vh;
+  height: 100%;
+}
+
+body {
   text-rendering: optimizeSpeed;
   // Plasttic: Replace 1.5
   line-height: 1.45;
@@ -58,10 +59,13 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
+// Plasttic: Add SVG
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
-  height: auto; // M13
+  // Plasttic: Set height
+  height: auto;
   display: block;
 }
 
