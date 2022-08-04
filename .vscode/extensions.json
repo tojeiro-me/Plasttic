@@ -17,6 +17,8 @@
     "esbenp.prettier-vscode",
     "wallabyjs.quokka-vscode",
     "vue.volar",
-    "sdras.vue-vscode-snippets"
+    "sdras.vue-vscode-snippets",
+    "humao.rest-client",
+    "rangav.vscode-thunder-client"
   ]
 }
