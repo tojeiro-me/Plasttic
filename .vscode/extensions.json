@@ -19,6 +19,7 @@
     "vue.volar",
     "sdras.vue-vscode-snippets",
     "humao.rest-client",
-    "rangav.vscode-thunder-client"
+    "rangav.vscode-thunder-client",
+    "CelianRiboulet.webvalidator"
   ]
 }
