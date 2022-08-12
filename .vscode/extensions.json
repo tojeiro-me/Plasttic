@@ -20,6 +20,7 @@
     "sdras.vue-vscode-snippets",
     "humao.rest-client",
     "rangav.vscode-thunder-client",
-    "CelianRiboulet.webvalidator"
+    "celianriboulet.webvalidator",
+    "syler.sass-indented"
   ]
 }
