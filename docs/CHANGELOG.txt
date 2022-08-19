@@ -5,6 +5,12 @@
 PREPARING FOR v2 -- Atomic Design Implementation
 -------------------------------------------------
 
+v1.4.3
+- New name: Plasttic
+- Google Analytics script update
+- Social Media Info update
+- New global prefix
+
 v1.4.2
 - Website info files and icons review
 
@@ -30,4 +36,4 @@ v1.2.0 Sept 01 2021
 v1.1.0 Aug 25 2021
 
 v1.0.0 Aug 21 2021
-- Start with HTML5 Boilerplate
+- Start with basic HTML5 Boilerplate

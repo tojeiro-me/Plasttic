@@ -16,7 +16,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp -->
     -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Welcome - Plasttic: Web Boilerplate</title>
+    <title>Boilerplate, Framework and Resources | Plasttic</title>
 
     <!-- TODO: No Crawling on Dev pages and others -->
     <!-- 
@@ -27,7 +27,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp -->
     <!-- TODO: Website description  -->
     <meta
       name="description"
-      content="Plasttic is a front-end template based on HTML5, CSS, Sass, and JavaScript. Built upon best practices and guidelines."
+      content="Plasttic is a HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub."
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,7 +48,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp -->
     <meta property="og:url" content="https://plasttic.dev/" />
     <meta
       property="og:description"
-      content="Plasttic is a front-end template based on HTML5, CSS, Sass, and JavaScript. Built upon best practices and guidelines."
+      content="Plasttic is a HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub."
     />
     <meta
       name="og:image"
@@ -98,75 +98,78 @@ https://www.w3schools.com/tags/ref_language_codes.asp -->
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- TODO: Vendor JS init/defer/async -->
+    <!-- TODO: JS init/defer/async -->
     <!--
-    <script src="https://unpkg.com/petite-vue" defer init></script>
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="https://unpkg.com/petite-vue" defer></script>
+    <script src="assets/js/index.js" async></script>
 -->
 
     <!-- TODO: Website JS init/defer/async -->
     <script src="assets/js/site/_global.js" defer></script>
     <!-- <script src="assets/js/site/animation.min.js" defer></script> -->
   </head>
-  <body id="m13-page__home-id" class="m13-page m13-page__home">
+  <body id="pttc-id-page" class="pttc-page pttc-page__home">
     <!-- Semantic HTML: nav / header / main / section / article / aside / address / footer -->
-    <nav id="m13-nav-id" class="m13-nav">
-      <div class="m13-container">
-        <img class="m13-nav__logo" src="" alt="Logo" />
-        <ul>
-          <li>Menu Item</li>
-          <li>Menu Item</li>
-          <li>Menu Item</li>
-        </ul>
-      </div>
-    </nav>
-    <header id="m13-header-id" class="m13-header">
-      <div class="m13-container">
-        <div class="m13-header__hero">Hero Banner</div>
-      </div>
-    </header>
-    <main class="m13-main">
-      <section id="m13-banner-id" class="m13-main__banner">
-        <div class="m13-container">
-          <h1>Headline</h1>
-          <p>Copy text.</p>
-          <p>Contact button</p>
-          <p>Banner Image</p>
-        </div>
-      </section>
-      <section id="m13-content-id" class="m13-main__content">
-        <div class="m13-container">
-          <h2>Title</h2>
-          <p>Paragraph</p>
-          <p>Illustration</p>
-        </div>
-      </section>
-    </main>
-    <footer id="m13-footer-id" class="m13-footer">
-      <div class="m13-container">
-        <ul class="m13-footer__nav">
-          <li>Menu Item</li>
-          <li>Menu Item</li>
-          <li>Menu Item</li>
-        </ul>
-        <address class="m13-footer__address">
+    <div class="pttc-wrapper">
+      <nav id="pttc-nav-id" class="pttc-nav">
+        <div class="pttc-container">
+          <img class="pttc-nav__logo" src="" alt="Logo" />
           <ul>
-            <li>Street, Apartment</li>
-            <li>Postal Code, City</li>
-            <li>Country</li>
-            <li></li>
-            <!-- TODO: ofuscate email[at]example[dot]com / phone? -->
-            <li id="m13-footer__email-id" class="m13-footer__email">
-              <a href="mailto:email@example.com">email@example.com</a>
-            </li>
-            <li class="m13-footer__phone">
-              <a href="tel:+351123456789">(+351) 123 456 789</a>
-            </li>
+            <li>Menu Item</li>
+            <li>Menu Item</li>
+            <li>Menu Item</li>
           </ul>
-        </address>
-        <div class="m13-footer__social">Social Media</div>
-        <div class="m13-footer__copy">Copyright</div>
-      </div>
-    </footer>
+        </div>
+      </nav>
+      <header id="pttc-id-header" class="pttc-header">
+        <div class="pttc-container">
+          <div class="pttc-header__hero">Hero Banner</div>
+        </div>
+      </header>
+      <main class="pttc-main">
+        <section id="pttc-id-banner" class="pttc-main__banner">
+          <div class="pttc-container">
+            <h1>Headline</h1>
+            <p>Copy text.</p>
+            <p>Contact button</p>
+            <p>Banner Image</p>
+          </div>
+        </section>
+        <section id="pttc-id-content" class="pttc-main__content">
+          <div class="pttc-container">
+            <h2>Title</h2>
+            <p>Paragraph</p>
+            <p>Illustration</p>
+          </div>
+        </section>
+      </main>
+      <footer id="pttc-footer-id" class="pttc-footer">
+        <div class="pttc-container">
+          <ul class="pttc-footer__nav">
+            <li>Menu Item</li>
+            <li>Menu Item</li>
+            <li>Menu Item</li>
+          </ul>
+          <address class="pttc-footer__address">
+            <ul>
+              <li>Street, Apartment</li>
+              <li>Postal Code, City</li>
+              <li>Country</li>
+              <li></li>
+              <!-- TODO: ofuscate email[at]example[dot]com / phone? -->
+              <li id="pttc-footer__email-id" class="pttc-footer__email">
+                <a href="mailto:email@example.com">email@example.com</a>
+              </li>
+              <li class="pttc-footer__phone">
+                <a href="tel:+351123456789">(+351) 123 456 789</a>
+              </li>
+            </ul>
+          </address>
+          <div class="pttc-footer__social">Social Media</div>
+          <div class="pttc-footer__copy">Copyright</div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
