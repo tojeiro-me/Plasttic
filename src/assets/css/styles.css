@@ -20,5 +20,18 @@
 */
 
 .pttc-access__jump-content {
-  display: none;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.pttc-access__jump-content:active,
+.pttc-access__jump-content:focus {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
 }
