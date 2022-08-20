@@ -9,7 +9,10 @@ v1.4.3
 - New name: Plasttic
 - Google Analytics script update
 - Social Media Info update
-- New global prefix
+- New global prefix (pttc)
+- CSS reset and print files outside Sass folders for those who don't want to use Sass
+- reset.css and print.css update
+- Accessibility "skip to content" hidden link
 
 v1.4.2
 - Website info files and icons review

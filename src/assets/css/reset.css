@@ -3,7 +3,7 @@
 * https://piccalil.li/blog/a-modern-css-reset/
 * https://github.com/andy-piccalilli/modern-css-reset
 *
-* Changes to the original are commented using "// Plasttic: Comment"
+* Changes to the original are commented using "Plasttic: Comment"
 */
 
 /* Box sizing rules */
@@ -13,8 +13,7 @@
   box-sizing: border-box;
 }
 
-/* Remove default margin */
-// Plasttic: Remove margin and padding globally
+/* Plasttic: Remove margin and padding globally */
 * {
   margin: 0;
   padding: 0;
@@ -32,15 +31,14 @@ html:focus-within {
 }
 
 /* Set core body defaults */
-// Plasttic: Set document height
 html,
 body {
-  height: 100%;
+  height: 100%; /* Plasttic: Set document height */
 }
 
 body {
   text-rendering: optimizeSpeed;
-  // Plasttic: Replace 1.5
+  /* Plasttic: Replace 1.5 */
   line-height: 1.45;
 }
 
@@ -48,7 +46,7 @@ h1,
 h2,
 h3,
 h4 {
-  // Plasttic: Set best line height for headings
+  /* Plasttic: Set best line height for headings */
   line-height: 1.2;
   margin-bottom: 0.5em;
 }
@@ -59,12 +57,12 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-// Plasttic: Add SVG
 img,
 picture,
 svg {
+  /* Plasttic: Add SVG */
   max-width: 100%;
-  // Plasttic: Set height
+  /* Plasttic: Set height */
   height: auto;
   display: block;
 }
@@ -89,5 +87,12 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  /* Plasttic: hidden sections until print 
+  * related to print.css
+  */
+  .pttc-print-only {
+    display: none !important;
   }
 }
