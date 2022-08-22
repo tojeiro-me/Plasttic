@@ -55,7 +55,7 @@
     content: ' (' attr(href) ') ';
   }
 
-  /* don't print anchor links */
+  /* do not print anchor links */
   a[href^='#']:after {
     content: '';
   }
