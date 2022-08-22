@@ -38,8 +38,9 @@
     margin-top: 25px;
   }
 
-  aside h2 {
-    font-size: 18pt;
+  h2,
+  h3 {
+    break-after: avoid;
   }
 
   a:link,
@@ -53,15 +54,20 @@
     content: ' (' attr(href) ') ';
   }
 
+  a[href^='#']:after {
+    content: '';
+  }
+
   /* TODO: exclude internal links from the style above
   a[href^="http"]:not([href*="domain.com"]):after {
     content: " (" attr(href) ")";
   } */
 
   img {
-    max-width: 100%;
+    max-width: 100% !important;
     float: left;
     margin: 1.5em 1.5em 1.5em 0;
+    break-inside: avoid;
   }
 
   hr {
@@ -75,6 +81,18 @@
   }
 
   /**
+  * Specific sections 
+  * not needed to print
+  * document
+  */
+
+  nav,
+  aside,
+  footer {
+    display: none !important;
+  }
+
+  /**
   * Helper classes: 
   * use in sections
   * that are not to print
@@ -82,23 +100,12 @@
   */
   /* TODO: Control printed sections */
 
-  .ptt-print-no {
+  .print-no {
     display: none !important;
   }
 
-  .ptt-print-only {
+  .print-only {
     /* hidden sections until print */
     display: unset !important;
-  }
-
-  /**
-  * Specific sections 
-  * not needed to print
-  * document
-  */
-
-  .ptt-nav,
-  .ptt-footer {
-    display: none !important;
   }
 }
