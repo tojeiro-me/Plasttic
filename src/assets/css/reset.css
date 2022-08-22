@@ -94,7 +94,7 @@ select {
   /* Plasttic: hidden sections until print 
   * related to print.css
   */
-  .pttc-print-only {
+  .ptt-print-only {
     display: none !important;
   }
 }

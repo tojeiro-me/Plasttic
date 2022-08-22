@@ -82,11 +82,11 @@
   */
   /* TODO: Control printed sections */
 
-  .pttc-print-no {
+  .ptt-print-no {
     display: none !important;
   }
 
-  .pttc-print-only {
+  .ptt-print-only {
     /* hidden sections until print */
     display: unset !important;
   }
@@ -97,8 +97,8 @@
   * document
   */
 
-  .pttc-nav,
-  .pttc-footer {
+  .ptt-nav,
+  .ptt-footer {
     display: none !important;
   }
 }

@@ -19,17 +19,17 @@
 * More: https://www.accessguide.io/guide/skip-link
 */
 
-.pttc-access__jump-content {
+.ptt-access__jump-content {
   position: absolute;
-  left: -10000px;
+  transform: translateY(-120%);
   top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden;
 }
 
-.pttc-access__jump-content:active,
-.pttc-access__jump-content:focus {
+.ptt-access__jump-content:active,
+.ptt-access__jump-content:focus {
   position: relative;
   width: auto;
   height: auto;
