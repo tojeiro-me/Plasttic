@@ -22,12 +22,12 @@
     "vscode": ".vscode"
   },
   "files": [
-    "CHANGELOG.txt",
-    "README.md",
+    "docs/CHANGELOG.txt",
+    "docsREADME.md",
+    ".vscode/extensions.json",
+    ".gitattributes",
     "LICENSE",
-    "package.json",
-    "extensions.json",
-    ".gitattributes"
+    "package.json"
   ],
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
   "scripts": {},
