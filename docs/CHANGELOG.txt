@@ -13,6 +13,7 @@ v1.4.3
 - CSS reset and print files outside Sass folders for those who don't want to use Sass
 - reset.css and print.css update
 - Accessibility "skip to content" hidden link
+- package.json updated
 
 v1.4.2
 - Website info files and icons review
