@@ -2,10 +2,12 @@
   "name": "Plasttic",
   "version": "1.4.3",
   "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {},
+  "keywords": [
+    "plasttic",
+    "template",
+    "boilerplate",
+    "front-end"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/monkey13-ws/Plasttic.git"
@@ -15,7 +17,19 @@
   "bugs": {
     "url": "https://github.com/monkey13-ws/Plasttic/issues"
   },
+  "directories": {
+    "doc": "docs",
+    "vscode": ".vscode"
+  },
+  "files": [
+    "CHANGELOG.txt",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "extensions.json",
+    ".gitattributes"
+  ],
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
-  "devDependencies": {},
-  "keywords": []
+  "scripts": {},
+  "devDependencies": {}
 }
