@@ -42,8 +42,8 @@
 
 /* ==========================================================================
    Theme / Page specific properties
+   Change custom properties or create new style rules
    ========================================================================== */
 
-.ptt-page__home {
-  /* change custom properties */
+.ptt-page__other.page {
 }
