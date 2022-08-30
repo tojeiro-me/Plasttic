@@ -52,5 +52,6 @@
    Change custom properties or create new style rules
    ========================================================================== */
 
-.ptt-page__other.page {
+.ptt-page__other-page {
+  --clr-primary: hsl(0, 86, 38); /* example */
 }
