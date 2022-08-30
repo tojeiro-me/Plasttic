@@ -1,8 +1,5 @@
-![Web.Boilerplate by Monkey13](http://boilerplate.monkey13.studio/assets/img/logo/og_logo.png)
+# Plasttic
 
-# [Web.Boilerplate](http://boilerplate.monkey13.studio)
-
----
 -------------------------------------------------
 :loudspeaker:  Working on v2 -- Atomic Design Implementation with Sass
 -------------------------------------------------
@@ -19,7 +16,7 @@ This is not intended to be a framework, but rather a starting point. It includes
 You will find documentation (developing as I go) in the `docs` folder, and some references in the comments.
 
 Thank you!
-Gonçalo Tojeiro | Monkey13 WebStudio
+
 
 ## Practices Guidelines
 

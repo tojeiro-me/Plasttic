@@ -1,22 +1,35 @@
 {
-  "name": "web-boilerplate",
-  "version": "1.4.1",
-  "description": "Web Boilerplate by Monkey13",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {},
+  "name": "Plasttic",
+  "version": "1.4.3",
+  "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
+  "keywords": [
+    "plasttic",
+    "template",
+    "boilerplate",
+    "front-end"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monkey13-ws/WebSite-Boilerplate.git"
+    "url": "git+https://github.com/monkey13-ws/Plasttic.git"
   },
-  "author": "Monkey13 WebStudio",
+  "author": "Monkey13",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monkey13-ws/WebSite-Boilerplate/issues"
+    "url": "https://github.com/monkey13-ws/Plasttic/issues"
   },
-  "homepage": "https://github.com/monkey13-ws/WebSite-Boilerplate#readme",
-  "devDependencies": {},
-  "keywords": []
+  "directories": {
+    "doc": "docs",
+    "vscode": ".vscode"
+  },
+  "files": [
+    "docs/CHANGELOG.txt",
+    "docsREADME.md",
+    ".vscode/extensions.json",
+    ".gitattributes",
+    "LICENSE",
+    "package.json"
+  ],
+  "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
+  "scripts": {},
+  "devDependencies": {}
 }
