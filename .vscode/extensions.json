@@ -21,6 +21,7 @@
     "humao.rest-client",
     "rangav.vscode-thunder-client",
     "celianriboulet.webvalidator",
-    "syler.sass-indented"
+    "syler.sass-indented",
+    "withfig.fig"
   ]
 }
