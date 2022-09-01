@@ -1,13 +1,25 @@
 /**
 * styles.css
-* 
-* Global styles
 *
 * reset.css sets default styling
+*
+*
+* INDEX
+*
+* GLOBAL...............Globally-available properties.
+*
+* ACCESSiBILITY
+* Hidden Link..........Jump to Content.
+*
+* MAIN
+* 
+*
+* PAGES
+* Text.................Text helpers.
 */
 
 /* ==========================================================================
-   Global Properties
+   Global
    ========================================================================== */
 
 :root {
@@ -18,7 +30,7 @@
    ========================================================================== */
 
 /** 
-* Jump to Content hidden link
+* Hidden Link: Jump to Content
 * allows screen reader and keyboard users 
 * to skip navigation and banner
 * and go to main content
@@ -44,13 +56,17 @@
 }
 
 /* ==========================================================================
-   Main Grid
+   MAIN
    ========================================================================== */
 
 /* ==========================================================================
-   Theme / Page specific properties
-   Change custom properties or create new style rules
+   PAGES
    ========================================================================== */
+
+/** 
+* Page specific properties
+* Change custom properties or create new style rules
+*/
 
 .ptt-page__other-page {
   --clr-primary: hsl(0, 86, 38); /* example */
