@@ -28,6 +28,10 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta name="robots" content="nofollow">
     <meta name="googlebot" content="noindex">
     -->
+    <meta
+      name="robots"
+      content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    />
 
     <!-- TODO: Website description  -->
     <meta
@@ -40,16 +44,10 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <!-- TODO: Website URL -->
     <link rel="canonical" href="https://plasttic.dev/" />
 
-    <!-- TODO: Preconnect to external assets domains -->
-    <!--
-    <link rel="preconnect" href="https://unpkg.com/" crossorigin />
-    <link rel="dns-prefetch" href="https://unpkg.com/" />
-    -->
-
     <!-- TODO: Open Graph https://ogp.me -->
     <!-- https://developers.facebook.com/tools/debug/ -->
     <meta property="og:title" content="Plasttic: Web Boilerplate" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="homepage" />
     <meta property="og:url" content="https://plasttic.dev/" />
     <meta
       property="og:description"
@@ -63,8 +61,10 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta property="og:image:height" content="630" />
 
     <!-- TODO: Twitter Cards -->
-    <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards -->
-    <!-- https://cards-dev.twitter.com/validator -->
+    <!-- 
+    https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
+    https://cards-dev.twitter.com/validator 
+    -->
     <meta
       name="twitter:image"
       content="https://plasttic.dev/assets/img/logo/og-logo-1200×630.png"
@@ -77,12 +77,15 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- TODO: Icons -->
-    <!-- https://realfavicongenerator.net/ -->
-    <!-- https://css-tricks.com/svg-favicons-in-action/ -->
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- 
+    https://realfavicongenerator.net/
+    -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- TODO: Theme-color -->
+    <meta name="theme-color" content="#000" />
 
     <!-- TODO: Fonts -->
     <!-- 1. Local hosted (preload for @font-face) -->
@@ -101,6 +104,12 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+    -->
+
+    <!-- TODO: Preconnect to CDNs: JS, CSS -->
+    <!--
+    <link rel="preconnect" href="https://unpkg.com/" crossorigin />
+    <link rel="dns-prefetch" href="https://unpkg.com/" />
     -->
 
     <link rel="stylesheet" href="assets/css/reset.css" />
