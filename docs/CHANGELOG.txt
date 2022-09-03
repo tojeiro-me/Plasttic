@@ -14,6 +14,7 @@ v1.4.3
 - reset.css and print.css update
 - Accessibility "skip to content" hidden link
 - package.json updated
+- robots.txt and sitemap.xml update
 
 v1.4.2
 - Website info files and icons review
