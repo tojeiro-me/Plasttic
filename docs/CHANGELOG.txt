@@ -16,6 +16,7 @@ v1.4.3
 - package.json updated
 - robots.txt and sitemap.xml update
 - Added theme-color meta tag
+- .htaccess update
 
 v1.4.2
 - Website info files and icons review
