@@ -1,5 +1,6 @@
 // Project specific VSCode settings
 {
+  "cSpell.words": ["googlebot", "tojeiro"]
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "editor.formatOnSave": true
 }
