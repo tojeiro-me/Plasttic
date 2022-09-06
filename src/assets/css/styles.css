@@ -1,197 +1,73 @@
 /**
-* A Modern CSS Reset (Jan 18 2021)
-* https://github.com/andy-piccalilli/modern-css-reset
+* styles.css
+*
+* reset.css sets default styling
+*
+*
+* INDEX
+*
+* GLOBAL...............Globally-available properties.
+*
+* ACCESSiBILITY
+* Hidden Link..........Jump to Content.
+*
+* MAIN
+* 
+*
+* PAGES
+* Text.................Text helpers.
 */
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
+/* ==========================================================================
+   Global
+   ========================================================================== */
+
+:root {
 }
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+/** 
+* Hidden Link: Jump to Content
+* allows screen reader and keyboard users 
+* to skip navigation and banner
+* and go to main content
+*
+* More: https://www.accessguide.io/guide/skip-link
+*/
+
+.ptt-access__jump-content {
+  position: absolute;
+  transform: translateY(-120%);
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
-  list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.45;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  line-height: 1.2;
-  margin-bottom: 0.5em;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
+.ptt-access__jump-content:active,
+.ptt-access__jump-content:focus {
+  position: relative;
+  width: auto;
   height: auto;
-  display: block;
+  left: auto;
 }
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+/* ==========================================================================
+   MAIN
+   ========================================================================== */
 
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
+/* ==========================================================================
+   PAGES
+   ========================================================================== */
 
-  *,
-*::before,
-*::after {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../assets/fonts/roboto-regular.woff2") format("woff2");
-  font-display: swap;
-  font-weight: normal;
-  font-style: normal;
-}
-body {
-  background: #fff;
-  font-size: 1rem;
-  font-family: "Helvetica Neue", sans-serif;
-  color: #000;
-  line-height: 1;
-  letter-spacing: -0.5px;
-}
-
-/**
-* Event wrapper
-* @author Harry Roberts
-* @param {Bool} $self [false] - Whether or not to include current selector
-* @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
-* see https://css-tricks.com/snippets/sass/simplifying-contexts-events/
+/** 
+* Page specific properties
+* Change custom properties or create new style rules
 */
-/**
-* Make a context based selector a little more friendly
-* @author Kitty Giraudel
-* @param {String} $context
-*/
-@-webkit-keyframes name {}
-@keyframes name {}
-@media print {
-  @page {
-    margin: 0.5cm;
-  }
-  body {
-    color: #000;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 12pt;
-    font-weight: normal;
-    line-height: 1.3;
-    background: none;
-  }
 
-  h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    font-weight: bold;
-  }
-
-  h1 {
-    font-size: 24pt;
-  }
-
-  h2 {
-    font-size: 14pt;
-    margin-top: 25px;
-  }
-
-  aside h2 {
-    font-size: 18pt;
-  }
-
-  a:link,
-a:visited {
-    color: #000;
-    text-decoration: underline;
-  }
-
-  /* print URLs after link text (from: simplebits.com) */
-  a:link::after,
-a:visited::after {
-    content: " (" attr(href) ") ";
-  }
-
-  img {
-    max-width: 100%;
-    float: left;
-    margin: 1.5em 1.5em 1.5em 0;
-  }
-
-  hr {
-    width: 100%;
-    height: 1px;
-  }
-
-  blockquote {
-    font-style: italic;
-    font-size: 90%;
-  }
-
-  .m13-noprint {
-    display: none;
-  }
-
-  .m13-printonly {
-    display: unset !important;
-  }
-
-  .m13-header nav,
-.m13-footer footer {
-    display: none;
-  }
+.ptt-page__other-page {
+  --clr-primary: hsl(0, 86, 38); /* example */
 }

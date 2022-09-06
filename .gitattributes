@@ -10,11 +10,30 @@
 # Note that binary is a macro for -text -diff.
 ######################################################################
 
+# More info: https://git-scm.com/docs/gitattributes
+
 # Auto detect
 ##   Handle line endings automatically for files detected as
 ##   text and leave all files detected as binary untouched.
 ##   This will handle all files NOT defined below.
 *                 text=auto
+
+# LF files
+##    Normalize line endings to LF 
+##    for all text files checked into your repo
+##    and prevent conversion to CRLF when they are checked out
+
+.*              text eol=lf
+*.css           text eol=lf
+*.html          text eol=lf
+*.js            text eol=lf
+*.jsx           text eol=lf
+*.json          text eol=lf
+*.md            text eol=lf
+*.mdx           text eol=lf
+*.sh            text eol=lf
+*.txt           text eol=lf
+*.xml           text eol=lf
 
 # Source code
 *.bash            text eol=lf

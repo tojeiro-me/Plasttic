@@ -1,19 +1,23 @@
 {
-  "short_name": "Monkey13",
-  "name": "Monkey13 | Web Boilerplate",
+  "short_name": "Plasttic",
+  "name": "Plasttic | Web Boilerplate",
   "icons": [
     {
-      "src": "assets/img/logo/icon-192.png",
+      "src": "/icon-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icon-192_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/img/logo/icon-512.png",
+      "src": "/icon-512_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
   "display": "browser",
   "background_color": "#ffffff",
   "theme_color": "#000000"
