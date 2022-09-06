@@ -365,17 +365,8 @@ AddDefaultCharset utf-8
 
     RewriteEngine On
 
-    # (1)
-    RewriteCond %{HTTPS} =on
-    RewriteRule ^ - [E=PROTO:https]
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^ - [E=PROTO:http]
-
-    # (2)
-    # RewriteCond %{HTTPS} !=on
-
     RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+    RewriteRule (.*) https://%1%{REQUEST_URI} [R=301,L]
 
 </IfModule>
 
