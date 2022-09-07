@@ -1,8 +1,9 @@
 # Plasttic
 
--------------------------------------------------
-:loudspeaker:  Working on v2 -- Atomic Design Implementation with Sass
--------------------------------------------------
+---
+
+## :loudspeaker: Working on v2 -- Atomic Design Implementation with Sass
+
 ---
 
 ## About
@@ -16,7 +17,6 @@ This is not intended to be a framework, but rather a starting point. It includes
 You will find documentation (developing as I go) in the `docs` folder, and some references in the comments.
 
 Thank you!
-
 
 ## Practices Guidelines
 
@@ -139,6 +139,8 @@ https://youtu.be/mC93zsEsSrg
 
 ---
 
+- VSCode Extensions: see .vscode folder
+- VSCode Project settings.json: see .vscode folder
 - Check other `README.md` files
 
 ## Reference Material
