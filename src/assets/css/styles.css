@@ -1,10 +1,11 @@
 /**
 * styles.css
 *
-* reset.css sets default styling
+* reset.css sets default styling across browsers
 *
 *
 * INDEX
+* -----
 *
 * GLOBAL...............Globally-available properties.
 *
@@ -23,6 +24,37 @@
    ========================================================================== */
 
 :root {
+  /**
+   * COLORS
+   * Shade number classification light to dark
+   * 500 is the main color; shades from 100-900
+   * Optional: create middle values like 650
+   * Primary and Secondary usually are the brand colors
+   * Theme colors can be changed on page specific styles
+   */
+
+  /* Primary */
+
+  /* Secondary */
+
+  /* Theme */
+
+  /* Ambient */
+
+  /* Semantic */
+  --clr-error-500: hsl(0, 86%, 38%);
+  --clr-success-500: hsl(121, 83%, 33%);
+
+  /* Neutral */
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(0, 0%, 87.5%);
+  --clr-neutral-300: hsl(0, 0%, 75%);
+  --clr-neutral-400: hsl(0, 0%, 62.5%);
+  --clr-neutral-500: hsl(0, 0%, 50%);
+  --clr-neutral-600: hsl(0, 0%, 37.5%);
+  --clr-neutral-700: hsl(0, 0%, 25%);
+  --clr-neutral-800: hsl(0, 0%, 12.5%);
+  --clr-neutral-900: hsl(0, 0%, 0%);
 }
 
 /* ==========================================================================
@@ -69,5 +101,5 @@
 */
 
 .ptt-page__other-page {
-  --clr-primary: hsl(0, 86, 38); /* example */
+  --clr-primary-500: hsl(0, 86, 38); /* example */
 }
