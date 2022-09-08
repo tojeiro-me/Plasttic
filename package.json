@@ -2,7 +2,6 @@
   "name": "plasttic",
   "private": true,
   "type": "module",
-  "main": "index.html",
   "version": "1.4.4",
   "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
   "keywords": [
@@ -33,10 +32,11 @@
   ],
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --port 5500 --base=./",
+    "build": "vite build --port 5500",
+    "preview": "vite preview --port 5500"
   },
+  "main": "index.html",
   "devDependencies": {
     "vite": "^3.1.0"
   }
