@@ -23,6 +23,7 @@
     "celianriboulet.webvalidator",
     "syler.sass-indented",
     "withfig.fig",
-    "ms-vscode.live-server"
+    "ms-vscode.live-server",
+    "DavidAnson.vscode-markdownlint"
   ]
 }
