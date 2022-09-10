@@ -34,19 +34,24 @@
    */
 
   /* Primary */
+  --clr-primary-100: hsl(191, 50%, 87%);
+  --clr-primary-300: hsl(190, 50%, 59%);
+  --clr-primary-400: hsl(190, 50%, 35%);
+  --clr-primary-800: hsl(192, 41%, 20%);
 
   /* Secondary */
+  --clr-secondary-400: hsl(190, 50%, 35%);
 
   /* Complementary */
 
   /* Theme */
 
   /* Semantic */
-  --clr-error-500: hsl(0, 86%, 38%);
-  --clr-success-500: hsl(121, 83%, 33%);
+  --clr-error-400: hsl(0, 86%, 38%);
+  --clr-success-400: hsl(121, 83%, 33%);
 
   /* Neutral */
-  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
   --clr-neutral-200: hsl(0, 0%, 87.5%);
   --clr-neutral-300: hsl(0, 0%, 75%);
   --clr-neutral-400: hsl(0, 0%, 62.5%);
@@ -54,7 +59,7 @@
   --clr-neutral-600: hsl(0, 0%, 37.5%);
   --clr-neutral-700: hsl(0, 0%, 25%);
   --clr-neutral-800: hsl(0, 0%, 12.5%);
-  --clr-neutral-900: hsl(0, 0%, 0%);
+  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
 }
 
 /* ==========================================================================
