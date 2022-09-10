@@ -32,9 +32,9 @@
   ],
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
   "scripts": {
-    "dev": "vite --port 5500",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite serve src --port 5500",
+    "build": "vite build --port 5500",
+    "preview": "vite preview --port 5500"
   },
   "main": "index.html",
   "devDependencies": {
