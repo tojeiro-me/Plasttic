@@ -7,7 +7,12 @@
 * INDEX
 * -----
 *
+* FONTS................Self hosted fonts
+*
 * GLOBAL...............Globally-available properties.
+* Colors
+* Fonts
+* Styles
 *
 * ACCESSiBILITY
 * Hidden Link..........Jump to Content.
@@ -16,8 +21,30 @@
 * 
 *
 * PAGES
-* Text.................Text helpers.
+* Page.................Page specific properties.
 */
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
 
 /* ==========================================================================
    Global
@@ -32,6 +59,17 @@
    * Primary and Secondary usually are the brand colors
    * Theme colors can be changed on page specific styles
    */
+
+  /* Neutral */
+  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
+  --clr-neutral-200: hsl(0, 0%, 87.5%);
+  --clr-neutral-300: hsl(0, 0%, 75%);
+  --clr-neutral-400: hsl(0, 0%, 62.5%);
+  --clr-neutral-500: hsl(0, 0%, 50%);
+  --clr-neutral-600: hsl(0, 0%, 37.5%);
+  --clr-neutral-700: hsl(0, 0%, 25%);
+  --clr-neutral-800: hsl(0, 0%, 12.5%);
+  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
 
   /* Primary */
   --clr-primary-100: hsl(191, 50%, 87%);
@@ -50,16 +88,39 @@
   --clr-error-400: hsl(0, 86%, 38%);
   --clr-success-400: hsl(121, 83%, 33%);
 
-  /* Neutral */
-  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
-  --clr-neutral-200: hsl(0, 0%, 87.5%);
-  --clr-neutral-300: hsl(0, 0%, 75%);
-  --clr-neutral-400: hsl(0, 0%, 62.5%);
-  --clr-neutral-500: hsl(0, 0%, 50%);
-  --clr-neutral-600: hsl(0, 0%, 37.5%);
-  --clr-neutral-700: hsl(0, 0%, 25%);
-  --clr-neutral-800: hsl(0, 0%, 12.5%);
-  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
+  /* xpto */
+
+  /* Backgrounds */
+  --clr-background-body: var(--clr-neutral-200);
+
+  /**
+   * FONTS
+   * Family, Sizes
+   */
+
+  /* Fonts */
+  --ff-primary: 'Roboto', sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 500;
+
+  --fs-300: 0.8125rem;
+  --fs-400: 1rem;
+  --fs-500: 1rem;
+  --fs-600: 1rem;
+  --fs-700: 1.875rem;
+  --fs-800: 2.5rem;
+  --fs-900: 3.5rem;
+
+  /**
+   * STYLES
+   * Body, etc
+   */
+
+  --ff-body: var(--ff-primary);
+  --fw-body: var(--fw-light);
+  --fs-body: var(--fs-400);
 }
 
 /* ==========================================================================
@@ -97,7 +158,9 @@
    ========================================================================== */
 
 body {
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-background-body);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-body);
 }
 
 /* ==========================================================================
