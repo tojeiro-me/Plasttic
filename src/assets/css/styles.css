@@ -230,7 +230,7 @@ h2 {
 .ptt-container {
   width: min(90%, 1200px);
   margin-inline: auto;
-  padding: 10px;
+  padding-inline: var(--pad-400);
 }
 
 /* Theming */
