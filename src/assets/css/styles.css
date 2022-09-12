@@ -13,6 +13,7 @@
 * Colors
 * Fonts
 * Styles
+* Box
 * Breakpoints
 * Responsive...........Properties values by device.
 *
@@ -91,8 +92,6 @@
   --clr-error-400: hsl(0, 86%, 38%);
   --clr-success-400: hsl(121, 83%, 33%);
 
-  /* xpto */
-
   /* Backgrounds */
   --clr-background-body: var(--clr-neutral-200);
 
@@ -140,11 +139,25 @@
   --fs-footer: var(--fs-200);
 
   /**
+   * BOX
+   * Padding, margin
+   */
+
+  /* Padding */
+  --pad-400: 1em;
+
+  /* Margin */
+  --mrg-400: 1rem;
+
+  /* Border radius */
+  --bdr-400: 1rem;
+
+  /**
    * BREAKPOINTS
    * Mobile, Tablet, Laptop, Desktop
    */
 
-  /* NOTE: just for reference (cannot be used in a media query) */
+  /* NOTE: reference only (cannot be used in a media query) */
   --bkp-mobile: 480px;
   --bkp-tablet: 768px;
   --bkp-laptop: 992px;
