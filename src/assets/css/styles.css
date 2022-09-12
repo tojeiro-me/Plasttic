@@ -26,6 +26,9 @@
 *
 * ACCESSiBILITY
 * Hidden Link..........Jump to Content.
+*
+* PRINT
+*
 */
 
 /* ==========================================================================
@@ -211,6 +214,24 @@ h2 {
 */
 
 /* Page */
+.ptt-wrapper {
+  /** 
+  * Use when you want set the all page (Grid, Width, ...), 
+  * and not just the actual content sections.
+  */
+  display: grid;
+  grid-template-areas:
+    'nav'
+    'header'
+    'main'
+    'footer';
+  width: 100vw;
+}
+.ptt-container {
+  width: min(90%, 1200px);
+  margin-inline: auto;
+  padding: 10px;
+}
 
 /* Theming */
 
@@ -246,4 +267,16 @@ h2 {
   width: auto;
   height: auto;
   left: auto;
+}
+
+/* ==========================================================================
+   Print
+   ========================================================================== */
+
+/**
+* Hide sections until print 
+* extends print.css
+*/
+.print-only {
+  display: none !important;
 }
