@@ -149,14 +149,17 @@ https://www.w3schools.com/tags/ref_language_codes.asp
   <!------------- TEMPLATE START ------------->
   <body id="top" class="ptt-page ptt-page__home">
     <!-- TODO: Logo visible for print only -->
-    <img class="print-only" src="" alt="Logo" />
+    <img
+      class="print-only"
+      src="assets/img/logos/logo-print.svg"
+      alt="Logo"
+      style="height: 60px; margin-bottom: 50px"
+    />
     <!-- Semantic HTML: nav / header / main / section / article / aside / address / footer -->
     <div class="ptt-wrapper">
       <nav class="ptt-nav" aria-label="Main">
         <div class="ptt-container">
-          <a class="ptt-access__jump-content" href="#main-content"
-            >Jump to Content</a
-          >
+          <a class="ptt-access__jump-content" href="#start">Jump to Content</a>
           <img class="ptt-nav__logo" src="" alt="Logo" />
           <ul>
             <li>Menu Item</li>
@@ -165,7 +168,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
           </ul>
         </div>
       </nav>
-      <header class="ptt-header">
+      <header id="start" class="ptt-header">
         <div class="ptt-container">
           <div class="ptt-header__hero-id" class="ptt-header__hero">
             <h1>Hero Headline</h1>
@@ -175,7 +178,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
           </div>
         </div>
       </header>
-      <main id="main-content" class="ptt-main">
+      <main id="main" class="ptt-main">
         <!-- TODO: Section name "About, etc." -->
         <section id="section" class="ptt-main__section">
           <div class="ptt-container">
