@@ -6,6 +6,7 @@
 - Accessibility Hidden link styling
 - Basic temporary page
 - 404 page
+- Private directory
 
 ## v1.4.3 (Sep 6, 2022)
 
