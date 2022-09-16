@@ -256,19 +256,19 @@ h2 {
 */
 
 .ptt-access__jump-content {
-  position: absolute;
-  transform: translateY(-120%);
-  top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden;
+  position: absolute;
+  top: auto;
+  transform: translateY(-120%);
 }
 
 .ptt-access__jump-content:active,
 .ptt-access__jump-content:focus {
-  position: relative;
   width: auto;
   height: auto;
+  position: relative;
   left: auto;
 }
 
