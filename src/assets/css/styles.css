@@ -13,8 +13,9 @@
 * Colors
 * Fonts
 * Styles
-* Box
-* Breakpoints
+* Box Model
+* Breakpoints..........Just for reference (not used)
+* (outside root:)
 * Responsive...........Properties values by device.
 *
 * BASE
@@ -96,7 +97,7 @@
   --clr-success-400: hsl(121, 83%, 33%);
 
   /* Backgrounds */
-  --clr-background-body: var(--clr-neutral-200);
+  --clr-background-body: var(--clr-neutral-100);
 
   /**
    * FONTS
@@ -152,8 +153,11 @@
   /* Margin */
   --mrg-400: 1rem;
 
+  /* Border */
+  --bdr-400: 1px solid;
+
   /* Border radius */
-  --bdr-400: 1rem;
+  --bdr-radius-400: 1rem;
 
   /**
    * BREAKPOINTS
@@ -228,9 +232,9 @@ h2 {
   width: 100vw;
 }
 .ptt-container {
+  background-color: blueviolet;
   width: min(90%, 1200px);
   margin-inline: auto;
-  padding-inline: var(--pad-400);
 }
 
 /* Theming */
