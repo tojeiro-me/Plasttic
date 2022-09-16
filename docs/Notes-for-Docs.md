@@ -7,14 +7,6 @@ class {
     /* Display */
     display: grid;
 
-    /* Positioning */
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    z-index: -1;
-
     /* Box Model */
     background-color: #fff;
     width: 120px;
@@ -24,6 +16,14 @@ class {
     border: 1px solid #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px hsl(0, 0%, 0%);
+
+    /* Positioning */
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: -1;
 
     /* Typography */
     font-family: "Roboto", sans-serif;
