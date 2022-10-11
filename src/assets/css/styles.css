@@ -9,7 +9,7 @@
 *
 * FONTS................Self hosted fonts
 *
-* GLOBAL...............Globally-available properties.
+* TOKENS...............Globally-available properties.
 * Colors
 * Fonts
 * Styles
@@ -18,17 +18,16 @@
 * (outside root:)
 * Responsive...........Properties values by device.
 *
-* BASE
+* TEMPLATE
 * Base Styling
+* Default..............Default Page styling.
 *
-* PAGES
-* Page.................Default Page styling.
+* PAGE
 * Theming..............Page specific properties.
 *
-* ACCESSiBILITY
+* UTILITY
 * Hidden Link..........Jump to Content.
-*
-* PRINT
+* Print................Extends print.css
 *
 */
 
@@ -55,7 +54,7 @@
 }
 
 /* ==========================================================================
-   Global
+   Tokens
    ========================================================================== */
 
 :root {
@@ -98,6 +97,7 @@
 
   /* Backgrounds */
   --clr-background-body: var(--clr-neutral-100);
+  --clr-background-content: var(--clr-neutral-200);
 
   /**
    * FONTS
@@ -187,41 +187,49 @@
 }
 
 /* ==========================================================================
-   BASE
+   Template
    ========================================================================== */
+
+/** 
+* Templates specific properties
+* Change custom properties or create new style rules
+*/
+
+/* Styling */
 
 body {
   background-color: var(--clr-background-body);
   font-family: var(--ff-body);
   font-weight: var(--fw-body);
-  font-size: var(--fs-400);
+  font-size: var(--fs-body);
   color: var(--clr-neutral-800);
 }
 
 h1 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h1);
+  line-height: 1;
 }
 
 h2 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h2);
+  line-height: 1;
 }
 
-/* ==========================================================================
-   PAGES
-   ========================================================================== */
+nav {
+  font-size: var(--fs-nav);
+}
 
-/** 
-* Page specific properties
-* Change custom properties or create new style rules
-*/
+footer {
+  font-size: var(--fs-footer);
+}
 
-/* Page */
+/* Layout */
 .ptt-wrapper {
   /** 
   * Use when you want set the all page (Grid, Width, ...), 
-  * and not just the actual content sections.
+  * and not just the actual content sections (see .ptt-container). 
   */
   display: grid;
   grid-template-areas:
@@ -229,25 +237,27 @@ h2 {
     'header'
     'main'
     'footer';
-  width: 100vw;
 }
 .ptt-container {
-  background-color: blueviolet;
+  background-color: var(--clr-background-content);
   width: min(90%, 1200px);
   margin-inline: auto;
 }
 
-/* Theming */
+/* ==========================================================================
+   Pages
+   ========================================================================== */
 
 .ptt-page__other-page {
   --clr-primary-500: hsl(0, 86, 38); /* example */
 }
 
 /* ==========================================================================
-   Accessibility
+   Utility
    ========================================================================== */
 
 /** 
+* Accessibility
 * Hidden Link: Jump to Content
 * allows screen reader and keyboard users 
 * to skip navigation
@@ -272,11 +282,8 @@ h2 {
   left: auto;
 }
 
-/* ==========================================================================
-   Print
-   ========================================================================== */
-
 /**
+* Print
 * Hide sections until print 
 * extends print.css
 */
