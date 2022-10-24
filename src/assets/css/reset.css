@@ -49,7 +49,7 @@ h2,
 h3,
 h4 {
   /* Plasttic: Set best line height for headings */
-  line-height: 1.2;
+  line-height: 1.2; /* or 1.0 */
   margin-bottom: 0.5em;
 }
 

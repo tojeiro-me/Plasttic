@@ -90,11 +90,4 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-
-  /* Plasttic: hidden sections until print 
-  * related to print.css
-  */
-  .print-only {
-    display: none !important;
-  }
 }
