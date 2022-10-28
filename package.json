@@ -33,7 +33,7 @@
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
   "scripts": {
     "dev": "vite serve src --port 5500",
-    "build": "vite build --port 5500",
+    "build": "vite build src",
     "preview": "vite preview --port 5500"
   },
   "main": "index.html",
@@ -49,6 +49,7 @@
     "postcss-import": "^15.0.0",
     "postcss-preset-env": "^7.8.2",
     "sass": "^1.54.9",
-    "vite": "^3.1.0"
+    "vite": "^3.1.0",
+    "vite-plugin-html": "^3.2.0"
   }
 }
