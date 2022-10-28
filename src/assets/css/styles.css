@@ -10,13 +10,14 @@
 * FONTS................Self hosted fonts
 *
 * TOKENS...............Globally-available properties.
+* (:root)
 * Colors
 * Fonts
 * Styles
 * Box Model
+* (end root:)
 * Breakpoints..........Using @custom-media
-* (outside root:)
-* Responsive...........Properties values by device.
+* Tokens Media Queries
 *
 * TEMPLATE
 * Base Styling
@@ -158,25 +159,26 @@
 
   /* Border radius */
   --bdr-radius-400: 1rem;
+}
 
-  /**
+/**
    * BREAKPOINTS
    * Mobile, Tablet, Laptop, Desktop
    */
 
-  /* NOTE: uses PostCSS Custom Media */
-  @custom-media --bkp-mobile (min-width: 480px);
-  @custom-media --bkp-tablet: (min-width: 768px);
-  @custom-media --bkp-laptop: (min-width: 992px);
-  @custom-media --bkp-desktop: (min-width: 1024px);
-  @custom-media --bkp-large: (min-width: 1200px);
-}
+/* NOTE: uses PostCSS Custom Media */
+@custom-media --bkp-mobile (min-width: 480px);
+@custom-media --bkp-tablet: (min-width: 768px);
+@custom-media --bkp-laptop: (min-width: 992px);
+@custom-media --bkp-desktop: (min-width: 1024px);
+@custom-media --bkp-large: (min-width: 1200px);
 
 /**
-* RESPONSIVE
-* Redefine properties values by device
+* RESPONSIVE TOKENS
+* Redefine custom properties values by Breakpoint
+* whenever needed
 */
-@media (min-width: 768px) {
+@media (--bkp-tablet) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);
