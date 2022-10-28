@@ -3,6 +3,6 @@ module.exports = {
     autoprefixer: {},
     'postcss-preset-env': {},
     'postcss-custom-media': {},
-    cssnano: { normalizeWhitespace: false },
+    cssnano: { normalizeWhitespace: true },
   },
 };
