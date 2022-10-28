@@ -14,7 +14,7 @@
 * Fonts
 * Styles
 * Box Model
-* Breakpoints..........Just for reference (not used)
+* Breakpoints..........Using @custom-media
 * (outside root:)
 * Responsive...........Properties values by device.
 *
@@ -164,7 +164,7 @@
    * Mobile, Tablet, Laptop, Desktop
    */
 
-  /* NOTE: uses Post CSS Custom Media */
+  /* NOTE: uses PostCSS Custom Media */
   @custom-media --bkp-mobile (min-width: 480px);
   @custom-media --bkp-tablet: (min-width: 768px);
   @custom-media --bkp-laptop: (min-width: 992px);
@@ -176,7 +176,7 @@
 * RESPONSIVE
 * Redefine properties values by device
 */
-@media (--bkp-tablet) {
+@media (min-width: 768px) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);

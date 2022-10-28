@@ -24,6 +24,7 @@
     "syler.sass-indented",
     "withfig.fig",
     "ms-vscode.live-server",
-    "davidanson.vscode-markdownlint"s
+    "davidanson.vscode-markdownlint",
+    "csstools.postcss"
   ]
 }
