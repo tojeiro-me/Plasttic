@@ -164,19 +164,19 @@
    * Mobile, Tablet, Laptop, Desktop
    */
 
-  /* NOTE: reference only (cannot be used in a media query) */
-  --bkp-mobile: 480px;
-  --bkp-tablet: 768px;
-  --bkp-laptop: 992px;
-  --bkp-desktop: 1024px;
-  --bkp-large: 1200px;
+  /* NOTE: uses Post CSS Custom Media */
+  @custom-media --bkp-mobile (min-width: 480px);
+  @custom-media --bkp-tablet: (min-width: 768px);
+  @custom-media --bkp-laptop: (min-width: 992px);
+  @custom-media --bkp-desktop: (min-width: 1024px);
+  @custom-media --bkp-large: (min-width: 1200px);
 }
 
 /**
 * RESPONSIVE
 * Redefine properties values by device
 */
-@media (min-width: 768px) {
+@media (--bkp-tablet) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);

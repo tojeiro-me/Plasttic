@@ -7,6 +7,8 @@
 - Basic temporary page
 - 404 page
 - Private directory
+- Added PostCSS and Plugins
+- Implement Custom Media properties
 
 ## v1.4.3 (Sep 6, 2022)
 
