@@ -178,7 +178,7 @@
 * Redefine custom properties values by Breakpoint
 * whenever needed
 */
-@media only screen and (--bkp-tablet) {
+@media (--bkp-tablet) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);
