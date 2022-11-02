@@ -178,7 +178,7 @@
 * Redefine custom properties values by Breakpoint
 * whenever needed
 */
-@media (--bkp-tablet) {
+@media only screen and (--bkp-tablet) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);
@@ -200,7 +200,7 @@
 /* Styling */
 
 body {
-  background-color: var(--clr-background-body);
+  background: var(--clr-background-body);
   font-family: var(--ff-body);
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
@@ -241,7 +241,7 @@ footer {
     'footer';
 }
 .ptt-container {
-  background-color: var(--clr-background-content);
+  background: var(--clr-background-content);
   width: min(90%, 1200px);
   margin-inline: auto;
 }

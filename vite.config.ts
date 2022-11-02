@@ -1,12 +1,20 @@
 // vite.config.ts
 import { defineConfig } from 'vite';
 
-import { createHtmlPlugin } from 'vite-plugin-html';
-
 export default defineConfig({
-  plugins: [
-    createHtmlPlugin({
-      minify: true,
-    }),
-  ],
+  plugins: [],
+  root: 'src',
+  build: {
+    outDir: '../public/',
+    cssCodeSplit: false,
+    emptyOutDir: true,
+    minify: false,
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js',
+        chunkFileNames: '[name].js',
+        assetFileNames: '[name].[ext]',
+      },
+    },
+  },
 });
