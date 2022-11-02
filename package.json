@@ -32,9 +32,19 @@
   ],
   "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
   "scripts": {
-    "dev": "vite --port 5500",
-    "build": "vite build",
-    "preview": "vite preview --port 5500"
+    "scss": "sass src/sass:public/css",
+    "css": "postcss public/css/*.css -u autoprefixer cssnano -r -m",
+    "copy:html": "copyfiles -u 1 ./src/*.html ./src/**/*.html public",
+    "copy:js": "copyfiles -u 1 ./src/js/*.js public",
+    "watch:html": "onchange 'src/*.html' 'src/**/*.html' -- npm run copy:html",
+    "watch:sass": "sass --watch src/sass:public/css",
+    "watch:js": "onchange 'src/js/*.js' -- npm run copy:js",
+    "watch": "npm-run-all --parallel watch:*",
+    "serve": "browser-sync start --server public --files public --port 1337",
+    "start": "npm-run-all copy:* scss --parallel watch serve",
+    "build": "npm-run-all copy:* scss css",
+    "lint": "stylelint 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss'",
+    "lint:fix": "stylelint --fix 'src/sass/**/*.scss' 'src/sass/**/**/*.scss' 'src/sass/**/**/**/*.scss'",
   },
   "main": "index.html",
   "browserslist": [

@@ -5,6 +5,8 @@
 node_modules/
 .env
 
+archive/
+
 dev/
 dist/
 public/
