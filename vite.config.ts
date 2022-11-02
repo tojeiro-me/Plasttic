@@ -6,9 +6,7 @@ export default defineConfig({
   root: 'src',
   build: {
     outDir: '../public/',
-    cssCodeSplit: false,
     emptyOutDir: true,
-    minify: false,
     rollupOptions: {
       output: {
         entryFileNames: '[name].js',

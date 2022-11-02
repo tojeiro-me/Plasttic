@@ -38,7 +38,7 @@
   },
   "main": "index.html",
   "browserslist": [
-    "defaults"
+    "last 2 versions"
   ],
   "devDependencies": {
     "autoprefixer": "^10.4.13",
