@@ -9,7 +9,7 @@
 - Private directory
 - Added PostCSS and Plugins
 - Implement Custom Media properties
-- Added Vite Plugin for HTML minification
+- CLI Dev and Build scripts
 
 ## v1.4.3 (Sep 6, 2022)
 

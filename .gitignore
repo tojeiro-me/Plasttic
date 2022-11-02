@@ -12,3 +12,4 @@ public/
 *.github-issues
 
 config.codekit3
+vite.config.ts
