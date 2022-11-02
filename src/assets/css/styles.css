@@ -168,10 +168,10 @@
 
 /* NOTE: uses PostCSS Custom Media */
 @custom-media --bkp-mobile (min-width: 480px);
-@custom-media --bkp-tablet: (min-width: 768px);
-@custom-media --bkp-laptop: (min-width: 992px);
-@custom-media --bkp-desktop: (min-width: 1024px);
-@custom-media --bkp-large: (min-width: 1200px);
+@custom-media --bkp-tablet (min-width: 768px);
+@custom-media --bkp-laptop (min-width: 992px);
+@custom-media --bkp-desktop (min-width: 1024px);
+@custom-media --bkp-large (min-width: 1200px);
 
 /**
 * RESPONSIVE TOKENS
