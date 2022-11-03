@@ -47,7 +47,8 @@
     "browser": "browser-sync start --server public --files public",
     "build": "npm-run-all copy:html build:*",
     "postdev": "postcss public/assets/css/styles.css -u postcss-custom-media autoprefixer -r --no-map",
-    "postbuild": "postcss public/css/*.css public/scss/*.css -u autoprefixer cssnano -r --no-map"
+    "postbuild": "postcss public/css/*.css public/scss/*.css -u autoprefixer cssnano -r --no-map",
+    "dev:vite": "vite --port 5500"
   },
   "main": "index.html",
   "browserslist": [
