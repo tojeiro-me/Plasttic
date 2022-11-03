@@ -33,9 +33,9 @@
   "homepage": "https://github.com/monkey13-ws/Plasttic",
   "scripts": {
     "dev": "concurrently npm:copy npm:watch npm:sync",
-    "build": "concurrently -n w: npm:clear:* npm:copy:* npm:build:* npm:postbuild npm:strip:*",
+    "build": "npm run delpublic && concurrently -n w: npm:copy:* npm:build:* npm:postbuild npm:strip:*",
     "build:sass": "sass  --no-source-map src/assets/scss:public/assets/scss",
-    "clear:public": "del ./public/",
+    "delpublic": "del ./public/",
     "copy": "concurrently -n w: npm:copy:* npm:postdev",
     "copy:root": "copyfiles -u 1 -a ./src/* ./src/.htaccess public",
     "copy:private": "copyfiles -u 1 -a ./src/private/**/* public",
@@ -48,7 +48,7 @@
     "watch:sass": "sass  --no-source-map --watch src/assets/scss/styles.scss:public/assets/scss/styles.css",
     "postdev": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-custom-media autoprefixer -r --no-map",
     "postbuild": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-custom-media autoprefixer cssnano -r --no-map",
-    "strip:js": "uglifyjs public/assets/js/*.js --compress false",
+    "strip:js": "uglifyjs public/assets/js/*.js",
     "sync": "browser-sync start --port 5500 --no-open --server public --files public",
     "dev:vite": "vite --port 5500"
   },
