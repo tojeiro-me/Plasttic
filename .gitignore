@@ -5,8 +5,13 @@
 node_modules/
 .env
 
+archive/
+
 dev/
 dist/
 public/
 
+*.github-issues
+
 config.codekit3
+vite.config.ts

@@ -11,6 +11,11 @@ body {
   font-size: 1rem;
   font-family: 'Helvetica Neue', sans-serif;
   color: #000;
-  line-height: 1;
-  letter-spacing: -0.5px;
+}
+
+/* Plasttic: hidden sections until print 
+  * related to print.css
+  */
+.print-only {
+  display: none !important;
 }
