@@ -2,9 +2,8 @@
 
 ---
 
-- Template basic styling
-- Accessibility Hidden link styling
-- Basic temporary page
+- Template HTML structure
+- Accessibility Hidden link
 - 404 page
 - Private directory
 - Added PostCSS and Plugins
