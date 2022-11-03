@@ -9,7 +9,7 @@
 - Private directory
 - Added PostCSS and Plugins
 - Implement Custom Media properties
-- CLI Dev and Build scripts
+- NPM Dev and Build scripts
 
 ## v1.4.3 (Sep 6, 2022)
 

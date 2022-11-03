@@ -30,12 +30,13 @@
     "LICENSE",
     "package.json"
   ],
-  "homepage": "https://github.com/monkey13-ws/Plasttic#readme",
+  "homepage": "https://github.com/monkey13-ws/Plasttic",
   "scripts": {
-    "dev": "concurrently npm:copy npm:watch npm:browser",
+    "dev": "concurrently npm:copy npm:watch npm:sync",
+    "build": "concurrently -n w: npm:copy:* npm:build:* npm:postbuild",
     "build:sass": "sass  --no-source-map src/assets/scss:public/assets/scss",
     "copy": "concurrently -n w: npm:copy:* npm:postdev",
-    "copy:root": "copyfiles -u 1 ./src/* ./src/.htaccess public",
+    "copy:root": "copyfiles -u 1 -a ./src/* ./src/.htaccess public",
     "copy:private": "copyfiles -u 1 -a ./src/private/**/* public",
     "copy:assets": "copyfiles -u 1 ./src/assets/**/* ./src/assets/**/**/* -e=./src/assets/scss/**/* public",
     "watch": "concurrently -n w: npm:watch:*",
@@ -44,10 +45,9 @@
     "watch:css": "onchange -d 5000 'src/assets/css/*' -- npm run copy",
     "watch:scss": "onchange -d 5000 'src/assets/scss/*' -- npm run copy",
     "watch:sass": "sass  --no-source-map --watch src/assets/scss/styles.scss:public/assets/scss/styles.css",
-    "browser": "browser-sync start --server public --files public",
-    "build": "npm-run-all copy:html build:*",
-    "postdev": "postcss public/assets/css/styles.css -u postcss-custom-media autoprefixer -r --no-map",
-    "postbuild": "postcss public/css/*.css public/scss/*.css -u autoprefixer cssnano -r --no-map",
+    "postdev": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-custom-media autoprefixer -r --no-map",
+    "postbuild": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-custom-media autoprefixer cssnano -r --no-map",
+    "sync": "browser-sync start --port 5500 --no-open --server public --files public",
     "dev:vite": "vite --port 5500"
   },
   "main": "index.html",
@@ -67,10 +67,6 @@
     "postcss-import": "^15.0.0",
     "postcss-preset-env": "^7.8.2",
     "sass": "^1.55.0",
-    "stylelint": "^14.14.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^29.0.0",
-    "stylelint-scss": "^4.3.0",
     "vite": "^3.2.1"
   }
 }
