@@ -1,6 +1,9 @@
 # v1.4.5 (-- --, 2022)
 
--
+- Template basic styling
+- Accessibility Hidden link styling
+- 404 page styling
+- Basic temporary page
 
 ## v1.4.4 (Nov 03, 2022)
 
