@@ -1,5 +1,6 @@
 # v1.4.5 (-- --, 2022)
 
+- Improved HTML minify
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
