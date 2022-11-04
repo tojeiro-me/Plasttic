@@ -1,6 +1,8 @@
 # v1.4.5 (-- --, 2022)
 
 - Improved HTML minify
+- Added ESLint from Wesbos
+- Added ESLint for Vue
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
@@ -38,6 +40,8 @@
 ## v1.4.2 (Nov 20, 2021)
 
 ---
+
+1
 
 - Website info files and icons review
 
