@@ -1,8 +1,7 @@
 # v1.4.5 (-- --, 2022)
 
-- Improved HTML minify
-- Added ESLint from Wesbos
-- Added ESLint for Vue
+- Improved Build HTML minify
+- Added ESLint from Wesbos + Vue for VSCode
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
