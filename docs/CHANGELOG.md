@@ -1,4 +1,4 @@
-# v1.4.5 (-- --, 2022)
+# v1.4.5 (--- --, 2022)
 
 - Improved Build HTML minify
 - Added ESLint from Wesbos + Vue for VSCode
