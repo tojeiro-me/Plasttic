@@ -1,4 +1,13 @@
-# v1.4.4 (Nov 03, 2022)
+# v1.4.5 (--- --, 2022)
+
+- Improved Build HTML minify
+- Added ESLint from Wesbos + Vue for VSCode
+- Template basic styling
+- Accessibility Hidden link styling
+- 404 page styling
+- Basic temporary page
+
+## v1.4.4 (Nov 03, 2022)
 
 ---
 
@@ -30,6 +39,8 @@
 ## v1.4.2 (Nov 20, 2021)
 
 ---
+
+1
 
 - Website info files and icons review
 
