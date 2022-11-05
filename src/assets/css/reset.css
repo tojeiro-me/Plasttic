@@ -84,11 +84,10 @@ button:focus-visible,
 textarea:focus-visible,
 select:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid hsl(0, 0%, 100%);
+  outline: 1px solid hsl(0, 0%, 100%);
   outline-offset: 2px;
-  border: 2px solid hsl(26, 86%, 61%);
   box-shadow: 0 0 0 2px hsl(26, 86%, 61%);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
