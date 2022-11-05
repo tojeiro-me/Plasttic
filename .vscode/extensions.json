@@ -23,6 +23,8 @@
     "syler.sass-indented",
     "withfig.fig",
     "ms-vscode.live-server",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "wallabyjs.console-ninja",
+    "jakewilson.vscode-placeholder-images"
   ]
 }
