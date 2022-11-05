@@ -4,9 +4,9 @@
 - Added ESLint from Wesbos + Vue for VSCode
 - Added default Focus Style in reset.css
 - Added boilerplate.html
+- Basic temporary page
 
 - TODO:
-- Basic temporary page
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
