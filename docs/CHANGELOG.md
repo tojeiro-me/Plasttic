@@ -2,10 +2,14 @@
 
 - Improved Build HTML minify
 - Added ESLint from Wesbos + Vue for VSCode
+- Added default Focus Style in reset.css
+- Added boilerplate.html
+
+- TODO:
+- Basic temporary page
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
-- Basic temporary page
 
 ## v1.4.4 (Nov 03, 2022)
 
