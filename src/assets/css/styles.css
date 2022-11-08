@@ -22,9 +22,11 @@
 * TEMPLATE
 * Base Styling
 * Default..............Default Page styling
+* Temporary
 *
 * PAGE
 * Theming..............Page specific properties
+* Temporary
 *
 * UTILITY
 * Hidden Link..........Jump to Content
@@ -246,12 +248,26 @@ footer {
   margin-inline: auto;
 }
 
+/* Temporary */
+.ptt-page__temp .ptt-wrapper {
+  display: grid;
+  grid-template-areas:
+    'logo header'
+    'logo main'
+    '  .  footer';
+}
+
 /* ==========================================================================
    Pages
    ========================================================================== */
 
-.ptt-page__other-page {
-  --clr-primary-500: hsl(0, 86, 38); /* example */
+/* .ptt-page__other-page {
+  --clr-primary-500: hsl(0, 86, 38);
+} */
+
+/* Temporary */
+
+.ptt-page__temp {
 }
 
 /* ==========================================================================
