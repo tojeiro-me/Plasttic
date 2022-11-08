@@ -54,7 +54,10 @@
   },
   "main": "index.html",
   "browserslist": [
-    "last 2 versions"
+    "last 2 versions",
+    "Firefox ESR",
+    "not IE 11",
+    "not dead"
   ],
   "devDependencies": {
     "@babel/core": "^7.19.6",

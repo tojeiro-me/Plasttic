@@ -252,6 +252,14 @@ footer {
 .ptt-page__temp .ptt-wrapper {
   display: grid;
   grid-template-areas:
+    'nav'
+    'main'
+    'footer';
+}
+
+/* .ptt-page__temp .ptt-wrapper {
+  display: grid;
+  grid-template-areas:
     'logo'
     'header'
     'message'
@@ -263,7 +271,7 @@ footer {
       '  .  footer'
       '  .  footer';
   }
-}
+} */
 
 /* ==========================================================================
    Pages

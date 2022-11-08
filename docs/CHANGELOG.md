@@ -5,6 +5,7 @@
 - Added default Focus Style in reset.css
 - Added boilerplate.html
 - Added postcss-nesting
+- Updated browserslist on package.json
 - Basic temporary page
 
 - TODO:
