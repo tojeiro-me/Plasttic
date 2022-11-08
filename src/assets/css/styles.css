@@ -252,9 +252,17 @@ footer {
 .ptt-page__temp .ptt-wrapper {
   display: grid;
   grid-template-areas:
-    'logo header'
-    'logo main'
-    '  .  footer';
+    'logo'
+    'header'
+    'message'
+    'footer';
+  @media (--bkp-tablet) {
+    grid-template-areas:
+      'logo header'
+      'logo message'
+      '  .  footer'
+      '  .  footer';
+  }
 }
 
 /* ==========================================================================

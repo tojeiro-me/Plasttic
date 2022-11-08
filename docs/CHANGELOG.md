@@ -4,6 +4,7 @@
 - Added ESLint from Wesbos + Vue for VSCode
 - Added default Focus Style in reset.css
 - Added boilerplate.html
+- Added postcss-nesting
 - Basic temporary page
 
 - TODO:
