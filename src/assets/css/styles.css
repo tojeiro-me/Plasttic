@@ -289,7 +289,7 @@ body.ptt-page__temp {
     'message'
     'cta';
   gap: 2em;
-  margin-block: 15vw;
+  margin-block: 7.5vw;
   @media (--bkp-tablet) {
     grid-template-areas:
       'title   image'
@@ -302,8 +302,10 @@ body.ptt-page__temp {
   height: max(3vw, 40px);
 }
 
-.ptt-page__temp footer {
+.ptt-page__temp .ptt-footer__credit,
+.ptt-page__temp .ptt-footer__social {
   text-align: center;
+  margin-top: 1rem;
 }
 
 /* ==========================================================================
