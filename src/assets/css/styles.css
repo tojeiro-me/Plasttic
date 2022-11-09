@@ -20,7 +20,7 @@
 * Tokens Media Queries
 *
 * TEMPLATE
-* Base Styling
+* Global Styling
 * Default..............Default Page styling
 * Temporary
 *
@@ -104,23 +104,33 @@
 
   /**
    * FONTS
-   * Family, Sizes
+   * Family, Weights, Sizes
    */
 
-  /* Fonts */
+  /* Font Families */
   --ff-primary: 'Roboto', sans-serif;
 
+  /* Font Weights */
   --fw-light: 300;
   --fw-regular: 400;
   --fw-bold: 500;
 
-  /* 200: 14px, 400: 16px, 500: 20px,
+  /* Font Sizes: 200: 14px, 400: 16px, 500: 20px,
   700: 28px, 900: 36px */
   --fs-200: 0.875rem;
   --fs-400: 1rem;
   --fs-500: 1.25rem;
   --fs-700: 1.75rem;
   --fs-900: 2.25rem;
+
+  /**
+   * TYPOGRAPHY
+   * Line height, ...
+   */
+
+  /* Line Heights */
+  --typ-lh-400: 1.45; /* default: reset.css */
+  --typ-lh-700: 1;
 
   /**
    * STYLES
@@ -199,8 +209,7 @@
 * Change custom properties or create new style rules
 */
 
-/* Styling */
-
+/* Global Styling */
 body {
   background: var(--clr-background-body);
   font-family: var(--ff-body);
@@ -212,13 +221,13 @@ body {
 h1 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h1);
-  line-height: 1;
+  line-height: (--typ-lh-700);
 }
 
 h2 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h2);
-  line-height: 1;
+  line-height: (--typ-lh-700);
 }
 
 nav {
@@ -258,10 +267,6 @@ footer {
 
 /* Temporary */
 .ptt-page__temp .ptt-wrapper {
-  /** 
-  * Use when you want set the all page (Grid, Width, ...), 
-  * and not just the actual content sections (see .ptt-container). 
-  */
   display: grid;
   grid-template-areas:
     'nav'
