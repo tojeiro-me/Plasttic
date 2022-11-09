@@ -258,6 +258,10 @@ footer {
 
 /* Temporary */
 .ptt-page__temp .ptt-wrapper {
+  /** 
+  * Use when you want set the all page (Grid, Width, ...), 
+  * and not just the actual content sections (see .ptt-container). 
+  */
   display: grid;
   grid-template-areas:
     'nav'
@@ -265,21 +269,20 @@ footer {
     'footer';
 }
 
-/* .ptt-page__temp .ptt-wrapper {
+.ptt-page__temp .ptt-main__message .ptt-container {
   display: grid;
   grid-template-areas:
-    'logo'
-    'header'
+    'image'
+    'title'
     'message'
-    'footer';
+    'cta';
   @media (--bkp-tablet) {
     grid-template-areas:
-      'logo header'
-      'logo message'
-      '  .  footer'
-      '  .  footer';
+      'title   image'
+      'message image'
+      'cta     image';
   }
-} */
+}
 
 .ptt-page__temp {
 }
