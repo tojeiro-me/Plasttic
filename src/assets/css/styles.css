@@ -100,7 +100,7 @@
 
   /* Backgrounds */
   --clr-background-body: var(--clr-neutral-100);
-  --clr-background-content: var(--clr-neutral-200);
+  --clr-background-content: var(--clr-neutral-100);
 
   /**
    * FONTS
@@ -266,12 +266,19 @@ footer {
 } */
 
 /* Temporary */
+body.ptt-page__temp {
+  display: grid;
+  place-content: center;
+}
+
 .ptt-page__temp .ptt-wrapper {
   display: grid;
   grid-template-areas:
     'nav'
     'main'
     'footer';
+  gap: 2em;
+  margin-block: 1rem;
 }
 
 .ptt-page__temp .ptt-main__message .ptt-container {
@@ -281,6 +288,8 @@ footer {
     'title'
     'message'
     'cta';
+  gap: 2em;
+  margin-block: 15vw;
   @media (--bkp-tablet) {
     grid-template-areas:
       'title   image'
@@ -289,7 +298,12 @@ footer {
   }
 }
 
-.ptt-page__temp {
+.ptt-page__temp nav img {
+  height: max(3vw, 40px);
+}
+
+.ptt-page__temp footer {
+  text-align: center;
 }
 
 /* ==========================================================================
