@@ -39,7 +39,8 @@ html:focus-within {
 /* Set core body defaults */
 html,
 body {
-  height: 100%; /* Plasttic: Set document height */
+  /* Plasttic: Set document height */
+  height: 100%;
 }
 
 body {
@@ -51,10 +52,17 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   /* Plasttic: Set best line height for headings */
-  line-height: 1.2; /* or 1.0 */
+  line-height: 1; /* or 1.2 */
   margin-bottom: 0.5em;
+  overflow-wrap: break-word;
+}
+
+p {
+  overflow-wrap: break-word;
 }
 
 /* A elements that don't have a class get default styles */
@@ -69,10 +77,10 @@ video,
 canvas,
 svg {
   /* Plasttic: Add Video, Canvas and SVG */
+  display: block;
   max-width: 100%;
   /* Plasttic: Set height */
   height: auto;
-  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
