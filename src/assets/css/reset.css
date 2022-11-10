@@ -1,11 +1,15 @@
 /**
 * reset.css
 *
-* A Modern CSS Reset (Jan 18 2021)
+* A Modern CSS Reset (Jan 18 2021):
 * https://piccalil.li/blog/a-modern-css-reset/
 * https://github.com/andy-piccalilli/modern-css-reset
 *
-* Changes to the original are commented using "Plasttic: Change set" 
+* Added some rules from:
+* https://www.joshwcomeau.com/css/custom-css-reset/
+*
+* Added some custom rules:
+* Custom changes are commented using "Plasttic:" 
 */
 
 /* Box sizing rules */
@@ -61,8 +65,10 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture,
+video,
+canvas,
 svg {
-  /* Plasttic: Add SVG */
+  /* Plasttic: Add Video, Canvas and SVG */
   max-width: 100%;
   /* Plasttic: Set height */
   height: auto;

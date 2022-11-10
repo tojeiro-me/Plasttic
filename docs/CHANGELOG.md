@@ -7,6 +7,8 @@
 - Added postcss-nesting
 - Updated browserslist on package.json
 - Basic temporary page
+- Added SVGO
+- updated reset.css
 
 - TODO:
 - Template basic styling
