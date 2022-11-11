@@ -1,11 +1,19 @@
 # v1.4.5 (--- --, 2022)
 
 - Improved Build HTML minify
-- Added ESLint from Wesbos + Vue for VSCode
+- Added ESLint for VSCode from Wesbos/Airbnb + Vue
+- Added default Focus Style in reset.css
+- Added boilerplate.html
+- Added postcss-nesting
+- Updated browserslist on package.json
+- Basic temporary page
+- Added SVGO
+- updated reset.css
+
+- TODO:
 - Template basic styling
 - Accessibility Hidden link styling
 - 404 page styling
-- Basic temporary page
 
 ## v1.4.4 (Nov 03, 2022)
 
