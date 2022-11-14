@@ -88,9 +88,10 @@
   --clr-primary-800: hsl(192, 41%, 20%);
 
   /* Secondary */
-  --clr-secondary-400: hsl(190, 50%, 35%);
+  --clr-secondary-400: var(--clr-neutral-800);
 
   /* Complementary */
+  --clr-complement-400: hsl(348, 68%, 42%);
 
   /* Theme */
 
@@ -258,7 +259,7 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-  color: var(--clr-primary-300);
+  color: var(--clr-complement-400);
 }
 
 /* Layout */
@@ -368,7 +369,7 @@ body.ptt-page__temp {
 .ptt-page__temp .ptt-main__cta a {
   border-radius: var(--bdr-radius-400);
   padding: var(--pad-400);
-  background: var(--clr-primary-400);
+  background: var(--clr-complement-400);
   font-size: var(--fs-500);
   font-weight: var(--fw-bold);
   color: var(--clr-neutral-100);
@@ -376,7 +377,7 @@ body.ptt-page__temp {
   white-space: nowrap;
   transition: background-color 200ms ease-in;
   &:hover {
-    background: var(--clr-primary-300);
+    background: var(--clr-primary-400);
   }
 }
 
