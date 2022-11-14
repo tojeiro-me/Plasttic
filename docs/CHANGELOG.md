@@ -9,6 +9,7 @@
 - Basic temporary page
 - Added SVGO
 - updated reset.css
+- performance updates (fonts and css loading)
 
 - TODO:
 - Template basic styling
