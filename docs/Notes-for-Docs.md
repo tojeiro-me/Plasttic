@@ -6,6 +6,8 @@
 class {
   /* Display */
   display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
 
   /* Box Model */
   background-color: #fff;

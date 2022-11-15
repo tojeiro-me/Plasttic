@@ -344,11 +344,11 @@ body.ptt-page__temp {
 
 .ptt-page__temp .ptt-main__header {
   grid-area: title;
+  align-self: end;
   margin-bottom: 0;
   color: var(--clr-neutral-700);
   font-size: 4rem;
   line-height: var(--typ-lh-100);
-  align-self: end;
   @media (--bkp-laptop) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -356,11 +356,11 @@ body.ptt-page__temp {
 
 .ptt-page__temp .ptt-main__text {
   grid-area: message;
-  max-width: 45ch;
   justify-self: center;
+  max-width: 45ch;
   @media (--bkp-laptop) {
-    font-size: var(--fs-500);
     justify-self: left;
+    font-size: var(--fs-500);
   }
 }
 
@@ -370,14 +370,14 @@ body.ptt-page__temp {
 }
 
 .ptt-page__temp .ptt-main__cta a {
-  border-radius: var(--bdr-radius-400);
-  padding: var(--pad-400);
+  white-space: nowrap;
   background: var(--clr-complement-400);
+  padding: var(--pad-400);
+  border-radius: var(--bdr-radius-400);
   font-size: var(--fs-500);
   font-weight: var(--fw-bold);
   color: var(--clr-neutral-100);
   text-decoration: none;
-  white-space: nowrap;
   transition: background-color 200ms ease-in;
   &:hover {
     background: var(--clr-primary-400);
@@ -393,8 +393,8 @@ body.ptt-page__temp {
 
 .ptt-page__temp .ptt-footer__credit,
 .ptt-page__temp .ptt-footer__social {
-  text-align: center;
   margin-top: var(--mrg-400);
+  text-align: center;
   & img {
     display: inline;
   }
