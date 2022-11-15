@@ -1,5 +1,6 @@
 # v1.4.5 (--- --, 2022)
 
+- Ended support for IE11
 - Improved Build HTML minify
 - Added ESLint for VSCode from Wesbos/Airbnb + Vue
 - Added default Focus Style in reset.css
@@ -8,13 +9,14 @@
 - Updated browserslist on package.json
 - Basic temporary page
 - Added SVGO
-- updated reset.css
-- performance updates (fonts and css loading)
+- Updated reset.css
+- Update in @font-face
+- Deleted browserconfig.xml/mstile-150_150.png
 
 - TODO:
+- 404 page styling
 - Template basic styling
 - Accessibility Hidden link styling
-- 404 page styling
 
 ## v1.4.4 (Nov 03, 2022)
 

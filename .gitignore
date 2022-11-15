@@ -4,6 +4,7 @@
 **/.DS_Store
 node_modules/
 .env
+.cache
 
 archive/
 
@@ -14,4 +15,3 @@ public/
 *.github-issues
 
 config.codekit3
-vite.config.ts
