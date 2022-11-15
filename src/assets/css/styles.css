@@ -400,6 +400,13 @@ body.ptt-page__temp {
   }
 }
 
+.ptt-footer__social {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+}
+
 /* ==========================================================================
      Utility
      ========================================================================== */
