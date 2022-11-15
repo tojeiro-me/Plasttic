@@ -8,7 +8,7 @@
 - Added postcss-nesting
 - Updated browserslist on package.json
 - Basic temporary page
-- Added SVGO
+- Added SVGO, Squoosh-cli
 - Updated reset.css
 - Update in @font-face
 - Deleted browserconfig.xml/mstile-150_150.png
