@@ -40,6 +40,6 @@ class {
 
 class::after {
   content: '';
-  ...;
+  /* other properties */
 }
 ```

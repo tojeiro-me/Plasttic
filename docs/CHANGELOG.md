@@ -12,6 +12,7 @@
 - Updated reset.css
 - Update in @font-face
 - Deleted browserconfig.xml/mstile-150_150.png
+- Updated TODO: comments
 
 - TODO:
 - 404 page styling

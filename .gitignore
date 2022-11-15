@@ -11,7 +11,3 @@ archive/
 dev/
 dist/
 public/
-
-*.github-issues
-
-config.codekit3
