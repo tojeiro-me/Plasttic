@@ -13,9 +13,9 @@
 - Update in @font-face
 - Deleted browserconfig.xml/mstile-150_150.png
 - Updated TODO: comments
+- 404 page styling
 
 - TODO:
-- 404 page styling
 - Template basic styling
 - Accessibility Hidden link styling
 
