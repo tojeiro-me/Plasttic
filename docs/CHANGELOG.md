@@ -14,6 +14,7 @@
 - Deleted browserconfig.xml/mstile-150_150.png
 - Updated TODO: comments
 - 404 page styling
+- Added .editorconfig
 
 - TODO:
 - Template basic styling
