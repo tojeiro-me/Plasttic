@@ -115,8 +115,20 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       crossorigin
     />
 
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="preload"
+      href="assets/css/reset.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/reset.css" /></noscript>
+    <link
+      rel="preload"
+      href="assets/css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
   </head>
   <!------------ TEMPLATE START ------------->
   <body id="top" class="ptt-page ptt-page__temp">
@@ -134,10 +146,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
         <section id="temporary" class="ptt-main__message">
           <div class="ptt-container">
             <p class="ptt-main__image">
-              <img
-                src="assets/img/illustrations/tools.svg"
-                alt="Coming Soon"
-              />
+              <img src="assets/img/illustrations/temp.svg" alt="Coming Soon" />
             </p>
             <h1 class="ptt-main__header">Coming Soon</h1>
             <p class="ptt-main__text">

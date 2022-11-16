@@ -15,6 +15,7 @@
 - Updated TODO: comments
 - 404 page styling
 - Added .editorconfig
+- Implemented Async CSS Load
 
 - TODO:
 - Template basic styling
