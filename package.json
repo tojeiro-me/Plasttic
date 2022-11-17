@@ -89,6 +89,7 @@
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-vue": "^9.7.0",
+    "imageoptim-cli": "^3.0.7",
     "make-dir-cli": "^3.0.0",
     "onchange": "^7.1.0",
     "postcss": "^8.4.19",
