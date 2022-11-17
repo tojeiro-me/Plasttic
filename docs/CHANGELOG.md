@@ -13,7 +13,7 @@
 - Deleted browserconfig.xml/mstile-150_150.png
 - Updated TODO: comments
 - Added .editorconfig
-- Implemented Async CSS Load
+- Implemented Defer CSS Load
 - Temporary page
 - 404 page
 
