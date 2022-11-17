@@ -293,6 +293,11 @@ a:focus {
     --clr-primary-500: hsl(0, 86, 38);
   } */
 
+/* Although Temporary and 404 have exactly the same
+structure and properties. For the sake of refactoring,
+if needed, both pages have their own class,
+therefore, their own properties */
+
 /* Temporary */
 body.ptt-page__temp {
   display: grid;
@@ -412,7 +417,7 @@ body.ptt-page__temp {
   }
 }
 /* 404 */
-body.ptt-page__temp {
+body.ptt-page__404 {
   display: grid;
   font-size: var(--fs-400);
   text-align: center;
@@ -421,7 +426,7 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-wrapper {
+.ptt-page__404 .ptt-wrapper {
   display: grid;
   grid-template-areas:
     "nav"
@@ -431,7 +436,7 @@ body.ptt-page__temp {
   margin-block: max(2vw, 1rem);
 }
 
-.ptt-page__temp .ptt-main__message .ptt-container {
+.ptt-page__404 .ptt-main__message .ptt-container {
   display: grid;
   grid-template-areas:
     "image"
@@ -451,7 +456,7 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-main__image {
+.ptt-page__404 .ptt-main__image {
   grid-area: image;
   justify-self: center;
   width: 50%;
@@ -466,7 +471,7 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-main__header {
+.ptt-page__404 .ptt-main__header {
   grid-area: title;
   align-self: end;
   margin-bottom: 0;
@@ -478,7 +483,7 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-main__text {
+.ptt-page__404 .ptt-main__text {
   grid-area: message;
   justify-self: center;
   max-width: 45ch;
@@ -488,12 +493,12 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-main__cta {
+.ptt-page__404 .ptt-main__cta {
   grid-area: cta;
   margin-top: 1.5rem;
 }
 
-.ptt-page__temp .ptt-main__cta a {
+.ptt-page__404 .ptt-main__cta a {
   white-space: nowrap;
   background: var(--clr-complement-400);
   padding: var(--pad-400);
@@ -508,17 +513,17 @@ body.ptt-page__temp {
   }
 }
 
-.ptt-page__temp .ptt-nav__logo {
+.ptt-page__404 .ptt-nav__logo {
   height: max(5vw, 40px);
 }
 
-.ptt-page__temp .ptt-footer__credit,
-.ptt-page__temp .ptt-footer__social {
+.ptt-page__404 .ptt-footer__credit,
+.ptt-page__404 .ptt-footer__social {
   margin-top: var(--mrg-400);
   text-align: center;
 }
 
-.ptt-page__temp .ptt-footer__social {
+.ptt-page__404 .ptt-footer__social {
   display: flex;
   flex-direction: row;
   gap: 1em;
