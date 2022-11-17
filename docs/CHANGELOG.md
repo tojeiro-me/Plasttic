@@ -1,19 +1,25 @@
 # v1.4.5 (--- --, 2022)
 
+- Ended support for IE11
 - Improved Build HTML minify
 - Added ESLint for VSCode from Wesbos/Airbnb + Vue
 - Added default Focus Style in reset.css
 - Added boilerplate.html
 - Added postcss-nesting
 - Updated browserslist on package.json
-- Basic temporary page
-- Added SVGO
-- updated reset.css
+- Added SVGO, Squoosh-cli
+- Updated reset.css
+- Update in @font-face
+- Deleted browserconfig.xml/mstile-150_150.png
+- Updated TODO: comments
+- Added .editorconfig
+- Implemented Defer CSS Load
+- Temporary page
+- 404 page
 
 - TODO:
 - Template basic styling
 - Accessibility Hidden link styling
-- 404 page styling
 
 ## v1.4.4 (Nov 03, 2022)
 

@@ -21,15 +21,15 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <!-- TODO: Page title (max: 70 characters) -->
     <title>Plasttic | Coming Soon</title>
 
-    <!-- TODO: No Crawling on 404, Temporary pages and others -->
+    <!-- TODO: Allow crawling on Temporary pages? Default: No -->
+    <meta name="robots" content="nofollow" />
+    <meta name="googlebot" content="noindex" />
     <!--
     <meta
       name="robots"
       content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
     />
     -->
-    <meta name="robots" content="nofollow" />
-    <meta name="googlebot" content="noindex" />
 
     <!-- TODO: Website description  -->
     <meta
@@ -40,7 +40,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- TODO: Page URL -->
-    <link rel="canonical" href="https://boilerplate.plasttic.dev/" />
+    <link rel="canonical" href="https://plasttic.dev/" />
 
     <!-- TODO: Open Graph -->
     <!--   
@@ -56,10 +56,10 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Plasttic" />
-    <meta property="og:url" content="https://boilerplate.plasttic.dev/" />
+    <meta property="og:url" content="https://plasttic.dev/" />
     <meta
       name="og:image"
-      content="https://boilerplate.plasttic.dev/assets/img/social/default-banner-1200_630.png"
+      content="https://plasttic.dev/assets/img/social/default-banner-1200_630.png"
     />
     <meta name="og:image:alt" content="Plasttic logo banner" />
     <meta property="og:image:width" content="1200" />
@@ -116,7 +116,13 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     />
 
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="preload"
+      href="assets/css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
   </head>
   <!------------ TEMPLATE START ------------->
   <body id="top" class="ptt-page ptt-page__temp">
@@ -134,10 +140,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
         <section id="temporary" class="ptt-main__message">
           <div class="ptt-container">
             <p class="ptt-main__image">
-              <img
-                src="assets/img/illustrations/tool-4311573.svg"
-                alt="Coming Soon"
-              />
+              <img src="assets/img/illustrations/temp.svg" alt="Coming Soon" />
             </p>
             <h1 class="ptt-main__header">Coming Soon</h1>
             <p class="ptt-main__text">
@@ -156,15 +159,27 @@ https://www.w3schools.com/tags/ref_language_codes.asp
         <div class="ptt-container">
           <div class="ptt-footer__credit">
             <p>
-              ©2022 Plasttic.dev | Developed by
-              <a href="https://twitter.com/tojeiro_me" target="_blank"
-                >Goncalo Tojeiro</a
-              >
+              ©2022 Goncalo Tojeiro | Powered by
+              <a href="https://plasttic.dev" target="_blank">Plasttic</a>
             </p>
           </div>
           <div class="ptt-footer__social">
-            <a href="https://github.com/monkey13-ws/Plasttic" target="_blank"
-              ><img src="assets/img/icons/iconmonstr-github-1.svg" alt="Github"
+            <a href="https://twitter.com/tojeiro_me" target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-twitter-1.svg"
+                alt="Twitter"
+            /></a>
+            <a href="https://www.instagram.com/tojeiro.me/" target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-instagram-11.svg"
+                alt="Instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/goncalo-tojeiro/"
+              target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-linkedin-3.svg"
+                alt="LinkedIn"
             /></a>
           </div>
         </div>

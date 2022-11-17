@@ -20,5 +20,6 @@
   ],
   "display": "browser",
   "background_color": "#ffffff",
-  "theme_color": "#000000"
+  "theme_color": "#000000",
+  "_comment": "//TODO: Info, icons, colors"
 }

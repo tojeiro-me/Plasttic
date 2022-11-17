@@ -1,11 +1,15 @@
 /**
 * reset.css
 *
-* A Modern CSS Reset (Jan 18 2021)
+* A Modern CSS Reset (Jan 18 2021):
 * https://piccalil.li/blog/a-modern-css-reset/
 * https://github.com/andy-piccalilli/modern-css-reset
 *
-* Changes to the original are commented using "Plasttic: Change set" 
+* Added some rules from:
+* https://www.joshwcomeau.com/css/custom-css-reset/
+*
+* Added some custom rules:
+* Custom changes are commented using "Plasttic:" 
 */
 
 /* Box sizing rules */
@@ -22,8 +26,8 @@
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -35,7 +39,8 @@ html:focus-within {
 /* Set core body defaults */
 html,
 body {
-  height: 100%; /* Plasttic: Set document height */
+  /* Plasttic: Set document height */
+  height: 100%;
 }
 
 body {
@@ -47,10 +52,17 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   /* Plasttic: Set best line height for headings */
-  line-height: 1.2;
+  line-height: 1; /* or 1.2 */
   margin-bottom: 0.5em;
+  overflow-wrap: break-word;
+}
+
+p {
+  overflow-wrap: break-word;
 }
 
 /* A elements that don't have a class get default styles */
@@ -61,12 +73,14 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture,
+video,
+canvas,
 svg {
-  /* Plasttic: Add SVG */
+  /* Plasttic: Add Video, Canvas and SVG */
+  display: block;
   max-width: 100%;
   /* Plasttic: Set height */
   height: auto;
-  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -75,6 +89,19 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+/* Plasttic: Global focus style for accessibility */
+a:focus-visible,
+input:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 1px solid hsl(0, 0%, 100%);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px hsl(26, 86%, 61%);
+  border-radius: 1px;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */

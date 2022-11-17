@@ -48,7 +48,7 @@ Thank you!
 ---
 
 - Naming: Prefix, BEM, Camelcase
-- Prefix: HTML/CSS `.m13-form__button--hidden`, CSS `--m13-property-variation`, JS `m13j_functionName`, other language (`m13f_funtionName`)
+- Prefix: HTML/CSS `.ptt-form__button--hidden`, CSS `--ptt-property-variation`, JS `ptt_functionName`
 - _Note: avoid naming conflicts and provide context_
 
 ## Customization
@@ -133,7 +133,7 @@ https://youtu.be/mC93zsEsSrg
 
 - Resize images to the max size you will need
 - Minification (Code, Images) and Gziping
-- SVG (use whenever possible)
+- Webp and SVG (use whenever possible)
 
 ## More Information
 
@@ -156,30 +156,18 @@ https://youtu.be/mC93zsEsSrg
 ### VS Code
 
 - [VS Code](https://code.visualstudio.com/)
-- _Extensions: Auto Close Tag, Auto Rename Tag, CSS Peek, ESLint, File Utils, GistPad, GitHub Pull Requests and Issues, GitHub Repositories, GitLens, HTML CSS Support, IntelliSense for CSS, JavaScript (ES6) code snippets, Live Server or Live Preview, Path Intellisense, PHP Intelephense, Prettier, SCSS IntelliSense, SVG Previewer, Tabnine, Turbo Console Log, Vetur_
 - [VS Code Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 - [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 ### Firefox & Chrome
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-- _Firefox Web Developer Tools_
 - [Chrome](https://www.google.com/chrome/)
-- _Extensions: Cacher, JavaScript and CSS Code Beautifier, Lightshot, Live Server Web Extension, MarkUp For Chrome, Measure-it, Sizzy, Stark, Vue.js devtools, Wappalyzer, Web Vitals, What Font, Window Resizer_
+- _Developer Tools_
 
-### Figma
+### Polypane
 
-- [Figma](https://www.figma.com/)
-- _Plugins: Anima, Arc, Chart, Coda, Color Palettes, Content Reel, Export styles to CSS variables, Figmotion, FigPug Units, Font Preview, Hand>>over, Iconify, Illustrations, Isometric, Lorem Ipsum, LottieFiles, Product Planner, Rename It, SkewDat, Stark, Unsplash, Wireframe_
-- _Templates: ERD (Arctype ERD), Flowchart ISO 5807, Site Map, Wireframe (StoryTeller)_
-- Alternatives: [Sketch](https://www.sketch.com/), [Adobe XD](https://www.adobe.com/products/xd.html)
-
-### Codekit
-
-- [Codekit](https://codekitapp.com/)
-- Alternative: [Prepos](https://prepros.io/)
-
-- Note: Still testing package managers solutions
+- [Polypane](https://polypane.app/)
 
 ## License
 

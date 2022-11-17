@@ -6,7 +6,6 @@
     "formulahendry.auto-close-tag",
     "dbaeumer.vscode-eslint",
     "vsls-contrib.gistfs",
-    "github.vscode-pull-request-github",
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
     "glenn2223.live-sass",
@@ -25,6 +24,7 @@
     "ms-vscode.live-server",
     "davidanson.vscode-markdownlint",
     "wallabyjs.console-ninja",
-    "jakewilson.vscode-placeholder-images"
+    "jakewilson.vscode-placeholder-images",
+    "yzhang.markdown-all-in-one"
   ]
 }

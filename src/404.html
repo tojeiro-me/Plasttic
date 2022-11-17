@@ -1,82 +1,179 @@
 <!DOCTYPE html>
-<!-- TODO: pt-PT / en-US -->
+<!-- 
+TODO: language
+https://www.w3schools.com/tags/ref_language_codes.asp 
+-->
 <html lang="en">
   <head>
-    <title>Page Not Found - Plasttic: Web Boilerplate</title>
+    <!-- TODO: Google Analytics: replace GA_TRACKING_ID to be your site's ID. -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'GA_TRACKING_ID');
+    </script>
+    -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- TODO: Page title (max: 70 characters) -->
+    <title>Plasttic | Page Not Found</title>
+
+    <!-- No Crawling on 404, Temporary pages and others -->
     <meta name="robots" content="nofollow" />
     <meta name="googlebot" content="noindex" />
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- TODO: Website description  -->
+    <meta
+      name="description"
+      content="Plasttic is a HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub."
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- TODO: Open Graph -->
+    <!--   
+    Personalize by Page
+    https://ogp.me 
+    https://developers.facebook.com/tools/debug/ 
+    -->
+    <meta property="og:title" content="Plasttic: Web Boilerplate" />
+    <meta
+      property="og:description"
+      content="Plasttic is a HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Plasttic" />
+    <meta property="og:url" content="https://plasttic.dev/" />
+    <meta
+      name="og:image"
+      content="https://plasttic.dev/assets/img/social/default-banner-1200_630.png"
+    />
+    <meta name="og:image:alt" content="Plasttic logo banner" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- TODO: Twitter Cards -->
+    <!-- 
+    https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#opengraph
+    Most information is provided by the Open Graph meta tags
+    -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tojeiro_me" />
+
+    <!-- TODO: About the author of the website -->
+    <link rel="author" href="/humans.txt" />
+
     <!-- TODO: Icons -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- 
+    https://realfavicongenerator.net/
+    -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
 
-    <!-- TODO: Inline CSS styling -->
-    <style>
-      * {
-        line-height: 1.2;
-        margin: 0;
-      }
+    <!-- TODO: Theme-color -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color -->
+    <meta name="theme-color" content="#ffffff" />
 
-      html {
-        color: #888;
-        display: table;
-        font-family: sans-serif;
-        height: 100%;
-        text-align: center;
-        width: 100%;
-      }
+    <!-- TODO: Fonts -->
+    <!-- 1. Local hosted (preload for @font-face) -->
+    <link
+      rel="preload"
+      href="assets/fonts/Roboto-Light.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Roboto-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/Roboto-Medium.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
 
-      body {
-        display: table-cell;
-        vertical-align: middle;
-        margin: 2em auto;
-      }
-
-      h1 {
-        color: #555;
-        font-size: 2em;
-        font-weight: 400;
-      }
-
-      p {
-        margin: 0 auto;
-        width: 280px;
-      }
-
-      @media only screen and (max-width: 280px) {
-        body,
-        p {
-          width: 95%;
-        }
-
-        h1 {
-          font-size: 1.5em;
-          margin: 0 0 0.3em;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      rel="preload"
+      href="assets/css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
   </head>
-  <body class="ptt-page__404">
+  <!------------ TEMPLATE START ------------->
+  <body id="top" class="ptt-page ptt-page__temp">
     <div class="ptt-wrapper">
-      <main class="ptt-main">
-        <section class="ptt-main__404">
+      <nav class="ptt-nav" aria-label="Main">
+        <div class="ptt-container">
+          <img
+            class="ptt-nav__logo"
+            src="assets/img/logos/logo-horizontal.svg"
+            alt="Logo Plasttic"
+          />
+        </div>
+      </nav>
+      <main id="main" class="ptt-main">
+        <section id="temporary" class="ptt-main__message">
           <div class="ptt-container">
-            <h1>Ooops!</h1>
-            <p>Sorry, but the page you were trying to view does not exist.</p>
+            <p class="ptt-main__image">
+              <img src="assets/img/illustrations/404.svg" alt="Coming Soon" />
+            </p>
+            <h1 class="ptt-main__header">Ooops!</h1>
+            <p class="ptt-main__text">
+              We seem to have misplaced the page you're looking for. Let’s give
+              a try and see if we find it:
+            </p>
+            <p class="ptt-main__cta">
+              <a href="https://plasttic.dev" aria-label="Homepage">Let's go</a>
+            </p>
           </div>
         </section>
       </main>
-      <nav class="ptt-nav__404">
+      <footer id="footer" class="ptt-footer">
         <div class="ptt-container">
-          <ul class="ptt-nav__links">
-            <li><a href="https://boilerplate.plasttic.dev/">Return Home</a></li>
-          </ul>
+          <div class="ptt-footer__credit">
+            <p>
+              ©2022 Goncalo Tojeiro | Powered by
+              <a href="https://plasttic.dev" target="_blank">Plasttic</a>
+            </p>
+          </div>
+          <div class="ptt-footer__social">
+            <a href="https://twitter.com/tojeiro_me" target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-twitter-1.svg"
+                alt="Twitter"
+            /></a>
+            <a href="https://www.instagram.com/tojeiro.me/" target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-instagram-11.svg"
+                alt="Instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/goncalo-tojeiro/"
+              target="_blank"
+              ><img
+                src="assets/img/icons/iconmonstr-linkedin-3.svg"
+                alt="LinkedIn"
+            /></a>
+          </div>
         </div>
-      </nav>
+      </footer>
     </div>
   </body>
+  <!------------ TEMPLATE END ------------->
 </html>
