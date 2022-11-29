@@ -1,4 +1,4 @@
-# (Plasttic)[https://plasttic.dev]
+# [Plasttic](https://plasttic.dev)
 
 ---
 
