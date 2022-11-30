@@ -411,8 +411,11 @@ body.ptt-page__temp {
   justify-content: center;
   & img {
     display: inline;
-    width: 24px;
+    height: 20px;
     aspect-ratio: 1/1;
+    @media (--bkp-laptop) {
+      height: 24px;
+    }
   }
 }
 /* 404 */
@@ -529,8 +532,11 @@ body.ptt-page__404 {
   justify-content: center;
   & img {
     display: inline;
-    width: 24px;
+    height: 20px;
     aspect-ratio: 1/1;
+    @media (--bkp-laptop) {
+      height: 24px;
+    }
   }
 }
 

@@ -32,16 +32,15 @@
   ],
   "homepage": "https://github.com/monkey13-ws/Plasttic",
   "scripts": {
-    "dev": "concurrently  -n w: npm:copy:dev npm:watch npm:sync",
-    "build": "concurrently -n w: npm:copy:build",
+    "dev": "concurrently npm:copy:dev npm:watch:* npm:sync",
+    "build": "concurrently npm:copy:build",
     "del:public": "del ./public/* ./public/.htaccess",
-    "copy:dev": "npm run del:public && concurrently -n w: npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:dev && npm run mini:js",
-    "copy:build": "npm run del:public && concurrently -n w: npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:build npm:mini:*",
+    "copy:dev": "npm run del:public && concurrently npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:dev && npm run mini:js",
+    "copy:build": "npm run del:public && concurrently npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:build npm:mini:*",
     "copy:root": "copyfiles -u 1 -a ./src/* ./src/.htaccess public",
     "copy:private": "copyfiles -u 1 -a ./src/private/**/* public",
     "copy:assets": "copyfiles -u 1 -a ./src/assets/**/* ./src/assets/**/**/* ./src/assets/js/vendor/*.js -e=./src/assets/scss/**/* -e=./src/assets/js/*.js public",
     "copy:sass": "sass --no-source-map src/assets/scss:public/assets/scss",
-    "watch": "concurrently -n w: npm:watch:*",
     "watch:root": "onchange -d 10000 'src/*' -- npm run copy:dev",
     "watch:assets": "onchange -d 10000 'src/assets/**/*' 'src/assets/**/**/*' 'src/assets/**/**/**/*' -- npm run copy:dev",
     "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run copy:dev",
@@ -50,8 +49,7 @@
     "post:build": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-custom-media postcss-nesting autoprefixer cssnano -r --no-map",
     "mini:js": "make-dir public/assets/js/ && uglifyjs 'src/assets/js/*.js' -o 'public/assets/js/scripts.min.js'",
     "mini:html": "rehype public/*.html --use remove-comments --use rehype-minify-css-style --use rehype-minify-javascript-script --output public",
-    "sync": "browser-sync start --port 5500 --no-open --server public --files public",
-    "dev:vite": "vite --port 5500"
+    "sync": "browser-sync start --port 5500 --no-open --server public --files public"
   },
   "main": "index.html",
   "browserslist": [
@@ -64,14 +62,13 @@
     "@babel/core": "^7.19.6",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
-    "@squoosh/cli": "^0.7.2",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "@vue/eslint-config-airbnb": "^7.0.0",
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.10",
-    "concurrently": "^7.5.0",
+    "concurrently": "^7.6.0",
     "copyfiles": "^2.4.1",
     "cssnano": "^5.1.14",
     "del-cli": "^5.0.0",
@@ -114,7 +111,6 @@
     "svgo": "^3.0.1",
     "typescript": "^4.8.4",
     "uglify-js": "^3.17.4",
-    "vite": "^3.2.1",
     "vue-eslint-parser": "^9.1.0"
   }
 }
