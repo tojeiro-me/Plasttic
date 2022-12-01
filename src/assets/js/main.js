@@ -8,11 +8,17 @@
  */
 
 /**
- * Start date object into variable
+ * Initialize date object into variable
  */
-const fullDate = new Date();
+const dateCurrent = new Date();
 
 /**
  * Set current year in footer copyright
+ * Use: ©2021-<span id="footer-year"></span>
  */
-document.getElementById('footer-year').innerText = fullDate.getFullYear();
+document.getElementById('footer-year').innerText = dateCurrent.getFullYear();
+
+/**
+ * Reset form values on page load
+ */
+// document.getElementById("formContact").reset();
