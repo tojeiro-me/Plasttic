@@ -16,7 +16,7 @@
 - Implemented Defer CSS Load
 - Temporary page
 - 404 page
-- Added Script for copyright date in footer
+- Added scripts for page load
 
 - TODO:
 - Template basic styling
