@@ -2,7 +2,7 @@
   "name": "plasttic",
   "private": true,
   "type": "module",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
   "keywords": [
     "plasttic",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monkey13-ws/Plasttic.git"
+    "url": "git+https://github.com/tojeiro-me/Plasttic.git"
   },
   "author": "Monkey13",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monkey13-ws/Plasttic/issues"
+    "url": "https://github.com/tojeiro-me/Plasttic/issues"
   },
   "directories": {
     "doc": "docs"
@@ -30,7 +30,7 @@
     "LICENSE",
     "package.json"
   ],
-  "homepage": "https://github.com/monkey13-ws/Plasttic",
+  "homepage": "https://github.com/tojeiro-me/Plasttic",
   "scripts": {
     "dev": "concurrently npm:copy:dev npm:watch:* npm:sync",
     "build": "concurrently npm:copy:build",
