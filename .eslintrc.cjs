@@ -32,6 +32,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'no-alert': 0,
     'no-await-in-loop': 0,
+    'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
     'no-return-assign': ['error', 'except-parens'],
     'no-restricted-syntax': [
       2,

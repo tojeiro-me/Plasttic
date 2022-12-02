@@ -16,7 +16,10 @@
 - Implemented Defer CSS Load
 - Temporary page
 - 404 page
-- Added Script for copyright date in footer
+- Added scripts for page load
+- Added postcss-media-minmax and
+- Implemented postcss-import in styles.css and npm scripts
+- Removed reset.css from html files
 
 - TODO:
 - Template basic styling

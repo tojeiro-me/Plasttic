@@ -25,6 +25,7 @@
     "davidanson.vscode-markdownlint",
     "wallabyjs.console-ninja",
     "jakewilson.vscode-placeholder-images",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "alefragnani.bookmarks"
   ]
 }
