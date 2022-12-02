@@ -1,3 +1,5 @@
+@import "./reset.css";
+
 /**
 * styles.css
 *
@@ -38,7 +40,6 @@
 /* ==========================================================================
    Fonts
   ========================================================================== */
-
 @font-face {
   font-family: "Roboto";
   src: url("/assets/fonts/Roboto-Light.ttf") format("truetype");
@@ -573,7 +574,6 @@ body.ptt-page__404 {
 /**
   * Print
   * Hide sections until print 
-  * extends print.css
   */
 .print-only {
   display: none !important;
