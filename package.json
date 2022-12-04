@@ -1,6 +1,5 @@
 {
   "name": "plasttic",
-  "private": true,
   "type": "module",
   "version": "1.4.5",
   "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
@@ -14,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/tojeiro-me/Plasttic.git"
   },
-  "author": "Monkey13",
+  "author": "Goncalo Tojeiro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tojeiro-me/Plasttic/issues"
