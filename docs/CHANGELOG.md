@@ -17,9 +17,7 @@
 - Temporary page
 - 404 page
 - Added scripts for page load
-- Added postcss-media-minmax and
-- Implemented postcss-import in styles.css and npm scripts
-- Removed reset.css from html files
+- Added postcss-media-minmax and postcss-import
 
 - TODO:
 - Template basic styling

@@ -1,5 +1,3 @@
-@import "./reset.css";
-
 /**
 * styles.css
 *
@@ -299,7 +297,6 @@ a:focus {
   } */
 
 /* Homepage */
-
 
 /* Temporary */
 body.ptt-page__temp {
