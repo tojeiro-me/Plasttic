@@ -1,6 +1,5 @@
 {
   "name": "plasttic",
-  "private": true,
   "type": "module",
   "version": "1.4.5",
   "description": "HTML Boilerplate, Atomic Design Sass Framework and Knowledge Hub",
@@ -14,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/tojeiro-me/Plasttic.git"
   },
-  "author": "Monkey13",
+  "author": "Goncalo Tojeiro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tojeiro-me/Plasttic/issues"
@@ -35,7 +34,6 @@
     "dev": "concurrently npm:copy:dev npm:watch:* npm:sync",
     "build": "concurrently npm:copy:build",
     "del:public": "del ./public/* ./public/.htaccess",
-    "del:files": "del ./public/assets/css/reset.css",
     "copy:dev": "npm run del:public && concurrently npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:dev && npm run mini:js",
     "copy:build": "npm run del:public && concurrently npm:copy:root npm:copy:private npm:copy:assets npm:copy:sass npm:post:build npm:mini:*",
     "copy:root": "copyfiles -u 1 -a ./src/* ./src/.htaccess public",
@@ -46,8 +44,8 @@
     "watch:assets": "onchange -d 10000 'src/assets/**/*' 'src/assets/**/**/*' 'src/assets/**/**/**/*' -- npm run copy:dev",
     "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run copy:dev",
     "watch:sass": "sass  --no-source-map --watch src/assets/scss/styles.scss:public/assets/scss/styles.css",
-    "post:dev": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-import postcss-custom-media postcss-nesting autoprefixer -r --no-map && npm run del:files",
-    "post:build": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-import postcss-custom-media postcss-nesting autoprefixer cssnano -r --no-map && npm run del:files",
+    "post:dev": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-import postcss-custom-media postcss-nesting autoprefixer -r --no-map",
+    "post:build": "postcss public/assets/css/*.css public/assets/scss/*.css -u postcss-import postcss-custom-media postcss-nesting autoprefixer cssnano -r --no-map",
     "mini:js": "make-dir public/assets/js/ && uglifyjs 'src/assets/js/*.js' -o 'public/assets/js/scripts.min.js'",
     "mini:html": "rehype public/*.html --use remove-comments --use rehype-minify-css-style --use rehype-minify-javascript-script --output public",
     "sync": "browser-sync start --port 5500 --no-open --server public --files public"

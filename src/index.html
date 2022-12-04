@@ -97,23 +97,23 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <!-- 1. Local hosted (preload for @font-face) -->
     <link
       rel="preload"
-      href="assets/fonts/Roboto-Light.ttf"
+      href="assets/fonts/roboto-latin-300-normal.woff2"
       as="font"
-      type="font/ttf"
+      type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="assets/fonts/Roboto-Regular.ttf"
+      href="assets/fonts/roboto-latin-400-normal.woff2"
       as="font"
-      type="font/ttf"
+      type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="assets/fonts/Roboto-Medium.ttf"
+      href="assets/fonts/roboto-latin-500-normal.woff2"
       as="font"
-      type="font/ttf"
+      type="font/woff2"
       crossorigin
     />
 
@@ -135,8 +135,8 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <link rel="dns-prefetch" href="https://unpkg.com/" />
     -->
 
+    <link rel="stylesheet" href="assets/css/reset.css" />
     <!-- TODO: Use this link if using Sass -->
-    <!-- The Sass files include reset and print styles -->
     <!--
     <link
     rel="preload"
@@ -146,7 +146,6 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     />
     <noscript><link rel="stylesheet" href="assets/scss/styles.css" /></noscript>
     -->
-
     <link
       rel="preload"
       href="assets/css/styles.css"
@@ -170,7 +169,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       class="print-only"
       src="assets/img/logos/logo-print.svg"
       alt="Logo"
-      style="height: 60px; margin-bottom: 50px"
+      style="float: none; height: 60px; margin-bottom: 50px"
     />
     <!-- Semantic HTML: nav / header / main / section / article / aside / address / footer -->
     <div class="ptt-wrapper">
@@ -249,7 +248,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
           </section>
           <section class="ptt-footer__legal">
             <div class="ptt-footer__legal-copy">
-              ©Year-Year Company. All rights reserved.
+              ©Year-<span id="footer-year"></span> Company. All rights reserved.
             </div>
             <div class="ptt-footer__legal-info">
               Privacy Policy. Cookies. Legal.
