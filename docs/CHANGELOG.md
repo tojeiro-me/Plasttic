@@ -18,6 +18,7 @@
 - 404 page
 - Added scripts for page load
 - Added postcss-media-minmax and postcss-import
+- WebFonts optimization
 
 - TODO:
 - Template basic styling
