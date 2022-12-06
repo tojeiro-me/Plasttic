@@ -1,8 +1,10 @@
-# Plasttic
+# [Plasttic](https://plasttic.dev)
+
+## [![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
 
 ---
 
-## :loudspeaker: Working on v2 -- Atomic Design Implementation with Sass
+## :warning: Atomic Design Implementation with Sass - Coming soon on v2 :warning
 
 ---
 
