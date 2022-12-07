@@ -1,8 +1,8 @@
 module.exports = {
   plugins: {
-    autoprefixer: { stage: 2 },
-    'postcss-preset-env': {},
+    autoprefixer: {},
+    'postcss-preset-env': { stage: 2 },
     'postcss-nesting': {},
-    // cssnano: {},
+    cssnano: {},
   },
 };
