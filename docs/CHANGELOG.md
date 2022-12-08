@@ -1,10 +1,10 @@
 ## v2.0 (--- --, 2022)
 
--
+- :warning: Removed Sass from project
 
 - TODO:
+- Atomic Design implementation
 - Template basic styling
-- Accessibility Hidden link styling
 
 ## v1.4.5 (Dec 08, 2022)
 

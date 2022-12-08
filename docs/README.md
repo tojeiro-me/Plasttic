@@ -1,12 +1,10 @@
 # [Plasttic](https://plasttic.dev)
 
-
 [![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
-
 
 ---
 
-## :warning: Atomic Design Implementation with Sass - Coming soon on v2 :warning:
+## :warning: Replaced Sass with CSS plus PostCSS :warning
 
 ---
 
@@ -26,16 +24,13 @@ Thank you!
 
 ---
 
-- UX/UI/CX
+- CX/UX/UI
 - Semantic HTML
 - Clean Code
 - Namespaces
 - Commenting Conventions
-- CSS Units Usecases
 - Mobile First
-- DRY
 - Code Splitting
-- SASS Partials
 - Web Components
 - CSS Reset
 - Atomic Design
