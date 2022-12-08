@@ -6,13 +6,15 @@
 
 ## :warning: Replaced Sass with CSS plus PostCSS :warning
 
+As I started implementing the Atomic Design methodology
+
 ---
 
 ## About
 
 ---
 
-An complete Front-End Template for Websites and Web Apps: HTML and CSS/Sass boilerplate, File structure, Conventions & more.
+An complete Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
 
 This is not intended to be a framework, but rather a starting point. It includes a starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 

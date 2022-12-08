@@ -1,4 +1,4 @@
-## v2.0 (--- --, 2022)
+# v2.0 (--- --, 2022)
 
 - :warning: Removed Sass from project
 

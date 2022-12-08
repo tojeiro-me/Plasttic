@@ -1,4 +1,4 @@
-@import "./reset.css";
+@import "00_reset.css";
 
 /**
 * styles.css
@@ -200,11 +200,11 @@
      */
 
 /* NOTE: uses PostCSS Custom Media */
-@custom-media --bkp-mobile (min-width: 480px);
-@custom-media --bkp-laptop (min-width: 768px);
-@custom-media --bkp-laptop (min-width: 992px);
-@custom-media --bkp-desktop (min-width: 1024px);
-@custom-media --bkp-large (min-width: 1200px);
+@custom-media --bkp-mobile (width >= 480px);
+@custom-media --bkp-laptop (width >= 768px);
+@custom-media --bkp-laptop (width >= 992px);
+@custom-media --bkp-desktop (width >= 1024px);
+@custom-media --bkp-large (width >= 1200px);
 
 /**
   * RESPONSIVE TOKENS
