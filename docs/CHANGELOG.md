@@ -19,6 +19,7 @@
 - Added scripts for page load
 - Added postcss-media-minmax and postcss-import
 - WebFonts optimization
+- Updated all devDependencies
 
 - TODO:
 - Template basic styling
