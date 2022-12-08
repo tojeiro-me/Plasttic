@@ -1,4 +1,15 @@
-# v1.4.5 (Dec 08, 2022)
+# v2.0 (--- --, 2022)
+
+- :warning: Removed Sass from project
+- Updated PostCSS config
+
+- WORKING:
+- Atomic Design implementation
+- Template basic styling
+
+## v1.4.5 (Dec 08, 2022)
+
+---
 
 - Ended support for IE11
 - Improved Build HTML minify

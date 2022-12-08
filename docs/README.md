@@ -1,12 +1,12 @@
 # [Plasttic](https://plasttic.dev)
 
-
 [![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
-
 
 ---
 
-## :warning: Atomic Design Implementation with Sass - Coming soon on v2 :warning:
+## :warning: Replaced Sass with CSS plus PostCSS :warning
+
+As I started implementing the Atomic Design methodology
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-An complete Front-End Template for Websites and Web Apps: HTML and CSS/Sass boilerplate, File structure, Conventions & more.
+An complete Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
 
 This is not intended to be a framework, but rather a starting point. It includes a starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 
@@ -26,16 +26,13 @@ Thank you!
 
 ---
 
-- UX/UI/CX
+- CX/UX/UI
 - Semantic HTML
 - Clean Code
 - Namespaces
 - Commenting Conventions
-- CSS Units Usecases
 - Mobile First
-- DRY
 - Code Splitting
-- SASS Partials
 - Web Components
 - CSS Reset
 - Atomic Design

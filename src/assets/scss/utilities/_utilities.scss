@@ -1,8 +1,0 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide CSS/Sass utility Classes.
-// My take on utility classes: avoid using utility classes that format content and
-// use Custom Properties instea, or Mixins if it is a group of properties with equal values.
-// You don't want to have extra classes on your HTML that could and will become out of date. 
-// If you have to use utility classes, use simple descriptive styling classes that you can refactor 
-// later without loosing context and that you can change values of with loosing meaning.
-// -----------------------------------------------------------------------------
