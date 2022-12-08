@@ -1,8 +1,9 @@
 # v2.0 (--- --, 2022)
 
 - :warning: Removed Sass from project
+- Updated PostCSS config
 
-- TODO:
+- WORKING:
 - Atomic Design implementation
 - Template basic styling
 
