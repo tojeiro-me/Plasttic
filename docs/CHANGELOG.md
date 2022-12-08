@@ -5,7 +5,7 @@
 - Added ESLint for VSCode from Wesbos/Airbnb + Vue
 - Added default Focus Style in reset.css
 - Added boilerplate.html
-- Added postcss-nesting
+- Added postcss-nested
 - Updated browserslist on package.json
 - Added SVGO, Squoosh-cli
 - Updated reset.css
