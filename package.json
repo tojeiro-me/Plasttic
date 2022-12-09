@@ -51,7 +51,6 @@
     "watch:assets": "onchange -d 10000 'src/assets/**/*' 'src/assets/**/**/*' 'src/assets/**/**/**/*' -- npm run copy:dev",
     "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run copy:dev"
   },
-  "main": "index.html",
   "browserslist": [
     ">0.5%",
     "last 2 versions",
