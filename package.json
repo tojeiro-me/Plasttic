@@ -2,7 +2,7 @@
   "name": "plasttic",
   "type": "module",
   "version": "2.0",
-  "description": "HTML Boilerplate, Atomic Design CSS Framework and Best Practices",
+  "description": "HTML Boilerplate, Atomic Design CSS Framework and Best Practices Template",
   "keywords": [
     "plasttic",
     "template",
@@ -51,7 +51,6 @@
     "watch:assets": "onchange -d 10000 'src/assets/**/*' 'src/assets/**/**/*' 'src/assets/**/**/**/*' -- npm run copy:dev",
     "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run copy:dev"
   },
-  "main": "index.html",
   "browserslist": [
     ">0.5%",
     "last 2 versions",

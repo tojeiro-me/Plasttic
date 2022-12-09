@@ -6,8 +6,6 @@
 
 ## :warning: Replaced Sass with CSS plus PostCSS :warning:
 
-As I started implementing the Atomic Design methodology
-
 ---
 
 ## About

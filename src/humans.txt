@@ -1,10 +1,9 @@
 /* SITE BY */
-Name: Monkey13, https://monkey13.studio/
+Name: Goncalo Tojeiro, https://tojeiro.me/
 
 /* TEAM */    
-
-Company: Monkey13                            
-Contact: dev [at] monkey13.studio                                                     
+                          
+Contact: dev [at] tojeiro.me                                                    
 Location: Porto, Portugal
 
                             
@@ -12,7 +11,7 @@ Location: Porto, Portugal
 
 Standards: HTML5, CSS3                           
 Components: Sass, Vanilla JS                        
-Software: VS Code, Figma
+Software: VS Code
 
 /* humanstxt.org */
 /* TODO: project info */
