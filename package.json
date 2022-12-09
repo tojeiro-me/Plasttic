@@ -51,12 +51,6 @@
     "watch:assets": "onchange -d 10000 'src/assets/**/*' 'src/assets/**/**/*' 'src/assets/**/**/**/*' -- npm run copy:dev",
     "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run copy:dev"
   },
-  "browserslist": [
-    ">0.5%",
-    "last 2 versions",
-    "Firefox ESR",
-    "not dead"
-  ],
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/eslint-parser": "^7.19.1",
