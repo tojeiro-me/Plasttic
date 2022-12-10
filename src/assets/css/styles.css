@@ -1,6 +1,14 @@
+/**
+  * styles.css
+  *
+  * This page imports all other css files
+  * for post processing and it will be the only file served
+  */
+
 @import "00_reset.css";
 @import "01_tokens.css";
 
+@import "07_components.css";
 @import "08_utility.css";
 
 /**
@@ -16,7 +24,7 @@
   * ORGANISMS
   *
   * TEMPLATES
-  * Global Styling
+  * Global Styling across all templates -------> TOKENS?
   * Default..............Default Page styling
   * Temporary
   *
@@ -24,9 +32,6 @@
   * Homepage
   * Temporary
   * 404
-  *
-  * COMPONENTS
-  *
   */
 
 /* ==========================================================================
