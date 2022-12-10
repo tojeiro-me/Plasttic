@@ -1,0 +1,50 @@
+/**
+  * 07_utility.css
+  *
+  * INDEX
+  * -----
+  *
+  * UTILITY
+  * Hidden Link..........Jump to Content
+  * Print................Extends print.css
+  * 
+  */
+
+/* ==========================================================================
+   Utility
+   ========================================================================== */
+
+/** 
+  * Accessibility
+  * Hidden Link: Jump to Content
+  * allows screen reader and keyboard users 
+  * to skip navigation
+  *
+  * More: https://www.accessguide.io/guide/skip-link
+  */
+
+.ptt-access__jump-content {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  transform: translateY(-120%);
+}
+
+.ptt-access__jump-content:active,
+.ptt-access__jump-content:focus {
+  width: auto;
+  height: auto;
+  position: relative;
+  left: auto;
+}
+
+/**
+  * Print
+  * Hide sections until print 
+  */
+
+.print-only {
+  display: none !important;
+}
