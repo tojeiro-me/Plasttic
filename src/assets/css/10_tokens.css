@@ -118,10 +118,10 @@
     */
 
   /* Line Heights */
-  --typ-lh-100: 0.85;
-  --typ-lh-200: 1;
-  --typ-lh-300: 1.2;
-  --typ-lh-400: 1.45; /* default: reset.css */
+  --txt-lh-100: 0.85;
+  --txt-lh-200: 1;
+  --txt-lh-300: 1.2;
+  --txt-lh-400: 1.45; /* default: reset.css */
 
   /**
     * BOX
