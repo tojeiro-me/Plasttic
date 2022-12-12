@@ -14,7 +14,7 @@
   * (end root:)
   * Breakpoints..........Using @custom-media
   *
-  * STYLE TOKENS
+  * TYPOGRAPHY TOKENS
   * 
   */
 
@@ -163,15 +163,10 @@
 @custom-media --bkp-large (width >= 75rem);
 
 /* ==========================================================================
-   Style Tokens
+   Typography Tokens
    ========================================================================== */
 
 :root {
-
-  /**
-    * STYLES
-    * Body, etc
-    */
 
   /* Base */
   --ff-body: var(--ff-primary);
@@ -194,8 +189,8 @@
 }
 
 /**
-  * RESPONSIVE STYLE TOKENS
-  * Redefine Styles custom properties values by Breakpoint
+  * RESPONSIVE TOKENS
+  * Redefine Typography custom properties values by Breakpoint
   * whenever needed
   */
 
