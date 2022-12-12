@@ -13,7 +13,8 @@
   * Box Model
   * (end root:)
   * Breakpoints..........Using @custom-media
-  * Styles
+  *
+  * STYLE TOKENS
   * 
   */
 
@@ -162,7 +163,7 @@
 @custom-media --bkp-large (width >= 75rem);
 
 /* ==========================================================================
-   Styles
+   Style Tokens
    ========================================================================== */
 
 :root {
