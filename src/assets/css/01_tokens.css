@@ -188,6 +188,7 @@
   * Redefine custom properties values by Breakpoint
   * whenever needed
   */
+
 @media (--bkp-laptop) {
   :root {
     --fs-body: var(--fs-400);
