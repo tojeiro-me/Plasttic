@@ -6,10 +6,10 @@
   */
 
 @import "00_reset.css";
-@import "01_tokens.css";
+@import "10_tokens.css";
 
-@import "07_components.css";
-@import "08_utility.css";
+@import "70_components.css";
+@import "80_utility.css";
 
 /**
   * styles.css
