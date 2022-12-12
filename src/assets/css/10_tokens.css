@@ -9,12 +9,13 @@
   * TOKENS
   * (:root)
   * Colors
-  * Fonts
+  * Font
+  * Text
   * Box Model
   * (end root:)
   * Breakpoints..........Using @custom-media
   *
-  * TYPOGRAPHY TOKENS
+  * TYPOGRAPHY
   * 
   */
 
@@ -91,7 +92,7 @@
   --clr-background-content: var(--clr-neutral-100);
 
   /**
-    * FONTS
+    * FONT
     * Family, Weights, Sizes
     */
 
@@ -112,7 +113,7 @@
   --fs-900: 2.25rem;
 
   /**
-    * TYPOGRAPHY
+    * TEXT
     * Line height, ...
     */
 
@@ -167,8 +168,13 @@
    ========================================================================== */
 
 :root {
+  
+  /**
+    * TYPOGRAPHY
+    * Body, Headers, 
+    */
 
-  /* Base */
+  /* Body */
   --ff-body: var(--ff-primary);
   --fw-body: var(--fw-light);
   --fs-body: var(--fs-200);
@@ -189,7 +195,7 @@
 }
 
 /**
-  * RESPONSIVE TOKENS
+  * RESPONSIVE TYPOGRAPHY
   * Redefine Typography custom properties values by Breakpoint
   * whenever needed
   */
