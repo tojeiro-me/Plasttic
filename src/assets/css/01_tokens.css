@@ -176,7 +176,6 @@
   * Mobile, Tablet, Laptop, Desktop
   */
 
-/* NOTE: uses PostCSS Custom Media */
 @custom-media --bkp-mobile (width >= 480px);
 @custom-media --bkp-laptop (width >= 768px);
 @custom-media --bkp-laptop (width >= 992px);
