@@ -154,11 +154,13 @@
   * Mobile, Tablet, Laptop, Desktop
   */
 
-@custom-media --bkp-mobile (width >= 480px);
-@custom-media --bkp-laptop (width >= 768px);
-@custom-media --bkp-laptop (width >= 992px);
-@custom-media --bkp-desktop (width >= 1024px);
-@custom-media --bkp-large (width >= 1200px);
+/* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
+
+@custom-media --bkp-mobile (width >= 30rem);
+@custom-media --bkp-laptop (width >= 48rem);
+@custom-media --bkp-laptop (width >= 62rem);
+@custom-media --bkp-desktop (width >= 64rem);
+@custom-media --bkp-large (width >= 75rem);
 
 :root {
 
