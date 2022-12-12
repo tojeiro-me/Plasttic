@@ -13,9 +13,9 @@
   * Text
   * Box Model
   * (end root:)
-  * Breakpoints..........Using @custom-media
+  * Breakpoints
   *
-  * TYPOGRAPHY
+  * TYPOGRAPHY...........Extends Fonts and Text
   * 
   */
 
@@ -171,7 +171,7 @@
   
   /**
     * TYPOGRAPHY
-    * Body, Headers, 
+    * Body, Headers, Navigation, Footer
     */
 
   /* Body */
@@ -183,6 +183,7 @@
   --fw-header: var(--fw-bold);
   --fs-header-h1: var(--fs-700);
   --fs-header-h2: var(--fs-500);
+  --txt-lh-header: var(--txt-lh-200);
 
   /* Navigation */
   --fw-primary-nav: var(--fw-regular);
