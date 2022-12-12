@@ -158,7 +158,7 @@
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
 @custom-media --bkp-mobile (width >= 30rem);
-@custom-media --bkp-laptop (width >= 48rem);
+@custom-media --bkp-tablet (width >= 48rem);
 @custom-media --bkp-laptop (width >= 62rem);
 @custom-media --bkp-desktop (width >= 64rem);
 @custom-media --bkp-large (width >= 75rem);
