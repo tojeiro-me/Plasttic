@@ -81,8 +81,6 @@
   /* Complementary */
   --clr-complement-400: hsl(348, 68%, 42%);
 
-  /* Theme */
-
   /* Semantic */
   --clr-error-400: hsl(0, 86%, 38%);
   --clr-success-400: hsl(121, 83%, 33%);
@@ -90,6 +88,8 @@
   /* Backgrounds */
   --clr-background-body: var(--clr-neutral-100);
   --clr-background-content: var(--clr-neutral-100);
+  
+  /* Theme */
 
   /**
     * FONT
