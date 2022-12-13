@@ -2,6 +2,7 @@
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
+- NPM Scripts optimized
 
 - WORKING:
 - Atomic Design implementation
