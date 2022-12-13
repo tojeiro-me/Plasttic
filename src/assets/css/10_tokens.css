@@ -4,8 +4,9 @@
   * INDEX
   * -----
   *
-  * FONTS................Self hosted fonts
+  * LOAD FONTS................Self hosted fonts
   *
+  * TOKENS
   * (:root)
   * Colors
   * Font
@@ -14,12 +15,12 @@
   * (end root:)
   * Breakpoints
   *
-  * TYPOGRAPHY...........Extends Fonts and Text
+  * TYPOGRAPHY TOKENS...........Extends Font and Text
   * 
   */
 
 /* ==========================================================================
-   Fonts
+   Load Fonts
    ========================================================================== */
 
 @font-face {

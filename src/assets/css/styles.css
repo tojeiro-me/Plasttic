@@ -7,6 +7,7 @@
 
 @import "00_reset.css";
 @import "10_tokens.css";
+@import "20_atoms.css";
 
 @import "70_components.css";
 @import "80_utility.css";
@@ -65,38 +66,6 @@ body {
   font-family: var(--ff-body);
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
-}
-
-h1 {
-  font-weight: var(--fw-header);
-  font-size: var(--fs-header-h1);
-  line-height: (--txt-lh-200);
-}
-
-h2 {
-  font-weight: var(--fw-header);
-  font-size: var(--fs-header-h2);
-  line-height: (--txt-lh-200);
-}
-
-nav {
-  font-size: var(--fs-nav);
-}
-
-footer {
-  font-size: var(--fs-footer);
-}
-
-a,
-a:visited {
-  color: var(--clr-neutral-900);
-  font-weight: var(--fw-bold);
-}
-
-a:hover,
-a:active,
-a:focus {
-  color: var(--clr-complement-400);
 }
 
 /* Layout */
