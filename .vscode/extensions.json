@@ -15,6 +15,7 @@
     "celianriboulet.webvalidator",
     "yzhang.markdown-all-in-one",
     "alefragnani.bookmarks",
-    "sleistner.vscode-fileutils"
+    "sleistner.vscode-fileutils",
+    "vunguyentuan.vscode-postcss"
   ]
 }

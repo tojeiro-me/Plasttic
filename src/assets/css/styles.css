@@ -1,232 +1,60 @@
-@import "00_reset.css";
-
 /**
-* styles.css
-*
-* reset.css sets default styling across browsers
-*
-*
-* INDEX
-* -----
-*
-* FONTS................Self hosted fonts
-*
-* TOKENS...............Globally-available properties.
-* (:root)
-* Colors
-* Fonts
-* Styles
-* Box Model
-* (end root:)
-* Breakpoints..........Using @custom-media
-* Tokens Media Queries
-*
-* ATOMS
-*
-* MOLECULES
-*
-* TEMPLATES
-* Global Styling
-* Default..............Default Page styling
-* Temporary
-*
-* PAGES
-* Home
-* Temporary
-* 404
-*
-* UTILITY
-* Hidden Link..........Jump to Content
-* Print................Extends print.css
-* 
-*/
-
-/* ==========================================================================
-   Fonts
-   ========================================================================== */
-@font-face {
-  font-family: "Roboto";
-  src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("/assets/fonts/roboto-latin-500-normal.woff2") format("woff2");
-  font-weight: 500;
-  font-display: swap;
-}
-
-/* ==========================================================================
-   Tokens
-   ========================================================================== */
-
-:root {
-  /**
-     * COLORS
-     * Shade number classification light to dark
-     * 500 is the main color; shades from 100-900
-     * Optional: create middle values like 650
-     * Primary and Secondary usually are the brand colors
-     * Theme colors can be changed on page specific styles
-     */
-
-  /* Neutral */
-  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
-  --clr-neutral-200: hsl(0, 0%, 87.5%);
-  --clr-neutral-300: hsl(0, 0%, 75%);
-  --clr-neutral-400: hsl(0, 0%, 62.5%);
-  --clr-neutral-500: hsl(0, 0%, 50%);
-  --clr-neutral-600: hsl(0, 0%, 37.5%);
-  --clr-neutral-700: hsl(0, 0%, 25%);
-  --clr-neutral-800: hsl(0, 0%, 12.5%);
-  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
-
-  /* Primary */
-  --clr-primary-100: hsl(191, 50%, 87%);
-  --clr-primary-300: hsl(190, 50%, 59%);
-  --clr-primary-400: hsl(190, 50%, 35%);
-  --clr-primary-800: hsl(192, 41%, 20%);
-
-  /* Secondary */
-  --clr-secondary-400: var(--clr-neutral-800);
-
-  /* Complementary */
-  --clr-complement-400: hsl(348, 68%, 42%);
-
-  /* Theme */
-
-  /* Semantic */
-  --clr-error-400: hsl(0, 86%, 38%);
-  --clr-success-400: hsl(121, 83%, 33%);
-
-  /* Backgrounds */
-  --clr-background-body: var(--clr-neutral-100);
-  --clr-background-content: var(--clr-neutral-100);
-
-  /**
-     * FONTS
-     * Family, Weights, Sizes
-     */
-
-  /* Font Families */
-  --ff-primary: "Roboto", sans-serif;
-
-  /* Font Weights */
-  --fw-light: 300;
-  --fw-regular: 400;
-  --fw-bold: 500;
-
-  /* Font Sizes: 200: 14px, 400: 16px, 500: 20px,
-    700: 28px, 900: 36px */
-  --fs-200: 0.875rem;
-  --fs-400: 1rem;
-  --fs-500: 1.25rem;
-  --fs-700: 1.75rem;
-  --fs-900: 2.25rem;
-
-  /**
-     * TYPOGRAPHY
-     * Line height, ...
-     */
-
-  /* Line Heights */
-  --typ-lh-100: 0.85;
-  --typ-lh-200: 1;
-  --typ-lh-300: 1.2;
-  --typ-lh-400: 1.45; /* default: reset.css */
-
-  /**
-     * STYLES
-     * Body, etc
-     */
-
-  /* Base */
-  --ff-body: var(--ff-primary);
-  --fw-body: var(--fw-light);
-  --fs-body: var(--fs-200);
-
-  /* Headers */
-  --fw-header: var(--fw-bold);
-  --fs-header-h1: var(--fs-700);
-  --fs-header-h2: var(--fs-500);
-
-  /* Navigation */
-  --fw-primary-nav: var(--fw-regular);
-  --fs-primary-nav: var(--fs-200);
-
-  /* Footer */
-  --fw-footer: var(--fw-regular);
-  --fs-footer: var(--fs-200);
-
-  /**
-     * BOX
-     * Padding, margin
-     */
-
-  /* Padding */
-  --pad-400: 1em;
-
-  /* Margin */
-  --mrg-400: 1rem;
-
-  /* Border */
-  --bdr-400: 1px solid;
-
-  /* Border radius */
-  --bdr-radius-400: 1rem;
-
-  /**
-     * GRID / FLEXBOX
-     * Gap, 
-     */
-
-  /* Gap */
-  --gap-400: 1rem;
-  --gap-700: 2rem;
-}
-
-/**
-     * BREAKPOINTS
-     * Mobile, Tablet, Laptop, Desktop
-     */
-
-/* NOTE: uses PostCSS Custom Media */
-@custom-media --bkp-mobile (width >= 480px);
-@custom-media --bkp-laptop (width >= 768px);
-@custom-media --bkp-laptop (width >= 992px);
-@custom-media --bkp-desktop (width >= 1024px);
-@custom-media --bkp-large (width >= 1200px);
-
-/**
-  * RESPONSIVE TOKENS
-  * Redefine custom properties values by Breakpoint
-  * whenever needed
+  * styles.css
+  *
+  * This page imports all other css files
+  * for post processing and it will be the only file served
   */
-@media (--bkp-laptop) {
-  :root {
-    --fs-body: var(--fs-400);
-    --fs-header-h1: var(--fs-900);
-    --fs-header-h2: var(--fs-700);
-    --fs-nav: var(--fs-200);
-    --fs-footer: var(--fs-200);
-  }
-}
+
+@import "00_reset.css";
+@import "10_tokens.css";
+
+@import "70_components.css";
+@import "80_utility.css";
+
+/**
+  * styles.css
+  *
+  * INDEX
+  * -----
+  *
+  * ATOMS
+  *
+  * MOLECULES
+  *
+  * ORGANISMS
+  *
+  * TEMPLATES
+  * Global Styling across all templates -------> TOKENS?
+  * Default..............Default Page styling
+  * Temporary
+  *
+  * PAGES
+  * Homepage
+  * Temporary
+  * 404
+  */
 
 /* ==========================================================================
-   Template
+   Atoms
+   ========================================================================== */
+
+/* ==========================================================================
+   Molecules
+   ========================================================================== */
+
+/* ==========================================================================
+   Organisms
+   ========================================================================== */
+
+/* ==========================================================================
+   Templates
+   ========================================================================== */
+
+/* Homepage
    ========================================================================== */
 
 /** 
-  * Templates specific properties
+  * Homepage specific properties
   * Change custom properties or create new style rules
   */
 
@@ -242,13 +70,13 @@ body {
 h1 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h1);
-  line-height: (--typ-lh-200);
+  line-height: (--txt-lh-200);
 }
 
 h2 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h2);
-  line-height: (--typ-lh-200);
+  line-height: (--txt-lh-200);
 }
 
 nav {
@@ -365,7 +193,7 @@ body.ptt-page__temp {
   margin-bottom: 0;
   color: var(--clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--typ-lh-100);
+  line-height: var(--txt-lh-100);
   @media (--bkp-laptop) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -486,7 +314,7 @@ body.ptt-page__404 {
   margin-bottom: 0;
   color: var(--clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--typ-lh-100);
+  line-height: var(--txt-lh-100);
   @media (--bkp-laptop) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -545,42 +373,4 @@ body.ptt-page__404 {
       height: 24px;
     }
   }
-}
-
-/* ==========================================================================
-   Utility
-   ========================================================================== */
-
-/** 
-  * Accessibility
-  * Hidden Link: Jump to Content
-  * allows screen reader and keyboard users 
-  * to skip navigation
-  *
-  * More: https://www.accessguide.io/guide/skip-link
-  */
-
-.ptt-access__jump-content {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  top: auto;
-  transform: translateY(-120%);
-}
-
-.ptt-access__jump-content:active,
-.ptt-access__jump-content:focus {
-  width: auto;
-  height: auto;
-  position: relative;
-  left: auto;
-}
-
-/**
-  * Print
-  * Hide sections until print 
-  */
-.print-only {
-  display: none !important;
 }

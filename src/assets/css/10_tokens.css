@@ -1,0 +1,212 @@
+/**
+  * 10_tokens.css
+  *
+  * INDEX
+  * -----
+  *
+  * FONTS................Self hosted fonts
+  *
+  * TOKENS
+  * (:root)
+  * Colors
+  * Font
+  * Text
+  * Box Model
+  * (end root:)
+  * Breakpoints
+  *
+  * TYPOGRAPHY...........Extends Fonts and Text
+  * 
+  */
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/roboto-latin-500-normal.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+
+:root {
+  /**
+    * COLORS
+    * Shade number classification light to dark
+    * 500 is the main color; shades from 100-900
+    * Optional: create middle values like 650
+    * Primary and Secondary usually are the brand colors
+    * Theme colors can be changed on page specific styles
+    */
+
+  /* Neutral */
+  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
+  --clr-neutral-200: hsl(0, 0%, 87.5%);
+  --clr-neutral-300: hsl(0, 0%, 75%);
+  --clr-neutral-400: hsl(0, 0%, 62.5%);
+  --clr-neutral-500: hsl(0, 0%, 50%);
+  --clr-neutral-600: hsl(0, 0%, 37.5%);
+  --clr-neutral-700: hsl(0, 0%, 25%);
+  --clr-neutral-800: hsl(0, 0%, 12.5%);
+  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
+
+  /* Primary */
+  --clr-primary-100: hsl(191, 50%, 87%);
+  --clr-primary-300: hsl(190, 50%, 59%);
+  --clr-primary-400: hsl(190, 50%, 35%);
+  --clr-primary-800: hsl(192, 41%, 20%);
+
+  /* Secondary */
+  --clr-secondary-400: var(--clr-neutral-800);
+
+  /* Complementary */
+  --clr-complement-400: hsl(348, 68%, 42%);
+
+  /* Semantic */
+  --clr-error-400: hsl(0, 86%, 38%);
+  --clr-success-400: hsl(121, 83%, 33%);
+
+  /* Backgrounds */
+  --clr-background-body: var(--clr-neutral-100);
+  --clr-background-content: var(--clr-neutral-100);
+  
+  /* Theme */
+
+  /**
+    * FONT
+    * Family, Weights, Sizes
+    */
+
+  /* Font Families */
+  --ff-primary: "Roboto", sans-serif;
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 500;
+
+  /* Font Sizes: 200: 14px, 400: 16px, 500: 20px,
+      700: 28px, 900: 36px */
+  --fs-200: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: 1.25rem;
+  --fs-700: 1.75rem;
+  --fs-900: 2.25rem;
+
+  /**
+    * TEXT
+    * Line height, ...
+    */
+
+  /* Line Heights */
+  --txt-lh-100: 0.85;
+  --txt-lh-200: 1;
+  --txt-lh-300: 1.2;
+  --txt-lh-400: 1.45; /* default: reset.css */
+
+  /**
+    * BOX
+    * Padding, margin
+    */
+
+  /* Padding */
+  --pad-400: 1em;
+
+  /* Margin */
+  --mrg-400: 1rem;
+
+  /* Border */
+  --bdr-400: 1px solid;
+
+  /* Border radius */
+  --bdr-radius-400: 1rem;
+
+  /**
+    * GRID / FLEXBOX
+    * Gap, 
+    */
+
+  /* Gap */
+  --gap-400: 1rem;
+  --gap-700: 2rem;
+}
+
+/**
+  * BREAKPOINTS
+  * Mobile, Tablet, Laptop, Desktop
+  */
+
+/* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
+
+@custom-media --bkp-mobile (width >= 30rem);
+@custom-media --bkp-tablet (width >= 48rem);
+@custom-media --bkp-laptop (width >= 62rem);
+@custom-media --bkp-desktop (width >= 64rem);
+@custom-media --bkp-large (width >= 75rem);
+
+/* ==========================================================================
+   Typography Tokens
+   ========================================================================== */
+
+:root {
+  
+  /**
+    * TYPOGRAPHY
+    * Body, Headers, Navigation, Footer
+    */
+
+  /* Body */
+  --ff-body: var(--ff-primary);
+  --fw-body: var(--fw-light);
+  --fs-body: var(--fs-200);
+
+  /* Headers */
+  --fw-header: var(--fw-bold);
+  --fs-header-h1: var(--fs-700);
+  --fs-header-h2: var(--fs-500);
+  --txt-lh-header: var(--txt-lh-200);
+
+  /* Navigation */
+  --fw-primary-nav: var(--fw-regular);
+  --fs-primary-nav: var(--fs-200);
+
+  /* Footer */
+  --fw-footer: var(--fw-regular);
+  --fs-footer: var(--fs-200);
+
+}
+
+/**
+  * RESPONSIVE TYPOGRAPHY
+  * Redefine Typography custom properties values by Breakpoint
+  * whenever needed
+  */
+
+@media (--bkp-laptop) {
+  :root {
+    --fs-body: var(--fs-400);
+    --fs-header-h1: var(--fs-900);
+    --fs-header-h2: var(--fs-700);
+    --fs-nav: var(--fs-200);
+    --fs-footer: var(--fs-200);
+  }
+}

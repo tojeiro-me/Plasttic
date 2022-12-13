@@ -1,0 +1,23 @@
+/**
+  * 80_utility.css
+  *
+  * INDEX
+  * -----
+  *
+  * UTILITY
+  * Print................Extends print.css
+  * 
+  */
+
+/* ==========================================================================
+   Utility
+   ========================================================================== */
+
+/**
+  * Print
+  * Hide elements/sections until print 
+  */
+
+.print-only {
+  display: none !important;
+}

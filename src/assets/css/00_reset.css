@@ -1,16 +1,22 @@
 /**
-* 00_reset.css
-*
-* A Modern CSS Reset
-* https://github.com/Andy-set-studio/modern-css-reset
-* https://piccalil.li/blog/a-modern-css-reset/
-*
-* Added some rules from:
-* https://www.joshwcomeau.com/css/custom-css-reset/
-*
-* Added some custom rules:
-* Custom changes are commented using "Plasttic:" 
-*/
+  * 00_reset.css
+  *
+  * Styling for CSS browser compatibility
+  *
+  * A Modern CSS Reset
+  * https://github.com/Andy-set-studio/modern-css-reset
+  * https://piccalil.li/blog/a-modern-css-reset/
+  *
+  * Added some rules from:
+  * https://www.joshwcomeau.com/css/custom-css-reset/
+  *
+  * Added some custom rules:
+  * Custom changes are commented using "Plasttic:" 
+  */
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
 
 /* Box sizing rules */
 *,
