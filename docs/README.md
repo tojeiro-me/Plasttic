@@ -4,7 +4,7 @@
 
 ---
 
-## :warning: Replaced Sass with CSS plus PostCSS :warning:
+## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
 
 ---
 
