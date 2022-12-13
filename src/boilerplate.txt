@@ -118,7 +118,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       crossorigin
     />
 
-    <!-- 2. Google Fonts (use preconnect/dns-fetch/preload for other font providers) -->
+    <!-- 2. Google Fonts -->
     <!--
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
