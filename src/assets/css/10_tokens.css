@@ -157,11 +157,11 @@
 
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
-@custom-media --bkp-mobile (width >= 30rem);
-@custom-media --bkp-tablet (width >= 48rem);
-@custom-media --bkp-laptop (width >= 62rem);
-@custom-media --bkp-desktop (width >= 64rem);
-@custom-media --bkp-large (width >= 75rem);
+@custom-media --bkp-xs (width >= 30rem);
+@custom-media --bkp-sm (width >= 48rem);
+@custom-media --bkp-md (width >= 62rem);
+@custom-media --bkp-lg (width >= 64rem);
+@custom-media --bkp-xl (width >= 75rem);
 
 /* ==========================================================================
    Typography Tokens
@@ -199,7 +199,7 @@
   * whenever needed
   */
 
-@media (--bkp-laptop) {
+@media (--bkp-md) {
   :root {
     --fs-body: var(--fs-400);
     --fs-header-h1: var(--fs-900);
