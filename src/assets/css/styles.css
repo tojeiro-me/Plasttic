@@ -70,13 +70,13 @@ body {
 h1 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h1);
-  line-height: (--typ-lh-200);
+  line-height: (--txt-lh-200);
 }
 
 h2 {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h2);
-  line-height: (--typ-lh-200);
+  line-height: (--txt-lh-200);
 }
 
 nav {
@@ -193,7 +193,7 @@ body.ptt-page__temp {
   margin-bottom: 0;
   color: var(--clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--typ-lh-100);
+  line-height: var(--txt-lh-100);
   @media (--bkp-laptop) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -314,7 +314,7 @@ body.ptt-page__404 {
   margin-bottom: 0;
   color: var(--clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--typ-lh-100);
+  line-height: var(--txt-lh-100);
   @media (--bkp-laptop) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
