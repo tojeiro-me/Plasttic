@@ -1,0 +1,54 @@
+/**
+  * 20_atoms.css
+  *
+  * INDEX
+  * -----
+  *
+  * TYPOGRAPHY...........Extends Typography Tokens
+  * 
+  */
+
+/* ==========================================================================
+   Atoms
+   ========================================================================== */
+
+/**
+    * TYPOGRAPHY
+    * Headers, ...
+    */
+
+@define-mixin h1 {
+  font-weight: var(--fw-header);
+  font-size: var(--fs-header-h1);
+  line-height: var(--txt-lh-200);
+}
+
+h1 {
+  @mixin h1;
+}
+
+h2 {
+  font-weight: var(--fw-header);
+  font-size: var(--fs-header-h2);
+  line-height: var(--txt-lh-200);
+}
+
+nav {
+  font-size: var(--fs-nav);
+}
+
+footer {
+  font-size: var(--fs-footer);
+}
+
+a,
+a:visited {
+  color: var(--clr-neutral-900);
+  font-weight: var(--fw-bold);
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--clr-complement-400);
+}

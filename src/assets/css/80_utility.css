@@ -4,8 +4,7 @@
   * INDEX
   * -----
   *
-  * UTILITY
-  * Print................Extends print.css
+  * Print-only................Extends print.css
   * 
   */
 
@@ -15,6 +14,7 @@
 
 /**
   * Print
+  * Extends print.css
   * Hide elements/sections until print 
   */
 
