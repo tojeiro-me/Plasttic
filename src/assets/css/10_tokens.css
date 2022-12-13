@@ -6,7 +6,6 @@
   *
   * FONTS................Self hosted fonts
   *
-  * TOKENS
   * (:root)
   * Colors
   * Font
@@ -88,7 +87,7 @@
   /* Backgrounds */
   --clr-background-body: var(--clr-neutral-100);
   --clr-background-content: var(--clr-neutral-100);
-  
+
   /* Theme */
 
   /**
@@ -168,7 +167,6 @@
    ========================================================================== */
 
 :root {
-  
   /**
     * TYPOGRAPHY
     * Body, Headers, Navigation, Footer
@@ -192,7 +190,6 @@
   /* Footer */
   --fw-footer: var(--fw-regular);
   --fs-footer: var(--fs-200);
-
 }
 
 /**
