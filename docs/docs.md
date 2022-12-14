@@ -105,7 +105,7 @@ https://youtu.be/mC93zsEsSrg
 
 ---
 
-- [Design Principles](https://principles.adactio.com/), [Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility), [Atomic Design](https://atomicdesign.bradfrost.com/), [BEM](http://getbem.com)
+- [Design Principles](https://principles.adactio.com/), [Accessibility](https://web.dev/learn/accessibility/), [Atomic Design](https://atomicdesign.bradfrost.com/), [BEM](http://getbem.com)
 
 ## Software
 
