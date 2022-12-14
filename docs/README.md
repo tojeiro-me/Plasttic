@@ -49,6 +49,8 @@ You will find documentation in the files comments and some notes in the `docs` f
   - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
   - Homepage (Soon!)
 
+_Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:"_
+
 ## Documentation
 
 ---
