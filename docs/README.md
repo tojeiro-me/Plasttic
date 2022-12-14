@@ -32,10 +32,10 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Clean Code
 - Semantic HTML
 - Namespaces
-- Commenting Conventions
+- Conventions
 - Mobile First
 - Code Splitting
-- Documentation
+- Comments/Documentation
 
 ## Usage
 
