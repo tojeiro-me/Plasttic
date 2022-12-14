@@ -23,7 +23,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 ---
 
 - Performance/Core Web Vitals
-- Accessability
+- Accessibility
 - Best Practices
 - SEO
 - Social Media
@@ -41,7 +41,13 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
-- Boilerplate
+### HTML Boilerplate
+
+- [HTML Boilerplate](https://boilerplate.plasttic.dev/boilerplate.txt)
+- Templates:
+  - [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
+  - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
+  - Homepage (Soon!)
 
 ## Documentation
 

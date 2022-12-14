@@ -1,6 +1,4 @@
-## Docs
-
----
+# DOCS (Notes)
 
 ## Namespace
 
