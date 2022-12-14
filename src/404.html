@@ -75,8 +75,13 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#2d89ef" />
+
+    <!-- TODO: Web App Manifest -->
+    <!-- 
+    https://developer.mozilla.org/en-US/docs/Web/Manifest
+    -->
+    <link rel="manifest" href="/manifest.json" />
 
     <!-- TODO: Theme-color -->
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color -->
@@ -128,7 +133,11 @@ https://www.w3schools.com/tags/ref_language_codes.asp
         </div>
       </nav>
       <main id="main" class="ptt-main">
-        <section id="temporary" class="ptt-main__message" aria-label="Error message">
+        <section
+          id="temporary"
+          class="ptt-main__message"
+          aria-label="Error message"
+        >
           <div class="ptt-container">
             <p class="ptt-main__image">
               <img src="assets/img/illustrations/404.svg" alt="Coming Soon" />

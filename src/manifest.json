@@ -1,6 +1,7 @@
 {
   "short_name": "Plasttic",
   "name": "Plasttic | Web Boilerplate",
+  "description": "A complete Web Boilerplate.",
   "icons": [
     {
       "src": "/icon-vector.svg",
@@ -18,6 +19,7 @@
       "sizes": "512x512"
     }
   ],
+  "start_url": "https://boilerplate.plasttic.dev",
   "display": "browser",
   "background_color": "#ffffff",
   "theme_color": "#000000",
