@@ -7,6 +7,7 @@
 - WORKING:
 - Atomic Design implementation
 - Template basic styling
+- Documentation
 
 ## v1.4.5 (Dec 08, 2022)
 

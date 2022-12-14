@@ -11,11 +11,12 @@
     "ritwickdey.liveserver",
     "christian-kohler.path-intellisense",
     "esbenp.prettier-vscode",
-    "wallabyjs.quokka-vscode",
     "celianriboulet.webvalidator",
     "yzhang.markdown-all-in-one",
     "alefragnani.bookmarks",
     "sleistner.vscode-fileutils",
-    "vunguyentuan.vscode-postcss"
+    "vunguyentuan.vscode-postcss",
+    "streetsidesoftware.code-spell-checker",
+    "withfig.fig"
   ]
 }
