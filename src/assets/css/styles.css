@@ -109,7 +109,7 @@ body.ptt-page__temp {
   display: grid;
   font-size: var(--fs-400);
   text-align: center;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     text-align: left;
   }
 }
@@ -133,7 +133,7 @@ body.ptt-page__temp {
     "cta";
   gap: var(--gap-700);
   margin-block: min(2vw, 1em);
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     grid-template-areas:
       "title   image"
       "message image"
@@ -148,7 +148,7 @@ body.ptt-page__temp {
   grid-area: image;
   justify-self: center;
   width: 50%;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     width: 50vh;
     justify-self: right;
   }
@@ -166,7 +166,7 @@ body.ptt-page__temp {
   color: var(--clr-neutral-700);
   font-size: 4rem;
   line-height: var(--txt-lh-100);
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
 }
@@ -175,7 +175,7 @@ body.ptt-page__temp {
   grid-area: message;
   justify-self: center;
   max-width: 45ch;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     justify-self: left;
     font-size: var(--fs-500);
   }
@@ -220,7 +220,7 @@ body.ptt-page__temp {
     display: inline;
     height: 20px;
     aspect-ratio: 1/1;
-    @media (--bkp-laptop) {
+    @media (--bkp-md) {
       height: 24px;
     }
   }
@@ -230,7 +230,7 @@ body.ptt-page__404 {
   display: grid;
   font-size: var(--fs-400);
   text-align: center;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     text-align: left;
   }
 }
@@ -254,7 +254,7 @@ body.ptt-page__404 {
     "cta";
   gap: var(--gap-700);
   margin-block: min(2vw, 1em);
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     grid-template-areas:
       "title   image"
       "message image"
@@ -269,7 +269,7 @@ body.ptt-page__404 {
   grid-area: image;
   justify-self: center;
   width: 50%;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     width: 50vh;
     justify-self: right;
   }
@@ -287,7 +287,7 @@ body.ptt-page__404 {
   color: var(--clr-neutral-700);
   font-size: 4rem;
   line-height: var(--txt-lh-100);
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
 }
@@ -296,7 +296,7 @@ body.ptt-page__404 {
   grid-area: message;
   justify-self: center;
   max-width: 45ch;
-  @media (--bkp-laptop) {
+  @media (--bkp-md) {
     justify-self: left;
     font-size: var(--fs-500);
   }
@@ -341,7 +341,7 @@ body.ptt-page__404 {
     display: inline;
     height: 20px;
     aspect-ratio: 1/1;
-    @media (--bkp-laptop) {
+    @media (--bkp-md) {
       height: 24px;
     }
   }
