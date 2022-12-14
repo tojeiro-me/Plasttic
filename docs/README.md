@@ -54,6 +54,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 ---
 
 - Check `docs` folder
+- Documentation website (Soon!)
 
 ## License
 
