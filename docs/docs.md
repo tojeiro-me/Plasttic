@@ -8,12 +8,6 @@
 - Prefix: HTML/CSS `.ptt-form__button--hidden`, CSS `--ptt-property-variation`, JS `ptt_functionName`
 - _Note: avoid naming conflicts and provide context_
 
-## Customization
-
----
-
-- HTML/CSS/JS Files: Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:"
-
 ## Performance
 
 ---
