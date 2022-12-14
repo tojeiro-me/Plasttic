@@ -43,6 +43,12 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - Boilerplate
 
+## Documentation
+
+---
+
+- Check `docs` folder
+
 ## License
 
 ---

@@ -1,4 +1,4 @@
-## NOTES
+## Docs
 
 ---
 
@@ -99,8 +99,7 @@ https://youtu.be/mC93zsEsSrg
 ---
 
 - VSCode Extensions: see .vscode folder
-- VSCode Project settings.json: see .vscode folder
-- Check other `README.md` files
+- VSCode Project settings: see config files in the project root and .vscode folder
 
 ## Reference Material
 
