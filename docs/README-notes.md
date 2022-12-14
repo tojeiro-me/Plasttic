@@ -1,39 +1,28 @@
-# [Plasttic](https://plasttic.dev)
-
-[![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
+## NOTES
 
 ---
-
-## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
-
----
-
-## About
-
----
-
-An complete Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
-
-This is not intended to be a framework, but rather a starting point. It includes a starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
-
-You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
 
 ## Practices Guidelines
 
 ---
 
+- CX/UX/UI
 - Semantic HTML
 - Clean Code
 - Namespaces
 - Commenting Conventions
 - Mobile First
 - Code Splitting
+- Web Components
 - CSS Reset
-- Atomic Design / Design System
+- Atomic Design
+- Style Guides / Design System
 - Accessability
 - Documentation
 - Performance
 - SEO
+- Version Control Repository
+- Test and Debug
 
 ## Namespace
 
@@ -160,9 +149,3 @@ https://youtu.be/mC93zsEsSrg
 ### Polypane
 
 - [Polypane](https://polypane.app/)
-
-## License
-
----
-
-- [MIT license](https://opensource.org/licenses/MIT)

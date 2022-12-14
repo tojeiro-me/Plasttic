@@ -1,6 +1,4 @@
-# Notes for Docs
-
-## 1. CSS properties organization
+# CSS properties order
 
 ```css
 class {
@@ -28,7 +26,7 @@ class {
   z-index: -1;
 
   /* Typography */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   color: #000;
@@ -41,7 +39,7 @@ class {
 }
 
 class::after {
-  content: '';
+  content: "";
   /* other properties */
 }
 ```
