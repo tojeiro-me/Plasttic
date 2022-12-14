@@ -3,6 +3,7 @@
   *
   * This page imports all other css files
   * for post processing and it will be the only file served
+  *
   */
 
 @import "00_reset.css";
@@ -15,52 +16,9 @@
 @import "70_components.css";
 @import "80_utility.css";
 
-/**
-  * styles.css
-  *
-  * INDEX
-  * -----
-  *
-  * ATOMS
-  *
-  * MOLECULES
-  *
-  * ORGANISMS
-  *
-  * TEMPLATES
-  * Global Styling across all templates -------> TOKENS?
-  * Default..............Default Page styling
-  * Temporary
-  *
-  * PAGES
-  * Homepage
-  * Temporary
-  * 404
-  */
-
 /* ==========================================================================
-   Atoms
+   TODO
    ========================================================================== */
-
-/* ==========================================================================
-   Molecules
-   ========================================================================== */
-
-/* ==========================================================================
-   Organisms
-   ========================================================================== */
-
-/* ==========================================================================
-   Templates
-   ========================================================================== */
-
-/* Homepage
-   ========================================================================== */
-
-/** 
-  * Homepage specific properties
-  * Change custom properties or create new style rules
-  */
 
 /* Global Styling */
 body {
