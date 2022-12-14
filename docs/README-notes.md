@@ -2,28 +2,6 @@
 
 ---
 
-## Practices Guidelines
-
----
-
-- CX/UX/UI
-- Semantic HTML
-- Clean Code
-- Namespaces
-- Commenting Conventions
-- Mobile First
-- Code Splitting
-- Web Components
-- CSS Reset
-- Atomic Design
-- Style Guides / Design System
-- Accessability
-- Documentation
-- Performance
-- SEO
-- Version Control Repository
-- Test and Debug
-
 ## Namespace
 
 ---
