@@ -17,14 +17,14 @@
     * Headers, ...
     */
 
-@define-mixin h1-500 {
+@define-mixin h1-md {
   font-weight: var(--fw-header);
   font-size: var(--fs-header-h1);
   line-height: var(--txt-lh-200);
 }
 
 h1 {
-  @mixin h1;
+  @mixin h1-md;
 }
 
 h2 {
