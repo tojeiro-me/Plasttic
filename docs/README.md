@@ -12,9 +12,9 @@
 
 ---
 
-An complete Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
+An complete and professional Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
 
-This is not intended to be a framework, but rather a starting point. It includes a starter html, sass and css code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
+This is not intended to be a framework, but rather a starting point. It includes a starter hHTML, CSS and PostCSS code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 
 You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
 
@@ -22,18 +22,20 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
-- Semantic HTML
+- Performance/Core Web Vitals
+- Accessability
+- Best Practices
+- SEO
+- Social Media
+- CSS Reset
+- Atomic Design/Design System
 - Clean Code
+- Semantic HTML
 - Namespaces
 - Commenting Conventions
 - Mobile First
 - Code Splitting
-- CSS Reset
-- Atomic Design / Design System
-- Accessability
 - Documentation
-- Performance
-- SEO
 
 ## Usage
 
