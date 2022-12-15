@@ -14,7 +14,7 @@
 
 An complete and professional Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
 
-This is not intended to be a framework, but rather a starting point. It includes a starter hHTML, CSS and PostCSS code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
+This is not intended to be a framework, but rather a starting point. It includes a starter HTML, CSS and PostCSS code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 
 You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
 
@@ -41,7 +41,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
-### HTML Boilerplate
+### 1. HTML Boilerplate
 
 - [HTML Boilerplate](https://boilerplate.plasttic.dev/boilerplate.txt)
 - Templates:
