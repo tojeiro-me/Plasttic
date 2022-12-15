@@ -10,7 +10,7 @@
 
 Colors, Background Color, Text Color, Border Color, Font, Font Size, Opacity, Line Height, Spacing, Radius, Sizing, Shadow, Time, Touch, Media Query, Z-index
 
-1.  ATOMS
+2.  ATOMS
 
 - The basic building blocks
 
@@ -46,7 +46,7 @@ Final styling of the content where needed
 
 Hidden Link, ...
 
-1.  UTILITY
+8.  UTILITY
 
 - Utility classes
 
