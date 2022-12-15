@@ -3,11 +3,12 @@
 - :warning: Removed Sass from project
 - Updated PostCSS config
 - NPM Scripts optimized
+- Docs updates
 
 - WORKING:
 - Atomic Design implementation
 - Template basic styling
-- Documentation
+- Documentation Website
 
 ## v1.4.5 (Dec 08, 2022)
 

@@ -8,7 +8,7 @@
 
 - Global visual design attributes
 
-Colors, Background Color, Text Color, Border Color, Font, Font Size, Opacity, Line Height, Spacing, Radius, Sizing, Shadow, Time, Touch, Media Query, Z-index
+Colors, Background Color, Text Color, Border Color, Font, Font Size, Opacity, Line Height, Spacing, Radius, Sizing, Shadow, Time, Touch, Media Query, Z-index, Aspect-ratio
 
 2.  ATOMS
 
