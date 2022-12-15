@@ -14,25 +14,25 @@ Colors, Background Color, Text Color, Border Color, Font, Font Size, Opacity, Li
 
 - The basic building blocks
 
-Typography, Buttons, Form elements,
+Logo, Typography, Buttons, Form elements, ...
 
 3.  MOLECULES
 
 - Groups of Atoms bonded together to create fundamental units
 
-Form, Search,
+Form, Search, Social Icons, ...
 
 4.  ORGANISMS
 
 - Combination of Molecules to create sections
 
-Navigation, Footer,
+Navigation, Footer, Hero, ...
 
 5.  TEMPLATES
 
 - Groups of organisms stitched together to form pages
 
-Page layouts with placeholders
+Page layouts with placeholder images
 
 6.  PAGES
 
@@ -44,7 +44,9 @@ Final styling of the content where needed
 
 - Patterns and Components independent of the Design System
 
-8.  UTILITY
+Hidden Link, ...
+
+1.  UTILITY
 
 - Utility classes
 
