@@ -12,7 +12,7 @@
 
 ---
 
-An complete and professional Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, File structure, Conventions & more.
+Plasttic is a complete and professional Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, File structure, Conventions & Best Practices.
 
 This is not intended to be a framework, but rather a starting point. It includes a starter HTML, CSS and PostCSS code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
 
