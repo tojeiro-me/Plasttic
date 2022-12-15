@@ -83,13 +83,63 @@
     <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
     <script src="assets/js/scripts.min.js" defer></script>
   </head>
-  <body class="ptt-page ptt-page__home">
-    <h1>Plasttic: Templates</h1>
-    <ul>
-      <li><a href="boilerplate.txt">Boilerplate</a></li>
-      <li>Homepage (Soon!)</li>
-      <li><a href="temporary.html">Under Construction</a></li>
-      <li><a href="404.html">404 Page not Found</a></li>
-    </ul>
+  <body id="top" class="ptt-page ptt-page__temp">
+    <div class="ptt-wrapper">
+      <nav class="ptt-nav" aria-label="Main">
+        <div class="ptt-container">
+          <a href="https://boilerplate.plasttic.dev"
+            ><img
+              class="ptt-nav__logo"
+              src="assets/img/logos/logo-horizontal.svg"
+              alt="Plasttic Home"
+          /></a>
+        </div>
+      </nav>
+      <main id="main" class="ptt-main">
+        <section
+          id="temporary"
+          class="ptt-main__message"
+          aria-label="Coming soon"
+        >
+          <div class="ptt-container">
+            <div class="ptt-main__text">
+              <h1>Plasttic: Templates</h1>
+              <ul role="list">
+                <li><a href="boilerplate.txt">Boilerplate</a></li>
+                <li>Homepage (Soon!)</li>
+                <li><a href="temporary.html">Under Construction</a></li>
+                <li><a href="404.html">404 Page not Found</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer" class="ptt-footer">
+        <div class="ptt-container">
+          <div class="ptt-footer__credit">
+            <p>
+              ©2021-<span id="footer-year"></span> Goncalo Tojeiro | Powered by
+              <a href="https://plasttic.dev" target="_blank">Plasttic</a>
+            </p>
+          </div>
+          <div class="ptt-footer__social">
+            <a href="https://mastodon.social/@tojeiro_me" target="_blank"
+              ><img src="assets/img/icons/mastodon.svg" alt="Mastodon"
+            /></a>
+            <a href="https://github.com/tojeiro-me" target="_blank"
+              ><img src="assets/img/icons/github.svg" alt="Github"
+            /></a>
+            <a href="https://www.instagram.com/tojeiro.me/" target="_blank"
+              ><img src="assets/img/icons/instagram.svg" alt="Instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/goncalo-tojeiro/"
+              target="_blank"
+              ><img src="assets/img/icons/linkedin.svg" alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
