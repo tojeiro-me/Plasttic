@@ -10,9 +10,7 @@
 
 Colors, Background Color, Text Color, Border Color, Font, Font Size, Opacity, Line Height, Spacing, Radius, Sizing, Shadow, Time, Touch, Media Query, Z-index
 
-More: https://www.lightningdesignsystem.com/design-tokens/
-
-2.  ATOMS
+1.  ATOMS
 
 - The basic building blocks
 
