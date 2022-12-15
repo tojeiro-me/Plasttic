@@ -4,9 +4,9 @@
 
 ---
 
-- Naming: Prefix, BEM, Camelcase
-- Prefix: HTML/CSS `.ptt-form__button--hidden`, CSS `--ptt-property-variation`, JS `ptt_functionName`
-- _Note: avoid naming conflicts and provide context_
+- Naming: Prefix, BEM
+- Prefix: HTML/CSS `.ptt-form__button--hidden`
+  _\*Note: avoid naming conflicts and provide context_
 
 ## Performance
 

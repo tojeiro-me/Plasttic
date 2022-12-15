@@ -31,7 +31,6 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Atomic Design/Design System
 - Clean Code
 - Semantic HTML
-- Namespaces
 - Conventions
 - Mobile First
 - Code Splitting
@@ -57,6 +56,7 @@ _\*Search for "TODO:" in comments, relative to info that needs to be changed or 
 
 ---
 
+- File Comments
 - Check `docs` folder
 - Documentation website (Soon!)
 
