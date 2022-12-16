@@ -4,8 +4,8 @@
 - Updated PostCSS config
 - NPM Scripts optimized
 - Docs updates
-
-- WORKING:
+---
+- WORKING ON:
 - Atomic Design implementation
 - Template basic styling
 - Documentation Website
