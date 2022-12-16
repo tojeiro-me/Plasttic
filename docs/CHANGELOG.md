@@ -4,7 +4,10 @@
 - Updated PostCSS config
 - NPM Scripts optimized
 - Docs updates
+- :warning: Changed NPM dev/build destination folders
+
 ---
+
 - WORKING ON:
 - Atomic Design implementation
 - Template basic styling
