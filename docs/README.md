@@ -44,13 +44,17 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [HTML Boilerplate](https://boilerplate.plasttic.dev/boilerplate.txt)
+- [HTML Boilerplate](https://boilerplate.plasttic.dev/boilerplate.txt)*
 
 ### 2. Templates
 
 - [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
 - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
 - Homepage (Soon!)
+
+### 3. Static Website Workflow
+
+- 
 
 _\*Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
 
