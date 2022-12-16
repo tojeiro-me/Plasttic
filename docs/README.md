@@ -26,14 +26,12 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - Performance/Core Web Vitals
 - Accessibility
-- Best Practices
-- SEO
-- Social Media
+- Best Practices/Conventions
+- SEO/Social Media
 - CSS Reset
 - Atomic Design/Design System
 - Clean Code
 - Semantic HTML
-- Conventions
 - Mobile First
 - Code Splitting
 - Comments/Documentation
