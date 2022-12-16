@@ -59,35 +59,35 @@
     */
 
   /* Neutral */
-  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
-  --clr-neutral-200: hsl(0, 0%, 87.5%);
-  --clr-neutral-300: hsl(0, 0%, 75%);
-  --clr-neutral-400: hsl(0, 0%, 62.5%);
-  --clr-neutral-500: hsl(0, 0%, 50%);
-  --clr-neutral-600: hsl(0, 0%, 37.5%);
-  --clr-neutral-700: hsl(0, 0%, 25%);
-  --clr-neutral-800: hsl(0, 0%, 12.5%);
-  --clr-neutral-900: hsl(0, 0%, 0%); /* black */
+  --ptt-clr-neutral-100: hsl(0, 0%, 100%); /* white */
+  --ptt-clr-neutral-200: hsl(0, 0%, 87.5%);
+  --ptt-clr-neutral-300: hsl(0, 0%, 75%);
+  --ptt-clr-neutral-400: hsl(0, 0%, 62.5%);
+  --ptt-clr-neutral-500: hsl(0, 0%, 50%);
+  --ptt-clr-neutral-600: hsl(0, 0%, 37.5%);
+  --ptt-clr-neutral-700: hsl(0, 0%, 25%);
+  --ptt-clr-neutral-800: hsl(0, 0%, 12.5%);
+  --ptt-clr-neutral-900: hsl(0, 0%, 0%); /* black */
 
   /* Primary */
-  --clr-primary-100: hsl(191, 50%, 87%);
-  --clr-primary-300: hsl(190, 50%, 59%);
-  --clr-primary-400: hsl(190, 50%, 35%);
-  --clr-primary-800: hsl(192, 41%, 20%);
+  --ptt-clr-primary-100: hsl(191, 50%, 87%);
+  --ptt-clr-primary-300: hsl(190, 50%, 59%);
+  --ptt-clr-primary-400: hsl(190, 50%, 35%);
+  --ptt-clr-primary-800: hsl(192, 41%, 20%);
 
   /* Secondary */
-  --clr-secondary-400: var(--clr-neutral-800);
+  --ptt-clr-secondary-400: var(---ptt-clr-neutral-800);
 
   /* Complementary */
-  --clr-complement-400: hsl(348, 68%, 42%);
+  --ptt-clr-complement-400: hsl(348, 68%, 42%);
 
   /* Semantic */
-  --clr-error-400: hsl(0, 86%, 38%);
-  --clr-success-400: hsl(121, 83%, 33%);
+  --ptt-clr-error-400: hsl(0, 86%, 38%);
+  --ptt-clr-success-400: hsl(121, 83%, 33%);
 
   /* Backgrounds */
-  --clr-background-body: var(--clr-neutral-100);
-  --clr-background-content: var(--clr-neutral-100);
+  --ptt-clr-background-body: var(--ptt-clr-neutral-100);
+  --ptt-clr-background-content: var(--ptt-clr-neutral-100);
 
   /* Theme */
 
@@ -97,20 +97,20 @@
     */
 
   /* Font Families */
-  --ff-primary: "Roboto", sans-serif;
+  --ptt-ff-primary: "Roboto", sans-serif;
 
   /* Font Weights */
-  --fw-light: 300;
-  --fw-regular: 400;
-  --fw-bold: 500;
+  --ptt-fw-light: 300;
+  --ptt-fw-regular: 400;
+  --ptt-fw-bold: 500;
 
   /* Font Sizes: 200: 14px, 400: 16px, 500: 20px,
       700: 28px, 900: 36px */
-  --fs-200: 0.875rem;
-  --fs-400: 1rem;
-  --fs-500: 1.25rem;
-  --fs-700: 1.75rem;
-  --fs-900: 2.25rem;
+  --ptt-fs-200: 0.875rem;
+  --ptt-fs-400: 1rem;
+  --ptt-fs-500: 1.25rem;
+  --ptt-fs-700: 1.75rem;
+  --ptt-fs-900: 2.25rem;
 
   /**
     * TEXT
@@ -118,10 +118,10 @@
     */
 
   /* Line Heights */
-  --txt-lh-100: 0.85;
-  --txt-lh-200: 1;
-  --txt-lh-300: 1.2;
-  --txt-lh-400: 1.45; /* default: reset.css */
+  --ptt-txt-lh-100: 0.85;
+  --ptt-txt-lh-200: 1;
+  --ptt-txt-lh-300: 1.2;
+  --ptt-txt-lh-400: 1.45; /* default: reset.css */
 
   /**
     * BOX
@@ -129,16 +129,16 @@
     */
 
   /* Padding */
-  --pad-400: 1em;
+  --ptt-pad-400: 1em;
 
   /* Margin */
-  --mrg-400: 1rem;
+  --ptt-mrg-400: 1rem;
 
   /* Border */
-  --bdr-400: 1px solid;
+  --ptt-bdr-400: 1px solid;
 
   /* Border radius */
-  --bdr-radius-400: 1rem;
+  --ptt-bdr-radius-400: 1rem;
 
   /**
     * GRID / FLEXBOX
@@ -146,8 +146,8 @@
     */
 
   /* Gap */
-  --gap-400: 1rem;
-  --gap-700: 2rem;
+  --ptt-gap-400: 1rem;
+  --ptt-gap-700: 2rem;
 }
 
 /**
@@ -157,11 +157,11 @@
 
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
-@custom-media --bkp-xs (width >= 30rem);
-@custom-media --bkp-sm (width >= 48rem);
-@custom-media --bkp-md (width >= 62rem);
-@custom-media --bkp-lg (width >= 64rem);
-@custom-media --bkp-xl (width >= 75rem);
+@custom-media --ptt-bkp-xs (width >= 30rem);
+@custom-media --ptt-bkp-sm (width >= 48rem);
+@custom-media --ptt-bkp-md (width >= 62rem);
+@custom-media --ptt-bkp-lg (width >= 64rem);
+@custom-media --ptt-bkp-xl (width >= 75rem);
 
 /* ==========================================================================
    Typography Tokens
@@ -174,23 +174,23 @@
     */
 
   /* Body */
-  --ff-body: var(--ff-primary);
-  --fw-body: var(--fw-light);
-  --fs-body: var(--fs-200);
+  --ptt-ff-body: var(--ptt-ff-primary);
+  --ptt-fw-body: var(--ptt-fw-light);
+  --ptt-fs-body: var(--ptt-fs-200);
 
   /* Headers */
-  --fw-header: var(--fw-bold);
-  --fs-header-h1: var(--fs-700);
-  --fs-header-h2: var(--fs-500);
-  --txt-lh-header: var(--txt-lh-200);
+  --ptt-fw-header: var(--ptt-fw-bold);
+  --ptt-fs-header-h1: var(--ptt-fs-700);
+  --ptt-fs-header-h2: var(--ptt-fs-500);
+  --ptt-txt-lh-header: var(--ptt-txt-lh-200);
 
   /* Navigation */
-  --fw-primary-nav: var(--fw-regular);
-  --fs-primary-nav: var(--fs-200);
+  --ptt-fw-primary-nav: var(--ptt-fw-regular);
+  --ptt-fs-primary-nav: var(--ptt-fs-200);
 
   /* Footer */
-  --fw-footer: var(--fw-regular);
-  --fs-footer: var(--fs-200);
+  --ptt-fw-footer: var(--ptt-fw-regular);
+  --ptt-fs-footer: var(--ptt-fs-200);
 }
 
 /**
@@ -199,12 +199,12 @@
   * whenever needed
   */
 
-@media (--bkp-md) {
+@media (--ptt-bkp-md) {
   :root {
-    --fs-body: var(--fs-400);
-    --fs-header-h1: var(--fs-900);
-    --fs-header-h2: var(--fs-700);
-    --fs-nav: var(--fs-200);
-    --fs-footer: var(--fs-200);
+    --ptt-fs-body: var(--ptt-fs-400);
+    --ptt-fs-header-h1: var(--ptt-fs-900);
+    --ptt-fs-header-h2: var(--ptt-fs-700);
+    --ptt-fs-nav: var(--ptt-fs-200);
+    --ptt-fs-footer: var(--ptt-fs-200);
   }
 }

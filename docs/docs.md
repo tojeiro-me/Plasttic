@@ -5,8 +5,9 @@
 ---
 
 - Naming: Prefix, BEM
-- Prefix: HTML/CSS `.ptt-form__button--hidden`
-  _\*Note: avoid naming conflicts and provide context_
+- Prefix: HTML/CSS classes `.ptt-form__button--hidden`, CSS root custom properties `--ptt-property-variation`
+
+  _\*Note: avoid naming collisions and provide context_
 
 ## Performance
 

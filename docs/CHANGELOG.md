@@ -5,6 +5,7 @@
 - NPM Scripts optimized
 - Docs updates
 - :warning: Changed NPM dev/build destination folders
+- :warning: Added prefix to root custom properties
 
 ---
 
