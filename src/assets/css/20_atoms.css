@@ -18,9 +18,9 @@
     */
 
 @define-mixin h1-md {
-  font-weight: var(--fw-header);
-  font-size: var(--fs-header-h1);
-  line-height: var(--txt-lh-200);
+  font-weight: var(--ptt-fw-header);
+  font-size: var(--ptt-fs-header-h1);
+  line-height: var(--ptt-txt-lh-200);
 }
 
 h1 {
@@ -28,27 +28,27 @@ h1 {
 }
 
 h2 {
-  font-weight: var(--fw-header);
-  font-size: var(--fs-header-h2);
-  line-height: var(--txt-lh-200);
+  font-weight: var(--ptt-fw-header);
+  font-size: var(--ptt-fs-header-h2);
+  line-height: var(--ptt-txt-lh-200);
 }
 
 nav {
-  font-size: var(--fs-nav);
+  font-size: var(--ptt-fs-nav);
 }
 
 footer {
-  font-size: var(--fs-footer);
+  font-size: var(--ptt-fs-footer);
 }
 
 a,
 a:visited {
-  color: var(--clr-neutral-900);
-  font-weight: var(--fw-bold);
+  color: var(--ptt-clr-neutral-900);
+  font-weight: var(--ptt-fw-bold);
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: var(--clr-complement-400);
+  color: var(--ptt-clr-complement-400);
 }
