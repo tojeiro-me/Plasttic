@@ -49,16 +49,12 @@ body {
 }
 
 /* ==========================================================================
-   Pages
+   Templates
 
-   Although some pages have the exact same structure and styling 
-   (like Temporary and 404), to ensure the code is future proof,
-   both have their own page class and properties.
+   .ptt-tpl__name {
+      display: grid;
+   }
    ========================================================================== */
-
-/* .ptt-page__other-page {
-    --ptt-clr-primary-500: hsl(0, 86, 38);
-  } */
 
 /* Homepage */
 
@@ -305,4 +301,23 @@ body.ptt-page__404 {
       height: 24px;
     }
   }
+}
+
+/* ==========================================================================
+   Pages
+
+   .ptt-page__name {
+      color: red;
+   }
+   ========================================================================== */
+
+/* boilerplate */
+.ptt-page__boilerplate .ptt-main__code {
+  grid-area: message;
+  text-align: left;
+  overflow: auto;
+  border: var(--ptt-clr-neutral-200) solid 2px;
+  max-height: 30vh;
+  color: var(--ptt-clr-primary-400);
+  font-size: 0.85rem;
 }
