@@ -2,6 +2,8 @@
  * main.js
  *
  * Main / Global scripts
+ * This are scripts that can be used across multiple projects
+ *
  * Note: create other Javascript files if needed
  * in the build process they will be concatenated
  * and minified into one file scripts.min.js

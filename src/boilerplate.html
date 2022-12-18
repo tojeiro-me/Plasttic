@@ -19,17 +19,20 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- TODO: Page title (max: 70 characters) -->
-    <title>Plasttic | HTML Boilerplate</title>
+    <title>
+      Plasttic | HTML Boilerplate, Atomic Design CSS Framework and Best
+      Practices Template
+    </title>
 
-    <!-- TODO: Allow crawling on Temporary pages? Default: No -->
-    <meta name="robots" content="nofollow" />
-    <meta name="googlebot" content="noindex" />
+    <!-- TODO: No Crawling on 404, Temporary pages and others -->
     <!--
+    <meta name="robots" content="nofollow">
+    <meta name="googlebot" content="noindex">
+    -->
     <meta
       name="robots"
       content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
     />
-    -->
 
     <!-- TODO: Website description  -->
     <meta
@@ -40,10 +43,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- TODO: Page URL -->
-    <link
-      rel="canonical"
-      href="https://boilerplate.plasttic.dev/boilerplate.html"
-    />
+    <link rel="canonical" href="https://plasttic.dev/" />
 
     <!-- TODO: Open Graph -->
     <!--   
@@ -59,10 +59,10 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="Plasttic" />
-    <meta property="og:url" content="https://boilerplate.plasttic.dev/" />
+    <meta property="og:url" content="https://plasttic.dev/" />
     <meta
       name="og:image"
-      content="https://boilerplate.plasttic.dev/assets/img/social/default-banner-1200_630.png"
+      content="https://plasttic.dev/assets/img/social/default-banner-1200_630.png"
     />
     <meta name="og:image:alt" content="Plasttic logo banner" />
     <meta property="og:image:width" content="1200" />
@@ -123,6 +123,24 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       crossorigin
     />
 
+    <!-- 2. Google Fonts -->
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+    <link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+    -->
+
+    <!-- TODO: Preconnect to CDNs: JS, CSS, Media, ... -->
+    <!--
+    <link rel="preconnect" href="https://unpkg.com/" crossorigin />
+    <link rel="dns-prefetch" href="https://unpkg.com/" />
+    -->
+
     <link
       rel="preload"
       href="assets/css/styles.css"
@@ -130,70 +148,18 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
+    <!-- TODO: Print rules (optional) -->
+    <link rel="stylesheet" href="assets/css/print.css" media="print" />
+
+    <!-- TODO: JS async/defer -->
+    <!--
+    All the javascript files will be concatenated and minified into scripts.min.js.
+    The files inside the "vendor" folder remain untouched. 
+    -->
     <script src="assets/js/scripts.min.js" defer></script>
   </head>
-  <!------------ TEMPLATE START ------------->
-  <body id="top" class="ptt-page__temp ptt-page__boilerplate">
-    <div class="ptt-wrapper">
-      <nav class="ptt-nav" aria-label="Main">
-        <div class="ptt-container">
-          <a href="https://boilerplate.plasttic.dev"
-            ><img
-              class="ptt-nav__logo"
-              src="assets/img/logos/logo-horizontal.svg"
-              alt="Plasttic Home"
-          /></a>
-        </div>
-      </nav>
-      <main id="main" class="ptt-main">
-        <section
-          id="temporary"
-          class="ptt-main__message"
-          aria-label="Boilerplate"
-        >
-          <div class="ptt-container">
-            <h1 class="ptt-main__header">Boilerplate</h1>
-            <pre class="ptt-main__code">
-              <code>
-&lt;!DOCTYPE html&gt;&#10;&lt;!-- &#10;TODO: language&#10;
-https://www.w3schools.com/tags/ref_language_codes.asp &#10;--&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;!-- TODO: Google Analytics: replace GA_TRACKING_ID to be your site&apos;s ID. --&gt;&#10;    &lt;!--&#10;    &lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID&quot;&gt;&lt;/script&gt;&#10;    &lt;script&gt;&#10;      window.dataLayer = window.dataLayer || [];&#10;      function gtag(){dataLayer.push(arguments);}&#10;      gtag(&apos;js&apos;, new Date());&#10;&#10;      gtag(&apos;config&apos;, &apos;GA_TRACKING_ID&apos;);&#10;    &lt;/script&gt;&#10;    --&gt;&#10;    &lt;meta charset=&quot;utf-8&quot; /&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;&#10;    &lt;!-- TODO: Page title (max: 70 characters) --&gt;&#10;    &lt;title&gt;&#10;      Plasttic | HTML Boilerplate, Atomic Design CSS Framework and Best&#10;      Practices Template&#10;    &lt;/title&gt;&#10;&#10;    &lt;!-- TODO: No Crawling on 404, Temporary pages and others --&gt;&#10;    &lt;!--&#10;    &lt;meta name=&quot;robots&quot; content=&quot;nofollow&quot;&gt;&#10;    &lt;meta name=&quot;googlebot&quot; content=&quot;noindex&quot;&gt;&#10;    --&gt;&#10;    &lt;meta&#10;      name=&quot;robots&quot;&#10;      content=&quot;follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large&quot;&#10;    /&gt;&#10;&#10;    &lt;!-- TODO: Website description  --&gt;&#10;    &lt;meta&#10;      name=&quot;description&quot;&#10;      content=&quot;Plasttic is a HTML Boilerplate, Atomic Design CSS Framework and Best Practices Template.&quot;&#10;    /&gt;&#10;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Page URL --&gt;&#10;    &lt;link rel=&quot;canonical&quot; href=&quot;https://plasttic.dev/&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Open Graph --&gt;&#10;    &lt;!--   &#10;    Personalize by Page&#10;    https://ogp.me &#10;    https://developers.facebook.com/tools/debug/ &#10;    --&gt;&#10;    &lt;meta property=&quot;og:title&quot; content=&quot;Plasttic: Web Boilerplate&quot; /&gt;&#10;    &lt;meta&#10;      property=&quot;og:description&quot;&#10;      content=&quot;Plasttic is a HTML Boilerplate, Atomic Design CSS Framework and Best Practices Template.&quot;&#10;    /&gt;&#10;    &lt;meta property=&quot;og:type&quot; content=&quot;website&quot; /&gt;&#10;    &lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;&#10;    &lt;meta property=&quot;og:site_name&quot; content=&quot;Plasttic&quot; /&gt;&#10;    &lt;meta property=&quot;og:url&quot; content=&quot;https://plasttic.dev/&quot; /&gt;&#10;    &lt;meta&#10;      name=&quot;og:image&quot;&#10;      content=&quot;https://plasttic.dev/assets/img/social/default-banner-1200_630.png&quot;&#10;    /&gt;&#10;    &lt;meta name=&quot;og:image:alt&quot; content=&quot;Plasttic logo banner&quot; /&gt;&#10;    &lt;meta property=&quot;og:image:width&quot; content=&quot;1200&quot; /&gt;&#10;    &lt;meta property=&quot;og:image:height&quot; content=&quot;630&quot; /&gt;&#10;    &lt;meta property=&quot;og:image:type&quot; content=&quot;image/png&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Twitter Cards --&gt;&#10;    &lt;!-- &#10;    https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#opengraph&#10;    Most information is provided by the Open Graph meta tags&#10;    --&gt;&#10;    &lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot; /&gt;&#10;    &lt;meta name=&quot;twitter:site&quot; content=&quot;@tojeiro_me&quot; /&gt;&#10;&#10;    &lt;!-- TODO: About the author of the website --&gt;&#10;    &lt;link rel=&quot;author&quot; href=&quot;/humans.txt&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Icons --&gt;&#10;    &lt;!-- &#10;    https://realfavicongenerator.net/&#10;    --&gt;&#10;    &lt;link rel=&quot;icon&quot; href=&quot;/favicon.ico&quot; sizes=&quot;any&quot; /&gt;&#10;    &lt;link rel=&quot;icon&quot; href=&quot;/favicon.svg&quot; type=&quot;image/svg+xml&quot; /&gt;&#10;    &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;/apple-touch-icon.png&quot; /&gt;&#10;    &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#2d89ef&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Web App Manifest --&gt;&#10;    &lt;!-- &#10;    https://developer.mozilla.org/en-US/docs/Web/Manifest&#10;    --&gt;&#10;    &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Theme-color --&gt;&#10;    &lt;!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color --&gt;&#10;    &lt;meta name=&quot;theme-color&quot; content=&quot;#ffffff&quot; /&gt;&#10;&#10;    &lt;!-- TODO: Fonts --&gt;&#10;    &lt;!-- 1. Local hosted (preload for @font-face) --&gt;&#10;    &lt;link&#10;      rel=&quot;preload&quot;&#10;      href=&quot;assets/fonts/roboto-latin-300-normal.woff2&quot;&#10;      as=&quot;font&quot;&#10;      type=&quot;font/woff2&quot;&#10;      crossorigin&#10;    /&gt;&#10;    &lt;link&#10;      rel=&quot;preload&quot;&#10;      href=&quot;assets/fonts/roboto-latin-400-normal.woff2&quot;&#10;      as=&quot;font&quot;&#10;      type=&quot;font/woff2&quot;&#10;      crossorigin&#10;    /&gt;&#10;    &lt;link&#10;      rel=&quot;preload&quot;&#10;      href=&quot;assets/fonts/roboto-latin-500-normal.woff2&quot;&#10;      as=&quot;font&quot;&#10;      type=&quot;font/woff2&quot;&#10;      crossorigin&#10;    /&gt;&#10;&#10;    &lt;!-- 2. Google Fonts --&gt;&#10;    &lt;!--&#10;    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com/&quot;&gt;&#10;    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;https://fonts.googleapis.com/&quot;&gt;&#10;    &lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;&#10;    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;https://fonts.gstatic.com/&quot;&gt;&#10;    &lt;link rel=&quot;preload&quot; as=&quot;style&quot;&#10;      href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap&quot;&gt;&#10;    &lt;link rel=&quot;stylesheet&quot;&#10;      href=&quot;https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap&quot;&gt;&#10;    --&gt;&#10;&#10;    &lt;!-- TODO: Preconnect to CDNs: JS, CSS, Media, ... --&gt;&#10;    &lt;!--&#10;    &lt;link rel=&quot;preconnect&quot; href=&quot;https://unpkg.com/&quot; crossorigin /&gt;&#10;    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;https://unpkg.com/&quot; /&gt;&#10;    --&gt;&#10;&#10;    &lt;link&#10;      rel=&quot;preload&quot;&#10;      href=&quot;assets/css/styles.css&quot;&#10;      as=&quot;style&quot;&#10;      onload=&quot;this.onload=null;this.rel=&apos;stylesheet&apos;&quot;&#10;    /&gt;&#10;    &lt;noscript&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/styles.css&quot; /&gt;&lt;/noscript&gt;&#10;    &lt;!-- TODO: Print rules (optional) --&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/print.css&quot; media=&quot;print&quot; /&gt;&#10;&#10;    &lt;!-- TODO: JS async/defer --&gt;&#10;    &lt;!--&#10;    All the javascript files will be concatenated and minified into scripts.min.js.&#10;    The files inside the &quot;vendor&quot; folder remain untouched. &#10;    --&gt;&#10;    &lt;script src=&quot;assets/js/scripts.min.js&quot; defer&gt;&lt;/script&gt;&#10;  &lt;/head&gt;&#10;&#10;  &lt;body&gt;&#10;    &lt;!------------ WEBSITE CONTENT-------------&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;
-              </code>
-            </pre>
-            <p class="ptt-main__cta">
-              <button id="copy-code" aria-label="Copy to Clipboard">
-                Copy
-              </button>
-            </p>
-          </div>
-        </section>
-      </main>
-      <footer id="footer" class="ptt-footer">
-        <div class="ptt-container">
-          <div class="ptt-footer__credit">
-            <p>
-              ©2021-<span id="footer-year"></span> Goncalo Tojeiro | Powered by
-              <a href="https://plasttic.dev" target="_blank">Plasttic</a>
-            </p>
-          </div>
-          <div class="ptt-footer__social">
-            <a href="https://mastodon.social/@tojeiro_me" target="_blank"
-              ><img src="assets/img/icons/mastodon.svg" alt="Mastodon"
-            /></a>
-            <a href="https://github.com/tojeiro-me" target="_blank"
-              ><img src="assets/img/icons/github.svg" alt="Github"
-            /></a>
-            <a href="https://www.instagram.com/tojeiro.me/" target="_blank"
-              ><img src="assets/img/icons/instagram.svg" alt="Instagram"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/goncalo-tojeiro/"
-              target="_blank"
-              ><img src="assets/img/icons/linkedin.svg" alt="LinkedIn"
-            /></a>
-          </div>
-        </div>
-      </footer>
-    </div>
+
+  <body>
+    <!------------ WEBSITE CONTENT------------->
   </body>
-  <!------------ TEMPLATE END ------------->
 </html>
