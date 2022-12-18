@@ -42,7 +42,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [HTML Boilerplate](https://boilerplate.plasttic.dev/boilerplate.txt)
+- [HTML Boilerplate](https://boilerplate.plasttic.dev/code.html)
 
 ### 2. Templates
 
