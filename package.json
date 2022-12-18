@@ -37,7 +37,7 @@
     "dev:copy:css": "postcss src/assets/css/*.css --no-map --dir dev/assets/css/ && npm run del:css:atomic",
     "copy:fonts": "copyfiles -u 1 -a ./src/assets/fonts/* $npm_config_dest",
     "copy:img": "copyfiles -u 1 -a ./src/assets/img/**/* $npm_config_dest",
-    "copy:js": "make-dir $npm_config_dest/assets/js/ && uglifyjs 'src/assets/js/*.js' -o $npm_config_dest'/assets/js/scripts.min.js'",
+    "copy:js": "copyfiles -u 1 -a ./src/assets/js/vendor/* $npm_config_dest && uglifyjs 'src/assets/js/*.js' -o $npm_config_dest'/assets/js/scripts.min.js'",
     "copy:private": "copyfiles -u 1 -a ./src/private/**/* $npm_config_dest",
     "copy:root": "copyfiles -u 1 -a ./src/* ./src/.htaccess $npm_config_dest",
     "del:css": "del ./$npm_config_dest/assets/css/*  && npm run dev:copy:css",
