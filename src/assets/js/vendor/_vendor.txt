@@ -1,4 +1,4 @@
-Vendor JS folder
+Vendor JS folder (Libraries and other)
 
 The files in this folder won't be processed, just copied.
 Add the appropriate script tags in the html for each file
