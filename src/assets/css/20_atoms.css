@@ -33,6 +33,8 @@ h2 {
   line-height: var(--ptt-txt-line-height-200);
 }
 
+p {}
+
 nav {
   font-size: var(--ptt-fnt-size-primary-nav);
 }
