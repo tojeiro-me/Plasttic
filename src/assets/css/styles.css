@@ -22,11 +22,11 @@
 
 /* Global Styling */
 body {
-  background: var(--ptt-clr-background-body);
+  background: var(--ptt-clr-bkg-body);
   color: var(--ptt-clr-neutral-800);
-  font-family: var(--ptt-ff-body);
-  font-weight: var(--ptt-fw-body);
-  font-size: var(--ptt-fs-body);
+  font-family: var(--ptt-fnt-family-body);
+  font-weight: var(--ptt-fnt-weight-body);
+  font-size: var(--ptt-fnt-size-body);
 }
 
 /* Layout */
@@ -43,29 +43,25 @@ body {
     "footer";
 }
 .ptt-container {
-  background: var(--ptt-clr-background-content);
+  background: var(--ptt-clr-bkg-content);
   width: min(90vw, 1200px);
   margin-inline: auto;
 }
 
 /* ==========================================================================
-   Pages
+   Templates
 
-   Although some pages have the exact same structure and styling 
-   (like Temporary and 404), to ensure the code is future proof,
-   both have their own page class and properties.
+   .ptt-tpl__name {
+      display: grid;
+   }
    ========================================================================== */
-
-/* .ptt-page__other-page {
-    --ptt-clr-primary-500: hsl(0, 86, 38);
-  } */
 
 /* Homepage */
 
 /* Temporary */
 body.ptt-page__temp {
   display: grid;
-  font-size: var(--ptt-fs-400);
+  font-size: var(--ptt-fnt-size-400);
   text-align: center;
   @media (--ptt-bkp-md) {
     text-align: left;
@@ -123,7 +119,7 @@ body.ptt-page__temp {
   margin-bottom: 0;
   color: var(--ptt-clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--ptt-txt-lh-100);
+  line-height: var(--ptt-txt-line-height-100);
   @media (--ptt-bkp-md) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -135,7 +131,7 @@ body.ptt-page__temp {
   max-width: 45ch;
   @media (--ptt-bkp-md) {
     justify-self: left;
-    font-size: var(--ptt-fs-500);
+    font-size: var(--ptt-fnt-size-500);
   }
 }
 
@@ -146,11 +142,11 @@ body.ptt-page__temp {
 
 .ptt-page__temp .ptt-main__cta a {
   white-space: nowrap;
-  background: var(--ptt-clr-complement-400);
-  padding: var(--ptt-pad-400);
-  border-radius: var(--ptt-bdr-radius-400);
-  font-size: var(--ptt-fs-500);
-  font-weight: var(--ptt-fw-bold);
+  background: var(--ptt-clr-complement-red-400);
+  padding: var(--ptt-padding-400);
+  border-radius: var(--ptt-border-radius-400);
+  font-size: var(--ptt-fnt-size-500);
+  font-weight: var(--ptt-fnt-weight-bold);
   color: var(--ptt-clr-neutral-100);
   text-decoration: none;
   transition: background-color 200ms ease-in;
@@ -166,7 +162,7 @@ body.ptt-page__temp {
 
 .ptt-page__temp .ptt-footer__credit,
 .ptt-page__temp .ptt-footer__social {
-  margin-top: var(--ptt-mrg-400);
+  margin-top: var(--ptt-margin-400);
   text-align: center;
 }
 
@@ -187,7 +183,7 @@ body.ptt-page__temp {
 /* 404 */
 body.ptt-page__404 {
   display: grid;
-  font-size: var(--ptt-fs-400);
+  font-size: var(--ptt-fnt-size-400);
   text-align: center;
   @media (--ptt-bkp-md) {
     text-align: left;
@@ -245,7 +241,7 @@ body.ptt-page__404 {
   margin-bottom: 0;
   color: var(--ptt-clr-neutral-700);
   font-size: 4rem;
-  line-height: var(--ptt-txt-lh-100);
+  line-height: var(--ptt-txt-line-height-100);
   @media (--ptt-bkp-md) {
     font-size: clamp(4rem, 8vw + 2rem, 10rem);
   }
@@ -257,7 +253,7 @@ body.ptt-page__404 {
   max-width: 45ch;
   @media (--ptt-bkp-md) {
     justify-self: left;
-    font-size: var(--ptt-fs-500);
+    font-size: var(--ptt-fnt-size-500);
   }
 }
 
@@ -268,11 +264,11 @@ body.ptt-page__404 {
 
 .ptt-page__404 .ptt-main__cta a {
   white-space: nowrap;
-  background: var(--ptt-clr-complement-400);
-  padding: var(--ptt-pad-400);
-  border-radius: var(--ptt-bdr-radius-400);
-  font-size: var(--ptt-fs-500);
-  font-weight: var(--ptt-fw-bold);
+  background: var(--ptt-clr-complement-red-400);
+  padding: var(--ptt-padding-400);
+  border-radius: var(--ptt-border-radius-400);
+  font-size: var(--ptt-fnt-size-500);
+  font-weight: var(--ptt-fnt-weight-bold);
   color: var(--ptt-clr-neutral-100);
   text-decoration: none;
   transition: background-color 200ms ease-in;
@@ -288,7 +284,7 @@ body.ptt-page__404 {
 
 .ptt-page__404 .ptt-footer__credit,
 .ptt-page__404 .ptt-footer__social {
-  margin-top: var(--ptt-mrg-400);
+  margin-top: var(--ptt-margin-400);
   text-align: center;
 }
 
@@ -304,5 +300,43 @@ body.ptt-page__404 {
     @media (--ptt-bkp-md) {
       height: 24px;
     }
+  }
+}
+
+/* ==========================================================================
+   Pages
+
+   .ptt-page__name {
+      color: red;
+   }
+   ========================================================================== */
+
+/* Code */
+.ptt-page__code .ptt-main__code {
+  grid-area: message;
+  border: var(--ptt-clr-neutral-200) solid 2px;
+  padding: var(--ptt-padding-400);
+  max-height: 30vh;
+  overflow: auto;
+  color: var(--ptt-clr-primary-400);
+  font-size: 0.85rem;
+  text-align: left;
+  white-space: pre;
+}
+
+.ptt-page__code .ptt-main__cta button {
+  background: var(--ptt-clr-complement-red-400);
+  padding: var(--ptt-padding-300) var(--ptt-padding-500);
+  border: 0;
+  border-radius: var(--ptt-border-radius-400);
+  font-size: var(--ptt-fnt-size-500);
+  font-weight: var(--ptt-fnt-weight-bold);
+  color: var(--ptt-clr-neutral-100);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 200ms ease-in;
+  cursor: pointer;
+  &:hover {
+    background: var(--ptt-clr-neutral-700);
   }
 }
