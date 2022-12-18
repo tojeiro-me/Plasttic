@@ -314,10 +314,29 @@ body.ptt-page__404 {
 /* boilerplate */
 .ptt-page__boilerplate .ptt-main__code {
   grid-area: message;
-  text-align: left;
-  overflow: auto;
-  border: var(--ptt-clr-neutral-200) solid 2px;
-  max-height: 30vh;
   color: var(--ptt-clr-primary-400);
   font-size: 0.85rem;
+  text-align: left;
+  border: var(--ptt-clr-neutral-200) solid 2px;
+  padding: var(--ptt-pad-400);
+  max-height: 30vh;
+  overflow: auto;
+  white-space: pre;
+}
+
+.ptt-page__boilerplate .ptt-main__cta button {
+  white-space: nowrap;
+  background: var(--ptt-clr-complement-400);
+  padding: var(--ptt-pad-300) var(--ptt-pad-500);
+  border: 0;
+  border-radius: var(--ptt-bdr-radius-400);
+  font-size: var(--ptt-fs-500);
+  font-weight: var(--ptt-fw-bold);
+  color: var(--ptt-clr-neutral-100);
+  text-decoration: none;
+  transition: background-color 200ms ease-in;
+  cursor: pointer;
+  &:hover {
+    background: var(--ptt-clr-neutral-700);
+  }
 }

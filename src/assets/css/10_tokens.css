@@ -129,7 +129,9 @@
     */
 
   /* Padding */
+  --ptt-pad-300: 0.9em;
   --ptt-pad-400: 1em;
+  --ptt-pad-500: 1.1em;
 
   /* Margin */
   --ptt-mrg-400: 1rem;
