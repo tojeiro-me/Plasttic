@@ -87,7 +87,8 @@
 
   /* Backgrounds */
   --ptt-clr-bkg-body: var(--ptt-clr-neutral-100);
-  --ptt-clr-bkg-content: var(--ptt-clr-neutral-100);
+  --ptt-clr-bkg-main: var(--ptt-clr-neutral-100); /* section name */
+  --ptt-clr-bkg-footer: var(--ptt-clr-neutral-100);
 
   /* Theme */
 

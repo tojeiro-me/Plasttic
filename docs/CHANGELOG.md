@@ -6,6 +6,7 @@
 - Docs updates
 - :warning: Changed NPM dev/build destination folders
 - :warning: Renamed tokens and added prefix
+- Fixed JS vendor folder NPM script
 
 ---
 

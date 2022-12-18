@@ -43,7 +43,6 @@ body {
     "footer";
 }
 .ptt-container {
-  background: var(--ptt-clr-bkg-content);
   width: min(90vw, 1200px);
   margin-inline: auto;
 }
