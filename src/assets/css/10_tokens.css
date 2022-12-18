@@ -176,23 +176,23 @@
     */
 
   /* Body */
-  --ptt-fnt-family-body: var(--ptt-ff-primary);
-  --ptt-fnt-weight-body: var(--ptt-fw-light);
-  --ptt-fnt-size-body: var(--ptt-fs-200);
+  --ptt-fnt-family-body: var(--ptt-fnt-family-primary);
+  --ptt-fnt-weight-body: var(--ptt-fnt-weight-light);
+  --ptt-fnt-size-body: var(--ptt-fnt-size-200);
 
   /* Headers */
-  --ptt-fnt-weight-header: var(--ptt-fw-bold);
-  --ptt-fnt-size-header-h1: var(--ptt-fs-700);
-  --ptt-fnt-size-header-h2: var(--ptt-fs-500);
-  --ptt-txt-line-height-header: var(--ptt-txt-lh-200);
+  --ptt-fnt-weight-header: var(--ptt-fnt-weight-bold);
+  --ptt-fnt-size-header-h1: var(--ptt-fnt-size-700);
+  --ptt-fnt-size-header-h2: var(--ptt-fnt-size-500);
+  --ptt-txt-line-height-header: var(--ptt-txt-line-height-200);
 
   /* Navigation */
-  --ptt-fnt-weight-primary-nav: var(--ptt-fw-regular);
-  --ptt-fnt-size-primary-nav: var(--ptt-fs-200);
+  --ptt-fnt-weight-primary-nav: var(--ptt-fnt-weight-regular);
+  --ptt-fnt-size-primary-nav: var(--ptt-fnt-size-200);
 
   /* Footer */
-  --ptt-fnt-weight-footer: var(--ptt-fw-regular);
-  --ptt-fnt-size-footer: var(--ptt-fs-200);
+  --ptt-fnt-weight-footer: var(--ptt-fnt-weight-regular);
+  --ptt-fnt-size-footer: var(--ptt-fnt-size-200);
 }
 
 /**
@@ -202,11 +202,12 @@
   */
 
 @media (--ptt-bkp-md) {
+  /* Increase font size for desktop */
   :root {
-    --ptt-fnt-size-body: var(--ptt-fs-400);
-    --ptt-fnt-size-header-h1: var(--ptt-fs-900);
-    --ptt-fnt-size-header-h2: var(--ptt-fs-700);
-    --ptt-fnt-size-nav: var(--ptt-fs-200);
-    --ptt-fnt-size-footer: var(--ptt-fs-200);
+    --ptt-fnt-size-body: var(--ptt-fnt-size-400);
+    --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);
+    --ptt-fnt-size-header-h2: var(--ptt-fnt-size-700);
+    --ptt-fnt-size-primary-nav: var(--ptt-fnt-size-200);
+    --ptt-fnt-size-footer: var(--ptt-fnt-size-200);
   }
 }
