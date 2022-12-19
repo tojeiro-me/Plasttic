@@ -29,6 +29,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Best Practices/Conventions
 - SEO/Social Media
 - CSS Reset
+- BEM Methodology
 - Atomic Design/Design System
 - Clean Code
 - Semantic HTML
