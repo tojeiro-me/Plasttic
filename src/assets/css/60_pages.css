@@ -14,10 +14,25 @@
    Pages
    ========================================================================== */
 
-/* Under Construction (Template: Temporary)
+/* Code (Template: Temporary)
    ========================================================================== */
 
-/**
-    * SECTION
-    * Comment
-    */
+.ptt-page__code {
+  .ptt-message .ptt-container {
+    @media (--ptt-bkp-md) {
+      grid-template-columns: 1fr 30vh;
+    }
+  }
+
+  .ptt-message__code {
+    grid-area: message;
+    border: var(--ptt-clr-neutral-200) solid 2px;
+    padding: var(--ptt-padding-400);
+    max-height: 30vh;
+    overflow: auto;
+    color: var(--ptt-clr-primary-400);
+    font-size: 0.85rem;
+    text-align: left;
+    white-space: pre;
+  }
+}

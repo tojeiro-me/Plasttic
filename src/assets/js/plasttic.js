@@ -10,8 +10,12 @@
  * Copy HTML Boilerplate to clipboard
  * Use: copy code to clipboard on button click
  */
-document.getElementById('copy-code-btn').addEventListener('click', () => {
-  const codeText = document.getElementsByTagName('code')[0].innerText.trim();
-  navigator.clipboard.writeText(codeText);
-  document.getElementById('copy-code-btn').innerText = 'Copied!';
-});
+const copyCodeBtn = document.getElementById('copy-code-btn');
+
+if (copyCodeBtn) {
+  copyCodeBtn.addEventListener('click', () => {
+    const codeText = document.getElementsByTagName('code')[0].innerText.trim();
+    navigator.clipboard.writeText(codeText);
+    document.getElementById('copy-code-btn').innerText = 'Copied!';
+  });
+}

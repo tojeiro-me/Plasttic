@@ -16,7 +16,184 @@
 /* Temporary (Splash Page, Error Page, Under Construction, ...)
    ========================================================================== */
 
-/**
-    * SECTION
-    * Comment
+.ptt-tpl__temporary {
+  /**
+    * DEFAULT STYLING
+    * Default template global values
     */
+  display: grid;
+  background: var(--ptt-clr-bkg-body);
+  color: var(--ptt-clr-neutral-800);
+  font-family: var(--ptt-fnt-family-body);
+  font-weight: var(--ptt-fnt-weight-body);
+  font-size: var(--ptt-fnt-size-body);
+  text-align: center;
+  @media (--ptt-bkp-md) {
+    text-align: left;
+  }
+
+  /**
+    * WRAPPER
+    * Main layout definition
+    */
+  .ptt-wrapper {
+    display: grid;
+    grid-template-areas:
+      "nav"
+      "main"
+      "footer";
+    gap: var(--ptt-gap-700);
+    margin-block: max(2vw, 1rem);
+  }
+
+  /**
+    * CONTAINER
+    * Sections layout settings
+    * global, per area or section
+    */
+  .ptt-container {
+    width: min(90vw, 1200px);
+    margin-inline: auto;
+  }
+
+  /**
+    * MAIN NAV
+    * Area
+    */
+  .ptt-nav {
+    .ptt-nav__logo {
+      height: max(5vw, 40px);
+      aspect-ratio: auto 4/1;
+    }
+  }
+
+  /**
+    * MESSAGE
+    * Section
+    */
+  .ptt-message .ptt-container {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "title"
+      "message"
+      "cta";
+    gap: var(--ptt-gap-700);
+    margin-block: min(2vw, 1em);
+    @media (--ptt-bkp-md) {
+      grid-template-areas:
+        "title   image"
+        "message image"
+        "cta     image";
+      grid-template-columns: 1fr 50vh;
+      grid-template-rows: auto auto 1fr;
+      margin-block: 5vh;
+    }
+  }
+
+  .ptt-message {
+    .ptt-message__image {
+      grid-area: image;
+      justify-self: center;
+      width: 50%;
+      @media (--ptt-bkp-md) {
+        width: 50vh;
+        justify-self: right;
+      }
+      & img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+      }
+    }
+
+    .ptt-message__header {
+      grid-area: title;
+      align-self: end;
+      margin-bottom: 0;
+      color: var(--ptt-clr-neutral-700);
+      font-size: 4rem;
+      line-height: var(--ptt-txt-line-height-100);
+      @media (--ptt-bkp-md) {
+        font-size: clamp(4rem, 8vw + 2rem, 10rem);
+      }
+    }
+
+    .ptt-message__text {
+      grid-area: message;
+      justify-self: center;
+      max-width: 45ch;
+      @media (--ptt-bkp-md) {
+        justify-self: left;
+        font-size: var(--ptt-fnt-size-500);
+      }
+    }
+
+    .ptt-message__cta {
+      grid-area: cta;
+      margin-top: 1.5rem;
+    }
+  }
+  /**
+    * FOOTER
+    * Area
+    */
+  .ptt-footer {
+    .ptt-footer__credit,
+    .ptt-footer__social {
+      margin-top: var(--ptt-margin-400);
+      text-align: center;
+    }
+    .ptt-footer__social {
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+      justify-content: center;
+      & img {
+        display: inline;
+        height: 20px;
+        aspect-ratio: 1/1;
+        @media (--ptt-bkp-md) {
+          height: 24px;
+        }
+      }
+    }
+  }
+
+  /* Homepage (Template Homepage)
+   ========================================================================== */
+
+  .ptt-tpl__homepage {
+    /**
+    * DEFAULT STYLING
+    */
+    background: var(--ptt-clr-bkg-body);
+    color: var(--ptt-clr-neutral-800);
+    font-family: var(--ptt-fnt-family-body);
+    font-weight: var(--ptt-fnt-weight-body);
+    font-size: var(--ptt-fnt-size-body);
+
+    /**
+    * WRAPPER
+    * Main layout definition
+    */
+    .ptt-wrapper {
+      display: grid;
+      grid-template-areas:
+        "nav"
+        "header"
+        "main"
+        "footer";
+    }
+
+    /**
+    * CONTAINER
+    * Sections layout settings
+    * global, per area or section
+    */
+    .ptt-container {
+      width: min(90vw, 1200px);
+      margin-inline: auto;
+    }
+  }
+}
