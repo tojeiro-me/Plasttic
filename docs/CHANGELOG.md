@@ -74,8 +74,6 @@
 
 ---
 
-1
-
 - Website info files and icons review
 
 ## v1.4.1 (Nov 19, 2021)

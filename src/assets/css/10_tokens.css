@@ -87,7 +87,8 @@
 
   /* Backgrounds */
   --ptt-clr-bkg-body: var(--ptt-clr-neutral-100);
-  --ptt-clr-bkg-main: var(--ptt-clr-neutral-100); /* section name */
+  --ptt-clr-bkg-nav: var(--ptt-clr-neutral-100);
+  --ptt-clr-bkg-main: var(--ptt-clr-neutral-100); /* by section name */
   --ptt-clr-bkg-footer: var(--ptt-clr-neutral-100);
 
   /* Theme */
@@ -203,7 +204,7 @@
   */
 
 @media (--ptt-bkp-md) {
-  /* Increase font size for desktop */
+  /* Increase font sizes for desktop */
   :root {
     --ptt-fnt-size-body: var(--ptt-fnt-size-400);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);
