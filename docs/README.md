@@ -53,6 +53,13 @@ You will find documentation in the files comments and some notes in the `docs` f
 ### 3. Static Site Workflow
 
 - HTML Boilerplate, Templates, File/Folder Structure, Atomic Design CSS, CSS Reset, PostCSS, Optimization, Dev/Build Scripts, Linting, Testing (Soon!)
+- Start:
+  - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
+  - Run `npm install` to install the needed dependencies
+  - Run `npm run dev` to start the dev server on `http://localhost:800` \*
+  - Run `npm run build` when you are ready to publish \*
+  - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
+  - \*\*There are other ways to clone the repo. Choose the one is best for you.
 
 _\*Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
 
