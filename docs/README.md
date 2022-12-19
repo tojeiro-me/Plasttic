@@ -45,7 +45,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - [HTML Boilerplate](https://boilerplate.plasttic.dev/code.html)
 
-### 2. Templates
+### 2. Templates/Starter Pages
 
 - [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
 - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
