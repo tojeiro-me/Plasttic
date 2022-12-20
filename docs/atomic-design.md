@@ -52,4 +52,10 @@ Hidden Link, ...
 
 ---
 
-NOTE: body classes (template + page)
+NOTES:
+
+- body classes: template (.ptt-tpl\_\_template-name) + page (.ptt-page\_\_page-name)
+- sizes:
+  - where we don't know how many variants we need (050/100-900)
+  - exceptions in simple situations (xl-lg-md-sm-xs)
+  - 400 = md

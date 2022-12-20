@@ -64,6 +64,10 @@
     * Area
     */
   .ptt-nav {
+    .ptt-container {
+      display: flex;
+      justify-content: left;
+    }
     .ptt-nav__logo {
       height: max(5vw, 40px);
       aspect-ratio: auto 4/1;
@@ -157,9 +161,9 @@
       gap: 1em;
       justify-content: center;
       & img {
-        display: inline;
         height: 20px;
         aspect-ratio: 1/1;
+        display: block;
         @media (--ptt-bkp-md) {
           height: 24px;
         }
