@@ -30,7 +30,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 - SEO/Social Media
 - CSS Reset
 - BEM Methodology
-- Atomic Design/Design System
+- Design System/Atomic Design
 - Clean Code
 - Semantic HTML
 - Mobile First
