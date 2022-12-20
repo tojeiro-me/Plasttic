@@ -1,12 +1,14 @@
 /**
   * styles.css
   *
+  * The files in the design system
+  * are imported on the next file
   * This page imports all other css files
   * for post processing and it will be the only file served
   *
   */
 
 @import "60_pages.css";
-
+/* --- extends design system --- */
 @import "70_components.css";
 @import "80_utility.css";

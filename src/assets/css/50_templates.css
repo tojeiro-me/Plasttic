@@ -136,7 +136,7 @@
       grid-area: cta;
       margin-top: 1.5rem;
       a {
-        @mixin button-link-xl;
+        @mixin link-button-xl;
       }
     }
   }
