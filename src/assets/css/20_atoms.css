@@ -7,8 +7,10 @@
   * INDEX
   * -----
   *
+  * Logos
   * Typography...........Extends Typography Tokens
   * Buttons
+  * Icons
   * 
   */
 
@@ -16,9 +18,20 @@
    Atoms
    ========================================================================== */
 
+/* Logos
+   ========================================================================== */
+
 /**
-    * TYPOGRAPHY
-    * Headers, ...
+    * ...
+    * Main Logo, Icon Logo, ... (size, color/b&w)
+    */
+
+/* Typography
+   ========================================================================== */
+
+/**
+    * HEADERS
+    * h1, ...
     */
 @define-mixin h1-md {
   font-weight: var(--ptt-fnt-weight-header);
@@ -31,6 +44,14 @@
   font-size: var(--ptt-fnt-size-header-h2);
   line-height: var(--ptt-txt-line-height-200);
 }
+
+/* Links and Buttons
+   ========================================================================== */
+
+/**
+    * LINKS
+    * ...
+    */
 
 @define-mixin link-md {
   color: var(--ptt-clr-neutral-900);
@@ -48,12 +69,11 @@
 }
 
 /**
-    * BUTTONS
+    * LINKS AS BUTTONS
     * Buttons, Links as buttons
     */
 
-/* ----- Links as Buttons ----- */
-@define-mixin button-link-xl {
+@define-mixin link-button-xl {
   white-space: nowrap;
   background: var(--ptt-clr-complement-red-400);
   padding: var(--ptt-padding-400);
@@ -68,24 +88,10 @@
   }
 }
 
-/* ----- Use in Templates ----- */
+/* Icons
+   ========================================================================== */
 
-h1 {
-  @mixin h1-md;
-}
-
-h2 {
-  @mixin h2-md;
-}
-
-nav {
-  font-size: var(--ptt-fnt-size-primary-nav);
-}
-
-a {
-  @mixin link-md;
-}
-
-/* p {
-  font-size: var(--ptt-fnt-size-body);
-} */
+/**
+    * SOCIAL ICONS
+    * ...
+    */

@@ -206,8 +206,8 @@
   * whenever needed
   */
 
+/* Increase font sizes for desktop */
 @media (--ptt-bkp-md) {
-  /* Increase font sizes for desktop */
   :root {
     --ptt-fnt-size-body: var(--ptt-fnt-size-400);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);
