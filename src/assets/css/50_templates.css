@@ -1,3 +1,6 @@
+/* --- ORGANISMS --- */
+@import "40_organisms.css";
+
 /**
   * 50_templates.css
   *
@@ -132,6 +135,9 @@
     .ptt-message__cta {
       grid-area: cta;
       margin-top: 1.5rem;
+      a {
+        @mixin button-link-xl;
+      }
     }
   }
   /**
@@ -139,6 +145,7 @@
     * Area
     */
   .ptt-footer {
+    font-size: var(--ptt-fnt-size-footer);
     .ptt-footer__credit,
     .ptt-footer__social {
       margin-top: var(--ptt-margin-400);
@@ -159,41 +166,49 @@
       }
     }
   }
+}
 
-  /* Homepage (Template Homepage)
+/* Homepage (Template Homepage)
    ========================================================================== */
 
-  .ptt-tpl__homepage {
-    /**
+.ptt-tpl__homepage {
+  /**
     * DEFAULT STYLING
     */
-    background: var(--ptt-clr-bkg-body);
-    color: var(--ptt-clr-neutral-800);
-    font-family: var(--ptt-fnt-family-body);
-    font-weight: var(--ptt-fnt-weight-body);
-    font-size: var(--ptt-fnt-size-body);
+  background: var(--ptt-clr-bkg-body);
+  color: var(--ptt-clr-neutral-800);
+  font-family: var(--ptt-fnt-family-body);
+  font-weight: var(--ptt-fnt-weight-body);
+  font-size: var(--ptt-fnt-size-body);
 
-    /**
+  /**
     * WRAPPER
     * Main layout definition
     */
-    .ptt-wrapper {
-      display: grid;
-      grid-template-areas:
-        "nav"
-        "header"
-        "main"
-        "footer";
-    }
+  .ptt-wrapper {
+    display: grid;
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
+  }
 
-    /**
+  /**
     * CONTAINER
     * Sections layout settings
     * global, per area or section
     */
-    .ptt-container {
-      width: min(90vw, 1200px);
-      margin-inline: auto;
-    }
+  .ptt-container {
+    width: min(90vw, 1200px);
+    margin-inline: auto;
+  }
+
+  /**
+    * FOOTER
+    * Area
+    */
+  .ptt-footer {
+    font-size: var(--ptt-fnt-size-footer);
   }
 }

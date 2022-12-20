@@ -1,3 +1,6 @@
+/* --- TOKENS --- */
+@import "10_tokens.css";
+
 /**
   * 20_atoms.css
   *
@@ -5,6 +8,7 @@
   * -----
   *
   * Typography...........Extends Typography Tokens
+  * Buttons
   * 
   */
 
@@ -16,50 +20,40 @@
     * TYPOGRAPHY
     * Headers, ...
     */
-
 @define-mixin h1-md {
   font-weight: var(--ptt-fnt-weight-header);
   font-size: var(--ptt-fnt-size-header-h1);
   line-height: var(--ptt-txt-line-height-200);
 }
 
-h1 {
-  @mixin h1-md;
-}
-
-h2 {
+@define-mixin h2-md {
   font-weight: var(--ptt-fnt-weight-header);
   font-size: var(--ptt-fnt-size-header-h2);
   line-height: var(--ptt-txt-line-height-200);
 }
 
-p {
-  font-size: var(--ptt-fnt-size-body);
-}
-
-/* ----- Templates ----- */
-nav {
-  font-size: var(--ptt-fnt-size-primary-nav);
-}
-
-footer {
-  font-size: var(--ptt-fnt-size-footer);
-}
-
-a,
-a:visited {
+@define-mixin link-md {
   color: var(--ptt-clr-neutral-900);
   font-weight: var(--ptt-fnt-weight-bold);
+  &:visited {
+    color: var(--ptt-clr-neutral-900);
+    font-weight: var(--ptt-fnt-weight-bold);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--ptt-clr-complement-red-400);
+  }
 }
 
-a:hover,
-a:active,
-a:focus {
-  color: var(--ptt-clr-complement-red-400);
-}
+/**
+    * BUTTONS
+    * Buttons, Links as buttons
+    */
 
-/* ----- button XL ----- */
-.ptt-tpl__temporary .ptt-message__cta a {
+/* ----- Links as Buttons ----- */
+@define-mixin button-link-xl {
   white-space: nowrap;
   background: var(--ptt-clr-complement-red-400);
   padding: var(--ptt-padding-400);
@@ -73,3 +67,25 @@ a:focus {
     background: var(--ptt-clr-neutral-700);
   }
 }
+
+/* ----- Use in Templates ----- */
+
+h1 {
+  @mixin h1-md;
+}
+
+h2 {
+  @mixin h2-md;
+}
+
+nav {
+  font-size: var(--ptt-fnt-size-primary-nav);
+}
+
+a {
+  @mixin link-md;
+}
+
+/* p {
+  font-size: var(--ptt-fnt-size-body);
+} */
