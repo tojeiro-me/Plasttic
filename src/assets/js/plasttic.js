@@ -16,6 +16,6 @@ if (copyCodeBtn) {
   copyCodeBtn.addEventListener('click', () => {
     const codeText = document.getElementsByTagName('code')[0].innerText.trim();
     navigator.clipboard.writeText(codeText);
-    document.getElementById('copy-code-btn').innerText = 'Copied!';
+    copyCodeBtn.innerText = 'Copied!';
   });
 }

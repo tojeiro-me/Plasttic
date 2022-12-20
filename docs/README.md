@@ -36,6 +36,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Mobile First
 - Code Splitting
 - Comments/Documentation
+- Debug/Test
 
 ## Usage
 
