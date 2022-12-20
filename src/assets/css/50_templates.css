@@ -157,9 +157,9 @@
       gap: 1em;
       justify-content: center;
       & img {
-        display: inline;
         height: 20px;
         aspect-ratio: 1/1;
+        display: block;
         @media (--ptt-bkp-md) {
           height: 24px;
         }
