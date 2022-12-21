@@ -3,8 +3,8 @@
   *
   * The files in the design system
   * are imported on the next file
-  * This page imports all other css files
-  * for post processing and it will be the only file served
+  * This page will include all content
+  * and it will be the only file served
   *
   */
 
