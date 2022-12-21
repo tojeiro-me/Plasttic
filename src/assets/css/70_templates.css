@@ -69,7 +69,7 @@
       justify-content: left;
     }
     .ptt-nav__logo {
-      height: max(5vw, 40px);
+      height: max(5vw, 2.8rem);
       aspect-ratio: auto 4/1;
     }
   }
@@ -121,6 +121,7 @@
       color: var(--ptt-clr-neutral-700);
       font-size: 4rem;
       line-height: var(--ptt-txt-line-height-100);
+      overflow-wrap: normal;
       @media (--ptt-bkp-md) {
         font-size: clamp(4rem, 8vw + 2rem, 10rem);
       }
@@ -133,6 +134,16 @@
       @media (--ptt-bkp-md) {
         justify-self: left;
         font-size: var(--ptt-fnt-size-500);
+      }
+      ul {
+        padding-top: var(--ptt-padding-700);
+      }
+      li {
+        padding-top: var(--ptt-padding-200);
+        padding-left: 0;
+        @media (--ptt-bkp-md) {
+          padding-left: var(--ptt-padding-900);
+        }
       }
     }
 
@@ -149,7 +160,7 @@
     * Area
     */
   .ptt-footer {
-    padding-bottom: var(--ptt-padding-800);
+    padding-bottom: var(--ptt-padding-900);
     font-size: var(--ptt-fnt-size-footer);
     .ptt-footer__credit,
     .ptt-footer__social {
