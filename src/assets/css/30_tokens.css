@@ -1,8 +1,8 @@
-/* --- RESET --- */
-@import "00_reset.css";
+/* --- COMPONENTS --- */
+@import "20_components";
 
 /**
-  * 10_tokens.css
+  * 30_tokens.css
   *
   * INDEX
   * -----
@@ -137,6 +137,7 @@
   --ptt-padding-300: 0.9em;
   --ptt-padding-400: 1em;
   --ptt-padding-500: 1.1em;
+  --ptt-padding-800: 2em;
 
   /* Margin */
   --ptt-margin-400: 1rem;

@@ -6,9 +6,8 @@
   * This page imports all other css files
   * for post processing and it will be the only file served
   *
+  * print.css is separate so you can choose to use it or not
+  *
   */
 
-@import "60_pages.css";
-/* --- extends design system --- */
-@import "70_components.css";
-@import "80_utility.css";
+@import "80_pages.css";
