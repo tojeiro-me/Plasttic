@@ -8,6 +8,7 @@ package.json
 
 postcss.config.*
 .browserslistrc
+manifest.json
 
 ################################################################################
 # Compiled Directories & Files
