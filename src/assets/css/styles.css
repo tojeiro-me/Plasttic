@@ -1,3 +1,6 @@
+/* --- PAGES --- */
+@import "80_pages.css";
+
 /**
   * styles.css
   *
@@ -9,5 +12,3 @@
   * print.css is separate so you can choose to use it or not
   *
   */
-
-@import "80_pages.css";
