@@ -134,10 +134,12 @@
     */
 
   /* Padding */
+  --ptt-padding-200: 0.75em;
   --ptt-padding-300: 0.9em;
   --ptt-padding-400: 1em;
   --ptt-padding-500: 1.1em;
-  --ptt-padding-800: 2em;
+  --ptt-padding-700: 1.5em;
+  --ptt-padding-900: 2em;
 
   /* Margin */
   --ptt-margin-400: 1rem;
@@ -184,7 +186,7 @@
   /* Body */
   --ptt-fnt-family-body: var(--ptt-fnt-family-primary);
   --ptt-fnt-weight-body: var(--ptt-fnt-weight-light);
-  --ptt-fnt-size-body: var(--ptt-fnt-size-200);
+  --ptt-fnt-size-body: var(--ptt-fnt-size-400);
 
   /* Headers */
   --ptt-fnt-weight-header: var(--ptt-fnt-weight-bold);
@@ -210,7 +212,7 @@
 /* Increase font sizes for desktop */
 @media (--ptt-bkp-md) {
   :root {
-    --ptt-fnt-size-body: var(--ptt-fnt-size-400);
+    --ptt-fnt-size-body: var(--ptt-fnt-size-500);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);
     --ptt-fnt-size-header-h2: var(--ptt-fnt-size-700);
     --ptt-fnt-size-primary-nav: var(--ptt-fnt-size-200);
