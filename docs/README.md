@@ -54,7 +54,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 3. Static Site Workflow
 
-- HTML Boilerplate, Templates, File/Folder Structure, Atomic Design CSS, CSS Reset, PostCSS, Optimization, Dev/Build Scripts, Linting, Testing (Soon!)
+- HTML Boilerplate, Templates, File/Folder Structure, [Atomic Design CSS](atomic-design.md), CSS Reset, PostCSS, Optimization, Dev/Build Scripts, Linting, Testing (Soon!)
 - Start:
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
   - Run `npm install` to install the needed dependencies
