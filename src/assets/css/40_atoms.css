@@ -74,7 +74,7 @@
     */
 
 @define-mixin link-button-xl {
-  white-space: nowrap;
+  
   background: var(--ptt-clr-complement-red-400);
   padding: var(--ptt-padding-400);
   border-radius: var(--ptt-border-radius-400);
@@ -82,6 +82,7 @@
   font-weight: var(--ptt-fnt-weight-bold);
   color: var(--ptt-clr-neutral-100);
   text-decoration: none;
+  white-space: nowrap;
   transition: background-color 200ms ease-in;
   &:hover {
     background: var(--ptt-clr-neutral-700);
