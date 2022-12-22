@@ -70,7 +70,7 @@ _\*Search for "TODO:" in comments, relative to info that needs to be changed or 
 ---
 
 - File Comments
-- Check `docs` folder
+- Check [docs](../docs/) folder
 - Documentation website (Soon!)
 
 ## License
