@@ -7,8 +7,9 @@
   * INDEX
   * -----
   *
-  * Under Construction
-  * 404 Error Page
+  * Temporary/Under Construction
+  * Error/404 Error Page
+  * Code/Boilerplate
   * Homepage Template
   * 
   */
@@ -17,7 +18,13 @@
    Pages
    ========================================================================== */
 
-/* Code (Template: Temporary)
+/* Temporary/Under Construction (Template: Temporary)
+   ========================================================================== */
+
+/* Error/404 Error Page (Template: Temporary)
+   ========================================================================== */
+
+/* Code/Boilerplate (Template: Temporary)
    ========================================================================== */
 
 .ptt-page__code {
@@ -39,3 +46,7 @@
     white-space: pre;
   }
 }
+
+/* Homepage (Template: honepage)
+   ========================================================================== */
+
