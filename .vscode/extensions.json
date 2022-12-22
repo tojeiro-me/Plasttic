@@ -15,7 +15,6 @@
     "alefragnani.bookmarks",
     "sleistner.vscode-fileutils",
     "vunguyentuan.vscode-postcss",
-    "streetsidesoftware.code-spell-checker",
-    "withfig.fig"
+    "streetsidesoftware.code-spell-checker"
   ]
 }
