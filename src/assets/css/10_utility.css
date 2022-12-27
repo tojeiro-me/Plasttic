@@ -18,11 +18,16 @@
    ========================================================================== */
 
 /**
-  * PRINT-ONLY
+  * PRINT-ONLY / PRINT-NO
   * Extends print.css
-  * Hide elements/sections until print 
+  * ptt-u-print-only: Hide elements/sections until print
+  * ptt-u-print-no: Items to hide from print
   */
 
-.print-only {
+.ptt-u-print-only {
   display: none !important;
+}
+
+.ptt-u-print-no {
+  /* hidden section when printing */
 }

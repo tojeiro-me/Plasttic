@@ -25,7 +25,9 @@
   * More: https://www.accessguide.io/guide/skip-link
   */
 
-.ptt-access__jump-content {
+/* <a class="ptt-c-hidden-link" href="#start">Jump to Content</a> */
+
+.ptt-c-hidden-link {
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -34,8 +36,8 @@
   transform: translateY(-120%);
 }
 
-.ptt-access__jump-content:active,
-.ptt-access__jump-content:focus {
+.ptt-c-hidden-link:active,
+.ptt-c-hidden-link:focus {
   width: auto;
   height: auto;
   position: relative;
