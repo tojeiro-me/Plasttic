@@ -7,6 +7,7 @@ module.exports = {
     require('postcss-mixins'),
     require('postcss-nested'),
     require('autoprefixer'),
+    require('postcss-discard-empty'),
     require('cssnano')({ preset: 'default'}),
   ],
 };
