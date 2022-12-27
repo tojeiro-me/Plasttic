@@ -95,18 +95,18 @@
   }
 
   /**
-  * Helper classes: 
-  * use in sections
-  * that are not to print
-  * or that are hidden until print 
+  * Utility classes: 
+  * ptt-u-print-only: Hide elements/sections until print
+  * ptt-u-print-no: Items to hide from print
   */
+
   /* TODO: Control printed sections */
 
-  .print-no {
+  .ptt-u-print-no {
     display: none !important;
   }
 
-  .print-only {
+  .ptt-u-print-only {
     /* unhide print only sections */
     display: unset !important;
   }
