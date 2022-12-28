@@ -7,9 +7,11 @@
   * INDEX
   * -----
   *
-  * Print-only................Extends print.css
+  * Print-only/no................Extends print.css
   * 
-  * Note: Self contained, not dependent of the design system
+  * Notes: 
+  * Self contained, not dependent of the design system. 
+  * Naming prefix: .ptt-u-
   *
   */
 
