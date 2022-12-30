@@ -37,13 +37,13 @@
 <link rel="dns-prefetch" href="https://unpkg.com/">
 
 
-<script src="https://unpkg.com/petite-vue" defer init></script>
+<script src="https://unpkg.com/petite-vue" defer></script>
 ```
 
-- Defer, Async, Init (Javascript files)
+- Defer, Async (Javascript files)
 
 ```
-<script src="https://unpkg.com/petite-vue" defer init></script>
+<script src="https://unpkg.com/petite-vue" defer></script>
 <script src="assets/js/site/_global.min.js" defer></script>
 ```
 
