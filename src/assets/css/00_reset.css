@@ -102,7 +102,7 @@ select {
 :where(a, input, button, textarea, select, [tabindex]):focus-visible {
   outline: 1px solid hsl(0, 0%, 100%);
   outline-offset: 2px;
-  box-shadow: 0 0 0 2px hsl(176, 86%, 61%);
+  box-shadow: 0 0 0 2px hsl(26, 86%, 61%);
   border-radius: 1px;
 }
 
