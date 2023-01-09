@@ -69,8 +69,7 @@
       justify-content: left;
     }
     .ptt-nav__logo {
-      height: max(5vw, 2.8rem);
-      aspect-ratio: auto 4/1;
+      @mixin main-logo-dyn;
     }
   }
 
