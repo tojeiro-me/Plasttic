@@ -26,6 +26,11 @@
     * Main Logo, Icon Logo, ... (size, color/b&w)
     */
 
+/* Responsive main logo */
+@define-mixin main-logo-dyn {
+  height: max(5vw, 2.8rem);
+}
+
 /* Typography
    ========================================================================== */
 
@@ -74,7 +79,6 @@
     */
 
 @define-mixin link-button-xl {
-  
   background: var(--ptt-clr-complement-red-400);
   padding: var(--ptt-padding-400);
   border-radius: var(--ptt-border-radius-400);

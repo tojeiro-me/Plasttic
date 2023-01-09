@@ -111,6 +111,7 @@
 
   /* Font- Sizes: 200: 14px, 400: 16px, 500: 20px,
       700nt-: 28px, 900: 36px */
+  --ptt-fnt-size-100: 0.85rem;
   --ptt-fnt-size-200: 0.875rem;
   --ptt-fnt-size-400: 1rem;
   --ptt-fnt-size-500: 1.25rem;
@@ -143,6 +144,7 @@
 
   /* Margin */
   --ptt-margin-400: 1rem;
+  --ptt-margin-600: 1.5rem;
 
   /* Border */
   --ptt-border-400: 1px solid;
