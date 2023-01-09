@@ -128,27 +128,33 @@
 
     .ptt-message__text {
       grid-area: message;
-      justify-self: center;
       max-width: 45ch;
+      justify-self: center;
       @media (--ptt-bkp-md) {
+        margin-left: 1.5rem;
         justify-self: left;
         font-size: var(--ptt-fnt-size-500);
       }
       ul {
+        margin-left: 2rem;
         padding-top: var(--ptt-padding-700);
+        list-style: disc;
+        text-align: left;
+        @media (--ptt-bkp-md) {
+          margin-left: 2.5rem;
+        }
       }
       li {
         padding-top: var(--ptt-padding-200);
-        padding-left: 0;
-        @media (--ptt-bkp-md) {
-          padding-left: var(--ptt-padding-900);
-        }
       }
     }
 
     .ptt-message__cta {
       grid-area: cta;
       margin-top: 1.5rem;
+      @media (--ptt-bkp-md) {
+        margin-left: 1rem;
+      }
       a {
         @mixin link-button-xl;
       }
