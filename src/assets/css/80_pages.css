@@ -50,12 +50,12 @@
     max-height: 30vh;
     overflow: auto;
     color: var(--ptt-clr-primary-400);
-    font-size: 0.85rem;
+    font-size: var(--ptt-fnt-size-100);
     text-align: left;
     white-space: pre;
     @media (--ptt-bkp-md) {
       max-width: 65vw;
-      margin-left: 1.5rem;
+      margin-left: var(--ptt-margin-600);
     }
   }
 }
