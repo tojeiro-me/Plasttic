@@ -59,7 +59,7 @@
     "watch:root": "onchange -d 10000 'src/*' -- npm run del:root"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
     "@types/node": "^18.11.18",
