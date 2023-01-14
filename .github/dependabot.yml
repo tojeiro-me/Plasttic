@@ -8,13 +8,10 @@ updates:
       interval: "weekly"
       # Check for npm updates on Sundays
       day: "sunday"
-      allow:
-        # Allow both direct and indirect updates for all packages
-        - dependency-type: "all"
     # Labels on pull requests for security and version updates
     labels:
       - "npm dependencies"
-    versioning-strategy: increase-if-necessary
+    versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
