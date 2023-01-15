@@ -69,7 +69,7 @@
       justify-content: left;
     }
     .ptt-nav__logo {
-      @mixin main-logo-dyn;
+      @mixin main-nav-logo-dyn;
     }
   }
 

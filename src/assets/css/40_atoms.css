@@ -23,11 +23,18 @@
 
 /**
     * ...
-    * Main Logo, Icon Logo, ... (size, color/b&w)
+    * Main Nav Logo, Icon Logo, ... (size, color/b&w)
     */
 
-/* Responsive main logo */
-@define-mixin main-logo-dyn {
+/* Main Nav Logo
+
+<img class="ptt-nav__logo" 
+src="assets/img/logos/logo-horizontal.svg"
+alt="Plasttic Home" /> 
+*/
+
+/* Responsive Main Nav logo */
+@define-mixin main-nav-logo-dyn {
   height: max(5vw, 2.8rem);
 }
 
