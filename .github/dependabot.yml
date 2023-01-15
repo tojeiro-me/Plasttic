@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "daily"
       # Check for npm updates on Sundays
-      day: "sunday"
+      # day: "sunday"
     versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
