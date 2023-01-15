@@ -1,19 +1,19 @@
-on:
-  pull_request:
-
+name: Dependabot auto-merge
+on: pull_request_target
+permissions:
+  pull-requests: write
+  contents: write
 jobs:
   dependabot:
-    name: "Dependabot"
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}} # Detect that the  PR author is dependabot
-    - name: Dependabot metadata
-        id: metadata
-        uses: dependabot/fetch-metadata@v1.3.1
-        with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     steps:
+      - name: Fetch Metadata from Dependabot PRs
+        id: dependabot-metadata
+        uses: dependabot/fetch-metadata@v1.3.5
       - name: Enable auto-merge for Dependabot PRs
-        run: gh pr merge --auto --merge "$PR_URL" # Use Github CLI to merge automatically the PR
+        if: ${{contains(steps.dependabot-metadata.outputs.dependency-names, 'rails') && steps.dependabot-metadata.outputs.update-type == 'version-update:semver-patch'}}
+        run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
