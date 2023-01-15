@@ -9,8 +9,8 @@
 - Fixed JS vendor folder NPM script
 - Renamed utility and components classes
 - Added postcss-discard-empty
-- Dependabot setup
-- Github Action: auto-merge for Dependabot PRs
+- Dependabot setup and config
+- Github Actions: auto-merge for Dependabot PRs
 
 ---
 
