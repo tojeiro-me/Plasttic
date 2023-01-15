@@ -1,19 +1,28 @@
 name: Dependabot auto-merge
-on: pull_request_target
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+
 permissions:
   pull-requests: write
   contents: write
+
 jobs:
   dependabot:
+    name: "Dependabot"
     runs-on: ubuntu-latest
-    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request'}}
     steps:
       - name: Fetch Metadata from Dependabot PRs
-        id: dependabot-metadata
+        id: metadata
         uses: dependabot/fetch-metadata@v1.3.5
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
       - name: Enable auto-merge for Dependabot PRs
-        if: ${{contains(steps.dependabot-metadata.outputs.dependency-names, 'rails') && steps.dependabot-metadata.outputs.update-type == 'version-update:semver-patch'}}
         run: gh pr merge --auto --merge "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
