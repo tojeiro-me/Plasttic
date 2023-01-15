@@ -15,8 +15,8 @@ updates:
     versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
- - package-ecosystem: 'github-actions' # See documentation for possible values
-    directory: '/' # Location of package manifests
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" # Location of package manifests
     open-pull-requests-limit: 25
     schedule:
       interval: "weekly"
