@@ -1,4 +1,4 @@
-# v2.0 (--- --, 2022)
+# v2.0 (--- --, 2023)
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
@@ -10,6 +10,7 @@
 - Renamed utility and components classes
 - Added postcss-discard-empty
 - Dependabot setup
+- Github Action: auto-merge for Dependabot PRs
 
 ---
 
