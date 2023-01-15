@@ -6,7 +6,7 @@ updates:
     directory: "/"
     open-pull-requests-limit: 25
     schedule:
-      interval: "weekly"
+      interval: "daily"
       # Check for npm updates on Sundays
       day: "sunday"
     versioning-strategy: increase
