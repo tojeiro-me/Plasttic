@@ -4,6 +4,7 @@ updates:
   - package-ecosystem: "npm"
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
+    open-pull-requests-limit: 25
     schedule:
       interval: "weekly"
       # Check for npm updates on Sundays
@@ -14,7 +15,11 @@ updates:
     versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: "github-actions" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    open-pull-requests-limit: 25
     schedule:
       interval: "weekly"
+      # Check for npm updates on Sundays
+      day: "sunday"
+    # Labels on pull requests for security and version updates
