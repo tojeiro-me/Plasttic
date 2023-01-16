@@ -1,4 +1,4 @@
-# v2.0 (--- --, 2023)
+# v2.0 (Jan --, 2023)
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
