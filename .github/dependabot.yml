@@ -7,8 +7,8 @@ updates:
     open-pull-requests-limit: 25
     schedule:
       # Check for npm updates on Sundays
-      interval: "daily"
-      # day: "sunday"
+      interval: "weekly"
+      day: "sunday"
     versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
