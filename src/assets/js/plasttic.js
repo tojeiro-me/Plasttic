@@ -19,6 +19,6 @@ if (copyCodeBtn) {
     copyCodeBtn.innerText = 'Copied!';
     setTimeout(() => {
       copyCodeBtn.innerText = 'Copy';
-    }, 1250);
+    }, 1500);
   });
 }
