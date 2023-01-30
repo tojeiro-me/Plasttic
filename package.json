@@ -44,7 +44,7 @@
     "copy:root": "copyfiles -u 1 -a \"./src/*\" -e \"./src/*.html\" $npm_config_dest && concurrently npm:copy:files npm:copy:html",
     "del:css": "del ./$npm_config_dest/assets/css/  && npm run dev:copy:css",
     "del:fonts": "del ./$npm_config_dest/assets/fonts/ && npm run copy:fonts",
-    "del:files": "del ./$npm_config_dest/.??** ./$npm_config_dest/**/.??** ./$npm_config_dest/*.* ./$npm_config_dest/**/* !./$npm_config_dest/*.html !./$npm_config_dest/**/*.html !./$npm_config_dest/assets/** !./$npm_config_dest/private/** && npm run copy:files",
+    "del:files": "del ./$npm_config_dest/.??** ./$npm_config_dest/**/.??** ./$npm_config_dest/*.* ./$npm_config_dest/**/* !./$npm_config_dest/*.html !./$npm_config_dest/**/*.html !./$npm_config_dest/assets/* !./$npm_config_dest/private/* && npm run copy:files",
     "del:html": "del ./$npm_config_dest/*.html ./$npm_config_dest/**/*.html && npm run copy:html",
     "del:img": "del ./$npm_config_dest/assets/img/* && npm run copy:img",
     "del:js": "del ./$npm_config_dest/assets/js/* && npm run copy:js",
