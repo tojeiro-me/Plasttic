@@ -52,7 +52,7 @@
     "del:img": "del ./$npm_config_dest/assets/img/* && npm run copy:img",
     "del:js": "del ./$npm_config_dest/assets/js/* && npm run copy:js",
     "del:private": "del ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
-    "del:root": "del ./$npm_config_dest/* !./$npm_config_dest/*.* !./$npm_config_dest/assets/* !./$npm_config_dest/private/*",
+    "del:root": "del ./$npm_config_dest/* !./$npm_config_dest/*.* !./$npm_config_dest/assets/* !./$npm_config_dest/private/*  && npm run copy:root",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output",
     "start:build": "npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:mini:*",
     "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:mini:html && concurrently npm:watch:* npm:sync",
