@@ -64,7 +64,7 @@
     "watch:html": "onchange -d 10000 'src/*.html' 'src/**/*.html' -- npm run del:html",
     "watch:img": "onchange -d 10000 'src/assets/img/*' 'src/assets/img/**/*' 'src/assets/img/**/**/*' -- npm run del:img",
     "watch:js": "onchange -d 10000 'src/assets/js/**/*' -- npm run del:js",
-    "watch:private": "onchange -d 10000 'src/private/**/*' -- npm run del:private",
+    "watch:private": "onchange -d 10000 'src/private/*' 'src/private/**/*' -- npm run del:private",
     "watch:root": "onchange -d 10000 'src/*' -e 'src/*.*' -e 'src/**/*.*' -- npm run del:root"
   },
   "devDependencies": {
