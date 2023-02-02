@@ -2,7 +2,7 @@
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
-- NPM Scripts optimized
+- NPM Scripts optimize
 - Docs updates
 - :warning: Changed NPM dev/build destination folders
 - :warning: Renamed tokens and added prefix
