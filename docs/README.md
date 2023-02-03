@@ -62,7 +62,7 @@ You will find documentation in the files comments and some notes in the `docs` f
   - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
   - \*\*There are other ways to clone the repo. Choose the one is best for you.
 
-_\*Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
+_Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
 
 ## Documentation
 
