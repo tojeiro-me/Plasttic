@@ -47,13 +47,14 @@ html:focus-within {
 html,
 body {
   /* Plasttic: Set document height */
-  height: 100%;
+  min-height: 100%;
+  min-height: 100dvh;
 }
 
 body {
   text-rendering: optimizeSpeed;
-  /* Plasttic: Replace 1.5 */
-  line-height: 1.45;
+  /* Plasttic: Set default line-height */
+  line-height: 1.45; /* or 1.5 , 1.6 */
 }
 
 h1,
