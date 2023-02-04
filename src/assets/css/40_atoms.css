@@ -64,10 +64,10 @@ alt="Plasttic Home" />
     * LINKS
     * ...
     */
-
 @define-mixin link-md {
   color: var(--ptt-clr-neutral-900);
   font-weight: var(--ptt-fnt-weight-bold);
+
   &:visited {
     color: var(--ptt-clr-neutral-900);
     font-weight: var(--ptt-fnt-weight-bold);
