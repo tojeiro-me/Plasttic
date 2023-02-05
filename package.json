@@ -112,7 +112,7 @@
     "postcss-preset-env": "^8.0.1",
     "postcss-scss": "^4.0.6",
     "prettier": "^2.8.3",
-    "puppeteer": "^19.6.2",
+    "puppeteer": "^19.6.3",
     "rehype": "^12.0.1",
     "rehype-cli": "^11.0.1",
     "rehype-format": "^4.0.1",
