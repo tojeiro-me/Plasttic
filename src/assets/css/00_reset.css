@@ -87,8 +87,16 @@ svg {
   /* Plasttic: Add Video, Canvas and SVG */
   display: block;
   max-width: 100%;
-  /* Plasttic: Set height */
+  /* Plasttic: Set height and aspect-ratio */
   height: auto;
+}
+
+img,
+video,
+canvas,
+svg {
+  /* Plasttic: Set aspect-ratio based on specified size */
+  aspect-ratio: attr(width) / attr(height);
 }
 
 /* Inherit fonts for inputs and buttons */
