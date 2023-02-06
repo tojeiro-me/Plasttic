@@ -55,6 +55,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), PostCSS, Optimization, Dev/Build Scripts, Linting, Testing (Soon!)
 - Start:
+
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
   - Run `npm install` to install the needed dependencies
   - Run `npm run dev` to start the dev server on `http://localhost:800` \*
@@ -63,6 +64,13 @@ You will find documentation in the files comments and some notes in the `docs` f
   - \*\*There are other ways to clone the repo. Choose the one is best for you.
 
 _Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
+
+- Dev with https:
+  - Run `mkdir certs`
+  - Run `cd certs`
+  - Install certificate with [mkcert](https://mkcert.dev/)
+  - Replace certificate filenames and/or path in `conf/browser-sync.cjs` if needed
+  - Run `npm run dev:ssl`
 
 ## Documentation
 
