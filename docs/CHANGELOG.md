@@ -12,6 +12,7 @@
 - Dependabot setup and config
 - Github Actions: auto-merge for Dependabot PRs
 - Updated reset.css
+- Updated NPM scripts to allow https
 
 ---
 

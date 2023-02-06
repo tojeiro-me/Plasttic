@@ -7,6 +7,7 @@ package-lock.json
 package.json
 
 postcss.config.*
+browser-sync.*
 .browserslistrc
 manifest.json
 
