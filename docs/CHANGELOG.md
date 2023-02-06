@@ -11,6 +11,7 @@
 - Added postcss-discard-empty
 - Dependabot setup and config
 - Github Actions: auto-merge for Dependabot PRs
+- Updated reset.css
 
 ---
 
