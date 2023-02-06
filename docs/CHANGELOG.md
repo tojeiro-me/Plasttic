@@ -1,4 +1,4 @@
-# v2.0 (Jan --, 2023)
+# v2.0 (Feb --, 2023)
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
@@ -17,8 +17,7 @@
 
 - WORKING ON:
 - Atomic Design implementation
-- Template basic styling
-- Documentation Website
+- Single Page template
 
 ## v1.4.5 (Dec 08, 2022)
 
