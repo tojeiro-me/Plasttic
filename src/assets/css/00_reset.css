@@ -95,7 +95,7 @@ img,
 video,
 canvas,
 svg {
-  /* Plasttic: Set aspect-ratio based on specified size */
+  /* Plasttic: Set aspect-ratio based on specified sizes */
   aspect-ratio: attr(width) / attr(height);
 }
 
