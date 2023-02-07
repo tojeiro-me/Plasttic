@@ -17,11 +17,15 @@ const dateCurrent = new Date();
 
 /**
  * Set current year in footer copyright
- * Use: ©2021-<span id="footer-year"></span>
+ * Use: ©2021-<span id="footer-year"></span> Company
  */
 document.getElementById('footer-year').innerText = dateCurrent.getFullYear();
 
 /**
  * Reset form values on page load
+ * Use:
+ * <form id="form-name">
+ * <input type="text">
+ * </form>
  */
-// document.getElementById("formContact").reset();
+// document.getElementById("form-name").reset();
