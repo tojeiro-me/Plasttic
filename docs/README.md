@@ -58,7 +58,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
   - Run `npm install` to install the needed dependencies
-  - Run `npm run dev` to start the dev server on `http://localhost:800` \*
+  - Run `npm run dev` to start the dev server on `http://localhost:8000` \*
   - Run `npm run build` when you are ready to publish \*
   - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
   - \*\*There are other ways to clone the repo. Choose the one is best for you.
@@ -70,7 +70,7 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
   - Run `cd certs`
   - Install certificate with [mkcert](https://mkcert.dev/)
   - Replace certificate filenames and/or path in `conf/browser-sync.cjs` if needed
-  - Run `npm run dev:ssl`
+  - Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
 
 ## Documentation
 
