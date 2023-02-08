@@ -53,7 +53,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 3. Static Site Workflow
 
-- [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), [Print CSS](../src/assets/css/print.css), PostCSS, Code Optimization, Dev/Build Scripts, Linting, Image Optimization (Soon!), Testing (Soon!)
+- [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), [Print CSS](../src/assets/css/print.css), PostCSS, Code Optimization, Linting, Image Optimization (Soon!), Testing (Soon!)
 - Start:
 
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
