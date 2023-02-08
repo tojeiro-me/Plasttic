@@ -53,7 +53,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 3. Static Site Workflow
 
-- [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), [Print CSS](../src/assets/css/print.css), PostCSS, Optimization, Dev/Build Scripts, Linting, Testing (Soon!)
+- [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), [Print CSS](../src/assets/css/print.css), PostCSS, Code Optimization, Dev/Build Scripts, Linting, Image Optimization (Soon!), Testing (Soon!)
 - Start:
 
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
@@ -63,7 +63,7 @@ You will find documentation in the files comments and some notes in the `docs` f
   - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
   - \*\*There are other ways to clone the repo. Choose the one is best for you.
 
-_Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)_
+_Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)_
 
 - Dev with https:
   - Run `mkdir certs`
