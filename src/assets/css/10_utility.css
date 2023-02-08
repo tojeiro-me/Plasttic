@@ -33,5 +33,6 @@
 }
 
 .ptt-u-print-no {
-  /* hidden section when printing */
+  /* hide section when printing
+  class properties defined on print.css */
 }
