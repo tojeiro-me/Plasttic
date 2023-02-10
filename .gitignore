@@ -8,7 +8,7 @@ certs/
 .cache
 
 archive/
+boilerplate/
 
 dev/
 dist/
-public/
