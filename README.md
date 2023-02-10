@@ -43,7 +43,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [HTML Boilerplate](../src/boilerplate.html)
+- [HTML Boilerplate](./src/boilerplate.html)
 
 ### 2. Templates/Starter Pages
 
@@ -53,7 +53,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 3. Static Site Workflow
 
-- [HTML Boilerplate](../src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](atomic-design.md), [CSS Reset](../src/assets/css/00_reset.css), [Print CSS](../src/assets/css/print.css), PostCSS, Code Optimization, Linting, Image Optimization (Soon!), Testing (Soon!)
+- [HTML Boilerplate](./src/boilerplate.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](./src/assets/css/00_reset.css), [Print CSS](./src/assets/css/print.css), PostCSS, Code Optimization, Linting, Image Optimization (Soon!), Testing (Soon!)
 - Start:
 
   - Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
@@ -77,7 +77,7 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
 ---
 
 - File Comments
-- Check [docs](../docs/) folder
+- Check [docs](./docs) folder
 - Documentation website (Soon!)
 
 ## License
