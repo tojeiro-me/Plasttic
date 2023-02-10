@@ -121,6 +121,7 @@ alt="Plasttic Home" />
   text-decoration: none;
   white-space: nowrap;
   transition: background-color 200ms ease-in;
+
   &:hover {
     background: var(--ptt-clr-neutral-700);
   }
