@@ -1,10 +1,10 @@
-/*! Plasttic v2.0 | MIT License | https://plasttic.dev/ */
+/* @license Plasttic v2.0 | MIT License | https://plasttic.dev/ */
 
 /**
  * main.js
  *
- * Main / Global scripts
- * This are scripts that can be used across multiple projects
+ * Global scripts
+ * This are utility scripts that can be used across projects
  *
  * Note: create other Javascript files if needed
  * in the build process they will be concatenated
@@ -13,7 +13,10 @@
  */
 
 /**
- * Initialize date object into variable
+ * Global variables
+ * variables that can be used in multiple functions
+ *
+ * 1. Current Date
  */
 const dateCurrent = new Date();
 
