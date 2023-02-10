@@ -7,7 +7,8 @@
     "plasttic",
     "template",
     "boilerplate",
-    "front-end"
+    "front-end",
+    "atomic design"
   ],
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
     "docs/README.md",
     ".vscode/extensions.json",
     ".gitattributes",
-    "LICENSE",
+    "docs/LICENSE",
     "package.json"
   ],
   "homepage": "https://github.com/tojeiro-me/Plasttic",
@@ -58,7 +59,7 @@
     "start:build": "npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:mini:*",
     "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:mini:html && concurrently npm:watch:* npm:sync",
     "start:dev:ssl": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:mini:html && concurrently npm:watch:* npm:sync:ssl",
-    "sync:ssl": "browser-sync start --config './conf/browser-sync.cjs' --port 8000 --server dev --files dev",
+    "sync:ssl": "browser-sync start --config './browser-sync.cjs' --port 8000 --server dev --files dev",
     "sync": "browser-sync start --port 8000 --server dev --files dev",
     "watch:assets": "onchange -d 1000 'src/assets/*' -- npm run del:assets",
     "watch:css": "onchange -d 1000 'src/assets/css/*' -- npm run del:css",
