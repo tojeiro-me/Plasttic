@@ -6,7 +6,7 @@
 
 ## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
 
-_Please check the [CHANGELOG](https://github.com/tojeiro-me/Plasttic/blob/master/docs/CHANGELOG.md) for major or breaking changes_
+_Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ---
 
