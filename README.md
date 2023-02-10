@@ -69,7 +69,7 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
   - Run `mkdir certs`
   - Run `cd certs`
   - Install certificate with [mkcert](https://mkcert.dev/)
-  - Replace certificate filenames and/or path in `conf/browser-sync.cjs` if needed
+  - Check certificate filenames and/or path in the file `browser-sync.cjs`
   - Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
 
 ## Documentation
