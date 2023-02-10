@@ -106,11 +106,13 @@ alt="Plasttic Home" />
 
 /* Rounded corners
 
+  $background sets the button color
+
   <a href="">Button</a>
 */
 
-@define-mixin link-button-xl {
-  background: var(--ptt-clr-complement-red-400);
+@define-mixin link-button-xl $backgound: var(--ptt-clr-complement-red-400) {
+  background: $backgound;
   padding: var(--ptt-padding-400);
   border-radius: var(--ptt-border-radius-400);
   font-size: var(--ptt-fnt-size-500);
