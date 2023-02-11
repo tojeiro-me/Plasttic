@@ -1,4 +1,6 @@
-# HTACCESS rules
+# .htaccess rules
+
+---
 
 _rules that may affect your development workflow_
 

@@ -1,5 +1,7 @@
 # Atomic Design CSS Structure
 
+---
+
 0.  RESET
 
 - Base styling for CSS browser compatibility
