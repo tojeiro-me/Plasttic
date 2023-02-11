@@ -1,4 +1,19 @@
-# CSS properties order
+# CSS
+
+---
+
+## Namespace
+
+---
+
+- Naming: Prefix `ptt`, [BEM](http://getbem.com)
+- Prefix: HTML/CSS classes `.ptt-form__button--hidden`, CSS root custom properties `--ptt-property-variation`
+
+  _\*Note: avoid naming collisions and provide context_
+
+## properties order
+
+---
 
 ```css
 class {
