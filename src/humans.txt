@@ -9,8 +9,8 @@ Location: Porto, Portugal
                             
 /* SITE */
 
-Standards: HTML5, CSS3                           
-Components: Sass, Vanilla JS                        
+Standards: HTML5, CSS3, JS                           
+Components: PostCSS, Node                       
 Software: VS Code
 
 /* humanstxt.org */
