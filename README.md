@@ -20,6 +20,15 @@ This is not intended to be a framework, but rather a starting point. It includes
 
 You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
 
+## Links
+
+---
+
+- [Website](https://plasttic.dev)
+- Documentation (Soon!)
+- [Twitter](https://twitter.com/Plasttic_Dev)
+- [Mastodon](https://mastodon.social/@plasttic)
+
 ## Practices Guidelines
 
 ---
