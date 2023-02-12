@@ -115,7 +115,7 @@
     "postcss-preset-env": "^8.0.1",
     "postcss-scss": "^4.0.6",
     "postcss-simple-vars": "^7.0.1",
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.4",
     "puppeteer": "^19.6.3",
     "rehype": "^12.0.1",
     "rehype-cli": "^11.0.1",
