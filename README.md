@@ -52,7 +52,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [HTML Boilerplate](./src/boilerplate.html)
+- [HTML Boilerplate](./src/index.html)
 
 ### 2. Minimal Template
 
