@@ -72,7 +72,7 @@
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.21.0",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
     "@types/node": "^18.14.0",
