@@ -112,7 +112,7 @@
     "postcss-media-minmax": "^5.0.0",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.1",
-    "postcss-preset-env": "^8.1.0",
+    "postcss-preset-env": "^8.3.0",
     "postcss-scss": "^4.0.6",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^2.8.7",
