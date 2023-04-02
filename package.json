@@ -107,7 +107,7 @@
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^9.1.2",
-    "postcss-discard-empty": "^5.1.1",
+    "postcss-discard-empty": "^6.0.0",
     "postcss-import": "^15.1.0",
     "postcss-media-minmax": "^5.0.0",
     "postcss-mixins": "^9.0.4",
