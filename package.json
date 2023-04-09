@@ -83,7 +83,7 @@
     "browser-sync": "^2.29.1",
     "concurrently": "^8.0.1",
     "copyfiles": "^2.4.1",
-    "cpx2": "^4.2.2",
+    "cpx2": "^4.2.3",
     "cssnano": "^6.0.0",
     "del-cli": "^5.0.0",
     "engine.io": "^6.4.1",
