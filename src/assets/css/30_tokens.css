@@ -63,31 +63,31 @@
     */
 
   /* Neutral */
-  --ptt-clr-neutral-100: hsl(0, 0%, 100%); /* white */
-  --ptt-clr-neutral-200: hsl(0, 0%, 87.5%);
-  --ptt-clr-neutral-300: hsl(0, 0%, 75%);
-  --ptt-clr-neutral-400: hsl(0, 0%, 62.5%);
-  --ptt-clr-neutral-500: hsl(0, 0%, 50%);
-  --ptt-clr-neutral-600: hsl(0, 0%, 37.5%);
-  --ptt-clr-neutral-700: hsl(0, 0%, 25%);
-  --ptt-clr-neutral-800: hsl(0, 0%, 12.5%);
-  --ptt-clr-neutral-900: hsl(0, 0%, 0%); /* black */
+  --ptt-clr-neutral-100: hsl(0 0% 100%); /* white */
+  --ptt-clr-neutral-200: hsl(0 0% 87.5%);
+  --ptt-clr-neutral-300: hsl(0 0% 75%);
+  --ptt-clr-neutral-400: hsl(0 0% 62.5%);
+  --ptt-clr-neutral-500: hsl(0 0% 50%);
+  --ptt-clr-neutral-600: hsl(0 0% 37.5%);
+  --ptt-clr-neutral-700: hsl(0 0% 25%);
+  --ptt-clr-neutral-800: hsl(0 0% 12.5%);
+  --ptt-clr-neutral-900: hsl(0 0% 0%); /* black */
 
-  /* Primary */
-  --ptt-clr-primary-100: hsl(191, 50%, 87%);
-  --ptt-clr-primary-300: hsl(190, 50%, 59%);
-  --ptt-clr-primary-400: hsl(190, 50%, 35%);
-  --ptt-clr-primary-800: hsl(192, 41%, 20%);
+  /* Primary (Brand) */
+  --ptt-clr-primary-100: hsl(191 50% 87%);
+  --ptt-clr-primary-300: hsl(190 50% 59%);
+  --ptt-clr-primary-400: hsl(190 50% 35%);
+  --ptt-clr-primary-800: hsl(192 41% 20%);
 
   /* Secondary */
   --ptt-clr-secondary-400: var(---ptt-clr-neutral-800);
 
   /* Complementary */
-  --ptt-clr-complement-red-400: hsl(348, 68%, 42%);
+  --ptt-clr-complement-red-400: hsl(348 68% 42%);
 
   /* Utility */
-  --ptt-clr-util-error-400: hsl(0, 86%, 38%);
-  --ptt-clr-util-success-400: hsl(121, 83%, 33%);
+  --ptt-clr-util-error-400: hsl(0 86% 38%);
+  --ptt-clr-util-success-400: hsl(121 83% 33%);
 
   /* Backgrounds */
   --ptt-clr-bkg-body: var(--ptt-clr-neutral-100);
