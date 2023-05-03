@@ -114,7 +114,6 @@
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.1",
     "postcss-preset-env": "^8.3.2",
-    "postcss-scss": "^4.0.6",
     "postcss-simple-vars": "^7.0.1",
     "prettier": "^2.8.8",
     "puppeteer": "^19.11.1",
