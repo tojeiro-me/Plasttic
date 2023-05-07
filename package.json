@@ -128,6 +128,6 @@
     "svgo": "^3.0.2",
     "typescript": "^4.9.5",
     "uglify-js": "^3.17.4",
-    "vue-eslint-parser": "^9.1.1"
+    "vue-eslint-parser": "^9.2.1"
   }
 }
