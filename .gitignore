@@ -13,3 +13,5 @@ boilerplate/
 
 dev/
 dist/
+
+*-nogit.*
