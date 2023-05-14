@@ -14,6 +14,7 @@
 - Updated reset.css
 - Updated NPM scripts to allow https
 - Added postcss-simple-vars
+- Updated reset.css
 
 ---
 
