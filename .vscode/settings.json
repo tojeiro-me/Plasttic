@@ -9,7 +9,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "eslint.validate": ["javascript", "javascriptreact", "vue", "json"],
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "vue", "json"],
   "css.lint.unknownAtRules": "ignore",
   "css.lint.emptyRules": "ignore",
   "postcss.validate": false

@@ -11,14 +11,17 @@
 - Added postcss-discard-empty
 - Dependabot setup and config
 - Github Actions: auto-merge for Dependabot PRs
-- Updated reset.css
 - Updated NPM scripts to allow https
 - Added postcss-simple-vars
+- Updated reset.css
+- Updated img folder
+- Moved social banner to root
 
 ---
 
-- WORKING ON:
+- FINISHING:
 - Atomic Design implementation
+- NEXT:
 - Single Page template
 
 ## v1.4.5 (Dec 08, 2022)
