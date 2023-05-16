@@ -29,12 +29,6 @@
   padding: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
 /* Set scroll preference */
 html {
   scroll-behavior: smooth;
