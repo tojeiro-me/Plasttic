@@ -4,14 +4,15 @@
   * 00_reset.css
   *
   * Styling for CSS browser compatibility
+  * and some best practices styling defaults
   *
   * Based on A Modern CSS Reset by Andy Bell @piccalilli_
   * https://piccalil.li/blog/a-modern-css-reset/
   *
-  * Includes come rules from Josh Comeau @JoshWComeau
+  * Includes some rules from Josh Comeau @JoshWComeau
   * https://www.joshwcomeau.com/css/custom-css-reset/
   *
-  * Plasttic rules are commented using "Plasttic:" 
+  * Plasttic rules/defaults are commented using "Plasttic:" 
   *
   */
 
@@ -26,12 +27,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
 }
 
 /* Set scroll preference */
