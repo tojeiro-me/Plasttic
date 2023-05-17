@@ -27,11 +27,17 @@
 * {
   margin: 0;
   padding: 0;
+  /* Plasttic: default styling for items with text decoration  */
+  text-decoration-thickness: 0.2ex;
+  text-underline-offset: 0.25ex;
 }
 
 /* Set scroll preference */
 html {
   scroll-behavior: smooth;
+  /* Avoid text inflation on mobile screens */
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
 }
 
 /* Set document defaults */
@@ -46,10 +52,9 @@ body {
 /* Set typography defaults */
 body {
   text-rendering: optimizeSpeed;
-  /* Plasttic: Set default line-height */
-  line-height: 1.45;
-  /* 1.3 to 1.6: ideal line height depends on the font x-height */
   /* Plasttic: Set best typography defaults */
+  line-height: 1.45; /* 1.3 to 1.6: ideal line height depends on the font x-height */
+  max-width: 65ch; /* Optimal values: 50ch to 80ch */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
 }
@@ -57,14 +62,22 @@ body {
 h1,
 h2,
 h3 {
-  /* Plasttic: Set best typography values for headings */
+  /* Plasttic: Set best typography values for bigger headings */
   line-height: 1.1; /* 1 to 1.2: ideal line height depends on the font x-height */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
   margin-bottom: 0.5em;
+  /* Prevent long lines for readability  */
+  max-width: 30ch;
+}
+h2 {
+  max-width: 35ch;
+}
+h3 {
+  max-width: 45ch;
 }
 
-/* Avoid text overflow */
+/* Text wrap styling */
 h1,
 h2,
 h3,
@@ -73,16 +86,15 @@ h5,
 h6,
 p {
   overflow-wrap: break-word;
+  /* Plasttic: balance the way the text wraps */
+  text-wrap: balance;
+  /* CHECK: May 2023: not yet supported */
 }
 
-/* Plasttic: Set best paragraph spacing */
+/* Plasttic: Set paragraph styling defaults */
 p {
+  /* Set best spacing between paragraphs */
   margin-bottom: 1.5em;
-}
-
-/* <a> elements without a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -98,7 +110,7 @@ svg {
   height: auto;
 }
 
-/* Plasttic: Avoid image distortion by filling the entire content box */
+/* Plasttic: Avoid image/video distortion by filling the entire content box */
 img,
 video {
   object-fit: cover;
@@ -111,7 +123,7 @@ canvas,
 svg {
   /* Plasttic: Set aspect-ratio based on specified sizes */
   aspect-ratio: attr(width) / attr(height);
-  /* 2023: not yet supported */
+  /* CHECK: May 2023: not yet supported */
 }
 
 /* Remove form default typography styles */
