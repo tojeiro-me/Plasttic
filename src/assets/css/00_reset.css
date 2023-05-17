@@ -12,7 +12,7 @@
   * Includes some rules from Josh Comeau @JoshWComeau
   * https://www.joshwcomeau.com/css/custom-css-reset/
   *
-  * Plasttic rules/defaults are commented using "Plasttic:" 
+  * Plasttic rules and defaults are commented using "Plasttic:" 
   *
   */
 
@@ -43,19 +43,24 @@ body {
   overflow-x: hidden;
 }
 
-/* Set type defaults */
+/* Set typography defaults */
 body {
   text-rendering: optimizeSpeed;
   /* Plasttic: Set default line-height */
   line-height: 1.45;
-  /* 1.35 to 1.6: ideal line height depends on the font x-height */
+  /* 1.3 to 1.6: ideal line height depends on the font x-height */
+  /* Plasttic: Set best typography defaults */
+  letter-spacing: 0.012em;
+  word-spacing: 0.016em;
 }
 
 h1,
 h2,
 h3 {
-  /* Plasttic: Set best line height for headings */
-  line-height: 1; /* 1 to 1.2: ideal line height depends on the font x-height */
+  /* Plasttic: Set best typography values for headings */
+  line-height: 1.1; /* 1 to 1.2: ideal line height depends on the font x-height */
+  letter-spacing: 0.012em;
+  word-spacing: 0.016em;
   margin-bottom: 0.5em;
 }
 
@@ -68,6 +73,11 @@ h5,
 h6,
 p {
   overflow-wrap: break-word;
+}
+
+/* Plasttic: Set best paragraph spacing */
+p {
+  margin-bottom: 1.5em;
 }
 
 /* <a> elements without a class get default styles */
