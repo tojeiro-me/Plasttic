@@ -98,10 +98,10 @@ svg {
   height: auto;
 }
 
-/* Avoid image distortion by filling the entire content box */
+/* Plasttic: Avoid image distortion by filling the entire content box */
 img,
 video {
-  object-fit: cover; /* Plasttic: */
+  object-fit: cover;
 }
 
 /* Set aspect-ratio to avoid layout shift */

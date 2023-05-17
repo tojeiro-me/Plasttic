@@ -10,6 +10,7 @@ docs/*.tree
 
 archive/
 boilerplate/
+tests/
 
 dev/
 dist/
