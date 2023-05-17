@@ -111,7 +111,7 @@ canvas,
 svg {
   /* Plasttic: Set aspect-ratio based on specified sizes */
   aspect-ratio: attr(width) / attr(height);
-  /* 2023: not supported yet */
+  /* 2023: not yet supported */
 }
 
 /* Remove form default typography styles */
