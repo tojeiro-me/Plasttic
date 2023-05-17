@@ -4,7 +4,7 @@
   * 00_reset.css
   *
   * Styling for CSS browser compatibility
-  * and some best practices styling defaults
+  * and best practices styling defaults
   *
   * Based on A Modern CSS Reset by Andy Bell @piccalilli_
   * https://piccalil.li/blog/a-modern-css-reset/
@@ -13,7 +13,7 @@
   *
   */
 
-/* Global rules */
+/* Global */
 *,
 *::before,
 *::after {
@@ -28,20 +28,20 @@
   text-underline-offset: 0.25ex;
 }
 
-/* Document defaults */
+/* Document */
 html {
   /* Scroll preference */
   scroll-behavior: smooth;
 }
 html,
 body {
-  /* Plasttic: viewport height units (vh/svh/dvh/lvh) are set on the layout sections */
+  /* Viewport height units (vh/svh/dvh/lvh) are set on the layout sections */
   height: 100%;
-  /* Plasttic: prevent horizontal overflow */
+  /* Prevent horizontal overflow */
   overflow-x: hidden;
 }
 
-/* Typography defaults */
+/* Typography */
 html {
   /* Avoid text inflation on mobile screens */
   text-size-adjust: none;
@@ -57,14 +57,14 @@ body {
 h1,
 h2,
 h3 {
-  /* Set bigger headings typography defaults for readability */
+  /* Bigger headings typography defaults for readability */
   line-height: 1.1; /* 1 to 1.2: ideal line height depends on the font x-height */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
-  /* Prevent long lines */
-  max-width: 30ch;
   /* Better spacing between content */
   margin-bottom: 1em;
+  /* Prevent long lines */
+  max-width: 30ch;
 }
 h2 {
   max-width: 35ch;
@@ -76,10 +76,10 @@ h4,
 h5,
 h6,
 p {
-  /* Prevent long lines for readability */
-  max-width: 65ch; /* Optimal values: 50ch to 80ch */
   /* Better spacing between content */
   margin-bottom: 1.5em;
+  /* Prevent long lines for readability */
+  max-width: 65ch; /* Optimal values: 50ch to 80ch */
 }
 h1,
 h2,
@@ -93,7 +93,7 @@ p {
   text-wrap: balance; /* CHECK: May 2023: not yet supported */
 }
 
-/* Media styling */
+/* Media */
 img,
 picture,
 video,
@@ -117,7 +117,7 @@ svg {
   aspect-ratio: attr(width) / attr(height); /* CHECK: May 2023: not yet supported */
 }
 
-/* Form elements styling */
+/* Forms */
 input,
 button,
 textarea,
@@ -126,7 +126,7 @@ select {
   font: inherit;
 }
 
-/* Global focus style for accessibility */
+/* Focus style */
 :where(a, input, button, textarea, select, [tabindex]):focus-visible {
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
