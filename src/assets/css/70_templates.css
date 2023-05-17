@@ -117,7 +117,7 @@
 
     .ptt-message__header {
       grid-area: title;
-      align-self: end;
+      justify-self: center;
       margin-bottom: 0;
       color: var(--ptt-clr-neutral-700);
       font-size: 4rem;
@@ -154,8 +154,10 @@
     .ptt-message__cta {
       grid-area: cta;
       margin-top: 1.5rem;
+      justify-self: center;
       @media (--ptt-bkp-md) {
         margin-left: 1rem;
+        justify-self: left;
       }
       a {
         @mixin link-button-xl;
@@ -169,16 +171,17 @@
   .ptt-footer {
     padding-bottom: var(--ptt-padding-900);
     font-size: var(--ptt-fnt-size-footer);
-    .ptt-footer__credit,
-    .ptt-footer__social {
+    .ptt-footer__credit {
+      display: flex;
       margin-top: var(--ptt-margin-400);
-      text-align: center;
+      justify-content: center;
     }
     .ptt-footer__social {
       display: flex;
       flex-direction: row;
       gap: 1em;
       justify-content: center;
+      margin-top: var(--ptt-margin-400);
       & img {
         height: 20px;
         aspect-ratio: 1/1;
