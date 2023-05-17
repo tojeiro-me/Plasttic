@@ -54,7 +54,6 @@ body {
   text-rendering: optimizeSpeed;
   /* Plasttic: Set best typography defaults */
   line-height: 1.45; /* 1.3 to 1.6: ideal line height depends on the font x-height */
-  max-width: 65ch; /* Optimal values: 50ch to 80ch */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
 }
@@ -93,6 +92,8 @@ p {
 
 /* Plasttic: Set paragraph styling defaults */
 p {
+  /* Prevent long lines for readability  */
+  max-width: 65ch; /* Optimal values: 50ch to 80ch */
   /* Set best spacing between paragraphs */
   margin-bottom: 1.5em;
 }
