@@ -15,12 +15,12 @@
 
 /* Global */
 *,
-*::before,
-*::after {
+:before,
+:after {
   box-sizing: border-box;
 }
 * {
-  /* Remove margin and padding globally */
+  /* Remove default margin and padding globally */
   margin: 0;
   padding: 0;
   /* Default styling for items with text decoration  */
@@ -29,12 +29,11 @@
 }
 
 /* Document */
-html {
+:where(html) {
   /* Scroll preference */
   scroll-behavior: smooth;
 }
-html,
-body {
+:where(html, body) {
   /* Viewport height units (vh/svh/dvh/lvh) are set on the layout sections */
   height: 100%;
   /* Prevent horizontal overflow */
@@ -42,21 +41,19 @@ body {
 }
 
 /* Typography */
-html {
+:where(html) {
   /* Avoid text inflation on mobile screens */
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
 }
-body {
+:where(body) {
   text-rendering: optimizeSpeed;
   /* Typography defaults for readability */
   line-height: 1.45; /* 1.3 to 1.6: ideal line height depends on the font x-height */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
 }
-h1,
-h2,
-h3 {
+:where(h1, h2, h3) {
   /* Prevent long lines */
   max-width: 30ch;
   /* Better spacing between content */
@@ -66,62 +63,42 @@ h3 {
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
 }
-h2 {
+:where(h2) {
   max-width: 35ch;
 }
-h3 {
+:where(h3) {
   max-width: 45ch;
 }
-h4,
-h5,
-h6,
-p {
+:where(h4, h5, h6, p) {
   /* Prevent long lines for readability */
   max-width: 65ch; /* Optimal values: 50ch to 80ch */
   /* Better spacing between content */
   margin-bottom: 1.5em;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+:where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
   text-wrap: balance; /* CHECK: May 2023: not yet supported */
 }
 
 /* Media */
-img,
-picture,
-video,
-canvas,
-svg {
+:where(img, picture, video, canvas, svg) {
   /* Make images easier to work with */
   display: block;
   max-width: 100%;
   height: auto;
 }
-img,
-video {
+:where(img, video) {
   /* Avoid distortion by filling the entire content box */
   object-fit: cover;
 }
-img,
-video,
-canvas,
-svg {
+:where(img, video, canvas, svg) {
   /* Set aspect-ratio based on specified sizes */
   aspect-ratio: attr(width) / attr(height); /* CHECK: May 2023: not yet supported */
 }
 
 /* Forms */
-input,
-button,
-textarea,
-select {
+:where(input, button, textarea, select) {
   /* Remove form default typography styles */
   font: inherit;
 }
@@ -136,12 +113,12 @@ select {
 
 /* Remove animations and transitions when motion preference set to reduce */
 @media (prefers-reduced-motion: reduce) {
-  html {
+  :where(html) {
     scroll-behavior: auto;
   }
   *,
-  *::before,
-  *::after {
+  :before,
+  :after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
