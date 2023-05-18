@@ -57,14 +57,14 @@ body {
 h1,
 h2,
 h3 {
+  /* Prevent long lines */
+  max-width: 30ch;
+  /* Better spacing between content */
+  margin-bottom: 1em;
   /* Bigger headings typography defaults for readability */
   line-height: 1.1; /* 1 to 1.2: ideal line height depends on the font x-height */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
-  /* Better spacing between content */
-  margin-bottom: 1em;
-  /* Prevent long lines */
-  max-width: 30ch;
 }
 h2 {
   max-width: 35ch;
@@ -76,10 +76,10 @@ h4,
 h5,
 h6,
 p {
-  /* Better spacing between content */
-  margin-bottom: 1.5em;
   /* Prevent long lines for readability */
   max-width: 65ch; /* Optimal values: 50ch to 80ch */
+  /* Better spacing between content */
+  margin-bottom: 1.5em;
 }
 h1,
 h2,

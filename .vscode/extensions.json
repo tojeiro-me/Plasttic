@@ -20,6 +20,7 @@
     "meganrogge.template-string-converter",
     "rangav.vscode-thunder-client",
     "mattpocock.ts-error-translator",
-    "chakrounanas.turbo-console-log"
+    "chakrounanas.turbo-console-log",
+    "phoenisx.cssvar"
   ]
 }
