@@ -13,9 +13,9 @@
 - Github Actions: auto-merge for Dependabot PRs
 - Updated NPM scripts to allow https
 - Added postcss-simple-vars
-- Updated reset.css
-- Updated img folder
+- :warning: Updated img folder structure
 - Moved social banner to root
+- :warning: Major update to CSS reset
 
 ---
 

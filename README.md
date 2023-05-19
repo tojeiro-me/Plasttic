@@ -54,17 +54,21 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - [HTML Boilerplate](./src/index.html)
 
-### 2. Minimal Template
+### 2. CSS Reset
+
+- [reset.css](./src/assets/css/00_reset.css)
+
+### 3. Minimal Template
 
 - [Plasttic Minimal Template](https://github.com/tojeiro-me/Plasttic-template)
 
-### 3. Templates/Starter Pages
+### 4. Templates/Starter Pages
 
 - [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
 - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
 - Single Page (Soon!)
 
-### 4. Static Site Workflow
+### 5. Static Site Workflow
 
 - [HTML Boilerplate](./src/index.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](./src/assets/css/00_reset.css), [Print CSS](./src/assets/css/print.css), PostCSS, Code Optimization, Linting, Image Optimization (Soon!), Testing (Soon!)
 - Start:

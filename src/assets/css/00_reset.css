@@ -23,7 +23,7 @@
   /* Remove default margin and padding globally */
   margin: 0;
   padding: 0;
-  /* Default styling for items with text decoration  */
+  /* Styling for items with text decoration: underline, strike through, ... */
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
@@ -79,6 +79,8 @@
   /* Text wrap */
   overflow-wrap: break-word;
   text-wrap: balance;
+}
+:where(a, u, ins, abbr) {
 }
 
 /* Media */
