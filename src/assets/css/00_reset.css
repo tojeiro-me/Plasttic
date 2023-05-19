@@ -78,7 +78,7 @@
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
-  text-wrap: balance; /* CHECK: May 2023: not yet supported */
+  text-wrap: balance;
 }
 
 /* Media */
@@ -94,7 +94,7 @@
 }
 :where(img, video, canvas, svg) {
   /* Set aspect-ratio based on specified sizes */
-  aspect-ratio: attr(width) / attr(height); /* CHECK: May 2023: not yet supported */
+  aspect-ratio: attr(width) / attr(height);
 }
 
 /* Forms */
