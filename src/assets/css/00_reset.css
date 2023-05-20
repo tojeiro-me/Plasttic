@@ -23,10 +23,15 @@
   /* Remove default margin and padding globally */
   margin: 0;
   padding: 0;
-  /* Styling for items with text decoration: underline, strike through, ... */
+  /* Default styling for items with text decoration  */
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
+/* Exception to keep list bullets visible */
+:where(ul, ol):not([role="list"], [class]) {
+  padding-left: 2ex;
+}
+/* Apply the role=list when styling with list-style=none */
 
 /* Document */
 :where(html) {
@@ -78,9 +83,7 @@
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
-  text-wrap: balance;
-}
-:where(a, u, ins, abbr) {
+  text-wrap: balance; /* CHECK: May 2023: not yet supported */
 }
 
 /* Media */
@@ -96,17 +99,29 @@
 }
 :where(img, video, canvas, svg) {
   /* Set aspect-ratio based on specified sizes */
-  aspect-ratio: attr(width) / attr(height);
+  aspect-ratio: attr(width) / attr(height); /* CHECK: May 2023: not yet supported */
 }
 
 /* Forms */
-:where(input, button, textarea, select) {
-  /* Remove form default typography styles */
+:where(label, input, button, textarea, select),
+:where(input[type="file"])::-webkit-file-upload-button {
+  /* Apply document default typography styles */
+  color: inherit;
   font: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  padding: 0;
 }
 
 /* Focus style */
-:where(a, input, button, textarea, select, [tabindex]):focus-visible {
+:where(
+    a,
+    input,
+    button,
+    textarea,
+    select,
+    [tabindex]:not([tabindex*="-"])
+  ):focus-visible {
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
   box-shadow: 0 0 0 2px hsl(26 86% 61%);
