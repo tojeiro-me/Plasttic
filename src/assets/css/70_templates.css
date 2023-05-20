@@ -29,8 +29,7 @@
   --bg-color: red;
   display: grid;
   background: var(--ptt-clr-bkg-body);
-  /* color: var(--ptt-clr-neutral-800); */
-  color: rgb(from var(--bg-color) r g b / 80%);
+  color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-weight: var(--ptt-fnt-weight-body);
   font-size: var(--ptt-fnt-size-body);
