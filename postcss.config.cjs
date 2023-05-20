@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     require('postcss-import')({ path: 'src/assets/css' }),
     require('postcss-preset-env')({ stage: 2 }),
+    require('postcss-custom-properties'),
     require('postcss-custom-media'),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
