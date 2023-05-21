@@ -31,8 +31,8 @@
   text-underline-offset: 0.25ex;
 }
 :where(ul, ol):not([role="list"], [class]) {
-  padding-left: 2ex;
-  /* apply the role=list when styling with list-style=none */
+  padding-left: 1.75ex;
+  /* Apply the role=list when styling with list-style: none */
 }
 
 /* Document */
