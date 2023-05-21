@@ -38,7 +38,7 @@ Form, Search, Social Icons, ...
 
 - Combination of Molecules to create sections
 
-Navigation, Footer, Hero, ...
+Navigation, Footer, Hero, Form, ...
 
 7.  TEMPLATES
 
@@ -50,7 +50,7 @@ Page layouts with placeholder images
 
 - Specific instances of templates
 
-Final styling of the content where needed
+Final styling of the content and exceptions, when and where needed
 
 ---
 
