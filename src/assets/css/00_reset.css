@@ -31,7 +31,7 @@
   text-underline-offset: 0.25ex;
 }
 :where(ul, ol):not([role="list"], [class]) {
-  padding-left: 2ex;
+  padding-left: 1.75ex;
   /* apply the role=list when styling with list-style=none */
 }
 
@@ -46,9 +46,15 @@
   /* Prevent horizontal overflow */
   overflow-x: hidden;
 }
-:where(a[href], area, button, summary, [tabindex]:not([tabindex*="-"])) {
-  /* Define cursor (more on Forms section) */
+
+/* Cursor */
+:where(a[href], area, button, summary, [tabindex]:not([tabindex*="-"])),
+:where(input, label[for], select, textarea),
+:where(input[type="file"])::-webkit-file-upload-button {
   cursor: pointer;
+}
+:where(abbr) {
+  cursor: help;
 }
 
 /* Typography */
@@ -58,6 +64,7 @@
   -webkit-text-size-adjust: none;
 }
 :where(body) {
+  font-family: system-ui, sans-serif;
   text-rendering: optimizeSpeed;
   /* Typography defaults for readability */
   line-height: 1.45; /* 1.3 to 1.6: ideal line height depends on the font x-height */
@@ -125,7 +132,6 @@
   font-size: inherit;
   letter-spacing: inherit;
   padding: 0;
-  cursor: pointer;
 }
 
 /* Focus style */
