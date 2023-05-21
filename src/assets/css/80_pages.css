@@ -23,22 +23,22 @@
 /* Templates list (Template: Temporary)
    ========================================================================== */
 
-/* .ptt-page__list {} */
+/* body.ptt-page__list {} */
 
 /* Temporary/Under Construction (Template: Temporary)
    ========================================================================== */
 
-/* .ptt-page__temp {} */
+/* body.ptt-page__temp {} */
 
 /* Error/404 Error Page (Template: Temporary)
    ========================================================================== */
 
-/* .ptt-page__error {} */
+/* body.ptt-page__error {} */
 
 /* Code/Boilerplate (Template: Temporary)
    ========================================================================== */
 
-.ptt-page__code {
+body.ptt-page__code {
   .ptt-message .ptt-container {
     @media (--ptt-bkp-md) {
       grid-template-columns: 1fr 30vh;
