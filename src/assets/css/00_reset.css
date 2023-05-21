@@ -43,6 +43,10 @@
   /* Prevent horizontal overflow */
   overflow-x: hidden;
 }
+:where(a[href], area, button, summary, [tabindex]:not([tabindex*="-"])) {
+  /* Define cursor (more on Forms section) */
+  cursor: pointer;
+}
 
 /* Typography */
 :where(html) {
@@ -110,7 +114,7 @@
 }
 
 /* Forms */
-:where(label, input, button, textarea, select),
+:where(button, input, label[for], select, textarea),
 :where(input[type="file"])::-webkit-file-upload-button {
   /* Apply document default typography styles */
   color: inherit;
@@ -118,6 +122,7 @@
   font-size: inherit;
   letter-spacing: inherit;
   padding: 0;
+  cursor: pointer;
 }
 
 /* Focus style */
