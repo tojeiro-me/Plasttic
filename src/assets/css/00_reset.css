@@ -27,11 +27,10 @@
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
-/* Exception to keep list bullets visible */
 :where(ul, ol):not([role="list"], [class]) {
   padding-left: 2ex;
+  /* apply the role=list when styling with list-style=none */
 }
-/* Apply the role=list when styling with list-style=none */
 
 /* Document */
 :where(html) {
@@ -62,28 +61,36 @@
   /* Prevent long lines */
   max-width: 30ch;
   /* Better spacing between content */
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   /* Bigger headings typography defaults for readability */
   line-height: 1.1; /* 1 to 1.2: ideal line height depends on the font x-height */
   letter-spacing: 0.012em;
   word-spacing: 0.016em;
 }
+:where(h2, h3) {
+  /* Better spacing between content */
+  margin-top: 2.5em;
+}
 :where(h2) {
+  /* Prevent long lines */
   max-width: 35ch;
 }
 :where(h3) {
+  /* Prevent long lines */
   max-width: 45ch;
 }
 :where(h4, h5, h6, p) {
   /* Prevent long lines for readability */
   max-width: 65ch; /* Optimal values: 50ch to 80ch */
+}
+:where(h4, h5, h6, p + p) {
   /* Better spacing between content */
-  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
-  text-wrap: balance; /* CHECK: May 2023: not yet supported */
+  text-wrap: balance; /* May 2023: not yet supported */
 }
 
 /* Media */
@@ -99,7 +106,7 @@
 }
 :where(img, video, canvas, svg) {
   /* Set aspect-ratio based on specified sizes */
-  aspect-ratio: attr(width) / attr(height); /* CHECK: May 2023: not yet supported */
+  aspect-ratio: attr(width) / attr(height); /* May 2023: not yet supported */
 }
 
 /* Forms */

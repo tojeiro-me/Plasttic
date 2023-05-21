@@ -18,20 +18,28 @@
    Templates
    ========================================================================== */
 
-/* Temporary (Splash Page, Error Page, Under Construction, ...)
+/* Global (Styling across templates)
    ========================================================================== */
 
-.ptt-tpl__temporary {
-  /**
-    * DEFAULT STYLING
-    * Default template global values
-    */
-  display: grid;
+body {
+  /* see 30_tokens.css */
   background: var(--ptt-clr-bkg-body);
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-weight: var(--ptt-fnt-weight-body);
   font-size: var(--ptt-fnt-size-body);
+}
+
+/* Temporary (Splash Page, Error Page, Under Construction, ...)
+   ========================================================================== */
+
+body.ptt-tpl__temporary {
+  /**
+    * DEFAULT STYLING
+    * Default template global values
+    * see body { } for global defaults
+    */
+  display: grid;
   text-align: center;
   @media (--ptt-bkp-md) {
     text-align: left;
@@ -197,15 +205,12 @@
 /* Homepage (Template Homepage)
    ========================================================================== */
 
-.ptt-tpl__homepage {
+body.ptt-tpl__homepage {
   /**
     * DEFAULT STYLING
+    * Default template global values
+    * see body { } for global defaults
     */
-  background: var(--ptt-clr-bkg-body);
-  color: var(--ptt-clr-neutral-800);
-  font-family: var(--ptt-fnt-family-body);
-  font-weight: var(--ptt-fnt-weight-body);
-  font-size: var(--ptt-fnt-size-body);
 
   /**
     * WRAPPER
