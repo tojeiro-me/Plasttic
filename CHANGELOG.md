@@ -15,7 +15,7 @@
 - Added postcss-simple-vars
 - :warning: Updated img folder structure
 - Moved social banner to root
-- :warning: Major update to CSS reset
+- :warning: Major update to CSS Reset
 - Added postcss-custom-properties and @csstools/postcss-global-data
 - Plasttic HTML5 boilerplate snippet
 
