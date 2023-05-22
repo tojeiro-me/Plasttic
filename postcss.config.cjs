@@ -1,7 +1,11 @@
 module.exports = {
   plugins: [
     require('postcss-import')({ path: 'src/assets/css' }),
-    require('postcss-preset-env')({ stage: 2 }),
+    require('postcss-preset-env')({ 
+      stage: 2,
+      features: {
+        'nesting-rules': false }
+      }),
     require('@csstools/postcss-global-data')({ files: [
       'src/assets/css/00_reset.css',
       'src/assets/css/10_utility.css',
