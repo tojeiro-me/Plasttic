@@ -19,6 +19,9 @@
 - Added postcss-custom-properties and @csstools/postcss-global-data
 - Plasttic HTML5 boilerplate snippet
 - Replaced cssnano with clean-css
+- :warning: Renamed css filenames to .min.css
+- Removed CSS minification on dev script
+- Removed JS minification on dev script
 
 ---
 
