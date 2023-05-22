@@ -93,7 +93,7 @@
   /* Prevent long lines */
   max-width: 45ch;
 }
-:where(h4, h5, h6, p) {
+:where(h4, h5, h6, p, li) {
   /* Prevent long lines for readability */
   max-width: 65ch; /* Optimal values: 50ch to 80ch */
 }
