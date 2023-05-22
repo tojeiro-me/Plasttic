@@ -25,6 +25,5 @@ module.exports = {
     require('postcss-simple-vars'),
     require('autoprefixer'),
     require('postcss-discard-empty'),
-    require('cssnano')({ preset: 'default'}),
   ],
 };
