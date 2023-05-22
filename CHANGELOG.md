@@ -17,6 +17,7 @@
 - Moved social banner to root
 - :warning: Major update to CSS reset
 - Added postcss-custom-properties and @csstools/postcss-global-data
+- Plasttic HTML5 boilerplate snippet
 
 ---
 
