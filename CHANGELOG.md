@@ -18,6 +18,7 @@
 - :warning: Major update to CSS Reset
 - Added postcss-custom-properties and @csstools/postcss-global-data
 - Plasttic HTML5 boilerplate snippet
+- Replaced cssnano with clean-css
 
 ---
 
