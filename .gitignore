@@ -1,20 +1,29 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
-**/.DS_Store
-node_modules/
-certs/
-docs/*.tree
-.env
-.cache
+
+# settings
 settings.json
 Plasttic.code-profile
 
-archive/
-boilerplate/
-tests/
+# OS files
+**/.DS_Store
 
+# dependencies
+node_modules/
+
+# private folders and files
+certs/
+.env
+.cache
+
+# development folders
 dev/
 dist/
 
+# test folders and files
+boilerplate/
+archive/
+tests/
+docs/*.tree
 *-nogit.*

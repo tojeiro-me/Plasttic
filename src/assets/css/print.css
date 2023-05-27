@@ -5,6 +5,9 @@
 *
 * This file contains styles that are specific to the print media.
 * More: https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/
+*
+* see utility classes in 10_utility.css,
+* to control which elements should be printed 
 */
 
 @media print {
