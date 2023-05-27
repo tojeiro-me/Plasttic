@@ -1,8 +1,10 @@
 {
   "name": "plasttic",
-  "type": "module",
   "version": "2.0",
   "description": "HTML Boilerplate, Atomic Design CSS Framework and Best Practices Template",
+  "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
+  "homepage": "https://github.com/tojeiro-me/Plasttic",
+  "license": "MIT",
   "keywords": [
     "plasttic",
     "template",
@@ -10,27 +12,26 @@
     "front-end",
     "atomic design"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tojeiro-me/Plasttic.git"
   },
-  "author": "Goncalo Tojeiro",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tojeiro-me/Plasttic/issues"
+    "url": "https://github.com/tojeiro-me/Plasttic/issues",
+    "email": "global@plasttic.dev"
   },
   "directories": {
     "doc": "docs"
   },
   "files": [
-    "docs/CHANGELOG.md",
-    "docs/README.md",
+    "CHANGELOG.md",
+    "README.md",
     ".vscode/extensions.json",
     ".gitattributes",
     "docs/LICENSE",
     "package.json"
   ],
-  "homepage": "https://github.com/tojeiro-me/Plasttic",
   "scripts": {
     "dev": "npm run start:dev --dest=dev",
     "build": "npm run start:build  --dest=dist",
