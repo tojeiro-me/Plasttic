@@ -1,3 +1,6 @@
+// This is a patch so that eslint will load the plugins as dependencies.
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 module.exports = {
   extends: [
     'airbnb',
@@ -5,6 +8,7 @@ module.exports = {
     'prettier',
     'plugin:vue/vue3-recommended',
     '@vue/eslint-config-airbnb',
+    'plugin:import/recommended',
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
