@@ -32,6 +32,10 @@
     "docs/LICENSE",
     "package.json"
   ],
+  "engines": {
+    "node": ">=18"
+  },
+  "config": {},
   "scripts": {
     "dev": "npm run start:dev --dest=dev",
     "build": "npm run start:build  --dest=dist",
