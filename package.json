@@ -24,14 +24,7 @@
   "directories": {
     "doc": "docs"
   },
-  "files": [
-    "CHANGELOG.md",
-    "README.md",
-    ".vscode/extensions.json",
-    ".gitattributes",
-    "docs/LICENSE",
-    "package.json"
-  ],
+  "files": [],
   "engines": {
     "node": ">=18"
   },
