@@ -24,7 +24,6 @@
   "directories": {
     "doc": "docs"
   },
-  "files": [],
   "engines": {
     "node": ">=18"
   },
