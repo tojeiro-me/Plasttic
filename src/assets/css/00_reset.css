@@ -2,5 +2,5 @@
 @import "plasttic-reset";
 
 :root {
-  --ptt-reset-focus-color: var(--ptt-clr-primary-400);
+  --ptt-reset-focus-color: var(--ptt-clr-primary-300);
 }
