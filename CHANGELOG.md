@@ -22,7 +22,7 @@
 - :warning: Renamed css filenames to .min.css
 - Removed CSS minification on dev script
 - Removed JS minification on dev script
-- Installed plasttic-reset 
+- :warning: Installed plasttic-reset CSS Reset
 
 ---
 
