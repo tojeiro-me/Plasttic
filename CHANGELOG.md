@@ -23,6 +23,7 @@
 - Removed CSS minification on dev script
 - Removed JS minification on dev script
 - :warning: Installed plasttic-reset CSS Reset
+- :warning: Replaced browser-sync server with http-server
 
 ---
 
