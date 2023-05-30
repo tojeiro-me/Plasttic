@@ -13,11 +13,22 @@
  */
 
 /**
+ * Imports
+ *
+ * 1. ...
+ */
+
+import printLog from './modules/module.js';
+
+printLog();
+
+/**
  * Global variables
  * variables that can be used in multiple functions
  *
  * 1. Current Date
  */
+
 const dateCurrent = new Date();
 
 /**
@@ -34,3 +45,13 @@ document.getElementById('footer-year').innerText = dateCurrent.getFullYear();
  * </form>
  */
 // document.getElementById("form-name").reset();
+
+/**
+ * Copy code to clipboard in code.html
+ */
+const copyCodeBtn = document.getElementById('copy-code-btn');
+if (copyCodeBtn) {
+  import('./modules/plasttic.js').then(({ copyCodeToClipboard }) => {
+    copyCodeToClipboard(copyCodeBtn);
+  });
+}

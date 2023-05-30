@@ -11,10 +11,10 @@
 /**
  * Copy HTML Boilerplate to clipboard
  * Use: copy code to clipboard on button click
+ * Page: code.html
  */
-const copyCodeBtn = document.getElementById('copy-code-btn');
 
-if (copyCodeBtn) {
+export function copyCodeToClipboard(copyCodeBtn) {
   copyCodeBtn.addEventListener('click', () => {
     const codeText = document.getElementsByTagName('code')[0].innerText.trim();
     navigator.clipboard.writeText(codeText);
