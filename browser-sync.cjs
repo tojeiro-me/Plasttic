@@ -1,5 +1,5 @@
 module.exports = {
-  // Enable HTTPS mode with custom certificates
+  // Certificates for dev:ssl
     https: {
       key: 'certs/key.pem',
       cert: 'certs/cert.pem',
