@@ -54,7 +54,7 @@
     "del:js": "del ./$npm_config_dest/assets/js/* && npm run dev:copy:js",
     "del:private": "del ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output",
-    "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js pm:mini:html && concurrently npm:watch:* npm:sync",
+    "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js npm:mini:html && concurrently npm:watch:* npm:sync",
     "start:dev:ssl": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js npm:mini:html && concurrently npm:watch:* npm:sync:ssl",
     "start:build": "npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:build:copy:js npm:mini:html",
     "sync": "browser-sync start --port 8000 --no-ui --server dev --files dev",
