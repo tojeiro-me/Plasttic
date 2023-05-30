@@ -6,6 +6,8 @@
 
 ## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
 
+### Documentation under development :construction:
+
 _Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ---
@@ -24,7 +26,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
-- [Website](https://plasttic.dev)
+- [Website](https://plasttic.dev) :construction:
 - Documentation (Soon!)
 - [Twitter](https://twitter.com/Plasttic_Dev)
 - [Mastodon](https://mastodon.social/@plasttic)
@@ -56,7 +58,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 2. CSS Reset
 
-- [reset.css](./src/assets/css/00_reset.css)
+- [Plasttic CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
 
 ### 3. Minimal Template
 
@@ -70,7 +72,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 5. Static Site Workflow
 
-- [HTML Boilerplate](./src/index.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](./src/assets/css/00_reset.css), [Print CSS](./src/assets/css/print.css), PostCSS, Code Optimization, Linting, Image Optimization (Soon!), Testing (Soon!)
+- [HTML Boilerplate](./src/index.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 - Start:
 
   - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
@@ -96,7 +98,7 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
 ---
 
 - File Comments
-- Check [docs](./docs) folder
+- Check [docs](./docs) folder :construction:
 - Documentation website (Soon!)
 
 ## License
