@@ -23,6 +23,7 @@
 - Removed CSS minification on dev script
 - Removed JS minification on dev script
 - :warning: Installed plasttic-reset CSS Reset
+- Support for ES Modules
 
 ---
 
