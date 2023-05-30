@@ -18,9 +18,8 @@
  * 1. ...
  */
 
-import printLog from './modules/module.js';
-
-printLog();
+// import printLog from './modules/module.js';
+// printLog();
 
 /**
  * Global variables
