@@ -59,5 +59,3 @@ if (copyCodeBtn) {
     copyCodeToClipboard(copyCodeBtn);
   });
 }
-
-console.log('the main.js file loaded 50 times');
