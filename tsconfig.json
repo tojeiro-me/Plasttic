@@ -14,10 +14,12 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "src/assets/js/"
+    // "rootDir": "./src",
+    "outDir": "./src/assets/js",
+    "noEmit": true
   },
-  "include": ["src/assets/js/**/*.ts"],
-  "exclude": ["node_modules"],
+  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
+  "exclude": ["node_modules", "**/node_modules/*"],
   "watchOptions": {
     // Use native file system events for files and directories
     "watchFile": "useFsEvents",
@@ -29,11 +31,7 @@
     "synchronousWatchDirectory": true,
     // Finally, two additional settings for reducing the amount of possible
     // files to track  work from these directories
-    "excludeDirectories": ["**/node_modules", "src", "dev", "dist"],
-    "excludeFiles": [
-      "src/assets/js/**/*",
-      "dev/assets/js/**/*",
-      "dist/assets/js/**/*"
-    ]
+    "excludeDirectories": ["**/node_modules", "dev", "dist"],
+    "excludeFiles": ["dev/assets/js/**/*", "dist/assets/js/**/*"]
   }
 }
