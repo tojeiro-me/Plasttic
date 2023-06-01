@@ -18,8 +18,8 @@
  * 1. ...
  */
 
-// import printLog from './modules/module.js';
-// printLog();
+// import someThing from './modules/module.js';
+// someThing();
 
 /**
  * Global variables
@@ -34,7 +34,11 @@ const dateCurrent = new Date();
  * Set current year in footer copyright
  * Use: ©2021-<span id="footer-year"></span> Company
  */
-document.getElementById('footer-year').innerText = dateCurrent.getFullYear();
+const footerYear = document.getElementById('footer-year');
+
+if (footerYear) {
+  footerYear.innerText = dateCurrent.getFullYear();
+}
 
 /**
  * Reset form values on page load
@@ -49,8 +53,11 @@ document.getElementById('footer-year').innerText = dateCurrent.getFullYear();
  * Copy code to clipboard in code.html
  */
 const copyCodeBtn = document.getElementById('copy-code-btn');
+
 if (copyCodeBtn) {
   import('./modules/plasttic.js').then(({ copyCodeToClipboard }) => {
     copyCodeToClipboard(copyCodeBtn);
   });
 }
+
+console.log('the main.js file loaded 50 times');
