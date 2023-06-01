@@ -67,7 +67,8 @@
     "watch:html": "onchange -k -d 1000 'src/*.html' 'src/**/*.html' -- npm run del:html",
     "watch:img": "onchange -d 1000 'src/assets/img/*' 'src/assets/img/**/*' 'src/assets/img/**/**/*' -- npm run del:img",
     "watch:js": "onchange -d 1000 'src/assets/js/**/*' -- npm run del:js",
-    "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private"
+    "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
+    "dev:ts": "tsc"
   },
   "dependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
@@ -107,6 +108,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/eslint-parser": "^7.21.8",
+    "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3",
     "@rushstack/eslint-patch": "^1.3.0",
     "@structure-codes/cli": "^0.0.6",

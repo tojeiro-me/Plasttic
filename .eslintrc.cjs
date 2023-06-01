@@ -18,7 +18,7 @@ module.exports = {
     babelOptions: {
       presets: ['@babel/preset-react'],
     },
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     ecmaFeatures: {
       jsx: true,
     },
@@ -26,7 +26,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es2020: true,
+    es2022: true,
     jquery: true,
     jest: true,
   },
