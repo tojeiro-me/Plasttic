@@ -1,6 +1,6 @@
 {
   "name": "plasttic",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "HTML Boilerplate, Atomic Design CSS Framework and Best Practices Template",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic",
@@ -111,6 +111,7 @@
     "@babel/eslint-parser": "^7.21.8",
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3",
+    "@babel/preset-typescript": "^7.21.5",
     "@rushstack/eslint-patch": "^1.3.0",
     "@structure-codes/cli": "^0.0.6",
     "@types/node": "^20.2.5",
@@ -125,6 +126,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-wesbos": "^3.2.3",
     "eslint-import-resolver-node": "^0.3.7",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-node": "^11.1.0",
