@@ -25,6 +25,7 @@
 - CSS and JS Minification only on build script
 - :warning: Installed plasttic-reset CSS Reset
 - Support for ES Modules
+- Support for Typescript
 
 ---
 
