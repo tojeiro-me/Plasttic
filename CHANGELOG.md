@@ -1,4 +1,15 @@
-# v2.0 (May --, 2023)
+# v2.0.4 (Jun --, 2023)
+
+- ...
+
+---
+
+- FINISHING:
+- Atomic Design implementation
+- NEXT:
+- Single Page template
+
+# v2.0.3 (Jun 01, 2023)
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
@@ -26,13 +37,6 @@
 - :warning: Installed plasttic-reset CSS Reset
 - Support for ES Modules
 - Support for Typescript
-
----
-
-- FINISHING:
-- Atomic Design implementation
-- NEXT:
-- Single Page template
 
 ## v1.4.5 (Dec 08, 2022)
 
