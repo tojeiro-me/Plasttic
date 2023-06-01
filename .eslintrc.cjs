@@ -2,6 +2,7 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
+  root: true,
   extends: [
     'airbnb',
     'airbnb-base',
@@ -9,8 +10,10 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     '@vue/eslint-config-airbnb',
     'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
-  parser: 'vue-eslint-parser',
+  // parser: 'vue-eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     parser: '@babel/eslint-parser',
     sourceType: 'module',
@@ -21,7 +24,9 @@ module.exports = {
     ecmaVersion: 2022,
     ecmaFeatures: {
       jsx: true,
-    },
+      modules: true,
+      tsx: true,
+    }
   },
   env: {
     browser: true,
@@ -31,6 +36,11 @@ module.exports = {
     jest: true,
   },
   rules: {
+    'import/no-unresolved': [2, {commonjs: true, amd: true}],
+    'import/named': 2,
+    'import/namespace': 2,
+    'import/default': 2,
+    'import/export': 2,
     'no-debugger': 0,
     'no-use-before-define': 'off',
     'import/no-cycle': 'off',
@@ -120,7 +130,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        trailingComma: 'es5',
+        trailingComma: 'es6',
         singleQuote: true,
         printWidth: 80,
         // below line only for windows users facing CLRF and eslint/prettier error
