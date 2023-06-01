@@ -1,38 +1,21 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 18",
-
   "_version": "2.0.3",
 
   "compilerOptions": {
     "lib": ["es2022"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "es2022",
+    "moduleResolution": "classic",
     "target": "es2022",
     "sourceMap": false,
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-    //"rootDir": "./src",
+    //"rootDir": "./src/assets/js",
     //"outDir": "./src/assets/js"
   },
   "include": ["src/assets/js/**/*", "ts-no.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]
-  // "watchOptions": {
-  //   // Use native file system events for files and directories
-  //   "watchFile": "useFsEvents",
-  //   "watchDirectory": "useFsEvents",
-  //   // Poll files for updates more frequently
-  //   // when they're updated a lot.
-  //   "fallbackPolling": "dynamicPriority",
-  //   // Don't coalesce watch notification
-  //   "synchronousWatchDirectory": true,
-  //   // Finally, two additional settings for reducing the amount of possible
-  //   // files to track  work from these directories
-  //   "excludeDirectories": ["**/node_modules", "dev", "dist"],
-  //   "excludeFiles": ["dev/assets/js/**/*", "dist/assets/js/**/*"]
-  // }
 }
