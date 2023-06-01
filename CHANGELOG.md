@@ -1,6 +1,6 @@
 # v2.0.4 (Jun --, 2023)
 
-- ...
+- Updated eslint config
 
 ---
 
