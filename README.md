@@ -1,8 +1,6 @@
 [![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
 
-# Plasttic
-
----
+# Plasttic Web Workflow
 
 ## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
 
@@ -16,9 +14,9 @@ _Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ---
 
-Plasttic is a complete and professional Front-End Template for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Static Site Workflow, File structure, Conventions & Best Practices.
+Plasttic is a complete and professional Front-End Workflow for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Dev/Build Scripts, File structure, Conventions & Best Practices.
 
-This is not intended to be a framework, but rather a starting point. It includes a starter HTML, CSS and PostCSS code based on best practices, allowing the developer to customize it to fit their project needs and even their own methodology.
+This is not intended to be a framework, but rather a starting point, allowing the developer to customize it to fit their project needs and even their own methodology, using as much, or as little, as needed.
 
 You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
 
