@@ -24,6 +24,6 @@ dist/
 # test folders and files
 src/boilerplate/
 archive/
-src/tests/
+test/
 docs/*.tree
 *-nogit.*
