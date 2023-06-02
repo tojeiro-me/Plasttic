@@ -54,7 +54,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- [Plasttic Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 ### 2. CSS Reset
 
