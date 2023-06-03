@@ -1,6 +1,7 @@
 # v2.0.4 (Jun --, 2023)
 
 - Updated eslint config
+- Updated index.html to version 1.0.2
 
 ---
 
@@ -9,7 +10,9 @@
 - NEXT:
 - Single Page template
 
-# v2.0.3 (Jun 01, 2023)
+## v2.0.3 (Jun 01, 2023)
+
+---
 
 - :warning: Removed Sass from project
 - Updated PostCSS config
