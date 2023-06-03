@@ -100,4 +100,4 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
 
 ---
 
-- [MIT license](https://opensource.org/licenses/MIT)
+- [MIT](./LICENSE)
