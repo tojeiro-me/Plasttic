@@ -18,7 +18,7 @@ Plasttic is a complete and professional Front-End Workflow for Websites and Web 
 
 This is not intended to be a framework, but rather a starting point, allowing the developer to customize it to fit their project needs and even their own methodology, using as much, or as little, as needed.
 
-You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
+You will find documentation in the files comments and some notes in the `docs` folder :construction: Documentation site coming soon!
 
 ## Links
 
