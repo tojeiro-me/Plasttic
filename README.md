@@ -64,7 +64,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 - [404 Error Page](https://boilerplate.plasttic.dev/404.html)
 - Single Page (Soon!)
 
-### 4. Static Site Workflow
+### 4. Start
 
 - [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 
