@@ -52,7 +52,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- [Plasttic HTML5 Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 ### 2. CSS Reset
 
@@ -66,7 +66,8 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 4. Static Site Workflow
 
-- [HTML Boilerplate](./src/index.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+
 - Start:
 
   - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
