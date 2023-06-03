@@ -18,7 +18,7 @@ Plasttic is a complete and professional Front-End Workflow for Websites and Web 
 
 This is not intended to be a framework, but rather a starting point, allowing the developer to customize it to fit their project needs and even their own methodology, using as much, or as little, as needed.
 
-You will find documentation in the files comments and some notes in the `docs` folder. Documentation site coming soon!
+You will find documentation in the files comments and some notes in the `docs` folder :construction: Documentation site coming soon!
 
 ## Links
 
@@ -52,7 +52,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 1. HTML Boilerplate
 
-- [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- [Plasttic HTML5 Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 ### 2. CSS Reset
 
@@ -66,7 +66,8 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### 4. Static Site Workflow
 
-- [HTML Boilerplate](./src/index.html), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+
 - Start:
 
   - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
