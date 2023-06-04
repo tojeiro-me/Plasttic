@@ -77,7 +77,7 @@
     "browser-sync": "^2.29.3",
     "clean-css": "^5.3.2",
     "clean-css-cli": "^5.6.2",
-    "concurrently": "^8.0.1",
+    "concurrently": "^8.1.0",
     "copyfiles": "^2.4.1",
     "cpx2": "^4.2.3",
     "del-cli": "^5.0.0",
