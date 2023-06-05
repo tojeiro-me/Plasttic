@@ -1,4 +1,4 @@
-# v2.0.4 (Jun --, 2023)
+# :construction: v2.0.4 (Jun --, 2023)
 
 - Updated eslint config
 - Updated index.html to version 1.0.2
@@ -9,6 +9,10 @@
 - Atomic Design implementation
 - NEXT:
 - Single Page template
+
+---
+
+# Releases:
 
 ## v2.0.3 (Jun 01, 2023)
 
