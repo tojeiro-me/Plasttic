@@ -20,6 +20,16 @@ This is not intended to be a framework, but rather a starting point, allowing th
 
 You will find documentation in the files comments and some notes in the `docs` folder :construction: Documentation site coming soon!
 
+### Related projects:
+
+---
+
+- [Plasttic CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
+
+- [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+
+---
+
 ## Links
 
 ---
@@ -46,27 +56,13 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Comments/Documentation
 - Debug/Test
 
-## Usage
+## Start
 
 ---
 
-### 1. HTML Boilerplate
+### Workflow
 
-- [Plasttic HTML5 Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
-
-### 2. CSS Reset
-
-- [Plasttic CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
-
-### 3. Templates/Starter Pages
-
-- [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
-- [404 Error Page](https://boilerplate.plasttic.dev/404.html)
-- Single Page (Soon!)
-
-### 4. Start
-
-- [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate), [Templates](https://boilerplate.plasttic.dev), Custom Dev/Build Scripts, File/Folder Structure, [Atomic Design CSS](docs/atomic-design.md), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 
 - Start:
 
@@ -79,7 +75,9 @@ You will find documentation in the files comments and some notes in the `docs` f
   - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
   - \*\*You can also create your own repo clicking [Plasttic template](https://github.com/tojeiro-me/Plasttic/generate) and then follow from step 3 on your machine
 
-_Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)_
+- Customize:
+  
+  - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
 - Development with https:
   - Step 1: Run `mkdir certs`
@@ -87,6 +85,14 @@ _Search for "TODO:" in comments, relative to info that needs to be changed or ch
   - Step 3: Install certificate with [mkcert](https://mkcert.dev/)
   - Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
   - Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
+
+## Template pages
+
+---
+
+- [Under Construction](https://boilerplate.plasttic.dev/temporary.html)
+- [404 Error Page](https://boilerplate.plasttic.dev/404.html)
+- Single Page (Soon!)
 
 ## Documentation
 
