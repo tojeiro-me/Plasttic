@@ -64,7 +64,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 - Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 
-- Start:
+- Install:
 
   - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
   - Step 2: Run `cd Plasttic`
