@@ -1,4 +1,4 @@
-[![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
+[![Plasttic](https://plasttic.dev/repo-banner-1400w.png)](https://plasttic.dev)
 
 # Plasttic Web Workflow
 
