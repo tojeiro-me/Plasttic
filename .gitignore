@@ -26,4 +26,4 @@ src/boilerplate/
 archive/
 test/
 docs/*.tree
-*-nogit.*
+*-nogit*
