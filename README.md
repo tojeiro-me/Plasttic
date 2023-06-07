@@ -76,7 +76,7 @@ You will find documentation in the files comments and some notes in the `docs` f
   - \*\*You can also create your own repo clicking [Plasttic template](https://github.com/tojeiro-me/Plasttic/generate) and then follow from step 3 on your machine
 
 - Customize:
-  
+
   - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
 - Development with https:
@@ -107,3 +107,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 ---
 
 - [MIT](./LICENSE)
+
+---
+
+[![Plasttic](https://plasttic.dev/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
