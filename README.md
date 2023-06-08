@@ -1,4 +1,4 @@
-[![Plasttic](https://plasttic.dev/repo-banner-1400w.png)](https://plasttic.dev)
+[![Plasttic](./.github/assets/repo-banner-1400w.png)](https://plasttic.dev)
 
 # Plasttic Web Workflow
 
@@ -31,15 +31,6 @@ You will find documentation in the files comments and some notes in the `docs` f
 - [Plasttic HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 
 ---
-
-## Links
-
----
-
-- [Website](https://plasttic.dev) :construction:
-- Documentation (Soon!)
-- [Twitter](https://twitter.com/Plasttic_Dev)
-- [Mastodon](https://mastodon.social/@plasttic)
 
 ## Practices Guidelines
 
@@ -127,6 +118,21 @@ npm install
 - Check [docs](./docs) folder :construction:
 - Documentation website (Soon!)
 
+## Links
+
+---
+
+- [Website](https://plasttic.dev) :construction:
+- Documentation (Soon!)
+
+## Follow
+
+---
+
+[![Twitter](./.github/assets/twitter.svg)](https://twitter.com/Plasttic_Dev)&emsp;[![Mastodon](./.github/assets/mastodon.svg)](https://mastodon.social/@plasttic)&emsp;[![Github](./.github/assets/github.svg)](https://github.com/tojeiro-me)
+
+---
+
 ## License
 
 ---
@@ -135,4 +141,4 @@ npm install
 
 ---
 
-[![Plasttic](https://plasttic.dev/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
+[![Plasttic](./.github/assets/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
