@@ -1,6 +1,5 @@
-# v2.0.6 (Jun 08, 2023)
+# v2.0.7 (Jun 08, 2023)
 
-- Added NPX script for quick start
 - Updated README
 
 ---
@@ -13,6 +12,13 @@
 ---
 
 # Releases:
+
+## v2.0.6 (Jun 08, 2023)
+
+- Added NPX script for quick start
+- Updated README
+
+---
 
 ## v2.0.5 (Jun 08, 2023)
 
