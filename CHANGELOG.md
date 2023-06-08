@@ -1,4 +1,4 @@
-# v2.0.6 (Jun --, 2023)
+# v2.0.6 (Jun 08, 2023)
 
 - Added NPX script for quick start
 - Updated README
