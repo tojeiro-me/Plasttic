@@ -62,11 +62,43 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
+- Quick Start:
+
+```
+(cd into your projects folder)
+npx create-plasttic
+cd project-name
+npm install
+```
+
+1. Creates a folder with the `project name` you defined
+2. Downloads and installs the latest version of Plasttic Web Workflow
+3. Installs all the project dependencies
+
 ### Workflow
 
 - Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 
-- Install:
+### Development
+
+- Run `npm run dev` to start the dev server on `http://localhost:8000` \*
+- Run `npm run build` when you are ready to publish \*
+
+- \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
+
+- Customize:
+
+  - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+
+- Development with https:
+
+  - Step 1: Run `mkdir certs`
+  - Step 2: Run `cd certs`
+  - Step 3: Install certificate with [mkcert](https://mkcert.dev/)
+  - Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
+  - Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
+
+- Manual Install:
 
   - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git` \*\*
   - Step 2: Run `cd Plasttic`
@@ -76,17 +108,6 @@ You will find documentation in the files comments and some notes in the `docs` f
 
   - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
   - \*\*You can also create your own repo clicking [Plasttic template](https://github.com/tojeiro-me/Plasttic/generate) and then follow from step 3 on your machine
-
-- Customize:
-
-  - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-
-- Development with https:
-  - Step 1: Run `mkdir certs`
-  - Step 2: Run `cd certs`
-  - Step 3: Install certificate with [mkcert](https://mkcert.dev/)
-  - Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
-  - Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
 
 ## Template pages
 
