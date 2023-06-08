@@ -21,9 +21,10 @@ certs/
 dev/
 dist/
 
-# test folders and files
+# project folders and files
 src/boilerplate/
 archive/
 **/test/
+**/source/
 docs/*.tree
 *-nogit*
