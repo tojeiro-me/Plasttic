@@ -2,6 +2,8 @@
 
 # Plasttic Web Workflow
 
+A complete and professional Front-End development environment
+
 ## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
 
 ### Documentation under development :construction:
@@ -14,7 +16,7 @@ _Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ---
 
-Plasttic is a complete and professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Dev/Build Scripts, File structure, Conventions & Best Practices.
+Plasttic is a complete and professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Javascript/Typescript, Dev/Build Scripts, File structure, Conventions & Best Practices.
 
 This is not intended to be a framework, but rather a starting point, allowing the developer to customize it to fit their project needs and even their own methodology, using as much, or as little, as needed.
 
@@ -62,7 +64,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ### Workflow
 
-- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
 
 - Install:
 
