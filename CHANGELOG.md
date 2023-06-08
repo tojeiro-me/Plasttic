@@ -1,6 +1,6 @@
-# v2.0.5 (Jun 08, 2023)
+# v2.0.6 (Jun --, 2023)
 
-- Gitignore all `test` folders
+- ...
 
 ---
 
@@ -12,6 +12,10 @@
 ---
 
 # Releases:
+
+## v2.0.5 (Jun 08, 2023)
+
+- Gitignore all `test` folders
 
 ## v2.0.4 (Jun 08, 2023)
 
