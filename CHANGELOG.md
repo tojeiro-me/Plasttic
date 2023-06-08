@@ -2,6 +2,7 @@
 
 - Updated eslint config
 - Updated index.html to version 1.0.2
+- Added .##gitignore.## for NPM publish
 - Updated description
 
 ---
