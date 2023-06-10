@@ -4,7 +4,7 @@
 
 # settings
 settings.json
-Plasttic.code-profile
+*.code-profile
 
 # OS files
 **/.DS_Store
@@ -25,6 +25,10 @@ dist/
 src/boilerplate/
 archive/
 **/test/
-**/source/
+**/sources/
 docs/*.tree
+
+package/
+
+# ignore files adding -nogit
 *-nogit*
