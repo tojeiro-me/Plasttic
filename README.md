@@ -82,6 +82,7 @@ npm install
 #### Customize:
 
 - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- If .##gitignore## exists, rename it to .gitignore and customize to your project info.
 
 #### Development with https:
 
