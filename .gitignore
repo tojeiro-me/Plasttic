@@ -28,5 +28,7 @@ archive/
 **/sources/
 docs/*.tree
 
+package/
+
 # ignore files adding -nogit
 *-nogit*
