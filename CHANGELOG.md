@@ -1,6 +1,6 @@
-# v2.0.8 (Jun 08, 2023)
+# v2.1.0 (Jun --, 2023)
 
-- Updated images
+- Updated npm package
 
 ---
 
@@ -12,6 +12,10 @@
 ---
 
 # Releases:
+
+## v2.0.8 (Jun 08, 2023)
+
+- Updated images
 
 ## v2.0.7 (Jun 08, 2023)
 
