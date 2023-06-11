@@ -27,6 +27,7 @@ archive/
 **/test/
 **/sources/
 docs/*.tree
+**/NOTES.md
 
 package/
 
