@@ -1,0 +1,138 @@
+/* Plasttic v2.0 | MIT License | https://plasttic.dev/ */
+
+/* --- TOKENS --- */
+@import "30_tokens.css";
+
+/**
+  * 40_atoms.css
+  *
+  * INDEX
+  * -----
+  *
+  * Logos
+  * Typography...........Extends Typography Tokens
+  * Links and Buttons
+  * Icons
+  * 
+  */
+
+/* ==========================================================================
+   Atoms
+   ========================================================================== */
+
+/* Logos
+   ========================================================================== */
+
+/**
+    * ...
+    * Main Nav Logo, Icon Logo, ... (size, color/b&w)
+    */
+
+/* Main Nav Logo
+
+<img class="ptt-nav__logo" 
+src="assets/img/logos/logo-horizontal.svg"
+alt="Plasttic Home" /> 
+*/
+
+/* Dynamic sized Main Nav logo */
+@define-mixin main-nav-logo-dyn {
+  height: max(5vw, 2.8rem);
+  aspect-ratio: 336 / 90;
+}
+
+/* Typography
+   ========================================================================== */
+
+/**
+    * HEADERS
+    * h1, ...
+    */
+
+/* H1 headers
+
+<h1>Main Title</h1> 
+*/
+
+@define-mixin h1-md {
+  font-weight: var(--ptt-fnt-weight-header);
+  font-size: var(--ptt-fnt-size-header-h1);
+  line-height: var(--ptt-txt-line-height-200);
+}
+
+/* H2 headers
+
+<h2>Secondary Title</h2> 
+*/
+
+@define-mixin h2-md {
+  font-weight: var(--ptt-fnt-weight-header);
+  font-size: var(--ptt-fnt-size-header-h2);
+  line-height: var(--ptt-txt-line-height-200);
+}
+
+/* Links and Buttons
+   ========================================================================== */
+
+/**
+    * LINKS
+    * ...
+    */
+
+/* Links
+
+<a href="">Link</a>
+*/
+
+@define-mixin link-md {
+  color: var(--ptt-clr-neutral-900);
+  font-weight: var(--ptt-fnt-weight-bold);
+
+  &:visited {
+    color: var(--ptt-clr-neutral-900);
+    font-weight: var(--ptt-fnt-weight-bold);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--ptt-clr-complement-red-400);
+  }
+}
+
+/**
+    * LINKS AS BUTTONS
+    * Buttons, Links as buttons
+    */
+
+/* Rounded corners
+
+  $background sets the button color
+  Default: --ptt-clr-complement-red-400
+
+  <a href="">Button</a>
+*/
+
+@define-mixin link-button-xl $background: var(--ptt-clr-complement-red-400) {
+  background: $background;
+  padding: var(--ptt-padding-400);
+  border-radius: var(--ptt-border-radius-400);
+  font-size: var(--ptt-fnt-size-500);
+  font-weight: var(--ptt-fnt-weight-bold);
+  color: var(--ptt-clr-neutral-100);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 200ms ease-in;
+
+  &:hover {
+    background: var(--ptt-clr-neutral-700);
+  }
+}
+
+/* Icons
+   ========================================================================== */
+
+/**
+    * SOCIAL ICONS
+    * ...
+    */

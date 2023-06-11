@@ -21,13 +21,9 @@ certs/
 dev/
 dist/
 
-# project folders and files
-src/boilerplate/
+# test folders and files
 archive/
-**/test/
-**/sources/
-docs/*.tree
-**/NOTES.md
+test/
 
 # ignore files adding -nogit
 *-nogit*

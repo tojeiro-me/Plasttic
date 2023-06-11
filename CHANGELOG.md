@@ -1,4 +1,4 @@
-# v2.1.0 (Jun --, 2023)
+# v2.1.0 (Jun 11, 2023)
 
 - Updated npm package
 

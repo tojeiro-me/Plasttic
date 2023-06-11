@@ -1,0 +1,118 @@
+/*! Plasttic v2.0 | MIT License | https://plasttic.dev/ */
+
+/**
+* print.css
+*
+* This file contains styles that are specific to the print media.
+* More: https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/
+*
+* see utility classes in 10_utility.css,
+* to control which elements should be printed 
+*/
+
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  body {
+    color: #000;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 12pt;
+    font-weight: normal;
+    line-height: 1.3;
+    background: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  a:link,
+  a:visited {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  /* print URLs after link text */
+  a:link::after,
+  a:visited::after {
+    content: " (" attr(href) ") ";
+  }
+
+  /* do not print anchor links */
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* TODO: exclude internal links from the style above */
+  a[href^="http"]:not([href*="plasttic.dev"]):after {
+    content: " (" attr(href) ")";
+  }
+
+  img {
+    max-width: 100% !important;
+    float: left;
+    margin: 1.5em 1.5em 1.5em 0;
+    break-inside: avoid;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+  }
+
+  blockquote {
+    font-style: italic;
+    font-size: 90%;
+  }
+
+  /**
+  * Specific sections 
+  * not needed to print
+  * document
+  */
+
+  nav,
+  aside,
+  footer {
+    display: none !important;
+  }
+
+  /**
+  * Utility classes: 
+  * ptt-u-print-only: Hide elements/sections until print
+  * ptt-u-print-no: Items to hide from print
+  */
+
+  /* TODO: Control printed sections */
+
+  .ptt-u-print-no {
+    display: none !important;
+  }
+
+  .ptt-u-print-only {
+    /* unhide print only sections */
+    display: unset !important;
+  }
+}
