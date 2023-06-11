@@ -18,11 +18,9 @@ _Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ---
 
-Plasttic is a complete and professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Javascript/Typescript, Dev/Build Scripts, File structure, Conventions & Best Practices.
+Plasttic Web Workflow is a methodology based professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Javascript/Typescript, Dev/Build Scripts, File structure, Conventions & Best Practices.
 
-This is not intended to be a framework, but rather a starting point, allowing the developer to customize it to fit their project needs and even their own methodology, using as much, or as little, as needed.
-
-You will find documentation in the files comments and some notes in the `docs` folder :construction: Documentation site coming soon!
+This workflow is not intended to be a framework, but rather a starting point, allowing the developer to implement a methodology that produces accessible, scalable and robust interfaces.
 
 ### Related projects:
 
