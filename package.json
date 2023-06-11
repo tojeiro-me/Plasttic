@@ -87,7 +87,7 @@
     "engine.io": "^6.4.2",
     "minify-all-js": "^0.1.9",
     "onchange": "^7.1.0",
-    "plasttic-reset": "^2.0.2",
+    "plasttic-reset": "^2.0.3",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^9.1.4",
