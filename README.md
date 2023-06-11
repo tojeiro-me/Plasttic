@@ -97,9 +97,10 @@ npm install
   (The project files are inside the `package`folder)
 - Step 2: Move the the contents of the `package` folder into your `project-folder`
 - Step 3: Run `cd project-folder-name`
-- Step 4: Run `npm install` to install the needed dependencies
-- Step 5: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
-- Step 6: Run `npm run build` when you are ready to publish \*
+- Step 4: Rename `.##gitignore##` to `.gitignore`
+- Step 5: Run `npm install` to install the needed dependencies
+- Step 6: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
+- Step 7: Run `npm run build` when you are ready to publish \*
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
