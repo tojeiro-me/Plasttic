@@ -1,6 +1,6 @@
-# v2.1.2 (Jun 11, 2023)
+# v2.1.3 (Jun --, 2023)
 
-- Updated README
+- Updated Link/Button atoms: focus-visible/no transition
 
 ---
 
@@ -12,6 +12,12 @@
 ---
 
 # Releases:
+
+## v2.1.2 (Jun 11, 2023)
+
+- Updated README
+
+---
 
 ## v2.1.1 (Jun 11, 2023)
 
