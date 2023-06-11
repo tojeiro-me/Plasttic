@@ -2,7 +2,7 @@
 
 # Plasttic Web Workflow
 
-A professional Front-End development environment with a twist.
+A methodology based professional Front-End development environment.
 
 [![npm](https://img.shields.io/npm/v/plasttic.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic)&ensp;![npm](https://img.shields.io/npm/dm/plasttic?style=flat&colorA=18181B&colorB=2D7786)&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic/blob/master/LICENSE)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
 
@@ -34,10 +34,11 @@ You will find documentation in the files comments and some notes in the `docs` f
 
 ---
 
-## Practices Guidelines
+## Methodology
 
 ---
 
+- Core Fundamentals
 - Performance/Core Web Vitals
 - Accessibility
 - Best Practices/Conventions
@@ -48,7 +49,7 @@ You will find documentation in the files comments and some notes in the `docs` f
 - Clean Code
 - Semantic HTML
 - Mobile First
-- Comments/Documentation
+- Documentation
 - Debug/Test
 
 ## Start
