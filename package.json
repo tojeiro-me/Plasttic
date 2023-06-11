@@ -24,6 +24,12 @@
   "engines": {
     "node": ">=18"
   },
+  "files": [
+    "package/*",
+    "license.txt",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "config": {},
   "scripts": {
     "dev": "npm run start:dev --dest=dev",
