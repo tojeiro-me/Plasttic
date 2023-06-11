@@ -39,17 +39,15 @@ You will find documentation in the files comments and some notes in the `docs` f
 ---
 
 - Core Fundamentals
-- Performance/Core Web Vitals
-- Accessibility
 - Best Practices/Conventions
-- SEO/Social Media
-- CSS Reset
-- BEM Methodology
-- Design System/Atomic Design
-- Clean Code
-- Semantic HTML
-- Mobile First
+- Performance/Core Web Vitals
 - Documentation
+- Accessibility/Semantic HTML
+- Design System/Atomic Design
+- BEM Methodology
+- CSS Reset
+- SEO/Social Media Boilerplate
+- Mobile First
 - Debug/Test
 
 ## Start
