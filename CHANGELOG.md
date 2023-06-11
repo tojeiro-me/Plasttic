@@ -1,6 +1,5 @@
-# v2.1.1 (Jun 11, 2023)
+# v2.1.2 (Jun 11, 2023)
 
-- Updated npm package
 - Updated README
 
 ---
@@ -14,7 +13,14 @@
 
 # Releases:
 
-# v2.1.0 (Jun 11, 2023)
+## v2.1.1 (Jun 11, 2023)
+
+- :warning: Updated npm package
+- Updated README
+
+---
+
+## v2.1.0 (Jun 11, 2023)
 
 - Updated npm package
 
