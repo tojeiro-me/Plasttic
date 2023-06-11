@@ -55,7 +55,7 @@ if (footerYear) {
 const copyCodeBtn = document.getElementById('copy-code-btn');
 
 if (copyCodeBtn) {
-  import('./modules/plasttic.js').then(({ copyCodeToClipboard }) => {
+  await import('./modules/plasttic.js').then(({ copyCodeToClipboard }) => {
     copyCodeToClipboard(copyCodeBtn);
   });
 }
