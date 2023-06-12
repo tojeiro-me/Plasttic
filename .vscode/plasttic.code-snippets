@@ -15,7 +15,7 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "Plasttic HTML5 Boilerplate": {
+  "Plasttic HTML Boilerplate": {
     "scope": "html",
     "prefix": "!ptt",
     "body": [
