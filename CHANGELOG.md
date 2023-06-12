@@ -1,6 +1,7 @@
 # v2.1.3 (Jun --, 2023)
 
-- Updated Link/Button atoms: focus-visible/no transition
+- Template page: Updated `skip-to-content` link to also be the `#top` of page target
+- Atoms CSS: Updated Link/Button focus-visible/no transition
 
 ---
 
