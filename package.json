@@ -10,7 +10,9 @@
     "template",
     "boilerplate",
     "front-end",
-    "atomic design"
+    "atomic design",
+    "dev server",
+    "build tool"
   ],
   "type": "module",
   "repository": {
