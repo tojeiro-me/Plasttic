@@ -1,7 +1,7 @@
 /* Plasttic v2.0 | MIT License | https://plasttic.dev/ */
 
 /* --- ORGANISMS --- */
-@import "60_organisms.css";
+@import '60_organisms.css';
 
 /**
   * 70_templates.css
@@ -19,15 +19,39 @@
    ========================================================================== */
 
 /* Global (Styling across templates)
+   About: Prevent defining the same styling in every template. 
+   Can be overwritten when needed.
    ========================================================================== */
 
-body {
+/**
+  * DEFAULT STYLING
+  * Default template global values
+  */
+:where(body) {
   /* see 30_tokens.css */
   background: var(--ptt-clr-bkg-body);
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-weight: var(--ptt-fnt-weight-body);
   font-size: var(--ptt-fnt-size-body);
+}
+
+/**
+  * WRAPPER
+  * Main layout definition
+  */
+:where(.ptt-wrapper) {
+  margin-block: max(2vw, 1rem);
+}
+
+/**
+  * CONTAINER
+  * Sections layout settings
+  * global, per area or section
+  */
+:where(.ptt-container) {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
 }
 
 /* Temporary (Splash Page, Error Page, Under Construction, ...)
@@ -37,7 +61,6 @@ body.ptt-tpl__temporary {
   /**
     * DEFAULT STYLING
     * Default template global values
-    * see body { } for global defaults
     */
   display: grid;
   text-align: center;
@@ -52,11 +75,10 @@ body.ptt-tpl__temporary {
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
-      "nav"
-      "main"
-      "footer";
+      'nav'
+      'main'
+      'footer';
     gap: var(--ptt-gap-700);
-    margin-block: max(2vw, 1rem);
   }
 
   /**
@@ -65,8 +87,6 @@ body.ptt-tpl__temporary {
     * global, per area or section
     */
   .ptt-container {
-    width: min(90vw, 1200px);
-    margin-inline: auto;
   }
 
   /**
@@ -90,17 +110,17 @@ body.ptt-tpl__temporary {
   .ptt-message .ptt-container {
     display: grid;
     grid-template-areas:
-      "image"
-      "title"
-      "message"
-      "cta";
+      'image'
+      'title'
+      'message'
+      'cta';
     gap: var(--ptt-gap-700);
     margin-block: min(2vw, 1em);
     @media (--ptt-bkp-md) {
       grid-template-areas:
-        "title   image"
-        "message image"
-        "cta     image";
+        'title   image'
+        'message image'
+        'cta     image';
       grid-template-columns: 1fr 50vh;
       grid-template-rows: auto auto 1fr;
       margin-block: 5vh;
@@ -202,7 +222,7 @@ body.ptt-tpl__temporary {
   }
 }
 
-/* Homepage (Template Homepage)
+/* Homepage (Single Page Template)
    ========================================================================== */
 
 body.ptt-tpl__homepage {
@@ -219,10 +239,10 @@ body.ptt-tpl__homepage {
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
-      "nav"
-      "header"
-      "main"
-      "footer";
+      'nav'
+      'header'
+      'main'
+      'footer';
   }
 
   /**
@@ -231,8 +251,6 @@ body.ptt-tpl__homepage {
     * global, per area or section
     */
   .ptt-container {
-    width: min(90vw, 1200px);
-    margin-inline: auto;
   }
 
   /**
