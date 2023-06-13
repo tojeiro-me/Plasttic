@@ -27,7 +27,7 @@
   * DEFAULT STYLING
   * Default template global values
   */
-:where(body) {
+body {
   /* see 30_tokens.css */
   background: var(--ptt-clr-bkg-body);
   color: var(--ptt-clr-neutral-800);
@@ -40,7 +40,7 @@
   * WRAPPER
   * Main layout definition
   */
-:where(.ptt-wrapper) {
+.ptt-wrapper {
   margin-block: max(2vw, 1rem);
 }
 
@@ -49,7 +49,7 @@
   * Sections layout settings
   * global, per area or section
   */
-:where(.ptt-container) {
+.ptt-container {
   width: min(100% - 2rem, 1200px);
   margin-inline: auto;
 }
