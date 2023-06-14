@@ -25,5 +25,7 @@ module.exports = {
     require('postcss-simple-vars'),
     require('autoprefixer'),
     require('postcss-discard-empty'),
+    require('postcss-merge-rules'),
+    require('postcss-progressive-custom-properties')
   ],
 };

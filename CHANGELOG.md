@@ -4,6 +4,7 @@
 - Dependencies update
 - Template page: Updated `skip-to-content` link to also be the `#top` of page target
 - Atoms CSS: Updated Link/Button focus-visible/no transition
+- Added postcss-merge-rules, postcss-progressive-custom-properties
 
 ---
 
