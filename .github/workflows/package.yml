@@ -36,9 +36,9 @@ jobs:
       - name: build
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 18
       # Installs dependencies like npm install
-      - run: npm install
+      - run: npm ci
       # Run build script
       - run: npm run package
       - name: commit
