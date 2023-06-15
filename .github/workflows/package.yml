@@ -43,10 +43,6 @@ jobs:
         with:
           branch: ${{ env.BRANCH }}
           sha: '${{ github.event.pull_request.head.sha }}'
-      # Checks-out your repository
-      - uses: actions/checkout@master
-        with:
-          ref: master
 
       # Update all needed files to the package folder
       - name: build
