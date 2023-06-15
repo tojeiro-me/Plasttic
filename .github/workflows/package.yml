@@ -41,5 +41,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: 'package-build-${{ steps.current-time.outputs.time }}'
         with:
-          branch: $BRANCH
+          branch: ${{ env.BRANCH }}
           sha: '${{ github.event.pull_request.head.sha }}'
