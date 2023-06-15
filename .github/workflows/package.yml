@@ -46,4 +46,4 @@ jobs:
       # Checks-out your repository
       - uses: actions/checkout@master
         with:
-          ref: 'temp-branch-001'
+          ref: ${{ env.BRANCH }}
