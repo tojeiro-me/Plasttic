@@ -39,7 +39,7 @@ jobs:
         uses: peterjgrainger/action-create-branch@v2.2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: 'package-build-${{ steps.current-time.outputs.time }}'
+          BRANCH: 'package-build-${{ steps.current-time.outputs.formattedTime }}'
         with:
-          branch: $BRANCH
+          branch: ${{ env.BRANCH }}
           sha: '${{ github.event.pull_request.head.sha }}'
