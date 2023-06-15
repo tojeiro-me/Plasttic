@@ -74,7 +74,9 @@
     "watch:img": "onchange -d 1000 'src/assets/img/*' 'src/assets/img/**/*' 'src/assets/img/**/**/*' -- npm run del:img",
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
-    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run dev:tsc"
+    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run dev:tsc",
+    "lint": "npx lint-staged",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
@@ -141,9 +143,14 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-vue": "^9.14.1",
+    "husky": "^8.0.3",
     "lighthouse": "^10.2.0",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "puppeteer": "^20.5.0",
+    "stylelint": "^15.7.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3",
     "svgo": "^3.0.2",
     "typescript": "^4.9.5",
     "vue-eslint-parser": "^9.3.1"
