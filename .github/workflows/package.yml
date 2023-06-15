@@ -6,13 +6,15 @@ on:
   push: # pull-request/push/
     branches:
       - 'master'
+  pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Permissions (read/write/none) define what resources the GitHub App can access via the API
 permissions:
-  contents: read
+  pull-requests: write
+  contents: write
 
 jobs:
   # This workflow contains a single job called "build_package"
@@ -24,7 +26,13 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
     steps:
+      - name: Fetch Metadata from Packagebot PRs
+        id: metadata
+        uses: dependabot/fetch-metadata@v1.5.1
+        with:
+          github-token: '${{ secrets.GITHUB_TOKEN }}'
       # Checks-out your repository
       - uses: actions/checkout@master
         with:
@@ -47,4 +55,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          commit_message: '[Bot] Package Build'
+          commit_message: 'package[Bot] Package Build'
