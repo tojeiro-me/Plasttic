@@ -8,8 +8,8 @@
 
 ---
 
-- FINISHING:
-- Atomic Design implementation
+- Stylelint :construction:
+- Atomic Design implementation :construction:
 - NEXT:
 - Single Page template
 
