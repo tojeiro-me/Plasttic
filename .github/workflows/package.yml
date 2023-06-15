@@ -36,7 +36,7 @@ jobs:
           format: YYYYMMDDHH
       # Create branch
       - name: Create Branch
-        uses: peterjgrainger/action-create-branch@v2.2.0
+        uses: peterjgrainger/action-create-branch@v2.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: 'package-build-${{ steps.current-time.outputs.formattedTime }}'
