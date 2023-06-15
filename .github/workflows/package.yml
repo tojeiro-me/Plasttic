@@ -26,33 +26,13 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'dependabot[bot]' && github.event_name == 'pull_request' }}
+
     steps:
-      - name: Fetch Metadata from Packagebot PRs
-        id: metadata
-        uses: dependabot/fetch-metadata@v1.5.1
-        with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
-      # Checks-out your repository
-      - uses: actions/checkout@master
-        with:
-          ref: master
-
-      # Update all needed files to the package folder
-      - name: build
-        # Setup Node.js environment
-        uses: actions/setup-node@master
-        with:
-          node-version: 18
-      # Installs dependencies like npm install
-      - run: npm ci
-      # Run build script
-      - run: npm run package
-
-      # Commit all changed files back to the repository
-      - name: auto commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+      # Create branch
+      - name: Create Branch
+        uses: peterjgrainger/action-create-branch@v2.2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          commit_message: 'package[Bot] Package Build'
+          branch: 'package-build'
+          sha: '${{ github.event.pull_request.head.sha }}'
