@@ -1,11 +1,15 @@
 # v2.1.3 (Jun --, 2023)
 
-- Updated Link/Button atoms: focus-visible/no transition
+- Updated README
+- Dependencies update
+- Template page: Updated `skip-to-content` link to also be the `#top` of page target
+- Atoms CSS: Updated Link/Button focus-visible/no transition
+- Added postcss-merge-rules, postcss-progressive-custom-properties
 
 ---
 
-- FINISHING:
-- Atomic Design implementation
+- Stylelint :construction:
+- Atomic Design implementation :construction:
 - NEXT:
 - Single Page template
 

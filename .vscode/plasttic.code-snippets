@@ -15,9 +15,9 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "Plasttic HTML5 Boilerplate": {
+  "Plasttic HTML Boilerplate": {
     "scope": "html",
-    "prefix": "ptt!",
+    "prefix": "!ptt",
     "body": [
       "<!DOCTYPE html>",
 
@@ -146,7 +146,6 @@
       "<h1>Hello from Plasttic! Insert website...</h1>",
       "</body>",
       "</html>"
-    ],
-    "description": "Starter HTML5 Boilerplate"
+    ]
   }
 }
