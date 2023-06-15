@@ -1,0 +1,68 @@
+/*! Plasttic v2.0 | MIT License | https://plasttic.dev/ */
+
+/* --- ORGANISMS --- */
+@import "70_templates.css";
+
+/**
+  * 80_pages.css
+  *
+  * INDEX
+  * -----
+  *
+  * Temporary/Under Construction
+  * Error/404 Error Page
+  * Code/Boilerplate
+  * Homepage Template
+  * 
+  */
+
+/* ==========================================================================
+   Pages
+   ========================================================================== */
+
+/* Templates list (Template: Temporary)
+   ========================================================================== */
+
+/* body.ptt-page__list {} */
+
+/* Temporary/Under Construction (Template: Temporary)
+   ========================================================================== */
+
+/* body.ptt-page__temp {} */
+
+/* Error/404 Error Page (Template: Temporary)
+   ========================================================================== */
+
+/* body.ptt-page__error {} */
+
+/* Code/Boilerplate (Template: Temporary)
+   ========================================================================== */
+
+body.ptt-page__code {
+  .ptt-message .ptt-container {
+    @media (--ptt-bkp-md) {
+      grid-template-columns: 1fr 30vh;
+    }
+  }
+
+  .ptt-message__code {
+    grid-area: message;
+    border: var(--ptt-clr-neutral-200) solid 2px;
+    padding: var(--ptt-padding-400);
+    max-height: 30vh;
+    overflow: auto;
+    color: var(--ptt-clr-primary-400);
+    font-size: var(--ptt-fnt-size-100);
+    text-align: left;
+    white-space: pre;
+    @media (--ptt-bkp-md) {
+      max-width: 65vw;
+      margin-left: var(--ptt-margin-600);
+    }
+  }
+}
+
+/* Homepage (Template: homepage)
+   ========================================================================== */
+
+/* body.ptt-page__home {} */
