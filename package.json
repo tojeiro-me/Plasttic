@@ -75,8 +75,7 @@
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
     "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run dev:tsc",
-    "lint": "npx lint-staged",
-    "prepare": "husky install"
+    "lint": "npx lint-staged"
   },
   "dependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
