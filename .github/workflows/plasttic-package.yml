@@ -3,7 +3,7 @@ name: Package
 # Controls when the workflow will run
 on:
   # Triggers the workflow defined events for the master branch
-  push: # pull-request/push/
+  pull_request: # pull_request/push/
     branches:
       - 'master'
 
