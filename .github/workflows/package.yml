@@ -44,5 +44,7 @@ jobs:
       # Commit all changed files back to the repository
       - name: auto commit
         uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          commit_message: '[Bot] Update package'
+          commit_message: '[Bot] Package Build'
