@@ -43,3 +43,18 @@ jobs:
         with:
           branch: ${{ env.BRANCH }}
           sha: '${{ github.event.pull_request.head.sha }}'
+      # Checks-out your repository
+      - uses: actions/checkout@master
+        with:
+          ref: ${{ env.BRANCH }}
+
+      # Update all needed files to the package folder
+      - name: build
+        # Setup Node.js environment
+        uses: actions/setup-node@master
+        with:
+          node-version: 18
+      # Installs dependencies like npm install
+      - run: npm ci
+      # Run build script
+      - run: npm run package
