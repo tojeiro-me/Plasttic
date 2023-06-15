@@ -27,12 +27,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
         with:
           ref: master
 
-      # Runs a single command using the runners shell
+      # Provides functionality for GitHub Actions
       - name: build
         uses: actions/setup-node@v3
         with:
@@ -44,4 +44,4 @@ jobs:
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '[Bot] Update package'
+          commit_message: '[PlastticBot] Package build'
