@@ -46,7 +46,7 @@ jobs:
       # Checks-out your repository
       - uses: actions/checkout@master
         with:
-          ref: ${{ env.BRANCH }}
+          ref: master
 
       # Update all needed files to the package folder
       - name: build
