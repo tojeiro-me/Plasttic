@@ -1,0 +1,48 @@
+name: Package
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow defined events for the master branch
+  push: # pull-request/push/
+    branches:
+      - 'master'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Permissions (read/write/none) define what resources the GitHub App can access via the API
+permissions:
+  contents: read
+
+jobs:
+  # This workflow contains a single job called "build_package"
+  build_package:
+    permissions:
+      # For stefanzweifel/git-auto-commit-action
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository
+      - uses: actions/checkout@master
+        with:
+          ref: master
+
+      # Update all needed files to the package folder
+      - name: build
+        # Setup Node.js environment
+        uses: actions/setup-node@master
+        with:
+          node-version: 18
+      # Installs dependencies like npm install
+      - run: npm ci
+      # Run build script
+      - run: npm run package
+
+      # Commit all changed files back to the repository
+      - name: auto commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '[Bot] Update package'
