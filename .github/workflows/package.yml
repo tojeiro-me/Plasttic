@@ -30,7 +30,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          ref: main
+          ref: master
 
       # Runs a single command using the runners shell
       - name: build
@@ -44,4 +44,4 @@ jobs:
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '[Bot] Update dist'
+          commit_message: '[Bot] Update package'
