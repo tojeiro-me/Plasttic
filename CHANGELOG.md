@@ -5,7 +5,7 @@
 - Template page: Updated `skip-to-content` link to also be the `#top` of page target
 - Atoms CSS: Updated Link/Button focus-visible/no transition
 - Added postcss-merge-rules, postcss-progressive-custom-properties
-- Added linting on staged commits with husky
+- Added linting hook on staged commits with husky
 - Added package github workflow
 
 ---
