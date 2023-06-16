@@ -26,8 +26,8 @@ dist/
 
 # project folders and files
 archive/
-**/sources/
 **/test/
+**/sources/
 **/NOTES.md
 docs/*.tree
 src/boilerplate/
