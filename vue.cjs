@@ -7,11 +7,13 @@ module.exports = {
     'airbnb',
     'airbnb-base',
     'prettier',
+    'plugin:vue/vue3-recommended',
+    '@vue/eslint-config-airbnb',
     'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
-  parser: '@babel/eslint-parser',
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    
     sourceType: 'module',
     requireConfigFile: false,
     babelOptions: {
