@@ -1,4 +1,4 @@
-name: Package
+name: Plasttic Build Package
 
 # Controls when the workflow will run
 on:
@@ -16,8 +16,8 @@ permissions:
   contents: write
 
 jobs:
-  # This workflow contains a single job called "build_package"
-  build_package:
+  # This workflow contains a single job called "plasttic_package"
+  plasttic_package:
     permissions:
       # For stefanzweifel/git-auto-commit-action
       # Give the default GITHUB_TOKEN write permission to commit and push the
