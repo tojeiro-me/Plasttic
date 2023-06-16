@@ -7,7 +7,10 @@
 - Added postcss-merge-rules, postcss-progressive-custom-properties
 - Added linting hook on staged commits with husky
 - Added package github workflow
+- Added publish github workflow
 - HTML: Plasttic HTML Boilerplate v1.2.3
+- Updated lint-staged config
+- Updated eslint config
 
 ---
 
