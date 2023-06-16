@@ -3,12 +3,14 @@
 - Updated README
 - Dependencies update
 - Template page: Updated `skip-to-content` link to also be the `#top` of page target
-- Atoms CSS: Updated Link/Button focus-visible/no transition
+- CSS/Atoms: Updated Link/Button focus-visible/no transition
 - Added postcss-merge-rules, postcss-progressive-custom-properties
+- Added linting hook on staged commits with husky
+- Added package github workflow
+- HTML: Plasttic HTML Boilerplate v1.2.3
 
 ---
 
-- Stylelint :construction:
 - Atomic Design implementation :construction:
 - NEXT:
 - Single Page template
