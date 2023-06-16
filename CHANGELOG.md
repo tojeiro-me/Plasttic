@@ -11,6 +11,7 @@
 - HTML: Plasttic HTML Boilerplate v1.2.3
 - Updated lint-staged config
 - Updated eslint config
+- Added VS Code settings file in .vscode folder
 
 ---
 
