@@ -1,4 +1,19 @@
-# v2.1.3 (Jun 17, 2023)
+# v2.1.4 (Jun --, 2023)
+
+- ...
+
+---
+
+- Review templates/ pages :construction:
+- Atomic Design implementation :construction:
+- NEXT:
+- Single Page template
+
+---
+
+# Releases:
+
+## v2.1.3 (Jun 17, 2023)
 
 - Updated README
 - Dependencies update
@@ -14,15 +29,6 @@
 - Changed package github action to husky hook
 
 ---
-
-- Review templates/ pages :construction:
-- Atomic Design implementation :construction:
-- NEXT:
-- Single Page template
-
----
-
-# Releases:
 
 ## v2.1.2 (Jun 11, 2023)
 
