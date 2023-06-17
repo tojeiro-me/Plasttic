@@ -1,8 +1,8 @@
 # v2.1.4 (Jun --, 2023)
 
-- Updated ESLint global config
+- Updated ESLint: global config
 - Updated vscode.settings.json
-- Updated ESLint config: overrides for Typescript
+- Updated ESLint: config overrides for Typescript
 
 ---
 
