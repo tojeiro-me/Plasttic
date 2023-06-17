@@ -32,7 +32,6 @@
   "editor.cursorWidth": 2,
   "editor.fontSize": 13,
   "editor.tabCompletion": "on",
-  "editor.rulers": [79],
 
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -79,6 +78,18 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
 
+  "colorInfo.fields": ["hsl", "rgb", "hex"],
+  "colorInfo.languages": [
+    {
+      "selector": "css",
+      "colors": "css"
+    },
+    {
+      "selector": "postcss",
+      "colors": "css"
+    }
+  ],
+
   "cSpell.ignoreWords": ["Plasttic"],
   "cSpell.userWords": [
     "blockquote",
@@ -113,6 +124,8 @@
     }
   ],
   "githubPullRequests.pullBranch": "never",
+
+  "postcss.validate": false,
 
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
