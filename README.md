@@ -6,12 +6,6 @@ A methodology based Front-End development environment.
 
 [![npm](https://img.shields.io/npm/v/plasttic.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic)&ensp;![npm](https://img.shields.io/npm/dt/plasttic?style=flat&colorA=18181B&colorB=2D7786)&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic/blob/master/LICENSE)&ensp;[![VOLTA](./.github/assets/volta.svg)](https://volta.net/tojeiro-me/Plasttic)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
 
-## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
-
-### Documentation under development :construction:
-
-_Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
-
 ---
 
 ## About
@@ -43,9 +37,9 @@ This workflow is not intended to be a framework, but rather a starting point, al
 - Accessibility/Semantic HTML
 - Design System/Atomic Design
 - BEM Methodology
-- CSS Reset
-- SEO/Social Media Boilerplate
-- Mobile First
+- [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
+- [SEO/Social Media Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- Code Conventions/Linting
 - Debug/Test
 
 ## Start
@@ -67,7 +61,7 @@ npm install
 
 #### Workflow
 
-- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Conventions, Linting, Image Optimization (Soon!), Testing (Soon!)
 
 #### Development
 
@@ -104,7 +98,7 @@ npm install
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
-## Template pages
+## Templates
 
 ---
 
@@ -119,6 +113,8 @@ npm install
 - File Comments
 - Check [docs](./docs) folder :construction:
 - Documentation website (Soon!)
+
+_Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ## Links
 

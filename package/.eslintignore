@@ -11,6 +11,7 @@ browser-sync.*
 .browserslistrc
 manifest.json
 *.snippet
+ts-no.ts
 
 ################################################################################
 # Compiled Directories & Files
