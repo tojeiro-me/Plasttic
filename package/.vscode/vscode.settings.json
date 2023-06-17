@@ -12,7 +12,7 @@
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "on"
   },
-  "[javascript][javascriptreact][typescript][typescriptreact]": {
+  "[javascript][typescript]": {
     "editor.formatOnSave": false
   },
   "editor.codeActionsOnSave": {
