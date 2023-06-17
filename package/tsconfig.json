@@ -1,13 +1,13 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.0.3",
+  "_version": "2.1.4",
 
   "compilerOptions": {
-    "lib": ["es2022"],
-    "module": "es2022",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "esnext",
     "moduleResolution": "classic",
-    "target": "es2022",
+    "target": "esnext",
     "sourceMap": false,
     "strict": true,
     "esModuleInterop": true,

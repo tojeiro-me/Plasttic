@@ -5,7 +5,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   root: true,
-  extends: ['airbnb', 'airbnb-base', 'prettier', 'plugin:import/recommended'],
+  extends: ['airbnb-base/legacy', 'prettier', 'plugin:import/recommended'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     sourceType: 'module',
