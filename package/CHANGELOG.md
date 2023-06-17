@@ -1,6 +1,7 @@
 # v2.1.4 (Jun --, 2023)
 
-- ...
+- Updated ESLint config
+-
 
 ---
 
