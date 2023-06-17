@@ -1,0 +1,21 @@
+{
+  /* Visit https://aka.ms/tsconfig to read more about this file */
+
+  "_version": "2.0.3",
+
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "es2022",
+    "moduleResolution": "classic",
+    "target": "es2022",
+    "sourceMap": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    //"rootDir": "./src/assets/js",
+    //"outDir": "./src/assets/js"
+  },
+  "include": ["src/assets/js/**/*", "ts-no.ts"],
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
