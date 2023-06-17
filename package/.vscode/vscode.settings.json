@@ -38,6 +38,9 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
 
   "explorer.compactFolders": false,
   "explorer.incrementalNaming": "disabled",
