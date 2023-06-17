@@ -4,7 +4,7 @@
 
 
 # git add -A .
-# npm run package
+npm run package
 npm run lint
 # git add -A .
 # git commit --allow-empty --allow-empty-message
