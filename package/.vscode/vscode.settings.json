@@ -94,7 +94,7 @@
     "wesbos"
   ],
 
-  "cssvar.files": ["**/*.css", "assets/css/20_tokens.css"],
+  "cssvar.files": ["./src/assets/css/30_tokens.css"],
 
   "eslint.alwaysShowStatus": true,
 
