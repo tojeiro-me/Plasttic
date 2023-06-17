@@ -43,9 +43,9 @@ This workflow is not intended to be a framework, but rather a starting point, al
 - Accessibility/Semantic HTML
 - Design System/Atomic Design
 - BEM Methodology
-- CSS Reset
-- SEO/Social Media Boilerplate
-- Mobile First
+- [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
+- [SEO/Social Media Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- Code Conventions/Linting
 - Debug/Test
 
 ## Start
@@ -67,7 +67,7 @@ npm install
 
 #### Workflow
 
-- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Linting, Image Optimization (Soon!), Testing (Soon!)
+- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Conventions, Linting, Image Optimization (Soon!), Testing (Soon!)
 
 #### Development
 
@@ -104,7 +104,7 @@ npm install
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
-## Template pages
+## Templates
 
 ---
 
