@@ -1,5 +1,5 @@
 {
-  "extends": ["wesbos"],
+  "extends": ["wesbos"], // Typescript projects ["wesbos/typescript"]
   "rules": {
     "no-console": 2,
     "prettier/prettier": [
