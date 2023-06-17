@@ -4,4 +4,4 @@
 
 npm run lint
 npm run package
-# git commit --allow-empty
+git commit --allow-empty -m "hook"
