@@ -1,7 +1,7 @@
 # v2.1.5 (Jun --, 2023)
 
 - :warning: Updated Husky hook
-- ***
+- ...
 
 ---
 
