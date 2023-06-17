@@ -1,5 +1,5 @@
 {
-  "extends": ["wesbos"], // Typescript projects ["wesbos/typescript"]
+  "extends": ["wesbos"],
   "rules": {
     "no-console": 2,
     "prettier/prettier": [
@@ -14,7 +14,7 @@
   },
   "settings": {
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
+      "@typescript-eslint/parser": [".ts"]
     },
     "import/resolver": {
       "typescript": {
