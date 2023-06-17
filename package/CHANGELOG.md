@@ -6,12 +6,12 @@
 - CSS/Atoms: Updated Link/Button focus-visible/no transition
 - Added postcss-merge-rules, postcss-progressive-custom-properties
 - Added linting hook on staged commits with husky
-- Added package github workflow
-- Added publish github workflow
+- Added publish github action
 - HTML: Plasttic HTML Boilerplate v1.2.3
 - Updated lint-staged config
 - Updated eslint config (based on [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos))
 - Added VS Code settings file in .vscode folder
+- Changed package github action to husky hook
 
 ---
 
