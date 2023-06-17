@@ -1,4 +1,4 @@
-# v2.1.3 (Jun --, 2023)
+# v2.1.3 (Jun 17, 2023)
 
 - Updated README
 - Dependencies update
@@ -15,6 +15,7 @@
 
 ---
 
+- Review templates/ pages :construction:
 - Atomic Design implementation :construction:
 - NEXT:
 - Single Page template
