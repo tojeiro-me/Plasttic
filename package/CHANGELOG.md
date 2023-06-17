@@ -3,6 +3,8 @@
 - :warning: Updated Husky hook
 - ***
 
+---
+
 - Review templates/ pages :construction:
 - Atomic Design implementation :construction:
 - NEXT:
