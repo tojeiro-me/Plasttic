@@ -1,9 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-
 npm run lint
-git add -A .
-npm run package
-git add -A .
-# git commit --allow-empty --allow-empty-message

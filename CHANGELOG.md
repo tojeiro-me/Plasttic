@@ -1,8 +1,7 @@
-# v2.1.4 (Jun 17, 2023)
+# v2.1.5 (Jun 18, 2023)
 
-- Updated ESLint: global config
-- Updated vscode.settings.json
-- :warning: Updated ESLint: config overrides for Typescript
+- :warning: Updated package Husky hook: lint staged files only
+- :warning: Updated package script: Husky hooks
 
 ---
 
@@ -14,6 +13,12 @@
 ---
 
 # Releases:
+
+## v2.1.4 (Jun 17, 2023)
+
+- Updated ESLint: global config
+- Updated vscode.settings.json
+- :warning: Updated ESLint: config overrides for Typescript
 
 ## v2.1.3 (Jun 17, 2023)
 

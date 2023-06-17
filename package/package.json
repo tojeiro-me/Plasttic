@@ -1,6 +1,6 @@
 {
   "name": "plasttic",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Plasttic Web Workflow: A methodology based Front-End development environment.",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic",
@@ -75,7 +75,7 @@
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
     "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run dev:tsc",
-    "package": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/**  && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md \"./*.*\" package && copyfiles -a \"./.husky/**/*\" package && copyfiles -a \"./.vscode/**/*\" package",
+    "package": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/**  && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" package",
     "lint": "npx lint-staged"
   },
   "dependencies": {
