@@ -10,7 +10,8 @@
 - Added publish github workflow
 - HTML: Plasttic HTML Boilerplate v1.2.3
 - Updated lint-staged config
-- Updated eslint config
+- Updated eslint config (based on [eslint-config-wesbos](https://github.com/wesbos/eslint-config-wesbos))
+- Added VS Code settings file in .vscode folder
 
 ---
 

@@ -1,0 +1,145 @@
+{
+  "css.lint.emptyRules": "ignore",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on"
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.showStatusBar": true,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": false,
+  "editor.parameterHints.enabled": false,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorWidth": 2,
+  "editor.fontSize": 13,
+  "editor.tabCompletion": "on",
+  "editor.rulers": [79],
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  "explorer.compactFolders": false,
+  "explorer.incrementalNaming": "disabled",
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.readonlyInclude": {
+    "node_modules/**": true
+  },
+
+  "git.autofetch": "all",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetchPeriod": 60,
+
+  "html.format.unformatted": "",
+  "html.format.wrapLineLength": 150,
+
+  "markdown.validate.enabled": true,
+  "markdown.updateLinksOnFileMove.enabled": "always",
+
+  "terminal.integrated.automationProfile.windows": null,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 13,
+
+  "window.commandCenter": true,
+
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#505c57",
+    "editor.selectionBackground": "#515151",
+    "editorIndentGuide.activeBackground": "#bca23a"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+
+  "cSpell.ignoreWords": ["Plasttic"],
+  "cSpell.userWords": [
+    "blockquote",
+    "cssnano",
+    "fieldset",
+    "figcaption",
+    "googlebot",
+    "iframe",
+    "nogit",
+    "nowrap",
+    "tabindex",
+    "truetype",
+    "wesbos"
+  ],
+
+  "cssvar.files": ["**/*.css", "assets/css/20_tokens.css"],
+
+  "eslint.alwaysShowStatus": true,
+
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.configPath": ".vscode/.prettierrc",
+
+  "projectManager.git.baseFolders": ["/path/to/projects/folder/"],
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib"
+  ],
+  "projectManager.tags": ["Project", "Work", "Archive"],
+  "projectManager.confirmSwitchOnActiveWindow": "always",
+
+  "todo-tree.general.enableFileWatcher": true,
+  "todo-tree.general.tagGroups": {},
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "DONE",
+    "CHECK",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.general.statusBar": "current file",
+
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false
+}
