@@ -1,7 +1,6 @@
-# v2.1.5 (Jun 18, 2023)
+# v2.1.6 (Jun --, 2023)
 
-- :warning: Updated package Husky hook: lint staged files only
-- :warning: Updated package script: Husky hooks
+- ...
 
 ---
 
@@ -13,6 +12,13 @@
 ---
 
 # Releases:
+
+## v2.1.5 (Jun 18, 2023)
+
+- :warning: Updated package Husky hook: lint staged files only
+- :warning: Updated package script: Husky hooks
+
+---
 
 ## v2.1.4 (Jun 17, 2023)
 
