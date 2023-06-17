@@ -1,5 +1,0 @@
-{
-  "output": { "beautify": true },
-  "mangle": false,
-  "compress": false
-}
