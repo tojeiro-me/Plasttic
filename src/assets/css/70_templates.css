@@ -1,7 +1,7 @@
 /* Plasttic v2.0 | MIT License | https://plasttic.dev/ */
 
 /* --- ORGANISMS --- */
-@import '60_organisms.css';
+@import "60_organisms.css";
 
 /**
   * 70_templates.css
@@ -75,9 +75,9 @@ body.ptt-tpl__temporary {
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
-      'nav'
-      'main'
-      'footer';
+      "nav"
+      "main"
+      "footer";
     gap: var(--ptt-gap-700);
   }
 
@@ -110,17 +110,17 @@ body.ptt-tpl__temporary {
   .ptt-message .ptt-container {
     display: grid;
     grid-template-areas:
-      'image'
-      'title'
-      'message'
-      'cta';
+      "image"
+      "title"
+      "message"
+      "cta";
     gap: var(--ptt-gap-700);
     margin-block: min(2vw, 1em);
     @media (--ptt-bkp-md) {
       grid-template-areas:
-        'title   image'
-        'message image'
-        'cta     image';
+        "title   image"
+        "message image"
+        "cta     image";
       grid-template-columns: 1fr 50vh;
       grid-template-rows: auto auto 1fr;
       margin-block: 5vh;
@@ -239,10 +239,10 @@ body.ptt-tpl__homepage {
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
-      'nav'
-      'header'
-      'main'
-      'footer';
+      "nav"
+      "header"
+      "main"
+      "footer";
   }
 
   /**
