@@ -6,12 +6,6 @@ A methodology based Front-End development environment.
 
 [![npm](https://img.shields.io/npm/v/plasttic.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic)&ensp;![npm](https://img.shields.io/npm/dt/plasttic?style=flat&colorA=18181B&colorB=2D7786)&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic/blob/master/LICENSE)&ensp;[![VOLTA](./.github/assets/volta.svg)](https://volta.net/tojeiro-me/Plasttic)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
 
-## :warning: Implementing Atomic Design with CSS and PostCSS :warning:
-
-### Documentation under development :construction:
-
-_Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
-
 ---
 
 ## About
@@ -119,6 +113,8 @@ npm install
 - File Comments
 - Check [docs](./docs) folder :construction:
 - Documentation website (Soon!)
+
+_Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
 
 ## Links
 
