@@ -1,7 +1,7 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.1.4",
+  "_version": "2.1.6",
 
   "compilerOptions": {
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
@@ -12,9 +12,9 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-    //"rootDir": "./src/assets/js",
-    //"outDir": "./src/assets/js"
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src/assets/js",
+    "outDir": "./temp/js"
   },
   "include": ["src/assets/js/**/*", "ts-no.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]
