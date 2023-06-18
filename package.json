@@ -103,7 +103,7 @@
     "postcss-merge-rules": "^6.0.1",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.1",
-    "postcss-preset-env": "^8.4.2",
+    "postcss-preset-env": "^8.5.0",
     "postcss-simple-vars": "^7.0.1",
     "rehype": "^12.0.1",
     "rehype-cli": "^11.0.1",
