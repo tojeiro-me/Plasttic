@@ -144,7 +144,7 @@
     "lighthouse": "^10.2.0",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
-    "puppeteer": "^20.5.0",
+    "puppeteer": "^20.7.2",
     "svgo": "^3.0.2",
     "typescript": "^4.9.5",
     "vue-eslint-parser": "^9.3.1"
