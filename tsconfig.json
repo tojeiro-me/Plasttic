@@ -13,9 +13,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    //"rootDir": "./src/assets/js",
-    "outDir": "./temp/js"
+    "rootDir": "./",
+    "outDir": "./.plasttic/js"
   },
-  "include": ["src/assets/js/**/*", "ts-no.ts"],
-  "exclude": ["node_modules", "**/node_modules/*"]
+  "include": ["./src/assets/js/**/*.ts", "./ts-no.ts"],
+  "exclude": ["**/node_modules/*"]
 }

@@ -1,5 +1,9 @@
 {
-  "output": { "beautify": true },
+  "output": {
+    "beautify": true,
+    "quote_style": 3,
+    "comments": "all"
+  },
   "mangle": false,
   "compress": false
 }
