@@ -3,6 +3,11 @@
 - Updated ESLint config: node support
 - Updated Dependencies
 - Updated Plasttic HTML boilerplate snippet
+- Updated script names (lint/package)
+- Fixed tsconfig error
+- Fixed postcss config error
+- Rewritten js/ts scripts
+- Updated package script
 
 ---
 

@@ -26,6 +26,6 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-discard-empty'),
     require('postcss-merge-rules'),
-    require('postcss-progressive-custom-properties')
+    require('@csstools/postcss-progressive-custom-properties')
   ],
 };
