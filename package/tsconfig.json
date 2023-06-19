@@ -13,7 +13,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "rootDir": "./src/assets/js",
+    //"rootDir": "./src/assets/js",
     "outDir": "./temp/js"
   },
   "include": ["src/assets/js/**/*", "ts-no.ts"],
