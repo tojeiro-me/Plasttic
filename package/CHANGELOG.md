@@ -2,6 +2,7 @@
 
 - Updated ESLint config: node support
 - Updated Dependencies
+- Updated Plasttic HTML boilerplate snippet
 
 ---
 
