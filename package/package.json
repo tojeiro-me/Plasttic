@@ -74,7 +74,7 @@
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
     "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run del:js",
-    "commit:package": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" package",
+    "commit:package": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md \"./*.*\" package && copyfiles -a \"./.plasttic/**/*\" package && copyfiles -a \"./.vscode/**/*\" package",
     "commit:lint": "npx lint-staged"
   },
   "dependencies": {

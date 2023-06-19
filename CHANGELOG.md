@@ -7,6 +7,7 @@
 - Fixed tsconfig error
 - Fixed postcss config error
 - Rewritten js/ts scripts
+- Updated package script
 
 ---
 
