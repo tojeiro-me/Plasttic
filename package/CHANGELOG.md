@@ -1,6 +1,7 @@
 # v2.1.6 (Jun --, 2023)
 
 - Updated ESLint config: node support
+- Updated Dependencies
 
 ---
 
