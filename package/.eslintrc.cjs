@@ -1,3 +1,5 @@
+// version 2.1.7
+
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
 // eslint-disable-next-line import/no-extraneous-dependencies
 require('@rushstack/eslint-patch/modern-module-resolution');
