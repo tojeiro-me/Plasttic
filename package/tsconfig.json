@@ -34,6 +34,6 @@
 
     "paths": {}
   },
-  "include": ["src/assets/js/**/*.ts", "ts-no.ts", ".eslintrc.cjs"],
+  "include": ["src/assets/js/**/*.ts", "ts-no.ts", ".eslintrc.js"],
   "exclude": ["**/node_modules/*"]
 }
