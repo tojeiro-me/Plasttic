@@ -14,7 +14,7 @@
  * Page: code.html
  */
 
-export function copyCodeToClipboard(copyCodeBtn) {
+export function copyCodeToClipboard(copyCodeBtn: HTMLElement): void {
   copyCodeBtn.addEventListener('click', () => {
     const codeText = document.getElementsByTagName('code')[0].innerText.trim();
     navigator.clipboard.writeText(codeText);

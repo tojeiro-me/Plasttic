@@ -1,20 +1,29 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
-// eslint-disable-next-line import/no-extraneous-dependencies
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  root: true,
+  extends: [
+    'airbnb-base/legacy',
+    'prettier',
+    'plugin:import/recommended',
+    'plugin:n/recommended',
+  ],
   parser: '@babel/eslint-parser',
   parserOptions: {
+    sourceType: 'module',
     requireConfigFile: false,
-    babelOptions: {
-      presets: ['@babel/preset-react'],
+    ecmaVersion: 2022,
+    ecmaFeatures: {
+      modules: true,
     },
   },
   env: {
     browser: true,
     node: true,
-    jquery: true,
+    es2022: true,
     jest: true,
   },
   rules: {
@@ -71,35 +80,6 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
-    'react/display-name': 1,
-    'react/no-array-index-key': 0,
-    'react/react-in-jsx-scope': 0,
-    'react/prefer-stateless-function': 0,
-    'react/forbid-prop-types': 0,
-    'react/no-unescaped-entities': 0,
-    'react/function-component-definition': 0,
-    'jsx-a11y/accessible-emoji': 0,
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        assert: 'either',
-      },
-    ],
-    'react/require-default-props': 0,
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-      },
-    ],
-    radix: 0,
-    'no-shadow': [
-      2,
-      {
-        hoist: 'all',
-        allow: ['resolve', 'reject', 'done', 'next', 'err', 'error'],
-      },
-    ],
     quotes: [
       2,
       'single',
@@ -111,42 +91,41 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
+        trailingComma: 'es5',
         singleQuote: true,
+        printWidth: 80,
+        // below line only for windows users facing CLRF and eslint/prettier error
+        // non windows users feel free to delete it
         endOfLine: 'auto',
       },
     ],
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/anchor-is-valid': [
-      'warn',
-      {
-        aspects: ['invalidHref'],
-      },
-    ],
     '@typescript-eslint/comma-dangle': ['off'],
-    'react/jsx-props-no-spreading': 'off',
   },
   plugins: ['html', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts'],
       extends: [
-        'airbnb',
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
       ],
-      // then add some extra good stuff for Typescript
       parser: '@typescript-eslint/parser',
       parserOptions: {
+        sourceType: 'module',
+        requireConfigFile: false,
+        ecmaVersion: 2022,
+        ecmaFeatures: {
+          modules: true,
+        },
         project: './tsconfig.json',
       },
-      plugins: ['@typescript-eslint'],
       env: {
         browser: true,
         node: true,
-        jquery: true,
+        es2022: true,
         jest: true,
       },
       // Then we add our own custom typescript rules
@@ -159,7 +138,6 @@ module.exports = {
           },
         ],
         '@typescript-eslint/no-explicit-any': 'off',
-        'no-unused-vars': 0,
         '@typescript-eslint/no-unused-vars': [1, { ignoreRestSiblings: true }],
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': [
@@ -184,6 +162,17 @@ module.exports = {
           'ForInStatement',
           'LabeledStatement',
           'WithStatement',
+        ],
+        'no-unused-vars': [
+          0,
+          1,
+          {
+            ignoreRestSiblings: true,
+            argsIgnorePattern: 'res|next|^err|^_',
+            varsIgnorePattern: '^_',
+            // Broken in TypeSCript.Want this turned on
+            // destructuredArrayIgnorePattern: '^_',
+          },
         ],
         'prefer-const': [
           'error',
@@ -216,28 +205,6 @@ module.exports = {
         'import/extensions': 0,
         'no-underscore-dangle': 0,
         'consistent-return': 0,
-        'react/display-name': 1,
-        'react/no-array-index-key': 0,
-        'react/react-in-jsx-scope': 0,
-        'react/prefer-stateless-function': 0,
-        'react/forbid-prop-types': 0,
-        'react/no-unescaped-entities': 0,
-        'react/function-component-definition': 0,
-        'jsx-a11y/accessible-emoji': 0,
-        'jsx-a11y/label-has-associated-control': [
-          'error',
-          {
-            assert: 'either',
-          },
-        ],
-        'react/require-default-props': 0,
-        'react/jsx-filename-extension': [
-          1,
-          {
-            extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-          },
-        ],
-        radix: 0,
         quotes: [
           2,
           'single',
@@ -249,20 +216,17 @@ module.exports = {
         'prettier/prettier': [
           'error',
           {
+            trailingComma: 'es5',
             singleQuote: true,
+            printWidth: 80,
+            // below line only for windows users facing CLRF and eslint/prettier error
+            // non windows users feel free to delete it
             endOfLine: 'auto',
           },
         ],
-        'jsx-a11y/href-no-hash': 'off',
-        'jsx-a11y/anchor-is-valid': [
-          'warn',
-          {
-            aspects: ['invalidHref'],
-          },
-        ],
         '@typescript-eslint/comma-dangle': ['off'],
-        'react/jsx-props-no-spreading': 'off',
       },
+      plugins: ['prettier', '@typescript-eslint'],
     },
   ],
 };

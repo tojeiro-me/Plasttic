@@ -37,7 +37,7 @@ const dateCurrent = new Date();
 const footerYear = document.getElementById('footer-year');
 
 if (footerYear) {
-  footerYear.innerText = dateCurrent.getFullYear();
+  footerYear.innerText = dateCurrent.getFullYear().toString();
 }
 
 /**
