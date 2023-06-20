@@ -15,7 +15,6 @@ module.exports = {
   },
   plugins: ['html', 'prettier'],
   env: {
-    es6: true,
     browser: true,
     node: true,
     jquery: true,
