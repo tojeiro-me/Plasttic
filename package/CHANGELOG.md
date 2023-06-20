@@ -1,6 +1,6 @@
 # v2.1.8 (Jun --, 2023)
 
-- ...
+- Updated tsconfig
 
 ---
 

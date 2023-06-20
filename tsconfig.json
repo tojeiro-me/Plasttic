@@ -17,7 +17,6 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./",
     "outDir": "./.plasttic/js",
-    "noEmit": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
