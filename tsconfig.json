@@ -26,9 +26,7 @@
     "declarationMap": true,
     "noImplicitReturns": true,
     "pretty": true,
-    "paths": {
-      "modules/*": ["./src/assets/js/modules/*"]
-    }
+    "paths": {}
   },
   "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
   "exclude": ["**/node_modules/*"]
