@@ -142,7 +142,7 @@ module.exports = {
       parserOptions: {
         project: './tsconfig.json',
       },
-      plugins: ['@typescript-eslint'],
+      plugins: ['html', 'prettier', '@typescript-eslint'],
       env: {
         browser: true,
         node: true,
