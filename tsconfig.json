@@ -7,10 +7,9 @@
     "target": "esnext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "types": ["@types/node"],
-    "module": "esnext",
-    // "module": "commonjs",
-    "moduleResolution": "node",
-    // "moduleResolution": "classic",
+    // "module": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "nodenext",
 
     "sourceMap": false,
     "strict": true,
