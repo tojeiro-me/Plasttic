@@ -1,9 +1,9 @@
 # v2.1.7 (Jun 20, 2023)
 
-- ESlint: Fixed error with typescript
-- Updated eslint config
-- Updated tsconfig
-- Updated lintstaged script
+- :warning: ESlint: Fixed error with typescript
+- :warning: Updated eslint config
+- :warning: Updated tsconfig
+- :warning: Updated lintstaged script
 
 ---
 
