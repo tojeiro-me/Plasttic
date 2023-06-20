@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: ['html', 'prettier'],
   env: {
+    es6: true,
     browser: true,
     node: true,
     jquery: true,
@@ -215,12 +216,6 @@ module.exports = {
           'error',
           {
             assert: 'either',
-          },
-        ],
-        'react/jsx-filename-extension': [
-          1,
-          {
-            extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
           },
         ],
         radix: 0,
