@@ -78,6 +78,12 @@ module.exports = {
         assert: 'either',
       },
     ],
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
+      },
+    ],
     radix: 0,
     'no-shadow': [
       2,
@@ -207,6 +213,12 @@ module.exports = {
           'error',
           {
             assert: 'either',
+          },
+        ],
+        'react/jsx-filename-extension': [
+          1,
+          {
+            extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
           },
         ],
         radix: 0,
