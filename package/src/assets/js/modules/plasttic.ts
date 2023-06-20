@@ -1,5 +1,3 @@
-/* @license Plasttic v2.1 | MIT License | https://plasttic.dev/ */
-
 /**
  * plasttic.js
  *
