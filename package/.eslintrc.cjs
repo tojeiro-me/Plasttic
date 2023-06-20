@@ -12,10 +12,10 @@ module.exports = {
     babelOptions: {
       presets: ['@babel/preset-react'],
     },
+    ecmaVersion: 'latest',
   },
   plugins: ['html', 'prettier'],
   env: {
-    es6: true,
     browser: true,
     node: true,
     jquery: true,
@@ -135,6 +135,7 @@ module.exports = {
       // then add some extra good stuff for Typescript
       parser: '@typescript-eslint/parser',
       parserOptions: {
+        ecmaVersion: 'latest',
         project: './tsconfig.json',
         tsconfigRootDir: __dirname,
       },

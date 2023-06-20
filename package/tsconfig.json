@@ -10,7 +10,6 @@
     // "module": "ESNext",
     "module": "commonjs",
     "moduleResolution": "nodenext",
-
     "sourceMap": false,
     "strict": true,
     "alwaysStrict": false,
@@ -19,20 +18,18 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./",
     "outDir": "./.plasttic/js",
-
-    // "noEmit": true,
-    // "allowJs": true,
-
+    "noEmit": true,
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "declaration": true,
     "declarationMap": true,
-
     "noImplicitReturns": true,
     "pretty": true,
-
-    "paths": {}
+    "paths": {
+      "modules/*": ["./src/assets/js/modules/*"]
+    }
   },
   "include": ["src/assets/js/**/*.ts", "ts-no.ts", ".eslintrc.js"],
   "exclude": ["**/node_modules/*"]
