@@ -135,7 +135,8 @@ module.exports = {
       // then add some extra good stuff for Typescript
       parser: '@typescript-eslint/parser',
       parserOptions: {
-        project: './tsconfig.json',
+        // project: './tsconfig.json',
+        tsconfigRootDir: __dirname,
       },
       plugins: ['html', 'prettier', '@typescript-eslint'],
       env: {
