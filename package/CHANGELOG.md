@@ -3,6 +3,7 @@
 - ESlint: Fixed error with typescript
 - Updated eslint config
 - Updated tsconfig
+- Updated lintstaged script
 
 ---
 
