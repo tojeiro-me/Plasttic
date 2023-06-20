@@ -121,10 +121,11 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.ts', '**/*.tsx'],
+      files: ['*.ts', '*.tsx'],
       extends: [
         'airbnb',
         'prettier',
+        'eslint:recommended',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
