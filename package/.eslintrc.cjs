@@ -71,13 +71,6 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
-    'react/display-name': 1,
-    'react/no-array-index-key': 0,
-    'react/react-in-jsx-scope': 0,
-    'react/prefer-stateless-function': 0,
-    'react/forbid-prop-types': 0,
-    'react/no-unescaped-entities': 0,
-    'react/function-component-definition': 0,
     'jsx-a11y/accessible-emoji': 0,
     'jsx-a11y/label-has-associated-control': [
       'error',
@@ -85,7 +78,6 @@ module.exports = {
         assert: 'either',
       },
     ],
-    'react/require-default-props': 0,
     'react/jsx-filename-extension': [
       1,
       {
@@ -216,7 +208,6 @@ module.exports = {
         'import/extensions': 0,
         'no-underscore-dangle': 0,
         'consistent-return': 0,
-
         'jsx-a11y/accessible-emoji': 0,
         'jsx-a11y/label-has-associated-control': [
           'error',
@@ -224,7 +215,7 @@ module.exports = {
             assert: 'either',
           },
         ],
-        'react/require-default-props': 0,
+
         'react/jsx-filename-extension': [
           1,
           {
