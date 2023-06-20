@@ -4,6 +4,7 @@
 - :warning: Updated eslint config
 - :warning: Updated tsconfig
 - :warning: Updated lintstaged script
+- Updated package script
 
 ---
 
