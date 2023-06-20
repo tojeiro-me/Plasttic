@@ -1,6 +1,6 @@
 # v2.1.7 (Jun --, 2023)
 
-- ...
+- Updated ESLint config
 
 ---
 
@@ -13,7 +13,7 @@
 
 # Releases:
 
-# v2.1.6 (Jun 19, 2023)
+## v2.1.6 (Jun 19, 2023)
 
 - Updated ESLint config: node support
 - Updated Dependencies
