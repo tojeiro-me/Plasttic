@@ -132,7 +132,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
       ],
-      // then add some extra good stuff for Typescript
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
