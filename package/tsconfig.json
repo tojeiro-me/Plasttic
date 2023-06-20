@@ -6,9 +6,11 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-
+    "types": ["@types/node"],
     "module": "esnext",
-    "moduleResolution": "classic",
+    // "module": "commonjs",
+    "moduleResolution": "node",
+    // "moduleResolution": "classic",
 
     "sourceMap": false,
     "strict": true,
@@ -17,8 +19,22 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./",
-    "outDir": "./.plasttic/js"
+    "outDir": "./.plasttic/js",
+
+    // "noEmit": true,
+    // "allowJs": true,
+
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "declarationMap": true,
+
+    "noImplicitReturns": true,
+    "pretty": true,
+
+    "paths": {}
   },
-  "include": ["src/assets/js/**/*", "ts-no.ts"],
+  "include": ["src/assets/js/**/*", "ts-no.ts", ".eslintrc.cjs"],
   "exclude": ["**/node_modules/*"]
 }
