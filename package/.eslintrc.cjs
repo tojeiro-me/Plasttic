@@ -11,6 +11,7 @@ module.exports = {
       presets: ['@babel/preset-react'],
     },
   },
+  plugins: ['html', 'prettier'],
   env: {
     browser: true,
     node: true,
@@ -115,9 +116,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/comma-dangle': ['off'],
-    'react/jsx-props-no-spreading': 'off',
   },
-  plugins: ['html', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts'],
