@@ -1,13 +1,8 @@
-# v2.1.6 (Jun --, 2023)
+# v2.1.7 (Jun 20, 2023)
 
-- Updated ESLint config: node support
-- Updated Dependencies
-- Updated Plasttic HTML boilerplate snippet
-- Updated script names (lint/package)
-- Fixed tsconfig error
-- Fixed postcss config error
-- Rewritten js/ts scripts
-- Updated package script
+- ESlint: Fixed error with typescript
+- Updated eslint config
+- Updated tsconfig
 
 ---
 
@@ -19,6 +14,19 @@
 ---
 
 # Releases:
+
+## v2.1.6 (Jun 19, 2023)
+
+- Updated ESLint config: node support
+- Updated Dependencies
+- Updated Plasttic HTML boilerplate snippet
+- Updated script names (lint/package)
+- Fixed tsconfig error
+- Fixed postcss config error
+- Rewritten js/ts scripts
+- Updated package script
+
+---
 
 ## v2.1.5 (Jun 18, 2023)
 

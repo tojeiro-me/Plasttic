@@ -1,21 +1,33 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.1.6",
+  "_version": "2.1.7",
 
   "compilerOptions": {
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "module": "esnext",
-    "moduleResolution": "classic",
     "target": "esnext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["@types/node"],
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
     "sourceMap": false,
     "strict": true,
+    "alwaysStrict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "rootDir": "./",
-    "outDir": "./.plasttic/js"
+    "outDir": "./.plasttic/js",
+    "noEmit": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "declarationMap": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "paths": {}
   },
-  "include": ["./src/assets/js/**/*.ts", "./ts-no.ts"],
+  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
   "exclude": ["**/node_modules/*"]
 }
