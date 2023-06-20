@@ -6,16 +6,20 @@ node_modules
 package-lock.json
 package.json
 
-postcss.config.*
-browser-sync.*
-.browserslistrc
-manifest.json
-*.snippet
-ts-no.ts
-
 ################################################################################
 # Compiled Directories & Files
 ################################################################################
 
 dist
 public
+
+################################################################################
+# Project
+################################################################################
+
+postcss.config.*
+browser-sync.*
+.browserslistrc
+manifest.json
+*.snippet
+ts-no.ts
