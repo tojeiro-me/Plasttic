@@ -2,7 +2,7 @@
   "short_name": "Plasttic",
   "name": "Plasttic Web Workflow",
   "description": "A complete Web Workflow.",
-  "start_url": "https://boilerplate.plasttic.dev",
+  "start_url": "https://plasttic.dev",
   "display": "browser",
   "icons": [
     {
