@@ -245,7 +245,6 @@ module.exports = {
           },
         ],
         '@typescript-eslint/comma-dangle': ['off'],
-        'react/jsx-props-no-spreading': 'off',
       },
     },
   ],
