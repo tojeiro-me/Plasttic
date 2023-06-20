@@ -31,6 +31,6 @@
       "modules/*": ["./src/assets/js/modules/*"]
     }
   },
-  "include": ["src/assets/js/**/*.ts", "ts-no.ts", ".eslintrc.js"],
+  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
   "exclude": ["**/node_modules/*"]
 }
