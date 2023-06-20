@@ -1,7 +1,8 @@
 # v2.1.7 (Jun 20, 2023)
 
 - ESlint: Fixed error with typescript
-- ESlint: Updated config
+- Updated eslint config
+- Updated tsconfig
 
 ---
 
