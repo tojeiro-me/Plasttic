@@ -26,10 +26,8 @@
     // "declarationMap": false,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    // "pretty": true,
-    "paths": {
-      "modules/*": ["./src/assets/js/modules/*"]
-    }
+    "pretty": true,
+    "paths": {}
   },
   "include": ["./src/assets/js/**/*.ts", "./ts-no.ts"],
   "exclude": ["node_modules", "**/node_modules/*", "package/*"]
