@@ -61,6 +61,11 @@ npm install
 2. Downloads and installs the latest version of Plasttic Web Workflow
 3. Installs all the project dependencies
 
+#### Typescript:
+
+- Install Typescript globally `npm install -g typescript`
+  (Although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also)
+
 #### Workflow
 
 - Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Conventions, Linting, Image Optimization (Soon!), Testing (Soon!)
