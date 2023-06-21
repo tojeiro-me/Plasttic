@@ -3,6 +3,7 @@
 - Updated tsconfig
 - :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
 - Fixed ESLint parser error
+- Updated Dev script
 
 ---
 

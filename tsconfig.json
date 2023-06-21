@@ -29,6 +29,6 @@
     // "pretty": true,
     "paths": {}
   },
-  "include": ["src/assets/js/*.ts", "src/assets/js/modules/*.ts", "ts-no.ts"],
-  "exclude": ["node_modules", "**/node_modules/*"]
+  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
+  "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }

@@ -123,7 +123,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['src/assets/js/**/*.ts', '*.tsx'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
@@ -134,7 +134,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
-        project: './tsconfig-eslint.json',
+        project: './tsconfig.json',
       },
       plugins: ['prettier', '@typescript-eslint'],
       env: {
