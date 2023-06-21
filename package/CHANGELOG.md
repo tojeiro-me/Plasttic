@@ -3,7 +3,9 @@
 - Updated tsconfig
 - :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
 - Fixed ESLint parser error
-- Updated Dev script
+- Updated Husky pre-commit hook
+- :warning: Updated NPM scripts
+- Added lint:src script
 
 ---
 

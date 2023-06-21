@@ -1,17 +1,13 @@
 // version 2.1.8
 
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
-// eslint-disable-next-line import/no-extraneous-dependencies
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb-base', 'prettier'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
-    babelOptions: {
-      presets: ['@babel/preset-react'],
-    },
     ecmaVersion: 'latest',
   },
   plugins: ['html', 'prettier'],
@@ -76,19 +72,8 @@ module.exports = {
     'import/extensions': 0,
     'no-underscore-dangle': 0,
     'consistent-return': 0,
-    'jsx-a11y/accessible-emoji': 0,
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        assert: 'either',
-      },
-    ],
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-      },
-    ],
+    'import/no-extraneous-dependencies': 0,
+    'react/jsx-filename-extension': 0,
     radix: 0,
     'no-shadow': [
       2,
@@ -112,18 +97,11 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/anchor-is-valid': [
-      'warn',
-      {
-        aspects: ['invalidHref'],
-      },
-    ],
     '@typescript-eslint/comma-dangle': ['off'],
   },
   overrides: [
     {
-      files: ['src/assets/js/**/*.ts', '*.tsx'],
+      files: ['src/assets/js/**/*.ts'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
@@ -146,14 +124,6 @@ module.exports = {
       },
       // Then we add our own custom typescript rules
       rules: {
-        'import/no-extraneous-dependencies': [
-          'error',
-          {
-            devDependencies: true,
-            optionalDependencies: true,
-            peerDependencies: true,
-          },
-        ],
         // This allows us to use async function on addEventListener(). Discussion: https://twitter.com/wesbos/status/1337074242161172486
         '@typescript-eslint/no-misused-promises': [
           'error',
@@ -219,19 +189,8 @@ module.exports = {
         'import/extensions': 0,
         'no-underscore-dangle': 0,
         'consistent-return': 0,
-        'jsx-a11y/accessible-emoji': 0,
-        'jsx-a11y/label-has-associated-control': [
-          'error',
-          {
-            assert: 'either',
-          },
-        ],
-        'react/jsx-filename-extension': [
-          1,
-          {
-            extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-          },
-        ],
+        'import/no-extraneous-dependencies': 0,
+        'react/jsx-filename-extension': 0,
         radix: 0,
         quotes: [
           2,
@@ -246,13 +205,6 @@ module.exports = {
           {
             singleQuote: true,
             endOfLine: 'auto',
-          },
-        ],
-        'jsx-a11y/href-no-hash': 'off',
-        'jsx-a11y/anchor-is-valid': [
-          'warn',
-          {
-            aspects: ['invalidHref'],
           },
         ],
         '@typescript-eslint/comma-dangle': ['off'],
