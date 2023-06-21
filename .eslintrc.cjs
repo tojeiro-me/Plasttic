@@ -1,4 +1,4 @@
-// version 2.1.7
+// version 2.1.8
 
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -135,8 +135,8 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
-        project: './tsconfig.json',
-        tsconfigRootDir: __dirname,
+        // tsconfigRootDir: __dirname,
+        // project: './tsconfig.json',
       },
       plugins: ['html', 'prettier', '@typescript-eslint'],
       env: {
