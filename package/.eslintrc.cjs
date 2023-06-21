@@ -147,6 +147,14 @@ module.exports = {
       },
       // Then we add our own custom typescript rules
       rules: {
+        'import/no-extraneous-dependencies': [
+          'error',
+          {
+            devDependencies: true,
+            optionalDependencies: false,
+            peerDependencies: false,
+          },
+        ],
         // This allows us to use async function on addEventListener(). Discussion: https://twitter.com/wesbos/status/1337074242161172486
         '@typescript-eslint/no-misused-promises': [
           'error',

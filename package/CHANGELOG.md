@@ -1,6 +1,7 @@
 # v2.1.8 (Jun --, 2023)
 
 - Updated tsconfig
+- Installed [TS-Reset](https://github.com/total-typescript/ts-reset)
 
 ---
 
