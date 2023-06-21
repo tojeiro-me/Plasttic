@@ -136,7 +136,7 @@ module.exports = {
       parserOptions: {
         ecmaVersion: 'latest',
         // tsconfigRootDir: __dirname,
-        // project: './tsconfig.json',
+        project: './tsconfig.json',
       },
       plugins: ['html', 'prettier', '@typescript-eslint'],
       env: {
