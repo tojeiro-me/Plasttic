@@ -14,7 +14,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./",
+    "baseUrl": "./src/assets/js/",
     // "rootDir": "./",
     "outDir": "./.plasttic/js",
     // "allowJs": true,
