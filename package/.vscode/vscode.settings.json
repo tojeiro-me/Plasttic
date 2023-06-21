@@ -43,6 +43,7 @@
 
   "explorer.compactFolders": false,
   "explorer.incrementalNaming": "disabled",
+  "explorer.confirmDragAndDrop": true,
 
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 2000,
