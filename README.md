@@ -63,7 +63,8 @@ npm install
 
 #### Typescript:
 
-- Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also
+- Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
+- [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
 
 #### Workflow
 

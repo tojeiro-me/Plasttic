@@ -1,14 +1,14 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.1.7",
+  "_version": "2.1.8",
 
   "compilerOptions": {
     "target": "esnext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     // "types": ["@types/node"],
-    "module": "esnext",
-    "moduleResolution": "classic",
+    "module": "NodeNext",
+    // "moduleResolution": "NodeNext",
     "strict": true,
     "alwaysStrict": false,
     "esModuleInterop": true,
