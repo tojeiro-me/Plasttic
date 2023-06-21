@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: ['html', 'prettier'],
   env: {
+    es6: true,
     browser: true,
     node: true,
     jquery: true,
@@ -124,9 +125,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       extends: [
-        'airbnb',
         'prettier',
-        'eslint:recommended',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -135,11 +134,11 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
-        // tsconfigRootDir: __dirname,
         project: './tsconfig.json',
       },
-      plugins: ['html', 'prettier', '@typescript-eslint'],
+      plugins: ['prettier', '@typescript-eslint'],
       env: {
+        es6: true,
         browser: true,
         node: true,
         jquery: true,
