@@ -1,7 +1,7 @@
 {
   "output": {
     "beautify": true,
-    "quote_style": 3,
+    "quote_style": 1,
     "comments": "all"
   },
   "mangle": false,
