@@ -151,8 +151,8 @@ module.exports = {
           'error',
           {
             devDependencies: true,
-            optionalDependencies: false,
-            peerDependencies: false,
+            optionalDependencies: true,
+            peerDependencies: true,
           },
         ],
         // This allows us to use async function on addEventListener(). Discussion: https://twitter.com/wesbos/status/1337074242161172486
