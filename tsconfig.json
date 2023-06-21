@@ -24,7 +24,8 @@
     // "sourceMap": false,
     // "declaration": false,
     // "declarationMap": false,
-    // "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
     // "pretty": true,
     "paths": {}
   },
