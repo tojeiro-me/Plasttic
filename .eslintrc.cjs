@@ -134,7 +134,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
-        project: './tsconfig.json',
+        project: './tsconfig-eslint.json',
       },
       plugins: ['prettier', '@typescript-eslint'],
       env: {
