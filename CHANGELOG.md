@@ -1,7 +1,8 @@
 # v2.1.8 (Jun --, 2023)
 
 - Updated tsconfig
-- [TS-Reset](https://github.com/total-typescript/ts-reset) by default
+- :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
+- Fixed ESLint parser error
 
 ---
 
