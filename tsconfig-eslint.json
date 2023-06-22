@@ -5,10 +5,6 @@
     "target": "ESNext",
     "module": "NodeNext"
   },
-  "include": [
-    "./src/assets/js/scripts.ts",
-    "./src/assets/js/modules/*.ts",
-    "./ts-no.ts"
-  ],
+  "include": ["./src/assets/js/scripts.ts"],
   "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }
