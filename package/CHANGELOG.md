@@ -5,7 +5,8 @@
 - Fixed ESLint parser error
 - Updated Husky pre-commit hook
 - :warning: Updated NPM scripts
-- Added lint:src script
+- Added NPM lint:\* scripts
+- Updated lintstaged config
 
 ---
 
