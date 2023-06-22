@@ -1,12 +1,6 @@
-# v2.1.8 (Jun 22, 2023)
+# v2.1.9 (Jun --, 2023)
 
-- Updated tsconfig
-- :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
-- Fixed ESLint parser error
-- Updated Husky pre-commit hook
-- :warning: Updated NPM scripts
-- Added NPM lint:\* scripts
-- Updated lintstaged config
+- ...
 
 ---
 
@@ -18,6 +12,18 @@
 ---
 
 # Releases:
+
+## v2.1.8 (Jun 22, 2023)
+
+- Updated tsconfig
+- :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
+- Fixed ESLint parser error
+- Updated Husky pre-commit hook
+- :warning: Updated NPM scripts
+- Added NPM lint:\* scripts
+- Updated lintstaged config
+
+---
 
 ## v2.1.7 (Jun 20, 2023)
 
