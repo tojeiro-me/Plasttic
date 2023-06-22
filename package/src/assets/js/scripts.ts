@@ -34,7 +34,9 @@ const dateCurrent = new Date();
  * Set current year in footer copyright
  * Use: ©2021-<span id="footer-year"></span> Company
  */
-const footerYear = document.getElementById('footer-year');
+const footerYear = document.getElementById(
+  'footer-year'
+) as HTMLSpanElement | null;
 
 if (footerYear) {
   footerYear.innerText = dateCurrent.getFullYear().toString();
@@ -47,7 +49,10 @@ if (footerYear) {
  * <input type="text">
  * </form>
  */
-// document.getElementById("form-name").reset();
+
+// const form = document.getElementById('footer-year') as HTMLFormElement;
+
+// form?.reset();
 
 /**
  * Copy code to clipboard in code.html

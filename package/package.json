@@ -127,6 +127,7 @@
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "babel-preset-airbnb": "^5.0.0",
+    "cosmiconfig": "^8.2.0",
     "eslint": "^8.43.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -144,6 +145,7 @@
     "lighthouse": "^10.3.0",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
+    "prettier-eslint": "^15.0.1",
     "puppeteer": "^20.7.2",
     "svgo": "^3.0.2",
     "typescript": "^4.9.5"
