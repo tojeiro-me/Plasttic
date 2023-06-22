@@ -1,4 +1,4 @@
-# v2.1.8 (Jun --, 2023)
+# v2.1.8 (Jun 22, 2023)
 
 - Updated tsconfig
 - :warning: [TS-Reset](https://github.com/total-typescript/ts-reset) by default
