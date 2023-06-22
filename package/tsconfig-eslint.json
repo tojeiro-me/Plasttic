@@ -1,13 +1,14 @@
 {
+  "_version": "2.1.8",
+
   "compilerOptions": {
-    "module": "NodeNext",
-    "target": "esnext",
-    // "moduleResolution": "node",
-    "strict": true,
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "skipLibCheck": true
-    // "extends": "./tsconfig.json"
+    "target": "ESNext",
+    "module": "NodeNext"
   },
-  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
-  "exclude": ["node_modules", "**/node_modules/*", "package/"]
+  "include": [
+    "./src/assets/js/scripts.ts",
+    "./src/assets/js/modules/*.ts",
+    "./ts-no.ts"
+  ],
+  "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }
