@@ -38,7 +38,7 @@ This workflow is not intended to be a framework, but rather a starting point, al
 - Design System/Atomic Design
 - BEM Methodology
 - [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
-- [SEO/Social Media Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- [SEO/Social Media HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 - Semantic HTML/Accessibility
 - CSS/Postcss
 - Typescript/Javascript
