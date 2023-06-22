@@ -59,7 +59,12 @@ npm install
 
 1. Creates a folder with the `project name` you defined
 2. Downloads and installs the latest version of Plasttic Web Workflow
-3. Installs all the project dependencies
+3. Installs all the project dependencies\*
+
+#### Typescript:
+
+- Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
+- [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
 
 #### Workflow
 

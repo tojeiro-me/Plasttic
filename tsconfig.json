@@ -1,33 +1,38 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.1.7",
+  "_version": "2.1.8",
 
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ESNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["@types/node"],
-    "module": "ESNext",
-    "moduleResolution": "nodenext",
-    "sourceMap": false,
+    // "types": ["@types/node"],
+    "module": "NodeNext",
+    // "moduleResolution": "NodeNext",
     "strict": true,
     "alwaysStrict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "rootDir": "./",
+    // "baseUrl": "./",
+    // "rootDir": "./",
     "outDir": "./.plasttic/js",
-    "noEmit": true,
-    "allowJs": true,
+    // "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "declaration": true,
-    "declarationMap": true,
+    // "allowUnreachableCode": false,
+    // "allowUnusedLabels": false,
+    // "sourceMap": false,
+    // "declaration": false,
+    // "declarationMap": false,
+    "noUnusedParameters": true,
     "noImplicitReturns": true,
     "pretty": true,
     "paths": {}
   },
-  "include": ["src/assets/js/**/*.ts", "ts-no.ts"],
-  "exclude": ["**/node_modules/*"]
+  "include": [
+    "./src/assets/js/*.ts",
+    "./src/assets/js/modules/*.ts",
+    "./ts-no.ts"
+  ],
+  "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }
