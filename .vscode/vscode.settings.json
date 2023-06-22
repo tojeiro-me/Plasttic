@@ -108,8 +108,7 @@
     "nogit",
     "nowrap",
     "tabindex",
-    "truetype",
-    "wesbos"
+    "truetype"
   ],
 
   "cssvar.files": ["./src/assets/css/30_tokens.css"],
