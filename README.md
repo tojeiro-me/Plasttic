@@ -35,11 +35,12 @@ This workflow is not intended to be a framework, but rather a starting point, al
 - Performance/Core Web Vitals
 - Separation of Concerns
 - Documentation
-- Accessibility/Semantic HTML
 - Design System/Atomic Design
 - BEM Methodology
 - [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
 - [SEO/Social Media Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- Semantic HTML/Accessibility
+- CSS/Postcss
 - Typescript/Javascript
 - Code Conventions/Linting
 - Debug/Test
