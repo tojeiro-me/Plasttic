@@ -1,6 +1,6 @@
-# v2.1.9 (Jun --, 2023)
+# v2.1.9 (Jun 22, 2023)
 
-- ...
+- Fixed: HTML linting script
 
 ---
 
