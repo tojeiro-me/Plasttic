@@ -3,20 +3,26 @@
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "on"
   },
   "[javascript][typescript]": {
-    "editor.formatOnSave": false
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
@@ -102,8 +108,7 @@
     "nogit",
     "nowrap",
     "tabindex",
-    "truetype",
-    "wesbos"
+    "truetype"
   ],
 
   "cssvar.files": ["./src/assets/css/30_tokens.css"],
@@ -158,5 +163,6 @@
   "todo-tree.general.statusBar": "current file",
 
   "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": false
+  "totalTypeScript.hideBasicTips": false,
+  "vs-code-prettier-eslint.prettierLast": false
 }

@@ -1,4 +1,4 @@
-# v2.1.9 (Jun 22, 2023)
+# v2.1.10 (Jun --, 2023)
 
 - Fixed: HTML linting script
 - Updated: HTML minification script
@@ -13,6 +13,13 @@
 ---
 
 # Releases:
+
+## v2.1.9 (Jun 22, 2023)
+
+- Fixed: HTML linting script
+- Updated: HTML minification script
+
+---
 
 ## v2.1.8 (Jun 22, 2023)
 
