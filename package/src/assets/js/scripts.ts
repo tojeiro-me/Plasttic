@@ -50,7 +50,7 @@ if (footerYear) {
  * </form>
  */
 
-// const form = document.getElementById('footer-year') as HTMLFormElement;
+// const form = document.getElementById('form-name') as HTMLFormElement | null;
 
 // form?.reset();
 
