@@ -12,9 +12,11 @@ A methodology based Front-End development environment.
 
 ---
 
-Plasttic Web Workflow is a methodology based professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Javascript/Typescript, Dev/Build Scripts, File structure, Conventions & Best Practices.
+Plasttic Web Workflow is a methodology based professional Front-End development environment for Websites and Web Apps: HTML and CSS/PostCSS boilerplate, Atomic Design System, Typescript/Javascript, Dev/Build Scripts, File structure, Conventions & Best Practices.
 
-This workflow is not intended to be a framework, but rather a starting point, allowing the developer to implement a methodology that produces accessible, scalable and robust interfaces.
+This workflow is not intended to be a framework, but rather a starting point, allowing the developer to adopt or customize the methodology with the objective of producing accessible, scalable and robust interfaces.
+
+_Note: The files installed are not empty. The reason is that, by creating a template, it's easier to demonstrate the methodology, concepts and conventions, and even building upon the existing code._
 
 ### Related projects:
 
