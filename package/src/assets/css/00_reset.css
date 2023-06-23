@@ -1,5 +1,13 @@
-/* Plasttic v2.1 | MIT License | https://plasttic.dev/ */
-@import "plasttic-reset";
+/**
+  * 00_reset.css
+  *
+  * INDEX
+  * -----
+  *
+  * Customize values from plasttic-reset@2.0 
+  * (global scope)
+  *
+  */
 
 :root {
   --ptt-reset-focus-color: var(--ptt-clr-primary-300);

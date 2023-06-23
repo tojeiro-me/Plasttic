@@ -1,7 +1,7 @@
 # v2.1.10 (Jun --, 2023)
 
 - Added: Zod as devDependency
-- ...
+- Fixed: Build CSS minification (duplicated rules)
 
 ---
 
