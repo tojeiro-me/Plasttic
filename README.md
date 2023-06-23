@@ -92,6 +92,11 @@ npm install
 - Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
 - Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
 
+#### Libraries:
+
+- [TS-Reset](https://github.com/total-typescript/ts-reset#example) (If you wish to disable it, delete the `reset.d.ts` file.)
+- [Zod](https://github.com/colinhacks/zod#installation)
+
 ---
 
 ### Manual Install (Clone):
