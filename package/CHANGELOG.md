@@ -1,7 +1,7 @@
 # v2.1.10 (Jun --, 2023)
 
-- Fixed: HTML linting script
-- Updated: HTML minification script
+- Added: Zod as devDependency
+- ...
 
 ---
 
