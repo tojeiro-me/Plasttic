@@ -32,7 +32,7 @@ const dateCurrent = new Date();
 
 /**
  * Set current year in footer copyright
- * Use: ©2021-<span id="footer-year"></span> Company
+ * Use: ©2021-<span id="footer-year">footerYear</span> Company
  */
 const footerYear = document.getElementById(
   'footer-year'
@@ -56,6 +56,8 @@ if (footerYear) {
 
 /**
  * Copy code to clipboard in code.html
+ * Use: copy code to clipboard on button click
+ * Page: code.html
  */
 const copyCodeBtn = document.getElementById('copy-code-btn');
 
