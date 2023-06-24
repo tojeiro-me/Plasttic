@@ -93,7 +93,7 @@ npm install
 
 - Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
-- :warning: The ESLint VSCode extension isn't working with typescript files (Parsing error:). **<u>Typescript is still linted in the Dev scripts and Husky hooks</u>** and VSCode has builtin support for typescript validation. Suggestion: Use [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false#review-details) (requires some configuration: see [Plasttic VSCode settings](./.vscode/vscode.settings.json))
+- :warning: The ESLint VSCode extension isn't working with typescript files (Parsing error:). **<u>Typescript is still linted in the Dev scripts and Husky hooks</u>** and VSCode has builtin support for typescript validation. Suggestion: Use [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see [Plasttic VSCode settings](./.vscode/vscode.settings.json))
 
 #### Workflow
 
@@ -115,14 +115,20 @@ npm install
 #### Linting
 
 - Prettier
+  - Plugin: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)
   - Files: html, css, js, ts, md, json
-  - Usage:
+  - Usage: Plugin and Scripts
+  - Result: Errors, Warnings and Fix
 - ESLint
+  - Plugin: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) + [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false)
   - Files: html, js, ts
-  - Usage:
-- Stylelint (Plugin)
-  - Files:
-  - Usage:
+  - Usage: Plugin and Scripts
+  - Result: Errors, Warnings and Fix
+- Stylelint
+  - Plugin: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)
+  - Files: css
+  - Usage: Plugin only
+  - Result: Warnings
 
 #### Development with https
 
