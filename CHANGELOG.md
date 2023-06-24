@@ -1,7 +1,9 @@
 # v2.1.10 (Jun --, 2023)
 
-- Fixed: HTML linting script
-- Updated: HTML minification script
+- Added: Zod as devDependency
+- Fixed: Build CSS minification (duplicated rules)
+- Added: [Styleint Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false#review-details)
+- Added: Stylelint config
 
 ---
 

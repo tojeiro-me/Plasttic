@@ -164,5 +164,6 @@
 
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
+
   "vs-code-prettier-eslint.prettierLast": false
 }

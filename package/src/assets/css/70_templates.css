@@ -1,5 +1,3 @@
-/* Plasttic v2.1 | MIT License | https://plasttic.dev/ */
-
 /* --- ORGANISMS --- */
 @import "60_organisms.css";
 
@@ -86,8 +84,7 @@ body.ptt-tpl__temporary {
     * Sections layout settings
     * global, per area or section
     */
-  .ptt-container {
-  }
+  /* .ptt-container {}  */
 
   /**
     * MAIN NAV
@@ -250,8 +247,7 @@ body.ptt-tpl__homepage {
     * Sections layout settings
     * global, per area or section
     */
-  .ptt-container {
-  }
+  /* .ptt-container {}  */
 
   /**
     * FOOTER

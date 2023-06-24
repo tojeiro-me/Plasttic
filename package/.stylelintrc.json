@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-recommended"],
+  "defaultSeverity": "warning",
+  "ignoreFiles": [
+    "dev/assets/css/*.css",
+    "dist/assets/css/*.css",
+    "package/src/assets/css/*.css"
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "property-no-vendor-prefix": null,
+    "at-rule-no-unknown": null,
+    "no-duplicate-selectors": null,
+    "no-descending-specificity": null
+  }
+}
