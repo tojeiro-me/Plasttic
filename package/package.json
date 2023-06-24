@@ -148,7 +148,9 @@
   },
   "devDependencies": {
     "lighthouse": "^10.3.0",
+    "postcss-html": "^1.5.0",
     "stylelint": "^15.9.0",
+    "stylelint-config-html": "^1.1.0",
     "stylelint-config-recommended": "^12.0.0",
     "stylelint-order": "^6.0.3",
     "zod": "^3.21.4"
