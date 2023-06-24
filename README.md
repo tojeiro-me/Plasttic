@@ -146,7 +146,7 @@ npm install
 ---
 
 - File Comments
-- Check [docs](./docs) folder :construction:
+- Check [docs](./docs/) folder :construction:
 - Documentation website (Soon!)
 
 _Please check the [CHANGELOG](/CHANGELOG.md) for major or breaking changes_
