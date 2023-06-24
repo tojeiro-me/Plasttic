@@ -11,7 +11,7 @@
 
   _\*Note: avoid naming collisions and provide context_
 
-## properties order
+## Properties order
 
 ---
 

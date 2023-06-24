@@ -8,6 +8,12 @@ A methodology based Front-End development environment.
 
 ---
 
+## Index
+
+1. About
+
+---
+
 ## About
 
 ---
@@ -85,6 +91,19 @@ npm install
 
 - Search for "TODO:" in comments, relative to info that needs to be changed or checked. After, change it to "DONE:". If using VS Code, use the [Todo Tree extension](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) or [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 - If .##gitignore## exists, rename it to .gitignore and customize to your project info.
+- _Note: The files installed are not empty. The reason is that, by creating a template, it's easier to demonstrate the methodology, concepts and conventions, and even building upon the existing code._
+
+#### Linting:
+
+- Prettier
+  - Files:
+  - Usage:
+- ESLint
+  - Files:
+  - Usage:
+- Stylelint
+  - Files:
+  - Usage:
 
 #### Development with https:
 
