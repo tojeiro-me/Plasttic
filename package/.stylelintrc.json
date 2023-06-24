@@ -2,6 +2,8 @@
   "extends": ["stylelint-config-recommended"],
   "rules": {
     "selector-class-pattern": null,
-    "property-no-vendor-prefix": null
+    "property-no-vendor-prefix": null,
+    "at-rule-no-unknown": null,
+    "no-duplicate-selectors": null
   }
 }

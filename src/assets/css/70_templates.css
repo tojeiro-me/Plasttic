@@ -84,8 +84,10 @@ body.ptt-tpl__temporary {
     * Sections layout settings
     * global, per area or section
     */
+  /* 
   .ptt-container {
-  }
+  } 
+  */
 
   /**
     * MAIN NAV
@@ -248,8 +250,10 @@ body.ptt-tpl__homepage {
     * Sections layout settings
     * global, per area or section
     */
+  /* 
   .ptt-container {
-  }
+  } 
+  */
 
   /**
     * FOOTER
