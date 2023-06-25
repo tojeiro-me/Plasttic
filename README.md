@@ -130,7 +130,7 @@ npm install
   - Config: [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)
 - Stylelint
   - Plugin: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)
-  - Files: css
+  - Files: css, html
   - Usage: Plugin only
   - Result: Warnings
   - Config: [.stylelintrc.json](./.stylelintrc.json)
