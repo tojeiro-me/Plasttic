@@ -4,6 +4,7 @@
 - Fixed: Build CSS minification (duplicated rules)
 - Added: [Styleint Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false#review-details)
 - Added: Stylelint config
+- Updated: postcss config files
 
 ---
 

@@ -27,11 +27,12 @@
   */
 body {
   /* see 30_tokens.css */
-  background: var(--ptt-clr-bkg-body);
+
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-weight: var(--ptt-fnt-weight-body);
   font-size: var(--ptt-fnt-size-body);
+  background: var(--ptt-clr-bkg-body);
 }
 
 /**
