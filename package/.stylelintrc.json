@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-recommended", "stylelint-config-html"],
-
+  "plugins": ["stylelint-order"],
   "defaultSeverity": "warning",
   "ignoreFiles": [
     "dev/assets/css/*.css",
