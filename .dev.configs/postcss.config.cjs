@@ -14,7 +14,6 @@ module.exports = {
     require('postcss-discard-empty'),
     require('postcss-merge-rules'),
     require('@csstools/postcss-progressive-custom-properties'),
-    require('postcss-sorting'),
-    require('postcss-html')
+    require('postcss-sorting')
   ],
 };
