@@ -71,6 +71,7 @@
   }
 
   img {
+    /* stylelint-disable-next-line declaration-no-important */
     max-width: 100% !important;
     float: left;
     margin: 1.5em 1.5em 1.5em 0;
@@ -96,6 +97,7 @@
   nav,
   aside,
   footer {
+    /* stylelint-disable-next-line declaration-no-important */
     display: none !important;
   }
 
@@ -108,11 +110,13 @@
   /* TODO: Control printed sections */
 
   .ptt-u-print-no {
+    /* stylelint-disable-next-line declaration-no-important */
     display: none !important;
   }
 
   .ptt-u-print-only {
     /* unhide print only sections */
+    /* stylelint-disable-next-line declaration-no-important */
     display: unset !important;
   }
 }
