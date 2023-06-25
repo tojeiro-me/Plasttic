@@ -40,7 +40,7 @@
     "alpha-value-notation": "number",
     "declaration-block-no-redundant-longhand-properties": null,
     "function-name-case": "lower",
-    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-duplicate-properties": null,
     "block-no-empty": true,
     "declaration-block-single-line-max-declarations": 0,
     "selector-no-qualifying-type": null
@@ -68,10 +68,12 @@
     [
       {
         "groupName": "Content",
+        "emptyLineBefore": "always",
         "properties": ["content"]
       },
       {
         "groupName": "Display",
+        "emptyLineBefore": "always",
         "properties": [
           "display",
           "grid",
@@ -113,6 +115,7 @@
       },
       {
         "groupName": "Box model",
+        "emptyLineBefore": "always",
         "properties": [
           "box-sizing",
           "width",
@@ -143,6 +146,7 @@
       },
       {
         "groupName": "Background",
+        "emptyLineBefore": "always",
         "properties": [
           "background",
           "background-attachment",
@@ -161,6 +165,7 @@
       },
       {
         "groupName": "Border",
+        "emptyLineBefore": "always",
         "properties": [
           "border",
           "border-top",
@@ -198,6 +203,7 @@
       },
       {
         "groupName": "Position",
+        "emptyLineBefore": "always",
         "properties": [
           "position",
           "top",
@@ -246,6 +252,7 @@
       },
       {
         "groupName": "Transform",
+        "emptyLineBefore": "always",
         "properties": [
           "opacity",
           "filter",
@@ -260,6 +267,7 @@
       },
       {
         "groupName": "Animation",
+        "emptyLineBefore": "always",
         "properties": [
           "transition",
           "transition-delay",
@@ -279,10 +287,12 @@
       },
       {
         "groupName": "Interface",
+        "emptyLineBefore": "always",
         "properties": ["cursor", "speak", "speak-as", "touch-action"]
       },
       {
         "groupName": "Others",
+        "emptyLineBefore": "always",
         "properties": []
       }
     ],
