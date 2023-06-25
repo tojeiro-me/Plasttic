@@ -16,36 +16,33 @@
   "rules": {
     "selector-class-pattern": null,
     "property-no-vendor-prefix": null,
-    "at-rule-no-unknown": null,
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["mixin", "define-mixin"]
+      }
+    ],
     "no-duplicate-selectors": null,
     "no-descending-specificity": null,
-    "max-nesting-depth": 3,
+    "max-nesting-depth": 4,
     "function-url-quotes": null,
     "declaration-no-important": true,
-
     "at-rule-empty-line-before": null,
-    "rule-empty-line-before": "always",
+    "rule-empty-line-before": null,
     "declaration-empty-line-before": null,
     "comment-empty-line-before": null,
     "function-calc-no-unspaced-operator": true,
-    "declaration-colon-newline-after": null,
-    "value-no-vendor-prefix": null,
     "selector-no-vendor-prefix": null,
-    "value-keyword-case": null,
-    "color-function-notation": null,
+    "value-keyword-case": "lower",
+    "color-function-notation": "modern",
     "color-named": "never",
-    "color-hex-length": "short",
+    "color-hex-length": "long",
     "alpha-value-notation": "number",
-    "declaration-block-no-redundant-longhand-properties": [
-      true,
-      { "ignoreShorthands": ["transition"] }
-    ],
-    "function-name-case": null,
-    "at-rule-disallowed-list": ["debug"],
+    "declaration-block-no-redundant-longhand-properties": null,
+    "function-name-case": "lower",
     "declaration-block-no-duplicate-properties": true,
     "block-no-empty": true,
-
     "declaration-block-single-line-max-declarations": 0,
-    "selector-no-qualifying-type": [true, { "ignore": ["attribute"] }]
+    "selector-no-qualifying-type": null
   }
 }

@@ -16,7 +16,7 @@
   }
 
   body {
-    color: #000;
+    color: #000000;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 12pt;
     font-weight: normal;
@@ -50,7 +50,7 @@
 
   a:link,
   a:visited {
-    color: #000;
+    color: #000000;
     text-decoration: underline;
   }
 
