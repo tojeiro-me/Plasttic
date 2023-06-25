@@ -4,7 +4,7 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["**/*.css", "**/*.scss", "**/*.html"],
+      "files": ["../src/assets/css/*.css", "../src/*.html", "../src/**/*.html"],
       "options": {
         "singleQuote": false
       }
