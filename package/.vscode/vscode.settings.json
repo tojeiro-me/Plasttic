@@ -148,7 +148,7 @@
   "projectManager.tags": ["Project", "Work", "Archive"],
   "projectManager.confirmSwitchOnActiveWindow": "always",
 
-  "stylelint.validate": ["html"],
+  "stylelint.validate": ["css", "postcss", "html"],
 
   "todo-tree.general.enableFileWatcher": true,
   "todo-tree.general.tagGroups": {},

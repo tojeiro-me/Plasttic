@@ -1,13 +1,12 @@
 module.exports = {
   plugins: [
     require('postcss-import')({ path: 'src/assets/css' }),
+    require('postcss-sorting'),
     require('postcss-preset-env')({ 
       stage: 2,
       features: {
         'nesting-rules': false }
       }),
-    require('postcss-custom-properties'),
-    require('postcss-custom-media'),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
     require('postcss-nested'),
