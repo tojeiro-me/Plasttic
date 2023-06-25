@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     require('postcss-import')({ path: 'src/assets/css' }),
+    require('postcss-sorting'),
     require('postcss-preset-env')({ 
       stage: 2,
       features: {
@@ -13,7 +14,6 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-discard-empty'),
     require('postcss-merge-rules'),
-    require('@csstools/postcss-progressive-custom-properties'),
-    require('postcss-sorting')
+    require('@csstools/postcss-progressive-custom-properties')
   ],
 };
