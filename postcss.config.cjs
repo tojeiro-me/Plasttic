@@ -6,7 +6,6 @@ module.exports = {
       features: {
         'nesting-rules': false }
       }),
-    require('postcss-custom-properties'),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
     require('postcss-nested'),
