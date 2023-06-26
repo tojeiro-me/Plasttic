@@ -27,24 +27,24 @@
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 300;
   font-style: normal;
+  font-weight: 300;
   src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
   src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto";
-  font-weight: 500;
   font-style: normal;
+  font-weight: 500;
   src: url("/assets/fonts/roboto-latin-500-normal.woff2") format("woff2");
   font-display: swap;
 }
@@ -215,6 +215,7 @@
 
 /* Increase font sizes for desktop */
 @media (--ptt-bkp-md) {
+
   :root {
     --ptt-fnt-size-body: var(--ptt-fnt-size-500);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);

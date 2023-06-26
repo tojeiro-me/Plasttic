@@ -19,7 +19,6 @@
 
   body {
     background: none;
-
     color: #000000;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 12pt;
@@ -43,7 +42,6 @@
 
   h2 {
     margin-top: 25px;
-
     font-size: 14pt;
   }
 
@@ -59,17 +57,20 @@
   }
 
   /* print URLs after link text */
+
   a:link::after,
   a:visited::after {
     content: " (" attr(href) ") ";
   }
 
   /* do not print anchor links */
+
   a[href^="#"]:after {
     content: "";
   }
 
   /* TODO: replace domain name (exclude internal links from the style above) */
+
   a[href^="http"]:not([href*="plasttic.dev"]):after {
     content: " (" attr(href) ")";
   }
