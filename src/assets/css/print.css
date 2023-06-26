@@ -65,7 +65,7 @@
     content: "";
   }
 
-  /* TODO: exclude internal links from the style above */
+  /* TODO: replace domain name (exclude internal links from the style above) */
   a[href^="http"]:not([href*="plasttic.dev"]):after {
     content: " (" attr(href) ")";
   }
