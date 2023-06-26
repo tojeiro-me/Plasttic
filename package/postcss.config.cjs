@@ -1,6 +1,11 @@
 module.exports = {
   plugins: [
     require('postcss-import')({ path: 'src/assets/css' }),
+    require('postcss-preset-env')({ 
+      stage: 2,
+      features: {
+        'nesting-rules': false }
+      }),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
     require('postcss-nested'),
