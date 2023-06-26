@@ -1,4 +1,4 @@
-# v2.1.10 (Jun --, 2023)
+# v2.2.0 (Jun 26, 2023)
 
 - Added: Zod as devDependency
 - Fixed: Build CSS minification (duplicated rules)
@@ -11,6 +11,8 @@
 - Added: Stylelint CSS [order](./docs/css.md)
 - Added: css-order.json in docs
 - Updated: CSS files styles order
+- Updated: README
+- Updated: docs files
 
 ---
 

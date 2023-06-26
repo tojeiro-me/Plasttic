@@ -1,4 +1,4 @@
-// version 2.1.8
+// version 2.2.0
 
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
 require('@rushstack/eslint-patch/modern-module-resolution');

@@ -13,12 +13,6 @@
   as="style"
   href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
 />
-<noscript>
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-  />
-</noscript>
 ```
 
 ```
@@ -31,12 +25,14 @@
 
 - Defer, Async (Javascript files)
 
+_Note: `type=module` is deferred by default_
+
 ```
 <script src="https://unpkg.com/petite-vue" defer></script>
-<script src="assets/js/site/_global.min.js" defer></script>
+<script src="assets/js/scripts.min.js" type="module"></script>
 ```
 
-- Lazy Loading (Images, Youtube) + Async Decode
+- Lazy Loading (Images, Youtube videos) + Async + Decode
 
 ```
 <picture>
@@ -62,16 +58,15 @@
 </picture>
 
 Note: use lazy load on images that are not immediately visible.
-You can use just the <img> code for simplicity.
+The <img> element also has the `srcset` attribute.
 
-Youtube: https://css-tricks.com/lazy-load-embedded-youtube-videos/
-loading="lazy" full support is still limited to Chrome (Oct 2021)
+Youtube lazy loading: https://css-tricks.com/lazy-load-embedded-youtube-videos/
 
-Also check IntersectionObserver
+Also check IntersectionObserver:
 https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/
 https://youtu.be/mC93zsEsSrg
 ```
 
-- Resize images to the max size you will need
+- Resize images to the max size and quality you will need
 - Minification (Code, Images) and Gziping
 - Webp and SVG (use whenever possible)
