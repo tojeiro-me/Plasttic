@@ -6,6 +6,7 @@ module.exports = {
       features: {
         'nesting-rules': false }
       }),
+    require('postcss-custom-properties'),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
     require('postcss-nested'),
@@ -13,7 +14,6 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-discard-empty'),
     require('postcss-merge-rules'),
-    require('@csstools/postcss-progressive-custom-properties'),
     require('cssnano')({ preset: 'default' })
   ],
 };
