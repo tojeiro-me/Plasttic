@@ -72,11 +72,12 @@
 
   /* Interface */
   cursor: pointer;
+  touch-action: pan-x;
 
   /* Other */
-  ...
+  break-before: page;
 
-  /* Uncategorized */ 
+  /* Uncategorized */
   ...
 
   /* Media Queries */

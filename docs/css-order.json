@@ -298,7 +298,7 @@
       ]
     },
     {
-      "groupName": "Others",
+      "groupName": "Other",
       "emptyLineBefore": "always",
       "properties": [
         "break-before",
