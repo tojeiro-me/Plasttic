@@ -6,55 +6,89 @@
 
 ---
 
-- Naming: Prefix `ptt`, [BEM](http://getbem.com)
-- Prefix: HTML/CSS classes `.ptt-form__button--hidden`, CSS root custom properties `--ptt-property-variation`
+- Prefix: `ptt`
+- Naming: HTML/CSS [BEM](http://getbem.com) `.ptt-form__button--hidden`,
+  CSS root custom properties `--ptt-property-variation`
 
-  _\*Note: avoid naming collisions and provide context_
+  _Note: avoid naming collisions (prefix) and provide context (BEM)_
 
 ## Properties order
 
 ---
 
 ```css
-class {
+.ptt-element {
+  /* Custom Properties */
+  --custom-property: 1rem;
+
+  /* Mixins */
+  @mixin mixin-name;
+
+  /* Initial */
+  content: "";
+
   /* Display */
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
 
   /* Box Model */
-  background-color: #fff;
   width: 120px;
   height: 60px;
   margin: 1rem;
   padding: 1em;
-  border: 1px solid #fff;
-  border-radius: 10px;
   box-shadow: 0 0 20px hsl(0 0% 0%);
+
+  /* Background */
+  background-color: #ffffff;
+
+  /* Border */
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  outline: 1px;
 
   /* Positioning */
   position: absolute;
-  left: 1rem;
   top: 1rem;
   right: 1rem;
   bottom: 1rem;
   z-index: -1;
 
   /* Typography */
+  color: #000;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1rem;
-  color: #000;
   text-align: center;
+  list-style: none;
 
   /* Transform */
-  scale: 2;
-  filter: blur(3rem);
   opacity: 0.5;
-}
+  filter: blur(3rem);
+  scale: 2;
 
-class::after {
-  content: "";
-  /* other properties */
+  /* Animation */
+  transition: all 0.5s ease-out;
+
+  /* Interface */
+  cursor: pointer;
+
+  /* Other */
+  ...
+
+  /* Uncategorized */ 
+  ...
+
+  /* Media Queries */
+  @media (--ptt-bkp-md) {
+    /* properties */
+  }
+
+  /* Nested Rules */
+  .ptt-element__button {
+    /* properties */
+  }
 }
 ```
+
+see all properties: [css-order](/docs/css-order.json)

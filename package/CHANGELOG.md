@@ -8,6 +8,8 @@
 - Updated: dependencies
 - Added: css lint script
 - Updated: NPM scripts
+- Added: Stylelint CSS [order](./docs/css.md)
+- Added: css-order.json in docs
 
 ---
 
