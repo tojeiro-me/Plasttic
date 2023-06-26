@@ -70,6 +70,10 @@
   /* Animation */
   transition: all 0.5s ease-out;
 
+  /* SVG */
+  fill: hsl(32 100% 59%);
+  stroke: hsl(32 100% 59%);
+
   /* Interface */
   cursor: pointer;
   touch-action: pan-x;
