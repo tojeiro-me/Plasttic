@@ -3,7 +3,7 @@
     {
       "groupName": "Initial",
       "emptyLineBefore": "always",
-      "properties": ["content", "all"]
+      "properties": ["composes", "all", "content"]
     },
     {
       "groupName": "Display",
