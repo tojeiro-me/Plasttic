@@ -1,6 +1,6 @@
 # v2.2.1 (Jun --, 2023)
 
-- ...
+- Updated: PostCSS config
 
 ---
 
