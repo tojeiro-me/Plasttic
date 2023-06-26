@@ -131,8 +131,8 @@ npm install
 - Stylelint
   - Plugin: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)
   - Files: css, html
-  - Usage: Plugin only
-  - Result: Warnings
+  - Usage: Plugin and Scripts
+  - Result: Warnings, Limited fixes and Styles order
   - Config: [.stylelintrc.json](./.stylelintrc.json)
 
 #### Development with https
