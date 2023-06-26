@@ -6,6 +6,8 @@
 - Added: Stylelint config
 - Updated: postcss config files
 - Updated: dependencies
+- Added: css lint script
+- Updated: NPM scripts
 
 ---
 
