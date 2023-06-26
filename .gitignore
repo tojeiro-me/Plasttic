@@ -31,3 +31,5 @@ archive/
 **/NOTES.md
 docs/*.tree
 src/boilerplate/
+
+lib/

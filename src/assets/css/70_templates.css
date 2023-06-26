@@ -16,23 +16,18 @@
    Templates
    ========================================================================== */
 
-/* Global (Styling across templates)
+/* GLOBAL STYLES (Styling across templates)
    About: Prevent defining the same styling in every template. 
    Can be overwritten when needed.
    ========================================================================== */
 
-/**
-  * DEFAULT STYLING
-  * Default template global values
-  */
 body {
-  /* see 30_tokens.css */
+  background: var(--ptt-clr-bkg-body);
 
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
-  font-weight: var(--ptt-fnt-weight-body);
   font-size: var(--ptt-fnt-size-body);
-  background: var(--ptt-clr-bkg-body);
+  font-weight: var(--ptt-fnt-weight-body);
 }
 
 /**
@@ -56,12 +51,10 @@ body {
 /* Temporary (Splash Page, Error Page, Under Construction, ...)
    ========================================================================== */
 
+/* see GLOBAL STYLES for global defaults */
 body.ptt-tpl__temporary {
-  /**
-    * DEFAULT STYLING
-    * Default template global values
-    */
   display: grid;
+
   text-align: center;
   @media (--ptt-bkp-md) {
     text-align: left;
@@ -128,8 +121,9 @@ body.ptt-tpl__temporary {
   .ptt-message {
     .ptt-message__image {
       grid-area: image;
-      justify-self: center;
+
       width: 50%;
+      justify-self: center;
       @media (--ptt-bkp-md) {
         width: 50vh;
         justify-self: right;
@@ -143,11 +137,13 @@ body.ptt-tpl__temporary {
 
     .ptt-message__header {
       grid-area: title;
-      justify-self: center;
+
       margin-bottom: 0;
+
       color: var(--ptt-clr-neutral-700);
       font-size: 4rem;
       line-height: var(--ptt-txt-line-height-100);
+      justify-self: center;
       overflow-wrap: normal;
       @media (--ptt-bkp-md) {
         font-size: clamp(4rem, 8vw + 2rem, 10rem);
@@ -156,18 +152,21 @@ body.ptt-tpl__temporary {
 
     .ptt-message__text {
       grid-area: message;
+
       max-width: 45ch;
       justify-self: center;
       @media (--ptt-bkp-md) {
         margin-left: 1.5rem;
-        justify-self: left;
+
         font-size: var(--ptt-fnt-size-500);
+        justify-self: left;
       }
       ul {
         margin-left: 2rem;
         padding-top: var(--ptt-padding-700);
-        list-style: disc;
+
         text-align: left;
+        list-style: disc;
         @media (--ptt-bkp-md) {
           margin-left: 2.5rem;
         }
@@ -179,6 +178,7 @@ body.ptt-tpl__temporary {
 
     .ptt-message__cta {
       grid-area: cta;
+
       margin-top: 1.5rem;
       justify-self: center;
       @media (--ptt-bkp-md) {
@@ -196,22 +196,26 @@ body.ptt-tpl__temporary {
     */
   .ptt-footer {
     padding-bottom: var(--ptt-padding-900);
+
     font-size: var(--ptt-fnt-size-footer);
     .ptt-footer__credit {
       display: flex;
-      margin-top: var(--ptt-margin-400);
       justify-content: center;
+
+      margin-top: var(--ptt-margin-400);
     }
     .ptt-footer__social {
       display: flex;
       flex-direction: row;
-      gap: 1em;
       justify-content: center;
+      gap: 1em;
+
       margin-top: var(--ptt-margin-400);
       & img {
+        display: block;
+
         height: 20px;
         aspect-ratio: 1/1;
-        display: block;
         @media (--ptt-bkp-md) {
           height: 24px;
         }
@@ -223,13 +227,8 @@ body.ptt-tpl__temporary {
 /* Homepage (Single Page Template)
    ========================================================================== */
 
+/* see GLOBAL STYLES for global defaults */
 body.ptt-tpl__homepage {
-  /**
-    * DEFAULT STYLING
-    * Default template global values
-    * see body { } for global defaults
-    */
-
   /**
     * WRAPPER
     * Main layout definition
