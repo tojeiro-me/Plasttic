@@ -71,7 +71,7 @@
     "order/properties-order": [
       [
         {
-          "groupName": "Content",
+          "groupName": "Initial",
           "emptyLineBefore": "always",
           "properties": ["content"]
         },

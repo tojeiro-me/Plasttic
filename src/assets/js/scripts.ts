@@ -1,7 +1,10 @@
 /* @license Plasttic v2.1 | MIT License | https://plasttic.dev/ */
 
+/* DO NOT DELETE OR RENAME */
+/* scripts.ts or scripts.js must exist */
+
 /**
- * main.js
+ * scripts.ts/js
  *
  * Global scripts
  * This are utility scripts that can be used across projects
@@ -62,7 +65,7 @@ if (footerYear) {
 const copyCodeBtn = document.getElementById('copy-code-btn');
 
 if (copyCodeBtn) {
-  import('./modules/plasttic.js').then(({ copyCodeToClipboard }) => {
+  import('./modules/module.js').then(({ copyCodeToClipboard }) => {
     copyCodeToClipboard(copyCodeBtn);
   });
 }

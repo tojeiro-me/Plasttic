@@ -62,7 +62,7 @@
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet",
     "lint:html": "npx eslint src/**/*.html --fix && stylelint src/*.html --fix && prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --loglevel silent",
-    "lint:js": "npx eslint src/assets/js/*.* src/assets/js/modules/*.* --fix",
+    "lint:js": "npx eslint src/assets/js/*.* src/assets/js/**/*.* --ignore-pattern src/assets/js/vendor/* --fix --quiet",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
     "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync",
     "start:dev:ssl": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync:ssl",
