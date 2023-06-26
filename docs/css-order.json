@@ -39,7 +39,6 @@
         "row-gap",
         "column-gap",
         "place-content",
-
         "align-content",
         "justify-content",
         "place-items",
@@ -48,12 +47,21 @@
         "place-self",
         "align-self",
         "justify-self",
-
         "order",
         "vertical-align",
         "table-layout",
         "caption-side",
-        "empty-cells"
+        "empty-cells",
+        "columns",
+        "column-span",
+        "column-width",
+        "column-count",
+        "column-fill",
+        "column-gap",
+        "column-rule",
+        "column-rule-width",
+        "column-rule-style",
+        "column-rule-color"
       ]
     },
     {
@@ -85,9 +93,16 @@
         "overflow-x",
         "overflow-y",
         "overflow-scrolling",
+        "object-fit",
+        "object-position",
         "clip-path",
         "visibility",
+        "resize",
         "box-shadow",
+        "box-decoration-break",
+        "-webkit-box-decoration-break",
+        "counter-increment",
+        "counter-reset",
         "clear",
         "float"
       ]
@@ -218,12 +233,17 @@
         "word-spacing",
         "word-break",
         "word-wrap",
+        "overflow-wrap",
         "writing-mode",
         "quotes",
+        "tab-size",
+        "hyphens",
         "list-style",
         "list-style-position",
         "list-style-type",
-        "list-style-image"
+        "list-style-image",
+        "unicode-bidi",
+        "direction"
       ]
     },
     {
@@ -238,7 +258,9 @@
         "transform",
         "transform-box",
         "transform-origin",
-        "transform-style"
+        "transform-style",
+        "fill",
+        "stroke"
       ]
     },
     {
@@ -278,7 +300,13 @@
     {
       "groupName": "Others",
       "emptyLineBefore": "always",
-      "properties": []
+      "properties": [
+        "break-before",
+        "break-inside",
+        "break-after",
+        "orphans",
+        "widows"
+      ]
     }
   ],
   { "unspecified": "bottom" }
