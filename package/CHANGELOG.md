@@ -10,6 +10,7 @@
 - Updated: NPM scripts
 - Added: Stylelint CSS [order](./docs/css.md)
 - Added: css-order.json in docs
+- Updated: CSS files styles order
 
 ---
 

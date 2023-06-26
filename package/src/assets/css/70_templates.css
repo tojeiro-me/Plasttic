@@ -23,7 +23,6 @@
 
 body {
   background: var(--ptt-clr-bkg-body);
-
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-size: var(--ptt-fnt-size-body);
@@ -34,6 +33,7 @@ body {
   * WRAPPER
   * Main layout definition
   */
+
 .ptt-wrapper {
   margin-block: max(2vw, 1rem);
 }
@@ -43,6 +43,7 @@ body {
   * Sections layout settings
   * global, per area or section
   */
+
 .ptt-container {
   width: min(100% - 2rem, 75rem);
   margin-inline: auto;
@@ -52,9 +53,9 @@ body {
    ========================================================================== */
 
 /* see GLOBAL STYLES for global defaults */
+
 body.ptt-tpl__temporary {
   display: grid;
-
   text-align: center;
   @media (--ptt-bkp-md) {
     text-align: left;
@@ -64,6 +65,7 @@ body.ptt-tpl__temporary {
     * WRAPPER
     * Main layout definition
     */
+
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
@@ -84,11 +86,14 @@ body.ptt-tpl__temporary {
     * MAIN NAV
     * Area
     */
+
   .ptt-nav {
+
     .ptt-container {
       display: flex;
       justify-content: left;
     }
+
     .ptt-nav__logo {
       @mixin main-nav-logo-dyn;
     }
@@ -98,6 +103,7 @@ body.ptt-tpl__temporary {
     * MESSAGE
     * Section
     */
+
   .ptt-message .ptt-container {
     display: grid;
     grid-template-areas:
@@ -119,15 +125,16 @@ body.ptt-tpl__temporary {
   }
 
   .ptt-message {
+
     .ptt-message__image {
       grid-area: image;
-
-      width: 50%;
       justify-self: center;
+      width: 50%;
       @media (--ptt-bkp-md) {
-        width: 50vh;
         justify-self: right;
+        width: 50vh;
       }
+
       & img {
         width: 100%;
         aspect-ratio: 1/1;
@@ -137,13 +144,11 @@ body.ptt-tpl__temporary {
 
     .ptt-message__header {
       grid-area: title;
-
+      justify-self: center;
       margin-bottom: 0;
-
       color: var(--ptt-clr-neutral-700);
       font-size: 4rem;
       line-height: var(--ptt-txt-line-height-100);
-      justify-self: center;
       overflow-wrap: normal;
       @media (--ptt-bkp-md) {
         font-size: clamp(4rem, 8vw + 2rem, 10rem);
@@ -152,25 +157,24 @@ body.ptt-tpl__temporary {
 
     .ptt-message__text {
       grid-area: message;
-
-      max-width: 45ch;
       justify-self: center;
+      max-width: 45ch;
       @media (--ptt-bkp-md) {
-        margin-left: 1.5rem;
-
-        font-size: var(--ptt-fnt-size-500);
         justify-self: left;
+        margin-left: 1.5rem;
+        font-size: var(--ptt-fnt-size-500);
       }
+
       ul {
         margin-left: 2rem;
         padding-top: var(--ptt-padding-700);
-
         text-align: left;
         list-style: disc;
         @media (--ptt-bkp-md) {
           margin-left: 2.5rem;
         }
       }
+
       li {
         padding-top: var(--ptt-padding-200);
       }
@@ -178,13 +182,13 @@ body.ptt-tpl__temporary {
 
     .ptt-message__cta {
       grid-area: cta;
-
-      margin-top: 1.5rem;
       justify-self: center;
+      margin-top: 1.5rem;
       @media (--ptt-bkp-md) {
-        margin-left: 1rem;
         justify-self: left;
+        margin-left: 1rem;
       }
+
       a {
         @mixin link-button-xl;
       }
@@ -194,26 +198,27 @@ body.ptt-tpl__temporary {
     * FOOTER
     * Area
     */
+
   .ptt-footer {
     padding-bottom: var(--ptt-padding-900);
-
     font-size: var(--ptt-fnt-size-footer);
+
     .ptt-footer__credit {
       display: flex;
       justify-content: center;
-
       margin-top: var(--ptt-margin-400);
     }
+
     .ptt-footer__social {
       display: flex;
       flex-direction: row;
-      justify-content: center;
       gap: 1em;
+      justify-content: center;
 
       margin-top: var(--ptt-margin-400);
+
       & img {
         display: block;
-
         height: 20px;
         aspect-ratio: 1/1;
         @media (--ptt-bkp-md) {
@@ -228,11 +233,13 @@ body.ptt-tpl__temporary {
    ========================================================================== */
 
 /* see GLOBAL STYLES for global defaults */
+
 body.ptt-tpl__homepage {
   /**
     * WRAPPER
     * Main layout definition
     */
+
   .ptt-wrapper {
     display: grid;
     grid-template-areas:
@@ -253,6 +260,7 @@ body.ptt-tpl__homepage {
     * FOOTER
     * Area
     */
+
   .ptt-footer {
     font-size: var(--ptt-fnt-size-footer);
   }
