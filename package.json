@@ -60,6 +60,7 @@
     "del:js": "del ./$npm_config_dest/assets/js/* && del ./.plasttic/js/* && npm run dev:copy:js",
     "del:private": "del ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
     "lint:commit": "npx lint-staged --allow-empty",
+    "lint:css": "npx stylelint src/assets/css/*.css --fix",
     "lint:html": "npx eslint src/**/*.html --fix && stylelint src/*.html --fix && prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html",
     "lint:js": "npx eslint src/assets/js/*.* src/assets/js/modules/*.* --fix",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output",
@@ -159,6 +160,5 @@
     "extends": [
       "./.eslintrc.cjs"
     ]
-  },
-  "postcssSortingConfig": {}
+  }
 }

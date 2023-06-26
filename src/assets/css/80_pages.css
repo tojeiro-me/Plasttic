@@ -45,14 +45,17 @@ body.ptt-page__code {
 
   .ptt-message__code {
     grid-area: message;
-    border: var(--ptt-clr-neutral-200) solid 2px;
-    padding: var(--ptt-padding-400);
+
     max-height: 30vh;
+    padding: var(--ptt-padding-400);
     overflow: auto;
+
+    border: var(--ptt-clr-neutral-200) solid 2px;
+
     color: var(--ptt-clr-primary-400);
     font-size: var(--ptt-fnt-size-100);
-    text-align: left;
     white-space: pre;
+    text-align: left;
     @media (--ptt-bkp-md) {
       max-width: 65vw;
       margin-left: var(--ptt-margin-600);
