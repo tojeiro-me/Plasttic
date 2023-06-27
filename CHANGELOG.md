@@ -1,6 +1,6 @@
 # v2.2.2 (Jun --, 2023)
 
-- ...
+- Added: postcss-purgecss
 
 ---
 
