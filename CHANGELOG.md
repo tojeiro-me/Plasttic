@@ -1,6 +1,8 @@
 # v2.2.2 (Jun --, 2023)
 
 - Added: postcss-purgecss
+- Added: Prettier rules in Stylelint
+- Added: ESLint and Stylelint format on save
 
 ---
 
