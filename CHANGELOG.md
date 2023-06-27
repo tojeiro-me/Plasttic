@@ -4,7 +4,7 @@
 
 ---
 
-- Review templates/ pages :construction:
+- Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:
 - Single Page template
