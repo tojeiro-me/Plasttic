@@ -37,7 +37,6 @@
     "dev": "npm run start:dev --dest=dev",
     "dev:ssl": "npm run start:dev:ssl --dest=dev",
     "build": "npm run start:build --dest=dist && chalk green bold 'SUCCESS!' && chalk -t '{visible > Production files on: {bold.magenta dist}}'",
-    "commit:package": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" package",
     "copy:assets": "copyfiles -u 1 -a ./src/assets/*.* $npm_config_dest",
     "dev:copy:css": "npm run lint:css && postcss --config ./.dev.configs/ src/assets/css/styles.css --no-map -o dev/assets/css/styles.min.css && postcss --config ./.dev.configs/ src/assets/css/print.css --no-map -o dev/assets/css/print.min.css",
     "build:copy:css": "npm run lint:css && postcss src/assets/css/styles.css --no-map -o dist/assets/css/styles.min.css && postcss src/assets/css/print.css --no-map -o dist/assets/css/print.min.css",
@@ -59,11 +58,13 @@
     "del:img": "del ./$npm_config_dest/assets/img/* && ./$npm_config_dest/assets/img/**/* && ./$npm_config_dest/assets/img/**/**/* && npm run copy:img",
     "del:js": "del ./$npm_config_dest/assets/js/* && del ./.plasttic/js/* && npm run dev:copy:js",
     "del:private": "del ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
+    "husky": "husky install",
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet",
     "lint:html": "npx eslint src/**/*.html --fix && stylelint src/*.html --fix && prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --loglevel silent",
     "lint:js": "npx eslint src/assets/js/*.* src/assets/js/**/*.* --ignore-pattern src/assets/js/vendor/* --fix --quiet",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
+    "package:commit": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources|test)/**/*\" package/src && copyfiles -u 1 -a -e ./**/*-nogit* \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md -e ./*-nogit* \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" package",
     "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync",
     "start:dev:ssl": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync:ssl",
     "start:build": "npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:build:copy:js",
@@ -78,8 +79,7 @@
     "watch:img": "onchange -d 1000 'src/assets/img/*' 'src/assets/img/**/*' 'src/assets/img/**/**/*' -- npm run del:img",
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
-    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run del:js",
-    "husky": "husky install"
+    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run del:js"
   },
   "dependencies": {
     "@babel/core": "^7.22.5",

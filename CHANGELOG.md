@@ -1,8 +1,9 @@
-# v2.2.1 (Jun --, 2023)
+# v2.2.1 (Jun 27, 2023)
 
 - Updated: PostCSS config
-- Added: Husky install script
+- Added(Fix): Husky install script
 - Updated: README Start
+- Updated: NPM scripts
 
 ---
 
