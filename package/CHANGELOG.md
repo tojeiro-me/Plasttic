@@ -1,3 +1,21 @@
+# v2.2.1 (Jun 27, 2023)
+
+- Updated: PostCSS config
+- Added(Fix): Husky install script
+- Updated: README Start
+- Updated: NPM scripts
+
+---
+
+- Review templates/ pages :construction:
+- Atomic Design implementation :construction:
+- NEXT:
+- Single Page template
+
+---
+
+# Releases:
+
 # v2.2.0 (Jun 26, 2023)
 
 - Added: Zod as devDependency
@@ -15,15 +33,6 @@
 - Updated: docs files
 
 ---
-
-- Review templates/ pages :construction:
-- Atomic Design implementation :construction:
-- NEXT:
-- Single Page template
-
----
-
-# Releases:
 
 ## v2.1.9 (Jun 22, 2023)
 

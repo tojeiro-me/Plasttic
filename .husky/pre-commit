@@ -3,5 +3,5 @@
 
 git add -A .
 npm run lint:commit
-npm run commit:package
+npm run package:commit
 git add -A .
