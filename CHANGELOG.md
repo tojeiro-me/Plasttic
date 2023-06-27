@@ -1,9 +1,6 @@
-# v2.2.1 (Jun 27, 2023)
+# v2.2.2 (Jun --, 2023)
 
-- Updated: PostCSS config
-- Added(Fix): Husky install script
-- Updated: README Start
-- Updated: NPM scripts
+- ...
 
 ---
 
@@ -16,7 +13,16 @@
 
 # Releases:
 
-# v2.2.0 (Jun 26, 2023)
+## v2.2.1 (Jun 27, 2023)
+
+- Updated: PostCSS config
+- Added(Fix): Husky install script
+- Updated: README Start
+- Updated: NPM scripts
+
+---
+
+## v2.2.0 (Jun 26, 2023)
 
 - Added: Zod as devDependency
 - Fixed: Build CSS minification (duplicated rules)
