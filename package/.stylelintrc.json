@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-recommended", "stylelint-config-html"],
-  "plugins": ["stylelint-order"],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
   "defaultSeverity": "warning",
   "ignoreFiles": [
     "dev/assets/css/*.css",
@@ -15,6 +15,7 @@
   ],
 
   "rules": {
+    "prettier/prettier": true,
     "selector-class-pattern": null,
     "property-no-vendor-prefix": null,
     "at-rule-no-unknown": [
