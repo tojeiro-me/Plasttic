@@ -67,6 +67,7 @@ _Note: The files installed are not empty. The reason is that, by creating a temp
 - [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
 - [SEO/Social Media HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 - Semantic HTML/Accessibility
+- Progressive Enhancement
 - CSS/Postcss
 - Typescript/Javascript
 - Code Conventions/Linting
