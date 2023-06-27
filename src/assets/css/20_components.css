@@ -1,4 +1,3 @@
-/* --- UTILITY --- */
 @import "10_utility";
 
 /**
@@ -44,7 +43,6 @@
 .ptt-c-hidden-link:focus {
   width: auto;
   height: auto;
-
   position: relative;
   left: auto;
 }

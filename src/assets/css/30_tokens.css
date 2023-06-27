@@ -1,4 +1,3 @@
-/* --- COMPONENTS --- */
 @import "20_components";
 
 /**
@@ -81,7 +80,7 @@
   --ptt-clr-primary-800: hsl(192 41% 20%);
 
   /* Secondary */
-  --ptt-clr-secondary-400: var(---ptt-clr-neutral-800);
+  --ptt-clr-secondary-400: var(--ptt-clr-neutral-800);
 
   /* Complementary */
   --ptt-clr-complement-red-400: hsl(348 68% 42%);
