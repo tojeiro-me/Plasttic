@@ -83,11 +83,13 @@ _Note: The files installed are not empty. The reason is that, by creating a temp
 npx create-plasttic
 cd project-name
 npm install
+npm run husky
 ```
 
 1. Creates a folder with the `project name` you defined
 2. Downloads and installs the latest version of Plasttic Web Workflow
-3. Installs all the project dependencies\*
+3. Installs all the project dependencies
+4. Installs Git hooks (Linting pre-commit)
 
 #### Typescript
 
@@ -160,6 +162,7 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig))_
 - Step 3: Run `cd project-folder-name`
 - Step 4: Rename `.##gitignore##` to `.gitignore`
 - Step 5: Run `npm install` to install the needed dependencies
+- Step 6: Run`npm run husky` to install the Git hooks (Linting pre-commit)
 - Step 6: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
 - Step 7: Run `npm run build` when you are ready to publish \*
 
