@@ -22,6 +22,7 @@
 
 body {
   background: var(--ptt-clr-bkg-body);
+
   color: var(--ptt-clr-neutral-800);
   font-family: var(--ptt-fnt-family-body);
   font-size: var(--ptt-fnt-size-body);
@@ -55,7 +56,9 @@ body {
 
 body.ptt-tpl__temporary {
   display: grid;
+
   text-align: center;
+
   @media (--ptt-bkp-md) {
     text-align: left;
   }
@@ -87,7 +90,6 @@ body.ptt-tpl__temporary {
     */
 
   .ptt-nav {
-
     .ptt-container {
       display: flex;
       justify-content: left;
@@ -111,7 +113,9 @@ body.ptt-tpl__temporary {
       "message"
       "cta";
     gap: var(--ptt-gap-700);
+
     margin-block: min(2vw, 1em);
+
     @media (--ptt-bkp-md) {
       grid-template-areas:
         "title   image"
@@ -119,18 +123,21 @@ body.ptt-tpl__temporary {
         "cta     image";
       grid-template-columns: 1fr 50vh;
       grid-template-rows: auto auto 1fr;
+
       margin-block: 5vh;
     }
   }
 
   .ptt-message {
-
     .ptt-message__image {
       grid-area: image;
       justify-self: center;
+
       width: 50%;
+
       @media (--ptt-bkp-md) {
         justify-self: right;
+
         width: 50vh;
       }
 
@@ -144,11 +151,14 @@ body.ptt-tpl__temporary {
     .ptt-message__header {
       grid-area: title;
       justify-self: center;
+
       margin-bottom: 0;
+
       color: var(--ptt-clr-neutral-700);
       font-size: 4rem;
       line-height: var(--ptt-txt-line-height-100);
       overflow-wrap: normal;
+
       @media (--ptt-bkp-md) {
         font-size: clamp(4rem, 8vw + 2rem, 10rem);
       }
@@ -157,18 +167,24 @@ body.ptt-tpl__temporary {
     .ptt-message__text {
       grid-area: message;
       justify-self: center;
+
       max-width: 45ch;
+
       @media (--ptt-bkp-md) {
         justify-self: left;
+
         margin-left: 1.5rem;
+
         font-size: var(--ptt-fnt-size-500);
       }
 
       ul {
         margin-left: 2rem;
         padding-top: var(--ptt-padding-700);
+
         text-align: left;
         list-style: disc;
+
         @media (--ptt-bkp-md) {
           margin-left: 2.5rem;
         }
@@ -182,9 +198,12 @@ body.ptt-tpl__temporary {
     .ptt-message__cta {
       grid-area: cta;
       justify-self: center;
+
       margin-top: 1.5rem;
+
       @media (--ptt-bkp-md) {
         justify-self: left;
+
         margin-left: 1rem;
       }
 
@@ -200,11 +219,13 @@ body.ptt-tpl__temporary {
 
   .ptt-footer {
     padding-bottom: var(--ptt-padding-900);
+
     font-size: var(--ptt-fnt-size-footer);
 
     .ptt-footer__credit {
       display: flex;
       justify-content: center;
+
       margin-top: var(--ptt-margin-400);
     }
 
@@ -218,8 +239,10 @@ body.ptt-tpl__temporary {
 
       & img {
         display: block;
+
         height: 20px;
         aspect-ratio: 1/1;
+
         @media (--ptt-bkp-md) {
           height: 24px;
         }

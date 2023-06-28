@@ -1,4 +1,5 @@
 /* --- TEMPLATES --- */
+
 @import "70_templates.css";
 
 /**
@@ -37,7 +38,6 @@
    ========================================================================== */
 
 body.ptt-page__code {
-
   .ptt-message .ptt-container {
     @media (--ptt-bkp-md) {
       grid-template-columns: 1fr 30vh;
@@ -46,14 +46,18 @@ body.ptt-page__code {
 
   .ptt-message__code {
     grid-area: message;
+
     max-height: 30vh;
     padding: var(--ptt-padding-400);
     overflow: auto;
+
     border: var(--ptt-clr-neutral-200) solid 2px;
+
     color: var(--ptt-clr-primary-400);
     font-size: var(--ptt-fnt-size-100);
     text-align: left;
     white-space: pre;
+
     @media (--ptt-bkp-md) {
       max-width: 65vw;
       margin-left: var(--ptt-margin-600);

@@ -171,9 +171,13 @@
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
 @custom-media --ptt-bkp-xs (width >= 30rem);
+
 @custom-media --ptt-bkp-sm (width >= 48rem);
+
 @custom-media --ptt-bkp-md (width >= 62rem);
+
 @custom-media --ptt-bkp-lg (width >= 64rem);
+
 @custom-media --ptt-bkp-xl (width >= 75rem);
 
 /* ==========================================================================
@@ -213,8 +217,8 @@
   */
 
 /* Increase font sizes for desktop */
-@media (--ptt-bkp-md) {
 
+@media (--ptt-bkp-md) {
   :root {
     --ptt-fnt-size-body: var(--ptt-fnt-size-500);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);

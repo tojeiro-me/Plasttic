@@ -33,6 +33,7 @@ alt="Plasttic Home" />
 */
 
 /* Dynamic sized Main Nav logo */
+
 @define-mixin main-nav-logo-dyn {
   height: max(5vw, 2.8rem);
   aspect-ratio: 336 / 90;
@@ -112,8 +113,11 @@ alt="Plasttic Home" />
 
 @define-mixin link-button-xl $background: var(--ptt-clr-complement-red-400) {
   padding: var(--ptt-padding-400);
+
   background: $background;
+
   border-radius: var(--ptt-border-radius-400);
+
   color: var(--ptt-clr-neutral-100);
   font-size: var(--ptt-fnt-size-500);
   font-weight: var(--ptt-fnt-weight-bold);
