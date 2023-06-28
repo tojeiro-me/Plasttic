@@ -1,4 +1,4 @@
-@import "20_components";
+/* @import "20_components"; */
 
 /**
   * 30_tokens.css
@@ -31,7 +31,6 @@
   src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -39,7 +38,6 @@
   src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -171,13 +169,9 @@
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
 @custom-media --ptt-bkp-xs (width >= 30rem);
-
 @custom-media --ptt-bkp-sm (width >= 48rem);
-
 @custom-media --ptt-bkp-md (width >= 62rem);
-
 @custom-media --ptt-bkp-lg (width >= 64rem);
-
 @custom-media --ptt-bkp-xl (width >= 75rem);
 
 /* ==========================================================================

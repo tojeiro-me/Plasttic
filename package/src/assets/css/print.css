@@ -19,6 +19,7 @@
 
   body {
     background: none;
+
     color: #000000;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 12pt;
@@ -42,6 +43,7 @@
 
   h2 {
     margin-top: 25px;
+
     font-size: 14pt;
   }
 
@@ -80,6 +82,7 @@
     max-width: 100% !important;
     margin: 1.5em 1.5em 1.5em 0;
     float: left;
+
     break-inside: avoid;
   }
 

@@ -30,7 +30,10 @@
     "max-nesting-depth": 3,
     "function-url-quotes": null,
     "declaration-no-important": true,
-    "at-rule-empty-line-before": ["always", { "except": ["first-nested"] }],
+    "at-rule-empty-line-before": [
+      "always",
+      { "except": ["first-nested", "after-same-name"] }
+    ],
     "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
     "declaration-empty-line-before": null,
     "comment-empty-line-before": null,
