@@ -13,6 +13,10 @@ module.exports = {
     require('autoprefixer'),
     require('postcss-discard-empty'),
     require('postcss-merge-rules'),
+    require('@fullhuman/postcss-purgecss')({
+      content: ['./src/*.html', './src/**/*.html']
+    }),
+    require('@csstools/postcss-progressive-custom-properties'),
     require('cssnano')({ preset: 'default' })
   ],
 };

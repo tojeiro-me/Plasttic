@@ -1,10 +1,12 @@
 # v2.2.2 (Jun --, 2023)
 
-- ...
+- Added: postcss-purgecss
+- Added: Prettier rules in Stylelint
+- Added: ESLint and Stylelint format on save
 
 ---
 
-- Review templates/ pages :construction:
+- Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:
 - Single Page template

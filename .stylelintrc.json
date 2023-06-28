@@ -1,6 +1,6 @@
 {
   "extends": ["stylelint-config-recommended", "stylelint-config-html"],
-  "plugins": ["stylelint-order"],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
   "defaultSeverity": "warning",
   "ignoreFiles": [
     "dev/assets/css/*.css",
@@ -15,6 +15,8 @@
   ],
 
   "rules": {
+    "indentation": 2,
+    "prettier/prettier": true,
     "selector-class-pattern": null,
     "property-no-vendor-prefix": null,
     "at-rule-no-unknown": [
@@ -28,8 +30,11 @@
     "max-nesting-depth": 3,
     "function-url-quotes": null,
     "declaration-no-important": true,
-    "at-rule-empty-line-before": null,
-    "rule-empty-line-before": "always",
+    "at-rule-empty-line-before": [
+      "always",
+      { "except": ["first-nested", "after-same-name"] }
+    ],
+    "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
     "declaration-empty-line-before": null,
     "comment-empty-line-before": null,
     "function-calc-no-unspaced-operator": true,
@@ -76,6 +81,7 @@
         },
         {
           "groupName": "Display",
+          "emptyLineBefore": "always",
           "properties": [
             "display",
             "grid",
@@ -145,6 +151,7 @@
         },
         {
           "groupName": "Box model",
+          "emptyLineBefore": "always",
           "properties": [
             "box-sizing",
             "width",
@@ -247,6 +254,7 @@
         },
         {
           "groupName": "Background",
+          "emptyLineBefore": "always",
           "properties": [
             "background",
             "background-attachment",
@@ -265,6 +273,7 @@
         },
         {
           "groupName": "Border",
+          "emptyLineBefore": "always",
           "properties": [
             "border",
             "border-color",
@@ -328,6 +337,7 @@
         },
         {
           "groupName": "Position",
+          "emptyLineBefore": "always",
           "properties": [
             "position",
             "inset",
@@ -347,6 +357,7 @@
         },
         {
           "groupName": "Typography",
+          "emptyLineBefore": "always",
           "properties": [
             "color",
             "font",
@@ -439,6 +450,7 @@
         },
         {
           "groupName": "Transform",
+          "emptyLineBefore": "always",
           "properties": [
             "translate",
             "scale",
@@ -459,6 +471,7 @@
         },
         {
           "groupName": "Animation",
+          "emptyLineBefore": "always",
           "properties": [
             "transition",
             "transition-property",
@@ -484,6 +497,7 @@
         },
         {
           "groupName": "SVG",
+          "emptyLineBefore": "always",
           "properties": [
             "alignment-baseline",
             "baseline-shift",
@@ -530,6 +544,7 @@
         },
         {
           "groupName": "Interface",
+          "emptyLineBefore": "always",
           "properties": [
             "appearance",
             "accent-color",
@@ -550,6 +565,7 @@
         },
         {
           "groupName": "Other",
+          "emptyLineBefore": "always",
           "properties": [
             "break-before",
             "break-inside",

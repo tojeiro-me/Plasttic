@@ -1,5 +1,4 @@
-/* --- COMPONENTS --- */
-@import "20_components";
+/* @import "20_components"; */
 
 /**
   * 30_tokens.css
@@ -32,7 +31,6 @@
   src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -40,7 +38,6 @@
   src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -81,7 +78,7 @@
   --ptt-clr-primary-800: hsl(192 41% 20%);
 
   /* Secondary */
-  --ptt-clr-secondary-400: var(---ptt-clr-neutral-800);
+  --ptt-clr-secondary-400: var(--ptt-clr-neutral-800);
 
   /* Complementary */
   --ptt-clr-complement-red-400: hsl(348 68% 42%);
@@ -214,8 +211,8 @@
   */
 
 /* Increase font sizes for desktop */
-@media (--ptt-bkp-md) {
 
+@media (--ptt-bkp-md) {
   :root {
     --ptt-fnt-size-body: var(--ptt-fnt-size-500);
     --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);

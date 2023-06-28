@@ -8,6 +8,10 @@
       "options": {
         "singleQuote": false
       }
+    },
+    {
+      "files": ["../src/assets/css/*.css"],
+      "options": { "trimTrailingWhitespace": false }
     }
   ],
   "endOfLine": "auto",

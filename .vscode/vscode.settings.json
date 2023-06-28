@@ -1,11 +1,24 @@
 {
   "css.lint.emptyRules": "ignore",
+  "css.validate": false,
+  "postcss.validate": false,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": false
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnSave": false
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -19,10 +32,10 @@
   },
   "[javascript][typescript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": false
   },
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
@@ -130,8 +143,6 @@
     }
   ],
   "githubPullRequests.pullBranch": "never",
-
-  "postcss.validate": false,
 
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
