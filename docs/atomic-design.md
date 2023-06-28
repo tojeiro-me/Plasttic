@@ -1,5 +1,7 @@
 # Atomic Design CSS Structure
 
+“A sturdy, trusty, portable, reliable stylesheet.” - Brad Frost
+
 ---
 
 0.  RESET

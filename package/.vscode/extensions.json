@@ -20,6 +20,15 @@
     "rangav.vscode-thunder-client",
     "mattpocock.ts-error-translator",
     "chakrounanas.turbo-console-log",
-    "rvest.vs-code-prettier-eslint"
+    "rvest.vs-code-prettier-eslint",
+    "jrebocho.vscode-random",
+    "tomoki1207.pdf",
+    "stylelint.vscode-stylelint",
+    "ritwickdey.liveserver",
+    "ms-vscode.vscode-typescript-next",
+    "oderwat.indent-rainbow",
+    "kisstkondoros.vscode-gutter-preview",
+    "pomber.git-file-history",
+    "mitchdenny.ecdc"
   ]
 }
