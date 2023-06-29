@@ -82,15 +82,13 @@ _Note: The files installed are not empty. The reason is that, by creating a temp
 ```
 (cd into your projects folder)
 npx create-plasttic
-cd project-name
-npm install
-npm run husky
+cd <project-name>
+npm run start
 ```
 
 1. Creates a folder with the `project name` you defined
 2. Downloads and installs the latest version of Plasttic Web Workflow
-3. Installs all the project dependencies
-4. Installs Git hooks (Linting pre-commit)
+3. Installs all the project dependencies, Git hooks (Linting pre-commit), Playwright install
 
 #### Typescript
 
@@ -158,14 +156,14 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig))_
 ### Manual Install (Clone)
 
 - Step 1: Copy the repository `git clone https://github.com/tojeiro-me/Plasttic.git`
-  (The project files are inside the `package`folder)
-- Step 2: Move the the contents of the `package` folder into your `project-folder`
-- Step 3: Run `cd project-folder-name`
+- Step 2: Move the the contents of the `package` folder into your `<project-folder>`
+- Step 3: Run `cd <project-folder>`
 - Step 4: Rename `.##gitignore##` to `.gitignore`
 - Step 5: Run `npm install` to install the needed dependencies
 - Step 6: Run`npm run husky` to install the Git hooks (Linting pre-commit)
-- Step 6: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
-- Step 7: Run `npm run build` when you are ready to publish \*
+- Step 7: Run `npm init playwright@latest` to install and initialize Playwright
+- Step 8: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
+- Step 9: Run `npm run build` when you are ready to publish \*
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
