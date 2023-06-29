@@ -29,6 +29,8 @@
     "oderwat.indent-rainbow",
     "kisstkondoros.vscode-gutter-preview",
     "pomber.git-file-history",
-    "mitchdenny.ecdc"
+    "mitchdenny.ecdc",
+    "orta.vscode-jest",
+    "ms-playwright.playwright"
   ]
 }

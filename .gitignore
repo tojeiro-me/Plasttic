@@ -26,10 +26,14 @@ dist/
 
 # project folders and files
 archive/
-**/test/
 **/sources/
 **/NOTES.md
 docs/*.tree
 src/boilerplate/
 
 lib/
+
+# testing
+/test-results/
+/playwright-report/
+/playwright/.cache/
