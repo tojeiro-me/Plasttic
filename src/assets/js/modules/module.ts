@@ -1,4 +1,4 @@
-/* @license Plasttic v2.2 | MIT License | https://plasttic.dev/ */
+/* @license Plasttic v2.3 | MIT License | https://plasttic.dev/ */
 
 /* DO NOT DELETE */
 /* modules folder must contain at least one file (ts/js), empty or not */
