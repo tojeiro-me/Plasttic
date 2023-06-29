@@ -32,9 +32,7 @@
   "include": [
     "./src/assets/js/*.ts",
     "./src/assets/js/modules/*.ts",
-    "./ts-no.ts",
-    "./src/assets/js/reset.d.ts",
-    "./src/assets/js/modules/module.ts"
+    "./ts-no.ts"
   ],
   "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }
