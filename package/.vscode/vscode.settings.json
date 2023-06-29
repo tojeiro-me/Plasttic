@@ -83,6 +83,8 @@
   "markdown.validate.enabled": true,
   "markdown.updateLinksOnFileMove.enabled": "always",
 
+  "playwright.reuseBrowser": false,
+
   "terminal.integrated.automationProfile.windows": null,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
