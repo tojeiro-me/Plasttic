@@ -4,10 +4,11 @@
 - Added: Prettier rules in Stylelint
 - Added: ESLint and Stylelint format on save
 - Updated: VS Code Extensions
-- Added: Installed Jest and Playwright
+- Added: Installed Jest and Playwright :construction:
 
 ---
 
+- Config Jest and Playwright :construction:
 - Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:

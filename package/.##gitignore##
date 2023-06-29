@@ -21,9 +21,14 @@ certs/
 dev/
 dist/
 
-# test folders and files
-archive/
-test/
+# project folders and files
+
 
 # ignore files adding -nogit
 *-nogit*
+
+# testing
+/test-results/
+/playwright-report/
+/playwright/.cache/
+

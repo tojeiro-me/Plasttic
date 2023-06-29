@@ -32,7 +32,8 @@
   "include": [
     "./src/assets/js/*.ts",
     "./src/assets/js/modules/*.ts",
-    "./ts-no.ts"
+    "./ts-no.ts",
+    "./tests/*.ts"
   ],
   "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }

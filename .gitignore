@@ -32,7 +32,8 @@ docs/*.tree
 src/boilerplate/
 
 lib/
-**/test/
+
+# testing
 /test-results/
 /playwright-report/
 /playwright/.cache/
