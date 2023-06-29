@@ -1,4 +1,7 @@
 {
+  "bail": 0,
+  "verbose": true,
+  "roots": ["/tests/jest/"],
   "typeAcquisition": {
     "include": ["jest"]
   }
