@@ -67,9 +67,9 @@
     "lint:js": "npx eslint src/assets/js/*.* src/assets/js/**/*.* --ignore-pattern src/assets/js/vendor/* --fix --quiet",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
     "package:commit": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** !./package/tests/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources)/**/*\" package/src && copyfiles -u 1 -a -e ./**/*-nogit* \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md -e ./*-nogit* \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" package",
-    "start:dev": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync",
-    "start:dev:ssl": "npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync:ssl",
-    "start:build": "npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:build:copy:js",
+    "start:dev": "npm run partytown && npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync",
+    "start:dev:ssl": "npm run partytown && npm run del:dest && concurrently npm:copy:* npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync:ssl",
+    "start:build": "npm run partytown && npm run del:dest && concurrently npm:copy:* npm:build:copy:css npm:build:copy:js",
     "sync": "browser-sync start --port 8000 --no-ui --server dev --files dev",
     "sync:ssl": "browser-sync start --config './browser-sync.cjs' --port 8000 --no-ui --server dev --files dev",
     "watch:assets": "onchange -d 1000 'src/assets/*' -- npm run del:assets",
@@ -81,12 +81,14 @@
     "watch:img": "onchange -d 1000 'src/assets/img/*' 'src/assets/img/**/*' 'src/assets/img/**/**/*' -- npm run del:img",
     "watch:js": "onchange -d 1000 'src/assets/js/**/*.js' -- npm run del:js",
     "watch:private": "onchange -d 1000 'src/private/*' 'src/private/**/*' -- npm run del:private",
-    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run del:js"
+    "watch:ts": "onchange -d 1000 'src/assets/js/**/*.ts' -- npm run del:js",
+    "partytown": "partytown copylib src/~partytown"
   },
   "dependencies": {
     "@babel/core": "^7.22.5",
     "@babel/eslint-parser": "^7.22.5",
     "@babel/types": "^7.22.5",
+    "@builder.io/partytown": "^0.8.0",
     "@csstools/postcss-global-data": "^1.0.3",
     "@csstools/postcss-progressive-custom-properties": "^2.3.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",

@@ -6,9 +6,13 @@
 - Updated: VS Code Extensions
 - Added: Installed Jest and Playwright
 - Updated: Quick Start steps
+- Added: Installed Partytown
 
 ---
 
+- Jest Testing `npm run dev:jest` testing integration :construction:
+- Playwright Testing (integration) :construction:
+- Partytown `npm run partytown` workflow integration :construction:
 - Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:
@@ -31,7 +35,7 @@
 
 - Added: Zod as devDependency
 - Fixed: Build CSS minification (duplicated rules)
-- Added: [Styleint Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false#review-details)
+- Added: [Stylelint Extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false#review-details)
 - Added: Stylelint config
 - Updated: postcss config files
 - Updated: dependencies
