@@ -1,14 +1,14 @@
-# v2.2.2 (Jun --, 2023)
+# v2.3.0 (Jun --, 2023)
 
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
 - Added: ESLint and Stylelint format on save
 - Updated: VS Code Extensions
-- Added: Installed Jest and Playwright :construction:
+- Added: Installed Jest and Playwright
+- Updated: Quick Start steps
 
 ---
 
-- Config Jest and Playwright :construction:
 - Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:
