@@ -34,11 +34,7 @@
     "./src/assets/js/modules/*.ts",
     "./ts-no.ts",
     "./src/assets/js/reset.d.ts",
-    "./src/assets/js/modules/module.ts",
-    "./test",
-    "./src/test",
-    "./.dev.configs/*.ts",
-    "./*.ts"
+    "./src/assets/js/modules/module.ts"
   ],
   "exclude": ["node_modules", "**/node_modules/*", "package/*"]
 }
