@@ -36,6 +36,7 @@
   "scripts": {
     "dev": "npm run start:dev --dest=dev",
     "dev:ssl": "npm run start:dev:ssl --dest=dev",
+    "dev:test": "jest --watchAll --verbose",
     "build": "npm run start:build --dest=dist && chalk green bold 'SUCCESS!' && chalk -t '{visible > Production files on: {bold.magenta dist}}'",
     "copy:assets": "copyfiles -u 1 -a ./src/assets/*.* $npm_config_dest",
     "dev:copy:css": "npm run lint:css && postcss --config ./.dev.configs/ src/assets/css/styles.css --no-map -o dev/assets/css/styles.min.css && postcss --config ./.dev.configs/ src/assets/css/print.css --no-map -o dev/assets/css/print.min.css",
@@ -157,6 +158,9 @@
     "uglify-js": "^3.17.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.35.1",
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
     "lighthouse": "^10.3.0",
     "zod": "^3.21.4"
   },

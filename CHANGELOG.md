@@ -3,6 +3,7 @@
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
 - Added: ESLint and Stylelint format on save
+- Updated: VS Code Extensions
 
 ---
 

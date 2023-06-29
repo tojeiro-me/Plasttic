@@ -23,3 +23,5 @@ browser-sync.*
 manifest.json
 *.snippet
 ts-no.ts
+
+package

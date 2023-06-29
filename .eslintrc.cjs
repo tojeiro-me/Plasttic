@@ -101,7 +101,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/assets/js/**/*.ts'],
+      files: ['*.ts'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
