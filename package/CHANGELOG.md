@@ -11,15 +11,20 @@
 
 ---
 
-- IN PROGRESS:
+##### IN PROGRESS:
+
 - Lighthouse Testing `npm run test:vitals` configuration/testing integration :construction:
 - Jest Testing `npm run test:jest` testing integration :construction:
 - Playwright Testing (integration) :construction:
 - Partytown workflow integration :construction:
-- TODO:
+
+##### TODO:
+
 - Review templates :construction:
 - Atomic Design implementation :construction:
-- NEXT:
+
+##### NEXT:
+
 - Single Page template
 
 ---
