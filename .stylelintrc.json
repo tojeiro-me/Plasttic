@@ -15,7 +15,6 @@
   ],
 
   "rules": {
-    "indentation": 2,
     "prettier/prettier": true,
     "selector-class-pattern": null,
     "property-no-vendor-prefix": null,
