@@ -32,10 +32,10 @@
   },
   "[javascript][typescript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,

@@ -9,12 +9,13 @@
 - Added: Installed Partytown
 - Added: Installed Lighthouse
 - Added: Installed Unlighthouse
+- Updated: ESLint config (including vscode.settings.jason)
 
 ---
 
 ##### IN PROGRESS:
 
-- Unighthouse Testing (configuration/testing integration) :construction:
+- Unlighthouse Testing (configuration/testing integration) :construction:
 - Lighthouse Testing `npm run test:vitals` configuration/testing integration :construction:
 - Jest Testing `npm run test:jest` testing integration :construction:
 - Playwright Testing (integration) :construction:

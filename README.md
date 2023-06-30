@@ -94,7 +94,7 @@ npm run start
 
 - Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
-- :warning: The [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) VSCode extension isn't working with typescript files (Parsing error:). **<u>Typescript is still linted in the Dev scripts and Husky hooks</u>** and VSCode has builtin support for typescript validation. Suggestion: Use [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json))
+- Linting: Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files.
 
 #### Workflow
 
@@ -126,7 +126,7 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig))_
   - Result: Errors, Warnings and Fix
   - Config: [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore)
 - ESLint
-  - Plugin: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) + [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (see [Typescript](#typescript) warning)
+  - Plugin: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript))
   - Files: html, js, ts
   - Usage: Plugin and Scripts
   - Result: Errors, Warnings and Fix
