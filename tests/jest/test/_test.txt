@@ -1,3 +1,4 @@
 test run on the editor/extension
 
-terminal: jest ./tests/jest/test/* --verbose
+terminal: npx jest ./tests/jest/test/* --verbose
+
