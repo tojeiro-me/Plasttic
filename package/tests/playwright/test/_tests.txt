@@ -1,0 +1,2 @@
+test run on the editor/extension:
+npx playwright test ./tests/playwright/test/*"
