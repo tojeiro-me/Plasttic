@@ -92,9 +92,9 @@ npm run start
 
 #### Typescript
 
-- Install Typescript globally `npm install -g typescript` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
+- Install Typescript globally `npm install -g typescript@5.0.4` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
-- Linting: Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files.
+- Linting: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files. :warning: ESLint needs Typescript version 5.0.4
 
 #### Workflow
 
@@ -117,7 +117,7 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 #### Linting
 
-_(Extends the editor CSS rules and [.editorconfig](./.editorconfig))_
+_(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
 - Prettier
   - Plugin: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)
