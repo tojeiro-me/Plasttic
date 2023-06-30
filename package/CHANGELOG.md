@@ -7,12 +7,16 @@
 - Added: Installed Jest and Playwright
 - Updated: Quick Start steps
 - Added: Installed Partytown
+- Added: Installed Lighthouse
 
 ---
 
-- Jest Testing `npm run dev:jest` testing integration :construction:
+- IN PROGRESS:
+- Lighthouse Testing `npm run test:vitals` configuration/testing integration :construction:
+- Jest Testing `npm run test:jest` testing integration :construction:
 - Playwright Testing (integration) :construction:
-- Partytown `npm run partytown` workflow integration :construction:
+- Partytown workflow integration :construction:
+- TODO:
 - Review templates :construction:
 - Atomic Design implementation :construction:
 - NEXT:
