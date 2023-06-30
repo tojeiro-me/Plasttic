@@ -1,3 +1,0 @@
-test run on the editor/extension
-
-terminal: jest ./tests/jest/test/* --verbose

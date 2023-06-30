@@ -63,7 +63,7 @@
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet",
     "lint:html": "npx eslint src/**/*.html --fix && stylelint src/*.html --fix && prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --loglevel silent",
-    "lint:js": "npx eslint src/assets/js/*.* src/assets/js/**/*.* tests/**/*.* --ignore-pattern src/assets/js/vendor/* --ignore-pattern *.txt --fix --quiet",
+    "lint:js": "npx eslint src/assets/js/*.* src/assets/js/**/*.* tests/**/**/*.ts tests/**/**/*.js --ignore-pattern src/assets/js/vendor/* --fix --quiet",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
     "package:commit": "del ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** !./package/tests/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources)/**/*\" package/src && copyfiles -u 1 -a -e ./**/*-nogit* \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md -e ./*-nogit* \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" \"./~partytown/**/*\" package",
     "partytown:libs": "partytown copylib src/~partytown",

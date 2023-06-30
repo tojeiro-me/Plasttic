@@ -34,6 +34,6 @@ src/boilerplate/
 lib/
 
 # testing
-/test-results/
-/playwright-report/
-/playwright/.cache/
+**/playwright/results/
+**/playwright/reports/
+**/playwright/.cache/
