@@ -36,5 +36,12 @@
     "./tests/**/*.ts",
     "./tests/playwright/example.spec.ts"
   ],
-  "exclude": ["node_modules", "**/node_modules/*", "package/*"]
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    "package/*",
+    "dev/*",
+    "dist/*",
+    "**/tests-examples/**"
+  ]
 }
