@@ -9,7 +9,8 @@
 - Added: Installed Partytown
 - Added: Installed Lighthouse
 - Added: Installed Unlighthouse
-- Updated: ESLint config (including vscode.settings.jason)
+- Fixed: EsLint parsing error
+- Updated: ESLint config and vscode.settings.jason
 
 ---
 
