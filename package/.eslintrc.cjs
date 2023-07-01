@@ -91,17 +91,18 @@ module.exports = {
       },
     ],
     'prettier/prettier': [
-      'error',
+      'warn',
       {
         singleQuote: true,
         endOfLine: 'auto',
+        trailingComma: 'es5',
       },
     ],
     '@typescript-eslint/comma-dangle': ['off'],
   },
   overrides: [
     {
-      files: ['src/assets/js/**/*.ts', 'tests/*.ts'],
+      files: ['src/assets/js/**/*.ts', 'tests/playwright/test/*.ts'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
@@ -112,7 +113,8 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
-        project: './tsconfig.json',
+        project: true,
+        tsconfigRootDir: './',
       },
       plugins: ['prettier', '@typescript-eslint'],
       env: {
@@ -201,7 +203,7 @@ module.exports = {
           },
         ],
         'prettier/prettier': [
-          'error',
+          'warn',
           {
             singleQuote: true,
             endOfLine: 'auto',

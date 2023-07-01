@@ -1,0 +1,2 @@
+tests run on husky pre-commit hooks:
+npm run test:jest:hooks
