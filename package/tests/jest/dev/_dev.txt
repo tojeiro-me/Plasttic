@@ -1,0 +1,2 @@
+tests run on the dev and build scripts:
+npm run dev / dev:ssl / build
