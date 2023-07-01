@@ -22,13 +22,14 @@ dev/
 dist/
 
 # project folders and files
-
+**/NOTES.md
 
 # ignore files adding -nogit
 *-nogit*
 
 # testing
-/test-results/
-/playwright-report/
-/playwright/.cache/
+**/playwright/results/
+**/playwright/reports/
+**/playwright/.cache/
+!**/tests/**/dev/
 
