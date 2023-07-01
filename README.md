@@ -21,9 +21,10 @@ A methodology based Front-End development environment.
       - [Workflow](#workflow)
       - [Development](#development)
       - [Customizing](#customizing)
-      - [Linting](#linting)
       - [Development with https](#development-with-https)
       - [Libraries](#libraries)
+      - [Linting](#linting)
+      - [Testing](#testing)
     - [Manual Install (Clone)](#manual-install-clone)
   - [Templates](#templates)
   - [Documentation](#documentation)
@@ -115,6 +116,19 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 - If .##gitignore## exists, rename it to .gitignore and customize to your project info.
 - :warning: Do not delete, rename or move files in the `root` folder. Do not delete, move or rename folders in the `src` folder, except the `templates` folder. Do not delete or move the following files in `assets` folder: `js/scripts.ts` (you can rename to `scripts.js`), `js/modules/module.ts` (at least one file `name.ts/.js` must exist), `css/styles.css` and `css/print.css` (do not rename this CSS files) - this files must exist, even if empty. If not used, delete the corresponding tag in the HTML page. :warning:
 
+#### Development with https
+
+- Step 1: Run `mkdir certs`
+- Step 2: Run `cd certs`
+- Step 3: Install certificate with [mkcert](https://mkcert.dev/)
+- Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
+- Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
+
+#### Libraries
+
+- [TS-Reset](https://github.com/total-typescript/ts-reset#example) (If you wish to disable it, delete the `reset.d.ts` file.)
+- [Zod](https://github.com/colinhacks/zod#installation)
+
 #### Linting
 
 _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
@@ -138,18 +152,18 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
   - Result: Warnings, Limited fixes and Styles order
   - Config: [.stylelintrc.json](./.stylelintrc.json)
 
-#### Development with https
+#### Testing
 
-- Step 1: Run `mkdir certs`
-- Step 2: Run `cd certs`
-- Step 3: Install certificate with [mkcert](https://mkcert.dev/)
-- Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
-- Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
+- Jest
 
-#### Libraries
+  - ...
 
-- [TS-Reset](https://github.com/total-typescript/ts-reset#example) (If you wish to disable it, delete the `reset.d.ts` file.)
-- [Zod](https://github.com/colinhacks/zod#installation)
+- Playwright
+
+  - ...
+
+- Lighthouse
+  - ...
 
 ---
 
