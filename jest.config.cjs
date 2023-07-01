@@ -6,7 +6,7 @@ require('ts-jest/presets');
  */
 module.exports = {
   bail: 0,
-  verbose: true,
+  verbose: false,
   preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['tests/jest/'],

@@ -91,10 +91,11 @@ module.exports = {
       },
     ],
     'prettier/prettier': [
-      'error',
+      'warn',
       {
         singleQuote: true,
         endOfLine: 'auto',
+        trailingComma: 'es5',
       },
     ],
     '@typescript-eslint/comma-dangle': ['off'],
@@ -202,7 +203,7 @@ module.exports = {
           },
         ],
         'prettier/prettier': [
-          'error',
+          'warn',
           {
             singleQuote: true,
             endOfLine: 'auto',
