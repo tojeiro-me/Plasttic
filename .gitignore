@@ -37,3 +37,4 @@ lib/
 **/playwright/results/
 **/playwright/reports/
 **/playwright/.cache/
+!tests/**/dev/
