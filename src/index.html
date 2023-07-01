@@ -1,23 +1,43 @@
 <!DOCTYPE html>
-<!-- Plasttic HTML Boilerplate v1.2 | MIT License | https://plasttic.dev/ -->
+<!-- Plasttic HTML Boilerplate v1.2.7 | MIT License | https://plasttic.dev/ -->
 <!-- 
 TODO: language
 https://www.w3schools.com/tags/ref_language_codes.asp 
 -->
 <html lang="en">
   <head>
-    <!-- TODO: Google Analytics: replace GA_TRACKING_ID to be your site's ID. -->
+    <!-- Partytown https://partytown.builder.io/common-services -->
     <!--
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.partytown = {
+        forward: ["dataLayer.push"], // Google Tag Manager
+      };
+    </script>
+    <script type="module">
+      import { partytownSnippet } from "@builder.io/partytown/integration";
 
-    gtag('config', 'GA_TRACKING_ID');
+      const partySnippet = partytownSnippet();
+      const script = document.createElement("script");
+      script.innerText = partySnippet;
+      document.body.appendChild(partySnippet);
     </script>
     -->
+
+    <!-- TODO: Google Analytics: replace GA_TRACKING_ID to be your site's ID. -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"
+    ></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'GA_TRACKING_ID');
+    </script>
+
     <meta charset="utf-8" />
+
     <!-- TODO: (per page) Page title (max: 70 characters) -->
     <title>
       Plasttic Web Workflow: A front-end web development environment
@@ -64,7 +84,7 @@ https://www.w3schools.com/tags/ref_language_codes.asp
       name="og:image"
       content="https://plasttic.dev/social-banner-1200_630.png"
     />
-    <meta name="og:image:alt" content="Plasttic logo banner" />
+    <meta name="og:image:alt" content="Plasttic Web Workflow" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:type" content="image/png" />
@@ -74,8 +94,8 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started#opengraph
     Most information is provided by the Open Graph meta tags
     -->
-    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@tojeiro_me" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- TODO: About the author of the website -->
     <link rel="author" href="/humans.txt" />
