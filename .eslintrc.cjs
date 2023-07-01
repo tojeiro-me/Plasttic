@@ -213,4 +213,19 @@ module.exports = {
       },
     },
   ],
+  // eslint-disable-next-line no-dupe-keys
+  overrides: [
+    {
+      files: ['*.html'],
+      extends: ['prettier'],
+      rules: {
+        'prettier/prettier': [
+          'warn',
+          {
+            singleQuote: false,
+          },
+        ],
+      },
+    },
+  ],
 };
