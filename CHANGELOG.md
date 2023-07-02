@@ -12,16 +12,16 @@
 - Fixed: EsLint parsing error
 - Updated: ESLint config and vscode.settings.jason
 - Updated: Plasttic HTML Boilerplate to v 1.2.8
+- Updated: Jest/Playwright workflow integration
+- Added: Lighthouse script `npm run test:vitals:page --page=index`
 
 ---
 
 ##### IN PROGRESS:
 
+- Lighthouse Testing `npm run test:vitals:page --page=index` configuration/testing integration :construction:
 - Unlighthouse Testing (configuration/testing integration) :construction:
-- Lighthouse Testing `npm run test:vitals` configuration/testing integration :construction:
-- Jest Testing `npm run test:jest` testing integration :construction:
-- Playwright Testing (integration) :construction:
-- Partytown workflow integration :construction:
+- Testing section documentation :construction:
 
 ##### TODO:
 
