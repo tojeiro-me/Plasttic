@@ -141,7 +141,7 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
   - Config: [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore)
 - ESLint
   - Plugin: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript))
-  - Files: html, js, ts
+  - Files: js, ts
   - Usage: Plugin and Scripts
   - Result: Errors, Warnings and Fix
   - Config: [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)

@@ -5,7 +5,7 @@
 - Added: ESLint and Stylelint format on save
 - Updated: VS Code Extensions
 - Added: Installed Jest and Playwright
-- Updated: Quick Start steps
+- Updated: Quick Start section README
 - Added: Installed Partytown
 - Added: Installed Lighthouse
 - Added: Installed Unlighthouse
@@ -14,12 +14,15 @@
 - Updated: Plasttic HTML Boilerplate to v 1.2.8
 - Updated: Jest/Playwright workflow integration
 - Added: Lighthouse script `npm run test:vitals:page --page=index`
+- Updated: HTML linting
+- Updated: Linting section README
+- Updated: Dependencies
 
 ---
 
 ##### IN PROGRESS:
 
-- Lighthouse Testing `npm run test:vitals:page --page=index` configuration/testing integration :construction:
+- Lighthouse Testing `npm run test:vitals:page --page=index` integration :construction:
 - Unlighthouse Testing (configuration/testing integration) :construction:
 - Testing section documentation :construction:
 

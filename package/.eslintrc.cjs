@@ -10,7 +10,7 @@ module.exports = {
     requireConfigFile: false,
     ecmaVersion: 'latest',
   },
-  plugins: ['html', 'prettier'],
+  plugins: ['prettier'],
   env: {
     es6: true,
     browser: true,
@@ -213,36 +213,4 @@ module.exports = {
       },
     },
   ],
-  // eslint-disable-next-line no-dupe-keys
-  // overrides: [
-  //   {
-  //     files: ['*.html'],
-  //     parser: '@html-eslint/parser',
-  //     extends: ['prettier', 'plugin:@html-eslint/recommended'],
-  //     plugins: ['@html-eslint', 'prettier'],
-
-  //     env: {
-  //       es6: true,
-  //       browser: true,
-  //     },
-  //     rules: {
-  //       quotes: [
-  //         2,
-  //         'double',
-  //         {
-  //           avoidEscape: true,
-  //           allowTemplateLiterals: true,
-  //         },
-  //       ],
-  //       'prettier/prettier': [
-  //         'warn',
-  //         {
-  //           singleQuote: false,
-  //           endOfLine: 'auto',
-  //           trailingComma: 'es5',
-  //         },
-  //       ],
-  //     },
-  //   },
-  // ],
 };
