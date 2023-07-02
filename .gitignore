@@ -38,3 +38,4 @@ lib/
 **/playwright/reports/
 **/playwright/.cache/
 !**/tests/**/dev/
+**/lighthouse/reports/
