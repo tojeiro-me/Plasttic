@@ -163,7 +163,7 @@
     "stylelint-config-recommended": "^12.0.0",
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^3.0.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.6",
     "uglify-js": "^3.17.4"
   },
   "devDependencies": {
