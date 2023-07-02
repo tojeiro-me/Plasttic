@@ -102,7 +102,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['src/assets/js/**/*.ts', 'tests/playwright/test/*.ts'],
+      files: ['src/assets/js/**/*.ts', 'tests/**/**/*.ts'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
@@ -214,18 +214,33 @@ module.exports = {
     },
   ],
   // eslint-disable-next-line no-dupe-keys
-  overrides: [
-    {
-      files: ['*.html'],
-      extends: ['prettier'],
-      rules: {
-        'prettier/prettier': [
-          'warn',
-          {
-            singleQuote: false,
-          },
-        ],
-      },
-    },
-  ],
+  // overrides: [
+  //   {
+  //     files: ['*.html'],
+  //     extends: ['prettier'],
+  //     plugins: ['html', 'prettier'],
+  //     env: {
+  //       es6: true,
+  //       browser: true,
+  //     },
+  //     rules: {
+  //       quotes: [
+  //         2,
+  //         'double',
+  //         {
+  //           avoidEscape: true,
+  //           allowTemplateLiterals: true,
+  //         },
+  //       ],
+  //       'prettier/prettier': [
+  //         'warn',
+  //         {
+  //           singleQuote: false,
+  //           endOfLine: 'auto',
+  //           trailingComma: 'es5',
+  //         },
+  //       ],
+  //     },
+  //   },
+  // ],
 };
