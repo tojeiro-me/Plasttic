@@ -1,3 +1,5 @@
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable quotes -->
 <!DOCTYPE html>
 <!-- Plasttic HTML Boilerplate v1.2.7 | MIT License | https://plasttic.dev/ -->
 <!-- 
@@ -12,9 +14,15 @@ https://www.w3schools.com/tags/ref_language_codes.asp
         forward: ['dataLayer.push'], // Google Tag Manager / Facebook Pixel (add "fbq")
       };
     </script>
-    <script type="module">
-      import './assets/js/vendor/partytown-sw.js';
-    </script>
+    <script type="text/javascript" src="./~partytown/partytown.js"></script>
+    <!-- <script type="module">
+      import partytownSnippet from "./~partytown/partytown-sw.js";
+
+      const partySnippet = partytownSnippet();
+      const script = document.createElement("script");
+      script.innerText = partySnippet;
+      document.body.appendChild(partySnippet);
+    </script> -->
 
     <!-- TODO: Google Tag Manager: replace GTM-ID to be your site's ID. -->
     <!-- https://tagmanager.google.com/ -->
