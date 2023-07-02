@@ -16,6 +16,7 @@
 - Added: Lighthouse script `npm run test:vitals:page --page=index`
 - Updated: HTML linting
 - Updated: Linting section README
+- Updated: Dependencies
 
 ---
 
