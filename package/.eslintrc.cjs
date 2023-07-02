@@ -10,10 +10,7 @@ module.exports = {
     requireConfigFile: false,
     ecmaVersion: 'latest',
   },
-  plugins: ['html', 'prettier'],
-  settings: {
-    'html/html-extensions': ['.html'], // consider .html and .we files as HTML
-  },
+  plugins: ['prettier'],
   env: {
     es6: true,
     browser: true,
