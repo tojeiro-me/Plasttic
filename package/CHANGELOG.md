@@ -11,6 +11,7 @@
 - Added: Installed Unlighthouse
 - Fixed: EsLint parsing error
 - Updated: ESLint config and vscode.settings.jason
+- Updated: Plasttic HTML Boilerplate to v 1.2.8
 
 ---
 
