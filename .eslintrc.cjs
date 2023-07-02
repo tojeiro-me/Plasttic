@@ -217,8 +217,10 @@ module.exports = {
   // overrides: [
   //   {
   //     files: ['*.html'],
-  //     extends: ['prettier'],
-  //     plugins: ['html', 'prettier'],
+  //     parser: '@html-eslint/parser',
+  //     extends: ['prettier', 'plugin:@html-eslint/recommended'],
+  //     plugins: ['@html-eslint', 'prettier'],
+
   //     env: {
   //       es6: true,
   //       browser: true,
