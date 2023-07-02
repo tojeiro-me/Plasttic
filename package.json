@@ -130,7 +130,7 @@
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^13.2.3",
     "minify-all-js": "^0.1.9",
     "onchange": "^7.1.0",
     "plasttic-reset": "^2.0.10",
