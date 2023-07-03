@@ -1,5 +1,7 @@
 # Performance
 
+(Preconnect/DNS-prefetch, Fonts, Images, Partytown, ...)
+
 ---
 
 - Preconnect, DNS-prefetch, Preload (CDN, Fonts)
