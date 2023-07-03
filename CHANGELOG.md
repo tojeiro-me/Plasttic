@@ -13,16 +13,16 @@
 - Updated: ESLint config and vscode.settings.jason
 - Updated: Plasttic HTML Boilerplate to v 1.2.8
 - Updated: Jest/Playwright workflow integration
-- Added: Lighthouse script `npm run test:vitals:page --page=index`
+- Added: Lighthouse script `npm run test:vitals:page --protocol=http --page=page.html`
 - Updated: HTML linting
 - Updated: Linting section README
 - Updated: Dependencies
+- Added: Unlighthouse script `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
 
 ##### IN PROGRESS:
 
-- Lighthouse Testing `npm run test:vitals:page --page=index` integration :construction:
 - Unlighthouse Testing (configuration/testing integration) :construction:
 - Testing section documentation :construction:
 
