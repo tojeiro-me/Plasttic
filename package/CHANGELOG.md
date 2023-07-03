@@ -17,12 +17,12 @@
 - Updated: HTML linting
 - Updated: Linting section README
 - Updated: Dependencies
+- Added: Unlighthouse script `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
 
 ##### IN PROGRESS:
 
-- Lighthouse Testing `npm run test:vitals:page --protocol=http --page=page.html` integration :construction:
 - Unlighthouse Testing (configuration/testing integration) :construction:
 - Testing section documentation :construction:
 
