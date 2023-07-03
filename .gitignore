@@ -39,3 +39,4 @@ lib/
 **/playwright/.cache/
 !**/tests/**/dev/
 **/lighthouse/reports/
+.unlighthouse/
