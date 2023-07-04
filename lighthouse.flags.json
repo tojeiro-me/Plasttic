@@ -1,5 +1,6 @@
 {
-  "--locale": "pt",
+  "--locale": "en",
+  "--disable-storage-reset": false,
   "--chrome-flags": "--headless",
   "--output": "html",
   "--view": true,
