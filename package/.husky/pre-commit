@@ -3,4 +3,5 @@
 
 git add -A .
 npm run lint:commit
+npm run partytown:libs
 git add -A .
