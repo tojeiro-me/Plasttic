@@ -23,7 +23,6 @@
 
 ##### IN PROGRESS:
 
-- Unlighthouse Testing (configuration/testing integration) :construction:
 - Testing section documentation :construction:
 
 ##### TODO:
