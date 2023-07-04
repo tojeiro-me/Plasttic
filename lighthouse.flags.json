@@ -1,0 +1,14 @@
+{
+  "--locale": "en",
+  "--disable-storage-reset": false,
+  "--chrome-flags": "--headless",
+  "--output": "html",
+  "--view": true,
+  "--only-categories": [
+    "performance",
+    "accessibility",
+    "best-practices",
+    "seo",
+    "pwa"
+  ]
+}

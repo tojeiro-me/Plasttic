@@ -4,4 +4,5 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: https://boilerplate.plastic.dev/sitemap.xml
+Allow: 
+Sitemap: https://plasttic.dev/sitemap.xml
