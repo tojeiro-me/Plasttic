@@ -163,7 +163,11 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
   - folders:
 
 - Lighthouse
+
   - Page test: `npm run test:vitals:page --page=page.html`
+
+- Unlighthouse
+  - Site test: `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
 

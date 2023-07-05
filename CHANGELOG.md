@@ -19,6 +19,7 @@
 - Added: Unlighthouse script `npm run test:vitals:site --url=https://plasttic.dev`
 - Updated: Plasttic HTML Boilerplate to v1.3.0
 - Updated: Plasttic CSS Reset to v2.1
+- Updated: Plasttic HTML Boilerplate snippet
 
 ---
 
