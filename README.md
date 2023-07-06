@@ -93,9 +93,10 @@ npm run start
 
 #### Typescript
 
-- Install Typescript globally `npm install -g typescript@5.0.4` \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
+- `npm run start` installs Typescript globally \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
-- Linting: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files. :warning: ESLint needs Typescript version 5.0.4
+- Linting: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files.
+- :warning: ESLint supports Typescript version 5.1.5 or lower.
 
 #### Workflow
 
@@ -131,39 +132,42 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 #### Linting
 
-_(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
+_(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
 - Prettier
-  - Plugin: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)
-  - Files: html, css, js, ts, md, json
-  - Usage: Plugin and Scripts
-  - Result: Errors, Warnings and Fix
-  - Config: [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false) | html, css, js, ts, md, json | Plugin, Scripts, Git Hooks | Errors, Warnings and Fix | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) |
 - ESLint
-  - Plugin: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript))
-  - Files: js, ts
-  - Usage: Plugin and Scripts
-  - Result: Errors, Warnings and Fix
-  - Config: [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript)) | js, ts | Plugins, Scripts, Git Hooks | Errors, Warnings and Fix | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore) |
 - Stylelint
-  - Plugin: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)
-  - Files: css, html
-  - Usage: Plugin and Scripts
-  - Result: Warnings, Limited fixes and Styles order
-  - Config: [.stylelintrc.json](./.stylelintrc.json)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
 
 #### Testing
 
 - Jest
 
+  - About:
   - folders:
 
 - Playwright
 
+  - About:
   - folders:
 
 - Lighthouse
-  - Page test: `npm run test:vitals:page --page=page.html`
+
+  - About:
+  - Script: `npm run test:vitals:page --page=page.html`
+
+- Unlighthouse
+
+  - About:
+  - Script: `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
 
@@ -173,11 +177,12 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
 - Step 2: Move the the contents of the `package` folder into your `<project-folder>`
 - Step 3: Run `cd <project-folder>`
 - Step 4: Rename `.##gitignore##` to `.gitignore`
-- Step 5: Run `npm install` to install the needed dependencies
-- Step 6: Run`npm run husky` to install the Git hooks (Linting pre-commit)
-- Step 7: Run `npm init playwright@latest` to install and initialize Playwright
-- Step 8: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
-- Step 9: Run `npm run build` when you are ready to publish \*
+- Step 5: Run `npm run star`
+  - Installs the needed dependencies
+  - Installs Husky Git Hooks
+  - Initializes Playwright
+- Step 6: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
+- Step 7: Run `npm run build` when you are ready to publish \*
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
