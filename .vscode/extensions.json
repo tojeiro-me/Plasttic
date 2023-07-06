@@ -32,5 +32,6 @@
     "mitchdenny.ecdc",
     "orta.vscode-jest",
     "ms-playwright.playwright"
-  ]
+  ],
+  "unwantedRecommendations": []
 }
