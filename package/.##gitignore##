@@ -5,6 +5,7 @@
 # settings
 settings.json
 *.code-profile
+.vscode
 
 # OS files
 **/.DS_Store
