@@ -1,4 +1,4 @@
-# v2.3.0 (Jun --, 2023)
+# v2.3.0 (Jul --, 2023)
 
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
