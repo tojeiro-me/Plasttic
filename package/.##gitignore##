@@ -5,6 +5,7 @@
 # settings
 settings.json
 *.code-profile
+.vscode/
 
 # OS files
 **/.DS_Store
@@ -12,7 +13,9 @@ settings.json
 # dependencies
 node_modules/
 
-# private folders and files
+# private folders and files.
+.plasttic/
+.husky/
 certs/
 .env
 .cache
@@ -28,9 +31,6 @@ dist/
 *-nogit*
 
 # testing
-**/playwright/results/
-**/playwright/reports/
-**/playwright/.cache/
-!**/tests/**/dev/
-**/lighthouse/reports/
+.tests/
+.unlighthouse/
 
