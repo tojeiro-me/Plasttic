@@ -151,19 +151,23 @@ _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS C
 
 - Jest
 
+  - About:
   - folders:
 
 - Playwright
 
+  - About:
   - folders:
 
 - Lighthouse
 
-  - Page test: `npm run test:vitals:page --page=page.html`
+  - About:
+  - Script: `npm run test:vitals:page --page=page.html`
 
 - Unlighthouse
 
-  - Site test: `npm run test:vitals:site --url=https://plasttic.dev`
+  - About:
+  - Script: `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
 
