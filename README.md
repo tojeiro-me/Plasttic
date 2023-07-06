@@ -135,23 +135,17 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
 - Prettier
-  - Plugin: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)
-  - Files: html, css, js, ts, md, json
-  - Usage: Plugin and Scripts
-  - Result: Errors, Warnings and Fix
-  - Config: [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false) | html, css, js, ts, md, json | Plugin, Scripts, Git Hooks | Errors, Warnings and Fix | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) |
 - ESLint
-  - Plugin: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript))
-  - Files: js, ts
-  - Usage: Plugin and Scripts
-  - Result: Errors, Warnings and Fix
-  - Config: [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript)) | js, ts | Plugins, Scripts, Git Hooks | Errors, Warnings and Fix | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore) |
 - Stylelint
-  - Plugin: [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)
-  - Files: css, html
-  - Usage: Plugin and Scripts
-  - Result: Warnings, Limited fixes and Styles order
-  - Config: [.stylelintrc.json](./.stylelintrc.json)
+  | Plugin | Files | Usage | Result | Config |
+  | ------ | ----- | ----- | ------ | ------ |
+  | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
 
 #### Testing
 
@@ -168,6 +162,7 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
   - Page test: `npm run test:vitals:page --page=page.html`
 
 - Unlighthouse
+
   - Site test: `npm run test:vitals:site --url=https://plasttic.dev`
 
 ---
