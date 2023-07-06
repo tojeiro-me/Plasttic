@@ -132,7 +132,7 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 #### Linting
 
-_(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
+_(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
 - Prettier
   | Plugin | Files | Usage | Result | Config |
