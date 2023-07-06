@@ -178,11 +178,12 @@ _(Extends the editor CSS rules and [.editorconfig](./.editorconfig) and [VS Code
 - Step 2: Move the the contents of the `package` folder into your `<project-folder>`
 - Step 3: Run `cd <project-folder>`
 - Step 4: Rename `.##gitignore##` to `.gitignore`
-- Step 5: Run `npm install` to install the needed dependencies
-- Step 6: Run`npm run husky` to install the Git hooks (Linting pre-commit)
-- Step 7: Run `npm init playwright@latest` to install and initialize Playwright
-- Step 8: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
-- Step 9: Run `npm run build` when you are ready to publish \*
+- Step 5: Run `npm run star`
+  - Installs the needed dependencies
+  - Installs Husky Git Hooks
+  - Initializes Playwright
+- Step 6: Run `npm run dev` to start the dev server on `http://localhost:8000` \*
+- Step 7: Run `npm run build` when you are ready to publish \*
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
