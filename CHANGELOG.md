@@ -23,6 +23,7 @@
 - Updated: ESLint support for Typescript 5.1.5
 - Updated: Start script
 - Updated: .##gitignore##
+- Updated: ESLint config
 
 ---
 
