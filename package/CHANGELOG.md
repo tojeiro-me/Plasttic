@@ -14,16 +14,18 @@
 - Updated: Jest/Playwright workflow integration
 - Added: Lighthouse script
 - Updated: HTML linting
-- Updated: Linting section README
+- Added: README Linting section
 - Updated: Dependencies
 - Added: Unlighthouse script
-- Updated: Plasttic HTML Boilerplate to v1.3.2
+- Updated: Plasttic HTML Boilerplate to v1.3.3
 - Updated: Plasttic CSS Reset to v2.1
 - Updated: Plasttic HTML Boilerplate snippet
 - Updated: ESLint support for Typescript 5.1.5
 - Updated: Start script
 - Updated: .##gitignore##
 - Updated: ESLint config
+- Updated: README About section
+- Added: README Testing section
 
 ---
 
