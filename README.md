@@ -46,13 +46,13 @@ Dev Server, Build Tool, File/Folder Structure, [HTML Boilerplate](https://github
   - [Methodology](#methodology)
   - [Start](#start)
     - [Quick Start](#quick-start)
-      - [Typescript](#typescript)
-      - [Development](#development)
-      - [Customizing](#customizing)
-      - [Development with https](#development-with-https)
-      - [Libraries](#libraries)
-      - [Linting](#linting)
-      - [Testing](#testing)
+    - [Typescript](#typescript)
+    - [Development](#development)
+    - [Customizing](#customizing)
+    - [Development with https](#development-with-https)
+    - [Libraries](#libraries)
+    - [Linting](#linting)
+    - [Testing](#testing)
     - [Manual Install (Clone)](#manual-install-clone)
   - [Templates](#templates)
   - [Documentation](#documentation)
@@ -99,21 +99,27 @@ npm run start
 2. Downloads and installs the latest version of Plasttic Web Workflow
 3. Installs all the project dependencies, Git hooks (Linting pre-commit), Playwright install
 
-#### Typescript
+### Typescript
+
+---
 
 - `npm run start` installs Typescript globally \*although it is installed as a devDependency, the Dev Scripts may not work as expected if you do not install it globally also.
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
 - Linting: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files.
 - :warning: ESLint supports Typescript version 5.1.5 or lower.
 
-#### Development
+### Development
+
+---
 
 - Run `npm run dev` to start the dev server on `http://localhost:8000` \*
 - Run `npm run build` when you are ready to publish \*
 
 - \*Source folder: `src/`, Dev folder: `dev/`, Build folder: `dist/`
 
-#### Customizing
+### Customizing
+
+---
 
 _(Note: The files installed are not empty. The reason is that, by creating a template, it's easier to demonstrate the methodology, concepts and conventions, and even building upon the existing code.)_
 
@@ -121,7 +127,9 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 - If .##gitignore## exists, rename it to .gitignore and customize to your project info.
 - :warning: Do not delete, rename or move files in the `root` folder. Do not delete, move or rename folders in the `src` folder, except the `templates` folder. Do not delete or move the following files in `assets` folder: `js/scripts.ts` (you can rename to `scripts.js`), `js/modules/module.ts` (at least one file `name.ts/.js` must exist), `css/styles.css` and `css/print.css` (do not rename this CSS files) - this files must exist, even if empty. If not used, delete the corresponding tag in the HTML page. :warning:
 
-#### Development with https
+### Development with https
+
+---
 
 - Step 1: Run `mkdir certs`
 - Step 2: Run `cd certs`
@@ -129,12 +137,16 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 - Step 4: Check certificate filenames and/or path in the file `browser-sync.cjs`
 - Step 5: Run `npm run dev:ssl` to start the dev server on `https://localhost:8000`
 
-#### Libraries
+### Libraries
+
+---
 
 - [TS-Reset](https://github.com/total-typescript/ts-reset#example) (If you wish to disable it, delete the `reset.d.ts` file.)
 - [Zod](https://github.com/colinhacks/zod#installation)
 
-#### Linting
+### Linting
+
+---
 
 _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
@@ -156,7 +168,9 @@ _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS C
 | ----------------------------------------------------------------------------------------------------- | --------- | -------------------------- | ---------------------------------------- | ---------------------------------------- |
 | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
 
-#### Testing
+### Testing
+
+---
 
 **1. Jest**
 
