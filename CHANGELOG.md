@@ -12,11 +12,11 @@
 - Fixed: EsLint parsing error
 - Updated: ESLint config and vscode.settings.jason
 - Updated: Jest/Playwright workflow integration
-- Added: Lighthouse script `npm run test:vitals:page --protocol=http --page=page.html`
+- Added: Lighthouse script
 - Updated: HTML linting
 - Updated: Linting section README
 - Updated: Dependencies
-- Added: Unlighthouse script `npm run test:vitals:site --url=https://plasttic.dev`
+- Added: Unlighthouse script
 - Updated: Plasttic HTML Boilerplate to v1.3.2
 - Updated: Plasttic CSS Reset to v2.1
 - Updated: Plasttic HTML Boilerplate snippet
