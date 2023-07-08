@@ -22,9 +22,13 @@ This workflow is intended to be a starting point, allowing the developer to adop
 
 _Note: The files installed are not empty. The reason is that, by creating a template, it's easier to demonstrate the methodology, concepts and conventions, and even building upon the existing code._
 
-### Related projects
+### Workflow
+
+Dev Server, Build Tool, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/public/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS Styling, HTML/CSS/JS Minification, Conventions, Linting, Testing, Image Optimization (Soon!)
 
 ---
+
+### Related projects
 
 - [Plasttic CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
 
@@ -36,13 +40,13 @@ _Note: The files installed are not empty. The reason is that, by creating a temp
 
 - [Plasttic Web Workflow](#plasttic-web-workflow)
   - [About](#about)
+    - [Workflow](#workflow)
     - [Related projects](#related-projects)
   - [Table of Contents](#table-of-contents)
   - [Methodology](#methodology)
   - [Start](#start)
     - [Quick Start](#quick-start)
       - [Typescript](#typescript)
-      - [Workflow](#workflow)
       - [Development](#development)
       - [Customizing](#customizing)
       - [Development with https](#development-with-https)
@@ -70,7 +74,7 @@ _Note: The files installed are not empty. The reason is that, by creating a temp
 - Design System/Atomic Design
 - BEM Methodology
 - [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset)
-- [SEO/Social Media HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
+- [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate)
 - Semantic HTML/Accessibility
 - Progressive Enhancement
 - CSS/Postcss
@@ -101,10 +105,6 @@ npm run start
 - [TS-Reset](https://github.com/total-typescript/ts-reset) is installed by default. If you wish to disable it, delete the `reset.d.ts` file.
 - Linting: [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false) (requires some configuration: see the plugin [page](https://github.com/idahogurl/vs-code-prettier-eslint#installation) and the [Plasttic VSCode settings](./.vscode/vscode.settings.json)). Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) to provide error and warning messages in the files.
 - :warning: ESLint supports Typescript version 5.1.5 or lower.
-
-#### Workflow
-
-- Custom Dev/Build Scripts, File/Folder Structure, [HTML Boilerplate](https://github.com/tojeiro-me/Plasttic-boilerplate/blob/master/index.html), [CSS Reset](https://github.com/tojeiro-me/Plasttic-reset), [Templates](https://boilerplate.plasttic.dev), [Atomic Design CSS](docs/atomic-design.md), [Print CSS](./src/assets/css/print.css), ES Modules, Typescript, PostCSS, CSS/JS Minification, Conventions, Linting, Image Optimization (Soon!), Testing (Soon!)
 
 #### Development
 
@@ -138,40 +138,47 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
-- Prettier
-  | Plugin | Files | Usage | Result | Config |
-  | ------ | ----- | ----- | ------ | ------ |
-  | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false) | html, css, js, ts, md, json | Plugin, Scripts, Git Hooks | Errors, Warnings and Fix | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) |
-- ESLint
-  | Plugin | Files | Usage | Result | Config |
-  | ------ | ----- | ----- | ------ | ------ |
-  | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript)) | js, ts | Plugins, Scripts, Git Hooks | Errors, Warnings and Fix | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore) |
-- Stylelint
-  | Plugin | Files | Usage | Result | Config |
-  | ------ | ----- | ----- | ------ | ------ |
-  | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
+**1. Prettier**
+
+| Plugin                                                                                           | Files                       | Usage                      | Result                   | Config                                                                     |
+| ------------------------------------------------------------------------------------------------ | --------------------------- | -------------------------- | ------------------------ | -------------------------------------------------------------------------- |
+| [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false) | html, css, js, ts, md, json | Plugin, Scripts, Git Hooks | Errors, Warnings and Fix | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) |
+
+**2. ESLint**
+
+| Plugin                                                                                                                                                                                                                                           | Files  | Usage                       | Result                   | Config                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | --------------------------- | ------------------------ | ------------------------------------------------------------------ |
+| [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript)) | js, ts | Plugins, Scripts, Git Hooks | Errors, Warnings and Fix | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore) |
+
+**3. Stylelint**
+
+| Plugin                                                                                                | Files     | Usage                      | Result                                   | Config                                   |
+| ----------------------------------------------------------------------------------------------------- | --------- | -------------------------- | ---------------------------------------- | ---------------------------------------- |
+| [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
 
 #### Testing
 
-- Jest
+**1. Jest**
 
-  - About:
-  - folders:
+- About:
+- folders \*:
 
-- Playwright
+**2. Playwright**
 
-  - About:
-  - folders:
+- About:
+- folders \*:
 
-- Lighthouse
+\* dev:
 
-  - About:
-  - Script: `npm run test:vitals:page --page=page.html`
+**3. Lighthouse**
 
-- Unlighthouse
+- About:
+- Script: `npm run test:vitals:page --page=page.html`
 
-  - About:
-  - Script: `npm run test:vitals:site --url=https://plasttic.dev`
+**4. Unlighthouse**
+
+- About:
+- Script: `npm run test:vitals:site --url=https://example.com`
 
 ---
 
@@ -181,7 +188,7 @@ _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS C
 - Step 2: Move the the contents of the `package` folder into your `<project-folder>`
 - Step 3: Run `cd <project-folder>`
 - Step 4: Rename `.##gitignore##` to `.gitignore`
-- Step 5: Run `npm run star`
+- Step 5: Run `npm run start`
   - Installs the needed dependencies
   - Installs Husky Git Hooks
   - Initializes Playwright
