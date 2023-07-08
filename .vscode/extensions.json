@@ -31,6 +31,8 @@
     "pomber.git-file-history",
     "mitchdenny.ecdc",
     "orta.vscode-jest",
-    "ms-playwright.playwright"
-  ]
+    "ms-playwright.playwright",
+    "aaron-bond.better-comments"
+  ],
+  "unwantedRecommendations": []
 }

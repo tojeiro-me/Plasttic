@@ -1,4 +1,4 @@
-# v2.3.0 (Jun --, 2023)
+# v2.3.0 (Jul --, 2023)
 
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
@@ -17,12 +17,13 @@
 - Updated: Linting section README
 - Updated: Dependencies
 - Added: Unlighthouse script `npm run test:vitals:site --url=https://plasttic.dev`
-- Updated: Plasttic HTML Boilerplate to v1.3.0
+- Updated: Plasttic HTML Boilerplate to v1.3.1
 - Updated: Plasttic CSS Reset to v2.1
 - Updated: Plasttic HTML Boilerplate snippet
 - Updated: ESLint support for Typescript 5.1.5
 - Updated: Start script
 - Updated: .##gitignore##
+- Updated: ESLint config
 
 ---
 
