@@ -26,6 +26,7 @@
 - Updated: ESLint config
 - Updated: README About section
 - Added: README Testing section
+- Updated: robots.txt
 
 ---
 
