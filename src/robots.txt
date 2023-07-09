@@ -4,5 +4,5 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Allow: 
+Allow: /
 Sitemap: https://plasttic.dev/sitemap.xml
