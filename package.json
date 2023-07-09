@@ -139,7 +139,7 @@
     "lint-staged": "^13.2.3",
     "minify-all-js": "^0.1.9",
     "onchange": "^7.1.0",
-    "plasttic-reset": "^2.0.10",
+    "plasttic-reset": "^2.1.0",
     "postcss": "^8.4.25",
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^9.1.5",
