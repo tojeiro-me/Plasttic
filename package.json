@@ -142,7 +142,7 @@
     "plasttic-reset": "^2.1.0",
     "postcss": "^8.4.25",
     "postcss-cli": "^10.1.0",
-    "postcss-custom-media": "^9.1.5",
+    "postcss-custom-media": "^10.0.0",
     "postcss-custom-properties": "^13.2.1",
     "postcss-discard-empty": "^6.0.0",
     "postcss-import": "^15.1.0",
