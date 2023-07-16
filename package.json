@@ -168,7 +168,7 @@
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-recommended": "^13.0.0",
     "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^3.0.0",
+    "stylelint-prettier": "^4.0.0",
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.5",
     "uglify-js": "^3.17.4"
