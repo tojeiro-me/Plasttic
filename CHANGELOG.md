@@ -27,6 +27,7 @@
 - Updated: README About section
 - Added: README Testing section
 - Updated: robots.txt
+- Fixed: dependencies security issues
 
 ---
 
