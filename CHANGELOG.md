@@ -30,6 +30,7 @@
 - Fixed: dependencies security issues
 - Fixed: Windows compatible CLI commands
 - Updated: Eslint support for Jest and Playwright
+- Updated: Replaced CSS individual imports to glob import
 
 ---
 
