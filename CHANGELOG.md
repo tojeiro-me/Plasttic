@@ -28,6 +28,7 @@
 - Added: README Testing section
 - Updated: robots.txt
 - Fixed: dependencies security issues
+- Fixed: Windows compatible CLI commands
 
 ---
 
