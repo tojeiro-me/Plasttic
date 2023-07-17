@@ -31,7 +31,7 @@
 - Fixed: Windows compatible CLI commands
 - Updated: Eslint support for Jest and Playwright
 - Updated: Replaced CSS individual imports to glob import
-- Fixed: .dev.configs folder missing error
+- Fixed: .dev.configs folder missing
 
 ---
 
