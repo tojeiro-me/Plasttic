@@ -29,6 +29,7 @@
 - Updated: robots.txt
 - Fixed: dependencies security issues
 - Fixed: Windows compatible CLI commands
+- Updated: Eslint support for Jest and Playwright
 
 ---
 
