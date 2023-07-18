@@ -35,6 +35,7 @@
 - Updated: CSS updated to logical properties
 - Updated: sitemap.xml
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
+- Updated: print.css use logical properties
 
 ---
 
