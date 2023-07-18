@@ -30,10 +30,11 @@
 - Fixed: dependencies security issues
 - Fixed: Windows compatible CLI commands
 - Added: Eslint support for Jest and Playwright
-- Updated: Replaced CSS individual imports with glob import
+- :warning: Updated: Replaced CSS individual imports with glob import
 - Fixed: .dev.configs folder missing
 - Updated: CSS updated to logical properties
 - Updated: sitemap.xml
+- :warning: Updated: Replaced Sass style nesting with CSS native nesting
 
 ---
 
