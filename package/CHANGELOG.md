@@ -29,7 +29,7 @@
 - Updated: robots.txt
 - Fixed: dependencies security issues
 - Fixed: Windows compatible CLI commands
-- Updated: Eslint support for Jest and Playwright
+- Added: Eslint support for Jest and Playwright
 - Updated: Replaced CSS individual imports with glob import
 - Fixed: .dev.configs folder missing
 - Updated: CSS updated to logical properties
