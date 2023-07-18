@@ -27,8 +27,9 @@
 /* <a class="ptt-c-hidden-link" href="#start">Jump to Content</a> */
 
 .ptt-c-hidden-link {
-  width: 1px;
-  height: 1px;
+  block-size: 1px;
+  inline-size: 1px;
+
   overflow: hidden;
 
   position: absolute;
@@ -39,8 +40,8 @@
 
 .ptt-c-hidden-link:active,
 .ptt-c-hidden-link:focus {
-  width: auto;
-  height: auto;
+  block-size: auto;
+  inline-size: auto;
 
   position: relative;
   left: auto;
