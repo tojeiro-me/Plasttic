@@ -33,6 +33,7 @@
 - Updated: Replaced CSS individual imports with glob import
 - Fixed: .dev.configs folder missing
 - Updated: CSS updated to logical properties
+- Updated: sitemap.xml
 
 ---
 
