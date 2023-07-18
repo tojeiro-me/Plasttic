@@ -1,5 +1,3 @@
-@import "30_tokens.css";
-
 /**
   * 40_atoms.css
   *
@@ -35,7 +33,7 @@ alt="Plasttic Home" />
 /* Dynamic sized Main Nav logo */
 
 @define-mixin main-nav-logo-dyn {
-  height: max(5vw, 2.8rem);
+  block-size: max(5vw, 2.8rem);
   aspect-ratio: 336 / 90;
 }
 

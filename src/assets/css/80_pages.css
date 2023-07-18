@@ -1,7 +1,3 @@
-/* --- TEMPLATES --- */
-
-@import "70_templates.css";
-
 /**
   * 80_pages.css
   *
@@ -47,7 +43,7 @@ body.ptt-page__code {
   .ptt-message__code {
     grid-area: message;
 
-    max-height: 30vh;
+    max-block-size: 30vh;
     padding: var(--ptt-padding-400);
     overflow: auto;
 
@@ -59,8 +55,8 @@ body.ptt-page__code {
     white-space: pre;
 
     @media (--ptt-bkp-md) {
-      max-width: 65vw;
-      margin-left: var(--ptt-margin-600);
+      max-inline-size: 65vw;
+      margin-inline-start: var(--ptt-margin-600);
     }
   }
 }

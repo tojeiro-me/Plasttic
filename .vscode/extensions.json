@@ -32,7 +32,8 @@
     "mitchdenny.ecdc",
     "orta.vscode-jest",
     "ms-playwright.playwright",
-    "aaron-bond.better-comments"
+    "aaron-bond.better-comments",
+    "phoenisx.cssvar"
   ],
   "unwantedRecommendations": []
 }

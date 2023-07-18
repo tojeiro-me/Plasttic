@@ -1,5 +1,3 @@
-// version 2.2.0
-
 // This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
 require('@rushstack/eslint-patch/modern-module-resolution');
 
@@ -9,11 +7,8 @@ module.exports = {
   parserOptions: {
     requireConfigFile: false,
     ecmaVersion: 'latest',
-    babelOptions: {
-      presets: ['@babel/preset-react'],
-    },
   },
-  plugins: ['prettier', 'react-hooks'],
+  plugins: ['prettier'],
   env: {
     es6: true,
     browser: true,
@@ -76,27 +71,6 @@ module.exports = {
     'no-underscore-dangle': 0,
     'consistent-return': 0,
     'import/no-extraneous-dependencies': 0,
-    'react/display-name': 1,
-    'react/no-array-index-key': 0,
-    'react/react-in-jsx-scope': 0,
-    'react/prefer-stateless-function': 0,
-    'react/forbid-prop-types': 0,
-    'react/no-unescaped-entities': 0,
-    'react/function-component-definition': 0,
-    'jsx-a11y/accessible-emoji': 0,
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        assert: 'either',
-      },
-    ],
-    'react/require-default-props': 0,
-    'react/jsx-filename-extension': [
-      1,
-      {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-      },
-    ],
     radix: 0,
     'no-shadow': [
       2,
@@ -122,30 +96,11 @@ module.exports = {
         tabWidth: 2,
       },
     ],
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/anchor-is-valid': [
-      'warn',
-      {
-        aspects: ['invalidHref'],
-      },
-    ],
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
     '@typescript-eslint/comma-dangle': ['off'],
-    'react/jsx-props-no-spreading': 'off',
   },
   overrides: [
     {
-      globals: {
-        React: true,
-        JSX: true,
-      },
-      files: [
-        'src/assets/js/**/*.ts',
-        'src/assets/js/**/*.tsx',
-        'tests/**/**/*.ts',
-        'tests/**/**/*.tsx',
-      ],
+      files: ['src/assets/js/**/*.ts', 'tests/**/**/*.ts'],
       extends: [
         'prettier',
         'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
@@ -235,27 +190,6 @@ module.exports = {
         'no-underscore-dangle': 0,
         'consistent-return': 0,
         'import/no-extraneous-dependencies': 0,
-        'react/display-name': 1,
-        'react/no-array-index-key': 0,
-        'react/react-in-jsx-scope': 0,
-        'react/prefer-stateless-function': 0,
-        'react/forbid-prop-types': 0,
-        'react/no-unescaped-entities': 0,
-        'react/function-component-definition': 0,
-        'jsx-a11y/accessible-emoji': 0,
-        'jsx-a11y/label-has-associated-control': [
-          'error',
-          {
-            assert: 'either',
-          },
-        ],
-        'react/require-default-props': 0,
-        'react/jsx-filename-extension': [
-          1,
-          {
-            extensions: ['.js', '.jsx', '.ts', '.tsx', '.mdx'],
-          },
-        ],
         radix: 0,
         quotes: [
           2,
@@ -274,17 +208,7 @@ module.exports = {
             tabWidth: 2,
           },
         ],
-        'jsx-a11y/href-no-hash': 'off',
-        'jsx-a11y/anchor-is-valid': [
-          'warn',
-          {
-            aspects: ['invalidHref'],
-          },
-        ],
-        'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': 'warn',
         '@typescript-eslint/comma-dangle': ['off'],
-        'react/jsx-props-no-spreading': 'off',
       },
     },
   ],

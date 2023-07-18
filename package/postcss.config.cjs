@@ -1,5 +1,8 @@
 module.exports = {
   plugins: [
+    require('postcss-import-ext-glob')({
+      sort: 'asc'
+    }),
     require('postcss-import')({ path: 'src/assets/css' }),
     require('postcss-preset-env')({ 
       stage: 2,

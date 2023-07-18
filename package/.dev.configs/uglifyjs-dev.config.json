@@ -1,0 +1,9 @@
+{
+  "output": {
+    "beautify": true,
+    "quote_style": 1,
+    "comments": "all"
+  },
+  "mangle": false,
+  "compress": false
+}
