@@ -32,6 +32,7 @@
 - Updated: Eslint support for Jest and Playwright
 - Updated: Replaced CSS individual imports with glob import
 - Fixed: .dev.configs folder missing
+- Updated: CSS updated to logical properties
 
 ---
 
