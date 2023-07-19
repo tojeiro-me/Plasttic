@@ -102,6 +102,49 @@
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
 
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#b52929",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*"
+    }
+  ],
+  "better-comments.multilineComments": false,
+
   "colorInfo.fields": ["hsl", "rgb", "hex"],
   "colorInfo.languages": [
     {
@@ -167,17 +210,60 @@
 
   "todo-tree.general.enableFileWatcher": true,
   "todo-tree.general.tagGroups": {},
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "DONE",
-    "CHECK",
-    "[ ]",
-    "[x]"
-  ],
+  "todo-tree.general.tags": ["TODO", "FIX", "CHECK", "DONE"],
   "todo-tree.general.statusBar": "current file",
+  "todo-tree.highlights.backgroundColourScheme": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "indigo",
+    "violet",
+    "grey"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "icon",
+    "foreground": "black",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "red"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "foreground": "black",
+      "background": "white",
+      "iconColour": "white",
+      "gutterIcon": false
+    },
+    "FIX": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "CHECK": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "orange",
+      "iconColour": "orange",
+      "gutterIcon": true
+    },
+    "DONE": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green",
+      "gutterIcon": true
+    }
+  },
 
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": false,
