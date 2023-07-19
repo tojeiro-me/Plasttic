@@ -33,7 +33,7 @@
 /* Code/Boilerplate (Template: Temporary)
    ========================================================================== */
 
-body.ptt-page__code {
+.ptt-page__code {
   .ptt-message .ptt-container {
     @media (--ptt-bkp-md) {
       grid-template-columns: 1fr 30vh;
