@@ -2,7 +2,7 @@
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
-
+- :warning: Updated: replaced postcss-nested with postcss-nesting
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
 - Added: ESLint and Stylelint format on save

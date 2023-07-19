@@ -7,11 +7,12 @@ module.exports = {
     require('postcss-preset-env')({ 
       stage: 2,
       features: {
-        'nesting-rules': false }
+        'nesting-rules': true }
       }),
     require('postcss-media-minmax'),
     require('postcss-mixins'),
-    require('postcss-nested'),
+    require('postcss-nesting'),
+    // require('postcss-nested'),
     require('postcss-simple-vars'),
     require('autoprefixer'),
     require('postcss-discard-empty'),
