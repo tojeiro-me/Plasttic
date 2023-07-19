@@ -176,7 +176,7 @@ body.ptt-tpl__temporary {
         font-size: var(--ptt-fnt-size-500);
       }
 
-      ul {
+      & ul {
         margin-inline-start: 2rem;
         padding-block-start: var(--ptt-padding-700);
 
@@ -188,7 +188,7 @@ body.ptt-tpl__temporary {
         }
       }
 
-      li {
+      & li {
         padding-block-start: var(--ptt-padding-200);
       }
     }
@@ -205,7 +205,7 @@ body.ptt-tpl__temporary {
         margin-inline-start: 1rem;
       }
 
-      a {
+      & a {
         @mixin link-button-xl;
       }
     }
