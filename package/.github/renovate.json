@@ -1,0 +1,6 @@
+{
+  "extends": ["config:base"],
+  "timezone": "Portugal",
+  "lockFileMaintenance": { "enabled": true, "automerge": true },
+  "schedule": ["after 10pm every sunday"]
+}
