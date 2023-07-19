@@ -26,7 +26,6 @@
 - Updated: Plasttic HTML Boilerplate to v1.3.3
 - Updated: Plasttic CSS Reset to v2.1
 - Updated: Plasttic HTML Boilerplate snippet
-- Updated: ESLint support for Typescript 5.1.5
 - Updated: Start script
 - Updated: .##gitignore##
 - Updated: ESLint config
