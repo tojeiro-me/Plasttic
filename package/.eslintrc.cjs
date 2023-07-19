@@ -2,13 +2,18 @@
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-  extends: ['airbnb', 'prettier'],
+  extends: [
+    'airbnb',
+    'prettier',
+    'plugin:jest/recommended',
+    'plugin:playwright/recommended',
+  ],
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
     ecmaVersion: 'latest',
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'jest'],
   env: {
     es6: true,
     browser: true,
@@ -107,6 +112,8 @@ module.exports = {
         'airbnb-typescript',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/typescript',
+        'plugin:jest/recommended',
+        'plugin:playwright/recommended',
       ],
       parser: '@typescript-eslint/parser',
       parserOptions: {
@@ -114,7 +121,7 @@ module.exports = {
         project: true,
         tsconfigRootDir: './',
       },
-      plugins: ['prettier', '@typescript-eslint'],
+      plugins: ['prettier', '@typescript-eslint', 'jest'],
       env: {
         es6: true,
         browser: true,

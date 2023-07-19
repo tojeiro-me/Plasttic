@@ -1,4 +1,10 @@
-# v2.3.0 (Jul --, 2023)
+# v3.0.0 (Jul --, 2023)
+
+- :warning: Updated: Replaced Sass style nesting with CSS native nesting
+- :warning: Updated: Replaced CSS individual imports with glob import
+- :warning: Updated: replaced postcss-nested with postcss-nesting
+
+---
 
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
@@ -29,10 +35,14 @@
 - Updated: robots.txt
 - Fixed: dependencies security issues
 - Fixed: Windows compatible CLI commands
-- Updated: Eslint support for Jest and Playwright
-- Updated: Replaced CSS individual imports with glob import
+- Added: Eslint support for Jest and Playwright
 - Fixed: .dev.configs folder missing
 - Updated: CSS updated to logical properties
+- Updated: sitemap.xml
+- Updated: print.css use logical properties
+- Updated: VS Code settings (extensions)
+- Added: visually-hidden utility class (.ptt-u-visually-hidden)
+- Updated: replaced Dependabot with Renovate
 
 ---
 
