@@ -41,6 +41,7 @@
 - Updated: sitemap.xml
 - Updated: print.css use logical properties
 - Updated: VS Code settings (extensions)
+- Added: visually-hidden utility class (.ptt-u-visually-hidden)
 
 ---
 

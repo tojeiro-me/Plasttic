@@ -17,6 +17,25 @@
    ========================================================================== */
 
 /**
+  * VISUALLY-HIDDEN
+  * Hide content visually 
+  * but accessible to users of assistive technology
+  * like screen readers
+  */
+
+.ptt-u-visually-hidden {
+  block-size: 1px;
+  inline-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+
+  position: absolute;
+
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+}
+
+/**
   * PRINT-ONLY / PRINT-NO
   * Extends print.css
   * ptt-u-print-only: Hide elements/sections until print
