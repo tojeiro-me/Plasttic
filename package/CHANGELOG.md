@@ -42,6 +42,7 @@
 - Updated: VS Code settings (extensions)
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
 - :warning: Updated: replaced Dependabot with Renovate
+- :warning: Updated: removed Linting from Dev script (performance)
 
 ---
 
