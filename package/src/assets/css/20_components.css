@@ -27,8 +27,8 @@
 /* <a class="ptt-c-hidden-link" href="#start">Jump to Content</a> */
 
 .ptt-c-hidden-link {
-  block-size: 1px;
   inline-size: 1px;
+  block-size: 1px;
 
   overflow: hidden;
 
@@ -45,7 +45,4 @@
 
   position: relative;
   left: auto;
-}
-
-.emptty {
 }

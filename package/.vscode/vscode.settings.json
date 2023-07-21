@@ -7,8 +7,7 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.stylelint": true
     },
-    "editor.formatOnSave": false,
-    "css.lint.emptyRules": "ignore"
+    "editor.formatOnSave": false
   },
   "[postcss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
