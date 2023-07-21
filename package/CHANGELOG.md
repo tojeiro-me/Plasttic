@@ -3,7 +3,7 @@
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
-- :warning: Updated: optimized linting for performance
+- :warning: Updated: optimized linting
 
 ---
 
