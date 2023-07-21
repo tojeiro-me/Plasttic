@@ -149,23 +149,13 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
-**1. Prettier**
+|               | Files          | Usage                                      | Result                                   | Config                                                                     | Plugin                                                                                                                                                                                                              |
+| ------------- | -------------- | ------------------------------------------ | ---------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Prettier**  | html, md, json | On Save, Build Script, Pre Commit, Plugin  | Errors, Warnings and Fix                 | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)                                                                                                                    |
+| **ESLint**    | js, ts         | On Save, Build Script, Pre Commit, Plugins | Errors, Warnings and Fix                 | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)         | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) \* |
+| **Stylelint** | css            | On Save, Build Script, Pre Commit, Plugin  | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json)                                   | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)                                                                                                               |
 
-| Plugin                                                                                           | Files                       | Usage                      | Result                   | Config                                                                     |
-| ------------------------------------------------------------------------------------------------ | --------------------------- | -------------------------- | ------------------------ | -------------------------------------------------------------------------- |
-| [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false) | html, css, js, ts, md, json | Plugin, Scripts, Git Hooks | Errors, Warnings and Fix | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) |
-
-**2. ESLint**
-
-| Plugin                                                                                                                                                                                                                                           | Files  | Usage                       | Result                   | Config                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | --------------------------- | ------------------------ | ------------------------------------------------------------------ |
-| [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) (see [Typescript](#typescript)) | js, ts | Plugins, Scripts, Git Hooks | Errors, Warnings and Fix | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore) |
-
-**3. Stylelint**
-
-| Plugin                                                                                                | Files     | Usage                      | Result                                   | Config                                   |
-| ----------------------------------------------------------------------------------------------------- | --------- | -------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false) | css, html | Plugin, Scripts, Git Hooks | Warnings, Limited fixes and Styles order | [.stylelintrc.json](./.stylelintrc.json) |
+_\*see [Typescript](#typescript)_
 
 ### Testing
 
