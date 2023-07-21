@@ -42,11 +42,7 @@
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    },
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    }
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
