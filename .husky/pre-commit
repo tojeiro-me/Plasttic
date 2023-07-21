@@ -4,7 +4,7 @@
 git add -A .
 npm run test:jest:hooks
 npm run test:play:hooks
-npm run lint:all
+npm run lint:commit
 npm run partytown:libs
 npm run package:commit
 git add -A .
