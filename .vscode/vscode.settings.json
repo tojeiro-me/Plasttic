@@ -1,5 +1,4 @@
 {
-  "css.lint.emptyRules": "ignore",
   "css.validate": false,
   "postcss.validate": false,
 
@@ -8,7 +7,8 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.stylelint": true
     },
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "css.lint.emptyRules": "ignore"
   },
   "[postcss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
