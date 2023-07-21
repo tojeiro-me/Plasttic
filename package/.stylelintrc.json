@@ -76,11 +76,13 @@
       [
         {
           "groupName": "Initial",
+          "message": "",
           "properties": ["composes", "all", "content"]
         },
         {
           "groupName": "Display",
           "emptyLineBefore": "always",
+          "message": "",
           "properties": [
             "display",
             "grid",

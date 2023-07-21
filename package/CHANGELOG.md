@@ -3,6 +3,7 @@
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
+- :warning: Updated: optimized linting for performance
 
 ---
 
@@ -42,7 +43,7 @@
 - Updated: VS Code settings (extensions)
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
 - :warning: Updated: replaced Dependabot with Renovate
-- Updated: optimized linting scripts for performance
+- Updated: TODO Tree settings
 
 ---
 
