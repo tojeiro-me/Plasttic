@@ -5,16 +5,24 @@
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
     "editor.codeActionsOnSave": {
+      "source.fixAll": true,
       "source.fixAll.stylelint": true
     },
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "[postcss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
     "editor.codeActionsOnSave": {
+      "source.fixAll": true,
       "source.fixAll.stylelint": true
     },
-    "editor.formatOnSave": false
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -32,6 +40,9 @@
   },
   "[javascript][typescript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
     "editor.formatOnSave": true,

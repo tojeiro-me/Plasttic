@@ -1,54 +1,47 @@
 {
-  "extends": ["stylelint-config-recommended", "stylelint-config-html"],
-  "plugins": ["stylelint-order", "stylelint-prettier"],
+  "extends": ["stylelint-config-recommended"],
+  "plugins": ["stylelint-order"],
   "defaultSeverity": "warning",
   "ignoreFiles": [
     "dev/assets/css/*.css",
     "dist/assets/css/*.css",
-    "package/src/assets/css/*.css",
-    "dev/*.html",
-    "dist/*.html",
-    "package/*.html",
-    "dev/**/*.html",
-    "dist/**/*.html",
-    "package/**/*.html"
+    "package/src/assets/css/*.css"
   ],
 
   "rules": {
-    "prettier/prettier": true,
-    "selector-class-pattern": null,
-    "property-no-vendor-prefix": null,
+    "alpha-value-notation": "number",
+    "at-rule-empty-line-before": [
+      "always",
+      { "except": ["first-nested", "after-same-name"] }
+    ],
     "at-rule-no-unknown": [
       true,
       {
         "ignoreAtRules": ["mixin", "define-mixin"]
       }
     ],
-    "no-duplicate-selectors": null,
-    "no-descending-specificity": null,
-    "max-nesting-depth": 3,
-    "function-url-quotes": null,
-    "declaration-no-important": true,
-    "at-rule-empty-line-before": [
-      "always",
-      { "except": ["first-nested", "after-same-name"] }
-    ],
-    "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
-    "declaration-empty-line-before": null,
+    "block-no-empty": true,
+    "color-function-notation": "modern",
+    "color-hex-length": "long",
+    "color-named": "never",
     "comment-empty-line-before": null,
+    "declaration-block-no-duplicate-properties": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "declaration-block-single-line-max-declarations": 0,
+    "declaration-empty-line-before": null,
+    "declaration-no-important": true,
     "function-calc-no-unspaced-operator": true,
+    "function-name-case": "lower",
+    "function-url-quotes": null,
+    "max-nesting-depth": 3,
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "property-no-vendor-prefix": null,
+    "rule-empty-line-before": ["always", { "except": ["first-nested"] }],
+    "selector-class-pattern": null,
+    "selector-no-qualifying-type": null,
     "selector-no-vendor-prefix": null,
     "value-keyword-case": "lower",
-    "color-function-notation": "modern",
-    "color-named": "never",
-    "color-hex-length": "long",
-    "alpha-value-notation": "number",
-    "declaration-block-no-redundant-longhand-properties": null,
-    "function-name-case": "lower",
-    "declaration-block-no-duplicate-properties": null,
-    "block-no-empty": true,
-    "declaration-block-single-line-max-declarations": 0,
-    "selector-no-qualifying-type": null,
 
     "order/order": [
       [
@@ -76,13 +69,12 @@
       [
         {
           "groupName": "Initial",
-          "message": "",
           "properties": ["composes", "all", "content"]
         },
         {
           "groupName": "Display",
           "emptyLineBefore": "always",
-          "message": "",
+          "noEmptyLineBetween": true,
           "properties": [
             "display",
             "grid",
@@ -153,6 +145,7 @@
         {
           "groupName": "Box model",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "box-sizing",
             "width",
@@ -256,6 +249,7 @@
         {
           "groupName": "Background",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "background",
             "background-attachment",
@@ -275,6 +269,7 @@
         {
           "groupName": "Border",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "border",
             "border-color",
@@ -339,6 +334,7 @@
         {
           "groupName": "Position",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "position",
             "inset",
@@ -359,6 +355,7 @@
         {
           "groupName": "Typography",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "color",
             "font",
@@ -452,6 +449,7 @@
         {
           "groupName": "Transform",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "translate",
             "scale",
@@ -473,6 +471,7 @@
         {
           "groupName": "Animation",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "transition",
             "transition-property",
@@ -499,6 +498,7 @@
         {
           "groupName": "SVG",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "alignment-baseline",
             "baseline-shift",
@@ -546,6 +546,7 @@
         {
           "groupName": "Interface",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "appearance",
             "accent-color",
@@ -567,6 +568,7 @@
         {
           "groupName": "Other",
           "emptyLineBefore": "always",
+          "noEmptyLineBetween": true,
           "properties": [
             "break-before",
             "break-inside",

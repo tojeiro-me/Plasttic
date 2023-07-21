@@ -29,7 +29,6 @@
 .ptt-c-hidden-link {
   block-size: 1px;
   inline-size: 1px;
-
   overflow: hidden;
 
   position: absolute;
