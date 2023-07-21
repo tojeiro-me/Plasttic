@@ -3,9 +3,6 @@
   "css.validate": false,
   "postcss.validate": false,
 
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
     "editor.codeActionsOnSave": {
@@ -41,6 +38,9 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
   "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
