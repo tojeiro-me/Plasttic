@@ -22,6 +22,8 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
