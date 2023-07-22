@@ -119,7 +119,6 @@
     "eslint": "^8.45.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
-    "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-node": "^0.3.7",
     "eslint-import-resolver-typescript": "^3.5.5",
@@ -168,6 +167,7 @@
   "devDependencies": {
     "lighthouse": "^10.4.0",
     "serve": "^14.2.0",
+    "ts-node": "^10.9.1",
     "unlighthouse": "^0.9.0",
     "zod": "^3.21.4"
   },

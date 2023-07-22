@@ -5,7 +5,13 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:jest/recommended',
     'plugin:playwright/recommended',
+    'plugin:n/recommended',
   ],
+  settings: {
+    'import/resolver': {
+      node: true,
+    },
+  },
   parser: '@babel/eslint-parser',
   parserOptions: {
     requireConfigFile: false,
@@ -100,6 +106,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/comma-dangle': ['off'],
+    'n/exports-style': ['error', 'module.exports'],
   },
   overrides: [
     {

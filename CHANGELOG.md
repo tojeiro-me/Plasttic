@@ -44,6 +44,8 @@
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
 - :warning: Updated: replaced Dependabot with Renovate
 - Updated: TODO Tree settings
+- Added: ESLint support for Node
+- Added: Node Typescript (ts-node)
 
 ---
 
