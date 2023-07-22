@@ -12,9 +12,8 @@ const config: Config = {
   verbose: false,
   preset: 'ts-jest',
   testEnvironment: 'node',
-  roots: ['tests/jest/test'],
+  roots: ['<rootDir>/tests/jest/test/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  testMatch: ['?(*.)+(spec|test).(js|ts)'],
 };
 
 export default config;
