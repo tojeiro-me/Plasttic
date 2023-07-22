@@ -1,10 +1,8 @@
-// This is a patch so that eslint will load the plugins as dependencies. Otherwise we can to install EVERYTHING in th root project
-require('@rushstack/eslint-patch/modern-module-resolution');
-
 module.exports = {
   extends: [
-    'airbnb',
+    'airbnb-base',
     'prettier',
+    'plugin:import/recommended',
     'plugin:jest/recommended',
     'plugin:playwright/recommended',
   ],
@@ -107,14 +105,21 @@ module.exports = {
     {
       files: ['src/assets/js/**/*.ts', 'tests/**/**/*.ts'],
       extends: [
+        'airbnb-typescript/base',
         'prettier',
-        'plugin:@typescript-eslint/recommended', // Uses rules from `@typescript-eslint/eslint-plugin`,
-        'airbnb-typescript',
+        'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:import/recommended',
         'plugin:import/typescript',
         'plugin:jest/recommended',
         'plugin:playwright/recommended',
       ],
+      settings: {
+        'import/resolver': {
+          typescript: true,
+          node: true,
+        },
+      },
       parser: '@typescript-eslint/parser',
       parserOptions: {
         ecmaVersion: 'latest',
@@ -156,6 +161,7 @@ module.exports = {
         'no-debugger': 0,
         'no-use-before-define': 'off',
         'import/no-cycle': 'off',
+        'import/no-unresolved': 'error',
         'no-alert': 0,
         'no-await-in-loop': 0,
         'no-return-assign': ['error', 'except-parens'],
