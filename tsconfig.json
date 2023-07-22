@@ -26,6 +26,8 @@
     // "declarationMap": false,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": false,
     "pretty": true,
     "paths": {}
   },
