@@ -10,7 +10,6 @@ module.exports = {
     require('postcss-simple-vars'),
     require('autoprefixer'),
     require('postcss-discard-empty'),
-    require('postcss-merge-rules'),
     require('@fullhuman/postcss-purgecss')({
       content: ['./src/*.html', './src/**/*.html']
     }),
