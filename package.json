@@ -76,7 +76,6 @@
     "test:jest:hooks": "jest ./tests/jest/hooks/* --passWithNoTests",
     "test:play:dev": "npx playwright test ./tests/playwright/dev/* --pass-with-no-tests",
     "test:play:hooks": "npx playwright test ./tests/playwright/hooks/* --pass-with-no-tests",
-    "test:server": "serve dist/",
     "test:vitals:page": "lighthouse $npm_config_protocol://localhost:8000/$npm_config_page  --config-path ./lighthouse.config.cjs --cli-flags-path ./lighthouse.flags.json --output-path ./tests/lighthouse/reports/report.html && exit 0",
     "test:vitals:site": "npx unlighthouse --site $npm_config_url --config-file ./unlighthouse.config.ts",
     "watch:assets": "onchange -d 1000 'src/assets/*' -- npm run del:assets",
@@ -165,7 +164,6 @@
   },
   "devDependencies": {
     "lighthouse": "^10.4.0",
-    "serve": "^14.2.0",
     "ts-node": "^10.9.1",
     "unlighthouse": "^0.9.0",
     "zod": "^3.21.4"

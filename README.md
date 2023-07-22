@@ -161,6 +161,12 @@ _\*see [Typescript](#typescript)_
 
 ---
 
+|      | About        | Usage                              | folders \*       |
+| ---- | ------------ | ---------------------------------- | ---------------- |
+| Jest | Unit Testing | Dev Server, Pre-Commit, Individual | dev, hooks, test |
+
+_\*for Jest and Playwright, the tests placed on the `dev` or `hooks` folder will run automatically on `npm run dev` or on `pre-commit` accordingly. The `test` folder is were individual tests are placed and run in Node, for example. This folders are inside the `tests` root folder separated by test type._
+
 **1. Jest**
 
 - About:
