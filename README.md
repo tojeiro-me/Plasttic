@@ -162,16 +162,15 @@ _\*\*see [Typescript](#typescript)_
 
 ---
 
-|              | About                        | Usage                                                | Folders \*                | Notes |
-| ------------ | ---------------------------- | ---------------------------------------------------- | ------------------------- | ----- |
-| Jest         | Unit nad Integration testing | Dev Server, Pre-Commit, Individual                   | dev, hooks, test, reports |       |
-| Playwright   | End-to-End testing           | Dev Server, Pre-Commit, Individual                   | dev, hooks, test, reports |       |
-| Lighthouse   | Web Core Vitals              | `npm run test:vitals:page --page=page.html`          | reports                   |       |
-| Unlighthouse | Lighthouse website testing   | `npm run test:vitals:site --url=https://example.com` | dev, hooks, test          |       |
+|              | About                        | Usage                                                | Folders \*          | Notes                                                      | Plugins                                                                                                    |
+| ------------ | ---------------------------- | ---------------------------------------------------- | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Jest         | Unit nad Integration testing | Build tool, Pre-Commit, Terminal `npx jest`          | dev, build, reports | Typescript support, [Jest CLI](https://jestjs.io/docs/cli) | [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)                               |
+| Playwright   | End-to-End testing           | Build tool, Pre-Commit, Terminal                     | dev, build, reports |                                                            | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) |
+| Lighthouse   | Web Core Vitals              | `npm run test:vitals:page --page=page.html`          | reports             |                                                            |                                                                                                            |
+| Unlighthouse | Lighthouse website testing   | `npm run test:vitals:site --url=https://example.com` | reports \*\*        |                                                            |                                                                                                            |
 
-_\*for Jest and Playwright, the tests placed on the `dev` or `hooks` folder will run automatically on `npm run dev` or on `pre-commit` accordingly. The `test` folder is were individual tests are placed and run with the plugins. This folders are inside the `tests` root folder separated by test type._
-
-configure plugins and reports
+_\*This folders are inside the `tests` root folder separated by test app. For Jest and Playwright, the tests placed on the `build` folder will run automatically on `npm run build` and on `pre-commit` and the `dev` folder is were individual tests are placed to run from the terminal._  
+_\*\*The Unlighthouse reports folder `.unlighthouse` is located in the root directory._
 
 ---
 

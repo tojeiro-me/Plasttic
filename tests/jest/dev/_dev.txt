@@ -1,2 +1,5 @@
-tests run on the dev and build scripts:
-npm run dev / dev:ssl / build
+tests to run on the terminal
+
+terminal: npx jest
+
+https://jestjs.io/docs/cli
