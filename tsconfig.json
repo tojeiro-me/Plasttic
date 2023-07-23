@@ -44,8 +44,8 @@
     "dev/*",
     "dist/*",
     "**/tests-examples/**",
-    "./tests/**/**/*.test.ts",
-    "./tests/**/**/*.spec.ts"
+    "*.test.ts",
+    "*.spec.ts"
   ],
   "typeAcquisition": { "include": ["jest"] }
 }
