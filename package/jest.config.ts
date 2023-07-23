@@ -1,4 +1,5 @@
-import type {Config} from 'jest';
+import type { Config } from 'jest';
+import type { JestConfigWithTsJest } from 'ts-jest';
 
 // require('@jest/types');
 // require('ts-jest/presets');

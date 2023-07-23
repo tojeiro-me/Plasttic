@@ -16,7 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     // "baseUrl": "./",
     // "rootDir": "./",
-    "outDir": "./.plasttic/js",
+    // "outDir": "./.plasttic/js",
     // "allowJs": true,
     "allowSyntheticDefaultImports": true,
     // "allowUnreachableCode": false,
@@ -43,9 +43,7 @@
     "package/*",
     "dev/*",
     "dist/*",
-    "**/tests-examples/**",
-    "*.test.ts",
-    "*.spec.ts"
+    "**/tests-examples/**"
   ],
   "typeAcquisition": { "include": ["jest"] }
 }
