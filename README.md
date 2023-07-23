@@ -149,39 +149,29 @@ _(Note: The files installed are not empty. The reason is that, by creating a tem
 
 _(Extends the editor File Type rules, [.editorconfig](./.editorconfig) and [VS Code settings](./.vscode/vscode.settings.json))_
 
-|               | Files               | Usage                                      | Result                                                            | Config                                                                     | Plugin                                                                                                                                                                                                              | References                                                                                                                                                                                               |
-| ------------- | ------------------- | ------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Prettier**  | html, css, md, json | On Save, Build Script, Pre Commit, Plugin  | Errors, Warnings and Fix                                          | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)                                                                                                                    |                                                                                                                                                                                                          |
-| **ESLint**    | js, ts              | On Save, Build Script, Pre Commit, Plugins | Errors, Warnings and Fix                                          | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)         | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) \* | [Airbnb](https://github.com/airbnb/javascript), [Airbnb Typescript](https://github.com/iamturns/eslint-config-airbnb-typescript), [Wes Bos ESLint Setup](https://github.com/wesbos/eslint-config-wesbos) |
-| **Stylelint** | css                 | On Save, Build Script, Pre Commit, Plugin  | Warnings, Limited fixes and [Styles order](./docs/css-order.json) | [.stylelintrc.json](./.stylelintrc.json)                                   | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)                                                                                                               |                                                                                                                                                                                                          |
+|               | Files \*            | Usage                                      | Result                                                            | Config                                                                     | Plugin                                                                                                                                                                                                                | References                                                                                                                                                                                               |
+| ------------- | ------------------- | ------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Prettier**  | html, css, md, json | On Save, Build Script, Pre Commit, Plugin  | Errors, Warnings and Fix                                          | [.prettierrc](./.vscode/.prettierrc), [.prettierignore](./.prettierignore) | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&ssr=false)                                                                                                                      |                                                                                                                                                                                                          |
+| **ESLint**    | js, ts (src/tests)  | On Save, Build Script, Pre Commit, Plugins | Errors, Warnings and Fix                                          | [.eslintrc.cjs](./.eslintrc.cjs), [.eslintignore](./.eslintignore)         | [Prettier + ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint&ssr=false), [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&ssr=false) \*\* | [Airbnb](https://github.com/airbnb/javascript), [Airbnb Typescript](https://github.com/iamturns/eslint-config-airbnb-typescript), [Wes Bos ESLint Setup](https://github.com/wesbos/eslint-config-wesbos) |
+| **Stylelint** | css                 | On Save, Build Script, Pre Commit, Plugin  | Warnings, Limited fixes and [Styles order](./docs/css-order.json) | [.stylelintrc.json](./.stylelintrc.json)                                   | [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint&ssr=false)                                                                                                                 |                                                                                                                                                                                                          |
 
-_\*see [Typescript](#typescript)_
+_\*all linting is done on the src folder, except for ESLint that also lints the tests folder._  
+_\*\*see [Typescript](#typescript)_
 
 ### Testing
 
 ---
 
-**1. Jest**
+|              | About                        | Usage                                                | Folders \*                | Notes |
+| ------------ | ---------------------------- | ---------------------------------------------------- | ------------------------- | ----- |
+| Jest         | Unit nad Integration testing | Dev Server, Pre-Commit, Individual                   | dev, hooks, test, reports |       |
+| Playwright   | End-to-End testing           | Dev Server, Pre-Commit, Individual                   | dev, hooks, test, reports |       |
+| Lighthouse   | Web Core Vitals              | `npm run test:vitals:page --page=page.html`          | reports                   |       |
+| Unlighthouse | Lighthouse website testing   | `npm run test:vitals:site --url=https://example.com` | dev, hooks, test          |       |
 
-- About:
-- folders \*:
+_\*for Jest and Playwright, the tests placed on the `dev` or `hooks` folder will run automatically on `npm run dev` or on `pre-commit` accordingly. The `test` folder is were individual tests are placed and run with the plugins. This folders are inside the `tests` root folder separated by test type._
 
-**2. Playwright**
-
-- About:
-- folders \*:
-
-\* dev:
-
-**3. Lighthouse**
-
-- About:
-- Script: `npm run test:vitals:page --page=page.html`
-
-**4. Unlighthouse**
-
-- About:
-- Script: `npm run test:vitals:site --url=https://example.com`
+configure plugins and reports
 
 ---
 

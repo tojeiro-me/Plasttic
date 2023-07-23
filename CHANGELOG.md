@@ -45,7 +45,8 @@
 - :warning: Updated: replaced Dependabot with Renovate
 - Updated: TODO Tree settings
 - Added: ESLint support for Node
-- Added: Node Typescript (ts-node)
+- Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
+- Updated: tsconfig (noUncheckedIndexedAccess)
 
 ---
 

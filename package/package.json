@@ -60,7 +60,6 @@
     "del:img": "del-cli ./$npm_config_dest/assets/img/* && ./$npm_config_dest/assets/img/**/* && ./$npm_config_dest/assets/img/**/**/* && npm run copy:img",
     "del:js": "del-cli ./$npm_config_dest/assets/js/* && del-cli ./.plasttic/js/* && npm run dev:copy:js",
     "del:private": "del-cli ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
-    "husky": "husky install",
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet && prettier --config ./.vscode/.prettierrc --write src/assets/css/*.css --log-level silent",
     "lint:html": "prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --log-level silent",
@@ -77,7 +76,6 @@
     "test:jest:hooks": "jest ./tests/jest/hooks/* --passWithNoTests",
     "test:play:dev": "npx playwright test ./tests/playwright/dev/* --pass-with-no-tests",
     "test:play:hooks": "npx playwright test ./tests/playwright/hooks/* --pass-with-no-tests",
-    "test:server": "serve dist/",
     "test:vitals:page": "lighthouse $npm_config_protocol://localhost:8000/$npm_config_page  --config-path ./lighthouse.config.cjs --cli-flags-path ./lighthouse.flags.json --output-path ./tests/lighthouse/reports/report.html && exit 0",
     "test:vitals:site": "npx unlighthouse --site $npm_config_url --config-file ./unlighthouse.config.ts",
     "watch:assets": "onchange -d 1000 'src/assets/*' -- npm run del:assets",
@@ -161,13 +159,12 @@
     "stylelint-config-recommended": "^13.0.0",
     "stylelint-order": "^6.0.3",
     "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "uglify-js": "^3.17.4"
   },
   "devDependencies": {
     "lighthouse": "^10.4.0",
-    "serve": "^14.2.0",
-    "ts-node": "^10.9.1",
     "unlighthouse": "^0.9.0",
     "zod": "^3.21.4"
   },
