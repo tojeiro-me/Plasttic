@@ -1,5 +1,0 @@
-test run on the terminal/extension
-
-terminal: npx jest ./tests/jest/test/* --verbose
-
-https://jestjs.io/docs/cli
