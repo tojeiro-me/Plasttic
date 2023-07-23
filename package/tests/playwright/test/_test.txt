@@ -1,4 +1,4 @@
-test run on the editor/extension
+test run on the terminal/extension
 
 terminal: npx playwright test ./tests/playwright/test/*
 

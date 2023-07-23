@@ -1,4 +1,5 @@
-test run on the editor/extension
+test run on the terminal/extension
 
 terminal: npx jest ./tests/jest/test/* --verbose
 
+https://jestjs.io/docs/cli
