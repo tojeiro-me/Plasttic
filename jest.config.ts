@@ -1,23 +1,13 @@
 import type { Config } from 'jest';
-import type { JestConfigWithTsJest } from 'ts-jest';
-
-// require('@jest/types');
-// require('ts-jest/presets');
 
 /**
  * See https://jestjs.io/docs/configuration
  */
 
-const config: JestConfigWithTsJest = {
+const config: Config = {
   bail: 0,
   verbose: true,
-  // preset: 'ts-jest',
-  transform: {
-    // '^.+\\.[tj]sx?$' to process js/ts with `ts-jest`
-    // '^.+\\.m?[tj]sx?$' to process js/ts/mjs/mts with `ts-jest`
-    '^.+\\.ts$': 
-      'ts-jest',
-    },
+  preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['<rootDir>/tests/jest/test/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
@@ -29,7 +19,11 @@ const config: JestConfigWithTsJest = {
   ],
   coverageProvider: 'babel',
   coverageDirectory: '<rootDir>/tests/jest/reports/',
-  testMatch: ['**/?(*.)+(spec|test).[jt]s']
+  testMatch: ['**/?(*.)+(spec|test).[jt]s'],
+  extensionsToTreatAsEsm: ['.ts'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  }
 };
 
 export default config;

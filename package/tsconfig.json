@@ -1,7 +1,7 @@
 {
   /* Visit https://aka.ms/tsconfig to read more about this file */
 
-  "_version": "2.2.0",
+  "_version": "3.0.0",
 
   "compilerOptions": {
     "target": "ESNext",
@@ -16,7 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     // "baseUrl": "./",
     // "rootDir": "./",
-    // "outDir": "./.plasttic/js",
+    "outDir": "./.plasttic/js",
     // "allowJs": true,
     "allowSyntheticDefaultImports": true,
     // "allowUnreachableCode": false,
