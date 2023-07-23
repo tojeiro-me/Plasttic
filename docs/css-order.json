@@ -2,12 +2,12 @@
   [
     {
       "groupName": "Initial",
-      "emptyLineBefore": "always",
       "properties": ["composes", "all", "content"]
     },
     {
       "groupName": "Display",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "display",
         "grid",
@@ -78,6 +78,7 @@
     {
       "groupName": "Box model",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "box-sizing",
         "width",
@@ -181,6 +182,7 @@
     {
       "groupName": "Background",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "background",
         "background-attachment",
@@ -200,6 +202,7 @@
     {
       "groupName": "Border",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "border",
         "border-color",
@@ -264,6 +267,7 @@
     {
       "groupName": "Position",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "position",
         "inset",
@@ -284,6 +288,7 @@
     {
       "groupName": "Typography",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "color",
         "font",
@@ -377,6 +382,7 @@
     {
       "groupName": "Transform",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "translate",
         "scale",
@@ -398,6 +404,7 @@
     {
       "groupName": "Animation",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "transition",
         "transition-property",
@@ -424,6 +431,7 @@
     {
       "groupName": "SVG",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "alignment-baseline",
         "baseline-shift",
@@ -471,6 +479,7 @@
     {
       "groupName": "Interface",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "appearance",
         "accent-color",
@@ -492,6 +501,7 @@
     {
       "groupName": "Other",
       "emptyLineBefore": "always",
+      "noEmptyLineBetween": true,
       "properties": [
         "break-before",
         "break-inside",
