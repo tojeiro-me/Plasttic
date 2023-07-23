@@ -44,5 +44,6 @@
     "dev/*",
     "dist/*",
     "**/tests-examples/**"
-  ]
+  ],
+  "typeAcquisition": { "include": ["jest"] }
 }

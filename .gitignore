@@ -34,6 +34,7 @@ src/boilerplate/
 lib/
 
 # testing
+**/jest/reports/
 **/playwright/results/
 **/playwright/reports/
 **/playwright/.cache/

@@ -1,10 +1,6 @@
 // Jest test file
-console.log('Hello from Jest');
+import sum from './first.js';
 
-// Dummy test
-function sum(a, b) {
-  return a + b;
-}
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
