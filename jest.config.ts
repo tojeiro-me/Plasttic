@@ -8,10 +8,16 @@ import type { JestConfigWithTsJest } from 'ts-jest';
  * See https://jestjs.io/docs/configuration
  */
 
-const config: Config = {
+const config: JestConfigWithTsJest = {
   bail: 0,
   verbose: true,
-  preset: 'ts-jest',
+  // preset: 'ts-jest',
+  transform: {
+    // '^.+\\.[tj]sx?$' to process js/ts with `ts-jest`
+    // '^.+\\.m?[tj]sx?$' to process js/ts/mjs/mts with `ts-jest`
+    '^.+\\.ts$': 
+      'ts-jest',
+    },
   testEnvironment: 'node',
   roots: ['<rootDir>/tests/jest/test/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
