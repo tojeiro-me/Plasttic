@@ -65,7 +65,7 @@
     "lint:html": "prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --log-level silent",
     "lint:js": "npx eslint --ext .js,.ts ./src/assets/js/ ./src/assets/js/modules/ ./tests/jest/**/ ./tests/playwright/**/ --no-error-on-unmatched-pattern --fix",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
-    "package:commit": "del-cli ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** !./package/tests/** !./package/.unlighthouse/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources)/**/*\" package/src && copyfiles -u 1 -a -e ./**/*-nogit* \"./src/*.*\" package/src && copyfiles -a -e ./package-lock.json -e ./.gitignore -e ./README.md -e ./*-nogit* \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" \"./.dev.configs/**/*\" \"./~partytown/**/*\" -e ./.vscode/settings.json package",
+    "package:commit": "del-cli ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** !./package/tests/** !./package/.unlighthouse/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources)/**/*\" package/src && copyfiles -u 1 -a -e ./**/*-nogit* \"./src/*.*\" package/src && copyfiles -a -e ./pnpm-lock.yaml -e ./.gitignore -e ./README.md -e ./*-nogit* \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" \"./.dev.configs/**/*\" \"./~partytown/**/*\" -e ./.vscode/settings.json package",
     "partytown:libs": "partytown copylib src/~partytown",
     "start:dev": "npm run test:jest:dev && npm run test:play:dev && npm run del:dest && concurrently npm:copy:* npm:dev:copy:html npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync",
     "start:dev:ssl": "npm run test:jest:dev && npm run test:play:dev && npm run del:dest && concurrently npm:copy:* npm:dev:copy:html npm:dev:copy:css npm:dev:copy:js && concurrently npm:watch:* npm:sync:ssl",
@@ -164,6 +164,7 @@
     "uglify-js": "^3.17.4"
   },
   "devDependencies": {
+    "jest-cli": "^29.6.1",
     "lighthouse": "^10.4.0",
     "unlighthouse": "^0.9.0",
     "zod": "^3.21.4"
