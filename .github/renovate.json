@@ -4,13 +4,9 @@
   "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
-  "packageRules": [
-    {
-      "automerge": true,
-      "automergeType": "branch",
-      "automergeStrategy": "squash"
-    }
-  ],
+  "automerge": true,
+  "automergeType": "branch",
+  "automergeStrategy": "squash"
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
