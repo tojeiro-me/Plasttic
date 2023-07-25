@@ -1,7 +1,4 @@
-import type {Config} from 'jest';
-
-// require('@jest/types');
-// require('ts-jest/presets');
+import type { Config } from 'jest';
 
 /**
  * See https://jestjs.io/docs/configuration
@@ -9,11 +6,24 @@ import type {Config} from 'jest';
 
 const config: Config = {
   bail: 0,
-  verbose: false,
+  verbose: true,
   preset: 'ts-jest',
   testEnvironment: 'node',
-  roots: ['<rootDir>/tests/jest/test/'],
+  roots: ['<rootDir>/tests/jest/dev/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  collectCoverage: true,
+  collectCoverageFrom: [
+    '**/*.{js,ts}',
+    '!**/node_modules/**',
+    '!**/vendor/**',
+  ],
+  coverageProvider: 'babel',
+  coverageDirectory: '<rootDir>/tests/jest/reports/',
+  testMatch: ['**/?(*.)+(spec|test).[jt]s'],
+  extensionsToTreatAsEsm: ['.ts'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
+  }
 };
 
 export default config;

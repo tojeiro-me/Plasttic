@@ -9,7 +9,7 @@ const config: Config = {
   verbose: true,
   preset: 'ts-jest',
   testEnvironment: 'node',
-  roots: ['<rootDir>/tests/jest/dev/'],
+  roots: ['<rootDir>/tests/jest/build/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverage: true,
   collectCoverageFrom: [
