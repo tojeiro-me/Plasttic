@@ -6,7 +6,7 @@
   "rebaseWhen": "conflicted",
   "automerge": true,
   "automergeType": "branch",
-  "automergeStrategy": "squash"
+  "automergeStrategy": "squash",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
