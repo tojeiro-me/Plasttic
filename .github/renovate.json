@@ -1,7 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":disableDependencyDashboard"],
-  "timezone": "Portugal",
+  "packageRules": [
+    {
+      "automerge": true
+    }
+  ],
   "lockFileMaintenance": { "enabled": true, "automerge": true },
+  "timezone": "Portugal",
   "schedule": ["after 10pm every sunday"]
 }
