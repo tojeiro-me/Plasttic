@@ -1,12 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":disableDependencyDashboard"],
-  "packageRules": [
-    {
-      "automerge": true
-    }
-  ],
-  "lockFileMaintenance": { "enabled": true, "automerge": true },
-  "timezone": "Portugal",
-  "schedule": ["after 10pm every sunday"]
+  "enabledManagers": ["github-actions", "npm"],
+  "baseBranches": ["develop"],
+  "rebaseWhen": "conflicted",
+  "automerge": true,
+  "automergeType": "branch",
+  "automergeStrategy": "squash",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "extends": ["schedule:weekly"]
+  },
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "timezone": "Europe/Lisbon",
+  "schedule": ["after 10pm every weekday"]
 }
