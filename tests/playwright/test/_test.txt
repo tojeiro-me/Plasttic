@@ -1,5 +1,0 @@
-test run on the editor/extension
-
-terminal: npx playwright test ./tests/playwright/test/*
-
-https://playwright.dev/docs/test-cli

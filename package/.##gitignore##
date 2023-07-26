@@ -31,6 +31,11 @@ dist/
 *-nogit*
 
 # testing
-.tests/
+**/jest/reports/
+**/playwright/results/
+**/playwright/reports/
+**/playwright/.cache/
+!**/tests/**/dev/
+**/lighthouse/reports/
 .unlighthouse/
 
