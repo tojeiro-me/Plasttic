@@ -34,10 +34,8 @@ src/boilerplate/
 lib/
 
 # testing
-**/jest/reports/
-**/playwright/results/
-**/playwright/reports/
-**/playwright/.cache/
-**/lighthouse/reports/
-!**/tests/**/dev/
+tests/**/reports/
+tests/playwright/results/
+tests/playwright/.cache/
+!tests/**/reports/_*.txt
 .unlighthouse/
