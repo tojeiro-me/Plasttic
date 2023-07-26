@@ -1,0 +1,5 @@
+tests to run on the terminal
+
+terminal: npx playwright test ./tests/playwright/test/*
+
+https://playwright.dev/docs/test-cli

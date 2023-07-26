@@ -34,8 +34,12 @@ src/boilerplate/
 lib/
 
 # testing
-tests/**/reports/
+tests/**/reports/*.*
+tests/**/reports/**/*.*
 tests/playwright/results/
 tests/playwright/.cache/
 !tests/**/reports/_*.txt
-.unlighthouse/
+.unlighthouse/*.*
+!tests/**/**/_*.txt
+!**/tests/**/dev/
+!.unlighthouse/_*.txt
