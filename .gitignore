@@ -34,10 +34,10 @@ src/boilerplate/
 lib/
 
 # testing
-**/jest/reports/**
+**/jest/reports/
 **/playwright/results/
 **/playwright/reports/
 **/playwright/.cache/
-!**/tests/**/dev/
 **/lighthouse/reports/
+!**/tests/**/dev/
 .unlighthouse/
