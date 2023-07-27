@@ -5,6 +5,8 @@
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
+  "stabilityDays": 3,
+  "automergeType": "branch",
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
@@ -20,7 +22,9 @@
     }
   ],
   "lockFileMaintenance": {
+    "dependencyDashboard": false,
     "enabled": true,
     "automerge": true
-  }
+  },
+  "timezone": "Europe/Lisbon"
 }
