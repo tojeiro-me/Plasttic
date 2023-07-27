@@ -6,6 +6,7 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "stabilityDays": 3,
+  "automergeType": "branch",
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
