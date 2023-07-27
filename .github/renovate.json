@@ -6,6 +6,7 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "stabilityDays": 3,
+  "automergeType": "branch",
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
@@ -15,6 +16,7 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "dependencyDashboard": false,
       "automerge": true,
       "automergeStrategy": "squash"
     }
@@ -23,5 +25,6 @@
     "enabled": true,
     "automerge": true
   },
-  "timezone": "Europe/Lisbon"
+  "timezone": "Europe/Lisbon",
+  "schedule": ["after 10pm every weekday"]
 }
