@@ -4,11 +4,6 @@
   "enabledManagers": ["github-actions", "npm"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
-  "dependencyDashboard": true,
-  "dependencyDashboardLabels": ["dependencies", "repo maintenance"],
-  "major": {
-    "dependencyDashboardApproval": true
-  },
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
