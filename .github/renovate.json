@@ -26,5 +26,5 @@
     "automerge": true
   },
   "timezone": "Europe/Lisbon",
-  "schedule": ["after 10pm every weekday"]
+  "schedule": ["after 10pm every sunday"]
 }
