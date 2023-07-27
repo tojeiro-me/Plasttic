@@ -4,12 +4,6 @@
   "enabledManagers": ["github-actions", "npm"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeStrategy": "squash"
-    }
-  ],
+  "automerge": true,
   "postUpdateOptions": ["yarnDedupeHighest"]
 }
