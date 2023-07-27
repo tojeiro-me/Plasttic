@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
+  "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
@@ -15,15 +16,12 @@
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "dependencyDashboard": false,
       "automerge": true,
       "automergeStrategy": "squash"
     }
   ],
-  "lockFileMaintenance": {
-    "dependencyDashboard": false,
-    "enabled": true,
-    "automerge": true
-  },
+  "postUpdateOptions": [
+    "pnpmDedupe",
+  ],
   "timezone": "Europe/Lisbon"
 }
