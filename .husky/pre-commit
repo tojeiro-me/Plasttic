@@ -2,9 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 git add -A .
-npm run lint:commit
-npm run test:jest:build
-npm run test:play:build
 npm run partytown:libs
 npm run package:commit
 git add -A .

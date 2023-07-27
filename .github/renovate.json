@@ -5,12 +5,13 @@
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
-  "dependencyDashboard": true,
-  "dependencyDashboardLabels": ["dependencies", "repo maintenance"],
-  "major": {
-    "dependencyDashboardApproval": true
-  },
   "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboard": true,
+      "dependencyDashboardLabels": ["dependencies", "maintenance"],
+      "dependencyDashboardApproval": true
+    },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
@@ -19,10 +20,7 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true,
-    "extends": ["schedule:weekly"]
+    "automerge": true
   },
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "timezone": "Europe/Lisbon",
-  "schedule": ["after 10pm every weekday"]
+  "timezone": "Europe/Lisbon"
 }
