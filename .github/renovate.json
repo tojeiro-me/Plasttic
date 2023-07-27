@@ -17,10 +17,6 @@
       "automergeStrategy": "squash"
     }
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true
-  },
   "postUpdateOptions": ["yarnDedupeHighest"],
   "timezone": "Europe/Lisbon",
   "schedule": ["after 10am every weekday"]
