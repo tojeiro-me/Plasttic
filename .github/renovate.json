@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "enabledManagers": ["github-actions", "npm"],
-  "baseBranches": ["develop"],
+  "baseBranches": ["main", "develop"],
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "dependencyDashboard": true,
