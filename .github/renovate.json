@@ -17,7 +17,5 @@
       "automergeStrategy": "squash"
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "timezone": "Europe/Lisbon",
-  "schedule": ["after 10am every weekday"]
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
