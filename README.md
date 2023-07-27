@@ -2,7 +2,7 @@
 
 # Plasttic Web Workflow
 
-A methodology based Front-End development environment for Static Websites.
+A methodology based Front-End development environment for Static Sites.
 
 [![npm](https://img.shields.io/npm/v/plasttic.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic)&ensp;&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic/blob/master/LICENSE)&ensp;[![VOLTA](./.github/assets/volta.svg)](https://volta.net/tojeiro-me/Plasttic)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
 
@@ -14,7 +14,7 @@ A methodology based Front-End development environment for Static Websites.
 
 Welcome! 🖖
 
-Plasttic Web Workflow is a methodology based professional Front-End development environment for Static Websites: HTML and CSS/PostCSS boilerplate, Atomic Design System, Typescript/Javascript, Dev/Build Scripts, File structure, Conventions & Best Practices.
+Plasttic Web Workflow is a methodology based professional Front-End development environment for Static Sites: HTML and CSS/PostCSS boilerplate, CSS Reset, Atomic Design System, Typescript/Javascript, Dev Server/Build Tool, File structure, Conventions & Best Practices.
 
 This is not a Bundler nor a Framework, though it has some of the features of a Bundler, and it includes tools and rules that will improve the development process and produce quality code, it's built to support a different development process.
 
