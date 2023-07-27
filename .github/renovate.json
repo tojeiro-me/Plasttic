@@ -21,6 +21,5 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
-  },
-  "timezone": "Europe/Lisbon"
+  }
 }
