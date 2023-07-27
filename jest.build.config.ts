@@ -12,6 +12,7 @@ const config: Config = {
   roots: ['<rootDir>/tests/jest/build/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverage: true,
+  coverageReporters: ['json', 'lcov'],
   collectCoverageFrom: [
     '**/*.{js,ts}',
     '!**/node_modules/**',
