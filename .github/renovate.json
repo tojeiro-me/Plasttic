@@ -5,12 +5,11 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "stabilityDays": 3,
-  "dependencyDashboard": false,
+  "dependencyDashboard": true,
+  "dependencyDashboardLabels": ["dependencies", "maintenance"],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "dependencyDashboard": true,
-      "dependencyDashboardLabels": ["dependencies", "maintenance"],
       "dependencyDashboardApproval": true
     },
     {
