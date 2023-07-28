@@ -4,7 +4,8 @@
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
 - :warning: Updated: optimized linting
-- :warning: Updated: tests folders and CLI (CI)
+- :warning: Updated: tests folders, scripts and configs (CI)
+- :warning: Updated: removed testing from pre-commit
 
 ---
 
