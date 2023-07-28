@@ -40,9 +40,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          cache: 'pnpm'
       # Installs dependencies like npm install
-      - run: pnpm install
+      - run: npm ci
       # Run build script
       - run: npm run lint:all
       - run: npm run test:jest:ci
