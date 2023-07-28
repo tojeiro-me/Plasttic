@@ -33,7 +33,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
         with:
-          ref: main
+          ref: develop
 
       # Provides functionality for GitHub Actions
       - name: ci
