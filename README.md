@@ -162,14 +162,14 @@ _\*\*see [Typescript](#typescript)_
 
 ---
 
-|              | About                        | Usage                                                | Folders \*          | Notes                                                      | Plugins                                                                                                    |
-| ------------ | ---------------------------- | ---------------------------------------------------- | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Jest         | Unit nad Integration testing | Build tool, Pre-Commit, Terminal (`npx jest`)        | dev, build, reports | Typescript support, [Jest CLI](https://jestjs.io/docs/cli) | [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)                               |
-| Playwright   | End-to-End testing           | Build tool, Pre-Commit, Terminal                     | dev, build, reports |                                                            | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) |
-| Lighthouse   | Web Core Vitals              | `npm run test:vitals:page --page=page.html`          | reports             |                                                            |                                                                                                            |
-| Unlighthouse | Lighthouse website testing   | `npm run test:vitals:site --url=https://example.com` | reports \*\*        |                                                            |                                                                                                            |
+|              | About                        | Usage                                                | Folders \*       | Notes                                                      | Plugins                                                                                                    |
+| ------------ | ---------------------------- | ---------------------------------------------------- | ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Jest         | Unit nad Integration testing | Build tool, Pull Request, Terminal (`npx jest`)      | dev, ci, reports | Typescript support, [Jest CLI](https://jestjs.io/docs/cli) | [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)                               |
+| Playwright   | End-to-End testing           | Build tool, Pull Request, Terminal                   | dev, ci, reports |                                                            | [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) |
+| Lighthouse   | Web Core Vitals              | `npm run test:vitals:page --page=page.html`          | reports          |                                                            |                                                                                                            |
+| Unlighthouse | Lighthouse website testing   | `npm run test:vitals:site --url=https://example.com` | reports \*\*     |                                                            |                                                                                                            |
 
-_\*This folders are inside the `tests` root folder separated by test app. For Jest and Playwright, the tests placed on the `build` folder will run automatically on `npm run build` and on `pre-commit` and the `dev` folder is were individual tests are placed to run from the terminal._  
+_\*This folders are inside the `tests` root folder separated by test app. For Jest and Playwright, the tests placed on the `ci` folder will run automatically on `npm run build` and on `pull request` and the `dev` folder is were individual tests are placed to run from the terminal with `npx jest`._  
 _\*\*The Unlighthouse reports folder `.unlighthouse` is located in the root directory._
 
 ---

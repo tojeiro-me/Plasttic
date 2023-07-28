@@ -72,7 +72,7 @@
     "start:build": "npm run partytown:libs && npm run test:jest:build && npm run test:play:build && npm run del:dest && concurrently npm:copy:* npm:build:copy:html npm:build:copy:css npm:build:copy:js",
     "sync": "browser-sync start --port 8000 --watch --no-ui --server dev --files dev",
     "sync:ssl": "browser-sync start --config './browser-sync.cjs' --port 8000 --no-ui --server dev --files dev",
-    "test:jest:build": "jest --config=jest.build.config.ts --passWithNoTests",
+    "test:jest:build": "jest --config=jest.ci.config.ts --passWithNoTests",
     "test:play:build": "npx playwright test ./tests/playwright/build/* --pass-with-no-tests",
     "test:vitals:page": "lighthouse $npm_config_protocol://localhost:8000/$npm_config_page  --config-path ./lighthouse.config.cjs --cli-flags-path ./lighthouse.flags.json --output-path ./tests/lighthouse/reports/report.html && exit 0",
     "test:vitals:site": "npx unlighthouse --site $npm_config_url --config-file ./unlighthouse.config.ts",
