@@ -18,8 +18,7 @@
       "automergeStrategy": "squash"
     }
   ],
-  "postUpdateOptions": [
-    "pnpmDedupe",
-  ],
-  "timezone": "Europe/Lisbon"
+  "postUpdateOptions": ["pnpmDedupe"],
+  "timezone": "Europe/Lisbon",
+  "schedule": ["after 10pm every weekday"]
 }
