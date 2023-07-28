@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: '18.x'
       # Installs dependencies like npm install
-      - run: npm ci
+      - run: pnpm install
       # Run build script
       - run: npm run lint:all
       - run: npm run test:jest:ci
