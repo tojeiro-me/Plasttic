@@ -4,6 +4,8 @@
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
 - :warning: Updated: optimized linting
+- :warning: Updated: tests folders, scripts and configs (CI)
+- :warning: Updated: removed testing from pre-commit
 
 ---
 
@@ -48,6 +50,7 @@
 - Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
 - Updated: tsconfig (noUncheckedIndexedAccess)
 - Updated: package/.gitignore
+- Added: plasttic-ci github workflow (linting, testing)
 
 ---
 
