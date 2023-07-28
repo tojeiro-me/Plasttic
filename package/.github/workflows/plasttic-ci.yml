@@ -43,9 +43,9 @@ jobs:
       # Installs dependencies like npm install
       - run: pnpm install
       # Run build script
-      - run: npm run lint:all
-      - run: npm run test:jest:ci
-      - run: npm run test:play:ci
+      - run: pnpm run lint:all
+      - run: pnpm run test:jest:ci
+      - run: pnpm run test:play:ci
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
