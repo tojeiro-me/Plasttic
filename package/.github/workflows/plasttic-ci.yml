@@ -1,0 +1,52 @@
+name: Plasttic CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow defined events for the master branch
+  push:
+    branches:
+      - main
+  pull_request: # pull_request/push/
+    branches:
+      - '**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Permissions (read/write/none) define what resources the GitHub App can access via the API
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  # This workflow contains a single job called "plasttic_ci"
+  plasttic_ci:
+    permissions:
+      # For stefanzweifel/git-auto-commit-action
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+
+      # Provides functionality for GitHub Actions
+      - name: ci
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.x
+      # Installs dependencies like npm install
+      - run: pnpm install
+      # Run build script
+      - run: npm run lint:all
+      - run: npm run test:jest:ci
+      - run: npm run test:play:ci
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '[PlastticBot] CI'
