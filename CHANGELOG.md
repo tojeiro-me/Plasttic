@@ -50,6 +50,7 @@
 - Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
 - Updated: tsconfig (noUncheckedIndexedAccess)
 - Updated: package/.gitignore
+- Added: plasttic-ci github action (linting, testing)
 
 ---
 
