@@ -47,6 +47,7 @@
 - Added: ESLint support for Node
 - Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
 - Updated: tsconfig (noUncheckedIndexedAccess)
+- Updated: package/.gitignore
 
 ---
 
