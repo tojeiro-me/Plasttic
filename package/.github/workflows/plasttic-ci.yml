@@ -37,9 +37,9 @@ jobs:
 
       # Provides functionality for GitHub Actions
       - name: ci
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v2
         with:
-          node-version: '18.x'
+          version: 8.x
       # Installs dependencies like npm install
       - run: pnpm install
       # Run build script
