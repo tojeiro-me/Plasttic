@@ -60,6 +60,7 @@
     "del:img": "del-cli ./$npm_config_dest/assets/img/* && ./$npm_config_dest/assets/img/**/* && ./$npm_config_dest/assets/img/**/**/* && npm run copy:img",
     "del:js": "del-cli ./$npm_config_dest/assets/js/* && del-cli ./.plasttic/js/* && npm run dev:copy:js",
     "del:private": "del-cli ./$npm_config_dest/private/.??** ./$npm_config_dest/private/**/.??** ./$npm_config_dest/private/* ./$npm_config_dest/private/**/* && npm run copy:private",
+    "lint:all": "concurrently npm:lint:css npm:lint:html npm:lint:js",
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet && prettier --config ./.vscode/.prettierrc --write src/assets/css/*.css --log-level silent",
     "lint:html": "prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --log-level silent",
