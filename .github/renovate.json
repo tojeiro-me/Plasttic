@@ -6,11 +6,12 @@
   "labels": ["dependencies"],
   "stabilityDays": 3,
   "dependencyDashboard": true,
-  "dependencyDashboardLabels": ["dependencies", "maintenance"],
+  "dependencyDashboardLabels": ["dependencies"],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      "labels": ["major", "dependencies"]
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
