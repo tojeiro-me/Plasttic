@@ -3,7 +3,7 @@
   "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
-  "labels": ["dependencies"],
+  "labels": ["dependencies", "maintenance"],
   "stabilityDays": 3,
   "dependencyDashboard": true,
   "dependencyDashboardLabels": ["dependencies"],
@@ -16,7 +16,8 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
-      "automergeStrategy": "squash"
+      "automergeStrategy": "squash",
+      "labels": ["dependencies"]
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
