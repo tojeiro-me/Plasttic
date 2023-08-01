@@ -17,6 +17,14 @@
       "automerge": true,
       "automergeStrategy": "squash",
       "labels": ["C_dependencies"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "addLabels": ["npm"],
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "addLabels": ["github-actions"],
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
