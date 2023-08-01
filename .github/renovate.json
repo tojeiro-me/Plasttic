@@ -3,15 +3,15 @@
   "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "rebaseWhen": "conflicted",
+  "internalChecksFilter": "strict",
   "stabilityDays": 3,
   "dependencyDashboard": true,
   "dependencyDashboardLabels": ["maintenance", "dependencies"],
+  "major": {
+    "dependencyDashboardApproval": true,
+    "labels": ["major", "C_dependencies"]
+  },
   "packageRules": [
-    {
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true,
-      "labels": ["major", "C_dependencies"]
-    },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
