@@ -6,7 +6,6 @@
   "rebaseWhen": "conflicted",
   "internalChecksFilter": "strict",
   "stabilityDays": 3,
-  "compatibility": { "pnpm": "^8.0.0" },
   "dependencyDashboard": true,
   "dependencyDashboardLabels": ["maintenance", "dependencies"],
   "major": {
