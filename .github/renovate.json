@@ -1,5 +1,4 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "ignorePaths": ["package/**"],
