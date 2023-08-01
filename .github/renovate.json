@@ -1,24 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "enabledManagers": ["github-actions", "npm"],
-  "baseBranches": ["develop"],
-  "ignorePaths": ["package/**"],
-  "rebaseWhen": "conflicted",
-  "internalChecksFilter": "strict",
-  "stabilityDays": 3,
-  "dependencyDashboard": true,
-  "dependencyDashboardLabels": ["maintenance", "dependencies"],
-  "major": {
-    "dependencyDashboardApproval": true,
-    "labels": ["major", "C_dependencies"]
-  },
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeStrategy": "squash",
-      "labels": ["C_dependencies"]
-    }
-  ],
-  "postUpdateOptions": ["pnpmDedupe"]
+  "extends": ["config:recommended"]
 }
