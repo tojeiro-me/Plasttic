@@ -21,6 +21,6 @@
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
-  "timezone": "Europe/Lisbon",
-  "schedule": ["after 10pm every weekday"]
+  "timezone": "Europe/London",
+  "schedule": ["after 8pm every weekday"]
 }
