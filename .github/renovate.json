@@ -1,4 +1,5 @@
 {
+  "extends": ["config:base"],
   "enabledManagers": ["github-actions", "npm"],
   "baseBranches": ["develop"],
   "ignorePaths": ["package/**"],
