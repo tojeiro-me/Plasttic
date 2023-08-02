@@ -13,12 +13,6 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeStrategy": "squash",
-      "labels": ["C_dependencies"]
-    },
-    {
       "matchManagers": ["npm"],
       "addLabels": ["npm"],
     },
