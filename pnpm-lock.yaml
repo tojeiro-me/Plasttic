@@ -224,8 +224,8 @@ dependencies:
 
 devDependencies:
   jest-cli:
-    specifier: ^29.6.1
-    version: 29.6.1(@types/node@20.4.2)(ts-node@10.9.1)
+    specifier: ^29.6.2
+    version: 29.6.2(@types/node@20.4.2)(ts-node@10.9.1)
   lighthouse:
     specifier: ^10.4.0
     version: 10.4.0(typescript@5.1.6)
@@ -6787,8 +6787,8 @@ packages:
       - babel-plugin-macros
       - supports-color
 
-  /jest-cli@29.6.1(@types/node@20.4.2)(ts-node@10.9.1):
-    resolution: {integrity: sha512-607dSgTA4ODIN6go9w6xY3EYkyPFGicx51a69H7yfvt7lN53xNswEVLovq+E77VsTRi5fWprLH0yl4DJgE8Ing==}
+  /jest-cli@29.6.2(@types/node@20.4.2)(ts-node@10.9.1):
+    resolution: {integrity: sha512-TT6O247v6dCEX2UGHGyflMpxhnrL0DNqP2fRTKYm3nJJpCTfXX3GCMQPGFjXDoj0i5/Blp3jriKXFgdfmbYB6Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
     peerDependencies:
@@ -7130,7 +7130,7 @@ packages:
       '@jest/core': 29.6.2(ts-node@10.9.1)
       '@jest/types': 29.6.1
       import-local: 3.1.0
-      jest-cli: 29.6.1(@types/node@20.4.2)(ts-node@10.9.1)
+      jest-cli: 29.6.2(@types/node@20.4.2)(ts-node@10.9.1)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
