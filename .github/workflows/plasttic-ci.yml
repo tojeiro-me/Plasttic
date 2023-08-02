@@ -32,6 +32,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
+      - name: Setup git user
+        run: |
+          git config --global user.name Goncalo Tojeiro
+          git config --global user.email dev@tojeiro.me
 
       # Provides functionality for GitHub Actions
       - name: ci
@@ -43,10 +47,10 @@ jobs:
       - run: pnpm install
 
       # Run CI scripts
-      - run: npm run lint:all
-      - run: npm run test:jest:ci
-      - run: npm run test:play:ci
-      - run: npm run package:commit
+      - run: pnpm lint:all
+      - run: pnpm test:jest:ci
+      - run: pnpm test:play:ci
+      - run: pnpm package:commit
 
       # Commit changes
       - name: commit

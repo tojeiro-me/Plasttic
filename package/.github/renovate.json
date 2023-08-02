@@ -1,24 +1,28 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "enabledManagers": ["github-actions", "npm"],
-  "baseBranches": ["develop"],
+  "baseBranches": ["main"],
   "rebaseWhen": "conflicted",
-  "labels": ["dependencies"],
   "stabilityDays": 3,
   "dependencyDashboard": true,
   "dependencyDashboardLabels": ["dependencies", "maintenance"],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
+      "dependencyDashboardApproval": true,
+      "labels": ["major", "dependencies"]
     },
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
-      "automergeStrategy": "squash"
+      "automergeStrategy": "squash",
+      "labels": ["dependencies"]
     }
   ],
-  "postUpdateOptions": ["pnpmDedupe"],
-  "timezone": "Europe/Lisbon",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "timezone": "Europe/London",
   "schedule": ["after 10pm every weekday"]
 }
