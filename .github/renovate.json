@@ -2,8 +2,6 @@
   "extends": ["config:base"],
   "baseBranches": ["develop"],
   "ignorePaths": ["package/**"],
-  "rebaseWhen": "conflicted",
-  "internalChecksFilter": "strict",
   "stabilityDays": 3,
   "dependencyDashboard": true,
   "dependencyDashboardLabels": ["maintenance", "dependencies"],
