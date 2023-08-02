@@ -141,8 +141,8 @@ dependencies:
     specifier: ^10.0.0
     version: 10.0.0(postcss@8.4.26)
   postcss-custom-properties:
-    specifier: ^13.2.1
-    version: 13.2.1(postcss@8.4.26)
+    specifier: ^13.3.0
+    version: 13.3.0(postcss@8.4.26)
   postcss-discard-empty:
     specifier: ^6.0.0
     version: 6.0.0(postcss@8.4.26)
@@ -8439,8 +8439,8 @@ packages:
       postcss: 8.4.26
     dev: false
 
-  /postcss-custom-properties@13.2.1(postcss@8.4.26):
-    resolution: {integrity: sha512-Z8UmzwVkRh8aITyeZoZnT4McSSPmS2EFl+OyPspfvx7v+N36V2UseMAODp3oBriZvcf/tQpzag9165x/VcC3kg==}
+  /postcss-custom-properties@13.3.0(postcss@8.4.26):
+    resolution: {integrity: sha512-q4VgtIKSy5+KcUvQ0WxTjDy9DZjQ5VCXAZ9+tT9+aPMbA0z6s2t1nMw0QHszru1ib5ElkXl9JUpYYU37VVUs7g==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -8932,7 +8932,7 @@ packages:
       postcss-color-hex-alpha: 9.0.2(postcss@8.4.26)
       postcss-color-rebeccapurple: 9.0.0(postcss@8.4.26)
       postcss-custom-media: 10.0.0(postcss@8.4.26)
-      postcss-custom-properties: 13.2.1(postcss@8.4.26)
+      postcss-custom-properties: 13.3.0(postcss@8.4.26)
       postcss-custom-selectors: 7.1.4(postcss@8.4.26)
       postcss-dir-pseudo-class: 8.0.0(postcss@8.4.26)
       postcss-double-position-gradients: 5.0.0(postcss@8.4.26)
