@@ -163,7 +163,7 @@
     "uglify-js": "^3.17.4"
   },
   "devDependencies": {
-    "jest-cli": "^29.6.1",
+    "jest-cli": "^29.6.2",
     "lighthouse": "^10.4.0",
     "unlighthouse": "^0.10.0",
     "zod": "^3.21.4"
