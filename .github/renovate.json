@@ -27,8 +27,5 @@
       "matchManagers": ["github-actions"],
       "addLabels": ["github-actions"],
     }
-  ],
-  "postUpdateOptions": ["pnpmDedupe"],
-  "timezone": "Europe/London",
-  "schedule": "after 10pm every weekday"
+  ]
 }
