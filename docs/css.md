@@ -12,7 +12,7 @@
 
   _Note: avoid naming collisions (prefix) and provide context (BEM)_
 
-## Properties order
+## CSS sorting
 
 ---
 
@@ -47,7 +47,7 @@
   border-radius: 10px;
   outline: 1px;
 
-  /* Positioning */
+  /* Position */
   position: absolute;
   top: 1rem;
   right: 1rem;
