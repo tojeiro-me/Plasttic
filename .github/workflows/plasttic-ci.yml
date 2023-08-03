@@ -29,6 +29,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
@@ -48,12 +49,12 @@ jobs:
       - run: pnpm test:play:ci
       - run: pnpm package:commit
 
-      # Commit changes
-      - name: commit
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: '[PlastticBot] CI'
-          # Optional commit user and author settings
-          commit_user_name: Goncalo Tojeiro # defaults to "Plasttic[bot]"
-          commit_user_email: dev@tojeiro.me # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
-          commit_author: Goncalo Tojeiro <dev@tojeiro.me> # defaults to author of the commit that triggered the run
+      # # Commit changes
+      # - name: commit
+      #   uses: stefanzweifel/git-auto-commit-action@v4
+      #   with:
+      #     commit_message: '[PlastticBot] CI'
+      #     # Optional commit user and author settings
+      #     commit_user_name: Goncalo Tojeiro # defaults to "Plasttic[bot]"
+      #     commit_user_email: dev@tojeiro.me # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+      #     commit_author: Goncalo Tojeiro <dev@tojeiro.me> # defaults to author of the commit that triggered the run
