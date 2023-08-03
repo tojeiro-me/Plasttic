@@ -32,10 +32,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v3
-      - name: Setup git user
-        run: |
-          git config --global user.name Goncalo Tojeiro
-          git config --global user.email dev@tojeiro.me
 
       # Provides functionality for GitHub Actions
       - name: ci
