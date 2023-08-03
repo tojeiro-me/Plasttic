@@ -20,9 +20,8 @@ certs/
 .env
 .cache
 
-# development folders
+# development folder
 dev/
-dist/
 
 # project folders and files
 **/NOTES.md
@@ -31,11 +30,13 @@ dist/
 *-nogit*
 
 # testing
-**/jest/reports/
-**/playwright/results/
-**/playwright/reports/
-**/playwright/.cache/
+tests/**/reports/*.*
+tests/**/reports/**/*.*
+tests/playwright/results/
+tests/playwright/.cache/
+!tests/**/reports/_*.txt
+.unlighthouse/*.*
+!tests/**/**/_*.txt
 !**/tests/**/dev/
-**/lighthouse/reports/
-.unlighthouse/
+!.unlighthouse/_*.txt
 

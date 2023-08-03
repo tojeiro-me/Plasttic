@@ -1,0 +1,59 @@
+name: Plasttic CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow defined events for the master branch
+  push:
+    branches:
+      - 'develop'
+  pull_request: # pull_request/push/
+    branches:
+      - '**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Permissions (read/write/none) define what resources the GitHub App can access via the API
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  # This workflow contains a single job called "plasttic_ci"
+  plasttic_ci:
+    permissions:
+      # For stefanzweifel/git-auto-commit-action
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+
+      # Provides functionality for GitHub Actions
+      - name: ci
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8.x
+
+      # Installs dependencies
+      - run: pnpm install
+
+      # Run CI scripts
+      - run: pnpm lint:all
+      - run: pnpm test:jest:ci
+      - run: pnpm test:play:ci
+      - run: pnpm package:commit
+
+      # Commit changes
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: '[PlastticBot] CI'
+          # Optional commit user and author settings
+          commit_user_name: Goncalo Tojeiro # defaults to "Plasttic[bot]"
+          commit_user_email: dev@tojeiro.me # defaults to "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: Goncalo Tojeiro <dev@tojeiro.me> # defaults to author of the commit that triggered the run

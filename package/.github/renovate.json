@@ -1,7 +1,28 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":disableDependencyDashboard"],
-  "timezone": "Portugal",
-  "lockFileMaintenance": { "enabled": true, "automerge": true },
-  "schedule": ["after 10pm every sunday"]
+  "enabledManagers": ["github-actions", "npm"],
+  "baseBranches": ["main"],
+  "rebaseWhen": "conflicted",
+  "stabilityDays": 3,
+  "dependencyDashboard": true,
+  "dependencyDashboardLabels": ["dependencies", "maintenance"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true,
+      "labels": ["major", "dependencies"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeStrategy": "squash",
+      "labels": ["dependencies"]
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "timezone": "Europe/London",
+  "schedule": ["after 10pm every weekday"]
 }
