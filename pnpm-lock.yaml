@@ -227,8 +227,8 @@ devDependencies:
     specifier: ^29.6.1
     version: 29.6.1(@types/node@20.4.5)(ts-node@10.9.1)
   lighthouse:
-    specifier: ^10.4.0
-    version: 10.4.0(typescript@5.1.6)
+    specifier: ^11.0.0
+    version: 11.0.0
   unlighthouse:
     specifier: ^0.10.0
     version: 0.10.0(puppeteer@21.0.0)(typescript@5.1.6)(vue@3.3.4)
@@ -7378,22 +7378,22 @@ packages:
       - supports-color
     dev: true
 
-  /lighthouse-stack-packs@1.11.0:
-    resolution: {integrity: sha512-sRr0z1S/I26VffRLq9KJsKtLk856YrJlNGmcJmbLX8dFn3MuzVPUbstuChEhqnSxZb8TZmVfthuXuwhG9vRoSw==}
+  /lighthouse-stack-packs@1.12.0:
+    resolution: {integrity: sha512-tWNKyZg2NbEEKeGM1iqGLWuEEDKwtE6xFAtN4NDXyoXirHQFBcEaMEp4lKK8RjmS3Lw+l3hVONj3SaMzY6FB6w==}
     dev: true
 
   /lighthouse-stack-packs@1.8.2:
     resolution: {integrity: sha512-vlCUxxQAB8Nu6LQHqPpDRiMi06Du593/my/6JbMttQeEfJ7pf4OS8obSTh5xSOS80U/O7fq59Q8rQGAUxQatUQ==}
     dev: true
 
-  /lighthouse@10.4.0(typescript@5.1.6):
-    resolution: {integrity: sha512-XQWHEWkJ8YxSPsxttBJORy5+hQrzbvGkYfeP3fJjyYKioWkF2MXfFqNK4ZuV4jL8pBu7Z91qnQP6In0bq1yXww==}
-    engines: {node: '>=16.16'}
+  /lighthouse@11.0.0:
+    resolution: {integrity: sha512-sH4VIsK6JNcXpZ1as1+70jdk9d4Hbl6eQbgOkCKszonHawO6uT11TKGdNgIbiTbrMzs4TQ3fiCjKxUVFixS6dg==}
+    engines: {node: '>=18.16'}
     hasBin: true
     dependencies:
       '@sentry/node': 6.19.7
       axe-core: 4.7.2
-      chrome-launcher: 0.15.2
+      chrome-launcher: 1.0.0
       configstore: 5.0.1
       csp_evaluator: 1.1.1
       devtools-protocol: 0.0.1155343
@@ -7402,15 +7402,15 @@ packages:
       intl-messageformat: 4.4.0
       jpeg-js: 0.4.4
       js-library-detector: 6.7.0
-      lighthouse-logger: 1.4.2
-      lighthouse-stack-packs: 1.11.0
+      lighthouse-logger: 2.0.1
+      lighthouse-stack-packs: 1.12.0
       lodash: 4.17.21
       lookup-closest-locale: 6.2.0
       metaviewport-parser: 0.3.0
       open: 8.4.2
       parse-cache-control: 1.0.1
       ps-list: 8.1.1
-      puppeteer-core: 20.9.0(typescript@5.1.6)
+      puppeteer-core: 21.0.1
       robots-parser: 3.0.1
       semver: 5.7.2
       speedline-core: 1.4.3
@@ -7422,7 +7422,6 @@ packages:
       - bufferutil
       - encoding
       - supports-color
-      - typescript
       - utf-8-validate
     dev: true
 
@@ -9376,6 +9375,23 @@ packages:
 
   /puppeteer-core@21.0.0:
     resolution: {integrity: sha512-frnAOQ0pKrwxlYLziy+aB8q7cOm8Ym9Y5VqbdE7alOaOPIK3ynpYLi/1D6XJSKw3WExHmeI2z6TVO85SUxpVAQ==}
+    engines: {node: '>=16.3.0'}
+    dependencies:
+      '@puppeteer/browsers': 1.5.0
+      chromium-bidi: 0.4.20(devtools-protocol@0.0.1147663)
+      cross-fetch: 4.0.0
+      debug: 4.3.4
+      devtools-protocol: 0.0.1147663
+      ws: 8.13.0
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+    dev: true
+
+  /puppeteer-core@21.0.1:
+    resolution: {integrity: sha512-E8eWLGhaZZpa7dYe/58qGX7SLb4mTg42NP5M7B+ibPrncgNjTOQa9x1sFIlTn1chF/BmoZqOcMIvwuxcb/9XzQ==}
     engines: {node: '>=16.3.0'}
     dependencies:
       '@puppeteer/browsers': 1.5.0
