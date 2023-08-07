@@ -159,8 +159,8 @@ dependencies:
     specifier: ^9.0.4
     version: 9.0.4(postcss@8.4.26)
   postcss-nesting:
-    specifier: ^12.0.0
-    version: 12.0.0(postcss@8.4.26)
+    specifier: ^12.0.1
+    version: 12.0.1(postcss@8.4.26)
   postcss-preset-env:
     specifier: ^9.0.0
     version: 9.0.0(postcss@8.4.26)
@@ -8844,8 +8844,8 @@ packages:
       sugarss: 4.0.1(postcss@8.4.26)
     dev: false
 
-  /postcss-nesting@12.0.0(postcss@8.4.26):
-    resolution: {integrity: sha512-knqwW65kxssmyIFadRSimaiRyLVRd0MdwfabesKw6XvGLwSOCJ+4zfvNQQCOOYij5obwpZzDpODuGRv2PCyiUw==}
+  /postcss-nesting@12.0.1(postcss@8.4.26):
+    resolution: {integrity: sha512-6LCqCWP9pqwXw/njMvNK0hGY44Fxc4B2EsGbn6xDcxbNRzP8GYoxT7yabVVMLrX3quqOJ9hg2jYMsnkedOf8pA==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -9047,7 +9047,7 @@ packages:
       postcss-initial: 4.0.1(postcss@8.4.26)
       postcss-lab-function: 6.0.1(postcss@8.4.26)
       postcss-logical: 7.0.0(postcss@8.4.26)
-      postcss-nesting: 12.0.0(postcss@8.4.26)
+      postcss-nesting: 12.0.1(postcss@8.4.26)
       postcss-opacity-percentage: 2.0.0(postcss@8.4.26)
       postcss-overflow-shorthand: 5.0.0(postcss@8.4.26)
       postcss-page-break: 3.0.4(postcss@8.4.26)
