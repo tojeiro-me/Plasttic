@@ -103,7 +103,7 @@
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^6.2.1",
     "@typescript-eslint/parser": "^6.1.0",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.16",
     "babel-preset-airbnb": "^5.0.0",
     "browser-sync": "^2.29.3",
     "chalk-cli": "^5.0.1",

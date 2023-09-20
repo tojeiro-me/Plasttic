@@ -48,8 +48,8 @@ dependencies:
     specifier: ^6.1.0
     version: 6.1.0(eslint@8.45.0)(typescript@5.1.6)
   autoprefixer:
-    specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.26)
+    specifier: ^10.4.16
+    version: 10.4.16(postcss@8.4.26)
   babel-preset-airbnb:
     specifier: ^5.0.0
     version: 5.0.0(@babel/core@7.22.9)(@babel/runtime@7.22.6)
@@ -3513,16 +3513,16 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.26):
-    resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
+  /autoprefixer@10.4.16(postcss@8.4.26):
+    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.10
-      caniuse-lite: 1.0.30001518
-      fraction.js: 4.2.0
+      caniuse-lite: 1.0.30001538
+      fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.26
@@ -3867,7 +3867,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001518
+      caniuse-lite: 1.0.30001538
       electron-to-chromium: 1.4.480
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
@@ -4011,6 +4011,10 @@ packages:
 
   /caniuse-lite@1.0.30001518:
     resolution: {integrity: sha512-rup09/e3I0BKjncL+FesTayKtPrdwKhUufQFd3riFw1hHg8JmIFoInYfB102cFcY/pPgGmdyl/iy+jgiDi2vdA==}
+    dev: false
+
+  /caniuse-lite@1.0.30001538:
+    resolution: {integrity: sha512-HWJnhnID+0YMtGlzcp3T9drmBJUVDchPJ08tpUGFLs9CYlwWPH2uLgpHn8fND5pCgXVtnGS3H4QR9XLMHVNkHw==}
 
   /ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -5788,8 +5792,8 @@ packages:
     engines: {node: '>=0.4.x'}
     dev: false
 
-  /fraction.js@4.2.0:
-    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
+  /fraction.js@4.3.6:
+    resolution: {integrity: sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==}
     dev: false
 
   /fresh@0.5.2:
@@ -9022,7 +9026,7 @@ packages:
       '@csstools/postcss-text-decoration-shorthand': 3.0.0(postcss@8.4.26)
       '@csstools/postcss-trigonometric-functions': 3.0.1(postcss@8.4.26)
       '@csstools/postcss-unset-value': 3.0.0(postcss@8.4.26)
-      autoprefixer: 10.4.14(postcss@8.4.26)
+      autoprefixer: 10.4.16(postcss@8.4.26)
       browserslist: 4.21.10
       css-blank-pseudo: 6.0.0(postcss@8.4.26)
       css-has-pseudo: 6.0.0(postcss@8.4.26)
