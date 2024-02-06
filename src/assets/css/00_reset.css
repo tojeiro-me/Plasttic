@@ -9,18 +9,23 @@
   *
   */
 
-@import "https://unpkg.com/plasttic-reset@2.1";
+@import "https://unpkg.com/plasttic-reset@3.0";
 
-/* Available properties to customize the reset defaults */
+/* Customize reset defaults */
 
 :root {
   /* Focus style color: Brand Primary Color 300 - CUSTOMIZED */
   --ptt-reset-focus-color: var(--ptt-clr-primary-300);
 
-  /* The next properties best values depends on the font used */
+  /* Top padding when using links to scrolling down */
+  --ptt-reset-scroll-padding: 2em;
+
+  /* Better text readability */
+  /* This properties best values depend on the font used */
   --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
-  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
+  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - p, li, h5, h6 */
   --ptt-reset-body-spacing: 0.012em; /* letter spacing */
+  /* Headers exceptions */
   --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
   --ptt-reset-h1-width: 30ch;
   --ptt-reset-h2-width: 35ch;
@@ -30,6 +35,5 @@
   /* Better spacing between content */
   --ptt-reset-content-space-top: 0.5em;
   --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
-  --ptt-reset-header-space-top: 2em;
-  /* h1: if not inside a header with role=banner */
+  --ptt-reset-header-space-top: 2em; /* h1: if not inside a header with role=banner */
 }
