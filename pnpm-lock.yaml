@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.9.1
     version: 0.9.1
   '@csstools/postcss-global-data':
-    specifier: ^2.0.1
-    version: 2.0.1(postcss@8.4.34)
+    specifier: ^2.1.1
+    version: 2.1.1(postcss@8.4.34)
   '@csstools/postcss-progressive-custom-properties':
     specifier: ^3.0.3
     version: 3.0.3(postcss@8.4.34)
@@ -1837,8 +1837,8 @@ packages:
       postcss: 8.4.34
     dev: false
 
-  /@csstools/postcss-global-data@2.0.1(postcss@8.4.34):
-    resolution: {integrity: sha512-MTaupJCsDS9BDgo+Lvb5G1/MkqnKN65I14nr2Hu0QqHoqJEIOpn6CBGrs7jXAjksGG0OUDQY0zlhjM3q7AI54A==}
+  /@csstools/postcss-global-data@2.1.1(postcss@8.4.34):
+    resolution: {integrity: sha512-tihdBLogY2G5jgUSu2jKSEVeOcnWqsz6k7UmPM7+ezhuV9FP5MIyX35Hc/YvqipQLRNsfBj9wRkBvsE7k1GM8A==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4

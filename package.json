@@ -93,7 +93,7 @@
     "@babel/eslint-parser": "^7.23.10",
     "@babel/types": "^7.23.9",
     "@builder.io/partytown": "^0.9.1",
-    "@csstools/postcss-global-data": "^2.0.1",
+    "@csstools/postcss-global-data": "^2.1.1",
     "@csstools/postcss-progressive-custom-properties": "^3.0.3",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@playwright/test": "^1.41.2",
