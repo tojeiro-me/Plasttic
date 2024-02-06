@@ -55,6 +55,8 @@ body {
 body.ptt-tpl__temporary {
   display: grid;
 
+  /* overflow-x: hidden; */
+
   text-align: center;
 
   @media (--ptt-bkp-md) {

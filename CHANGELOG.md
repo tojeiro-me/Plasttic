@@ -1,9 +1,11 @@
-# v3.0.0 (Jul --, 2023)
+# v3.0.0-alpha.0 (Feb 06, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
 - :warning: Updated: optimized linting
+- :warning: Updated: tests folders, scripts and configs (CI)
+- :warning: Updated: removed testing from pre-commit
 
 ---
 
@@ -25,7 +27,7 @@
 - Updated: Dependencies
 - Added: Unlighthouse script
 - Updated: Plasttic HTML Boilerplate to v1.3.3
-- Updated: Plasttic CSS Reset to v2.1
+- Updated: Plasttic CSS Reset to v3.0
 - Updated: Plasttic HTML Boilerplate snippet
 - Updated: Start script
 - Updated: .##gitignore##
@@ -42,11 +44,15 @@
 - Updated: print.css use logical properties
 - Updated: VS Code settings (extensions)
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
-- :warning: Updated: replaced Dependabot with Renovate
 - Updated: TODO Tree settings
 - Added: ESLint support for Node
 - Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
 - Updated: tsconfig (noUncheckedIndexedAccess)
+- Updated: package/.gitignore
+- Added: plasttic-ci github workflow (linting, testing)
+- Added: system font stacks on tokens.css
+- Updated: templates CSS
+- Updated: Dependabot config and auto-merge workflow
 
 ---
 
