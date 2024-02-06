@@ -32,7 +32,7 @@ jobs:
     if: ${{ github.actor != 'dependabot[bot]' }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Provides functionality for GitHub Actions
       - name: ci
