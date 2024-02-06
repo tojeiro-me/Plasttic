@@ -56,16 +56,3 @@ if (footerYear) {
 // const form = document.getElementById('form-name') as HTMLFormElement | null;
 
 // form?.reset();
-
-/**
- * Copy code to clipboard in code.html
- * Use: copy code to clipboard on button click
- * Page: code.html
- */
-const copyCodeBtn = document.getElementById('copy-code-btn');
-
-if (copyCodeBtn) {
-  import('./modules/module.js').then(({ copyCodeToClipboard }) => {
-    copyCodeToClipboard(copyCodeBtn);
-  });
-}
