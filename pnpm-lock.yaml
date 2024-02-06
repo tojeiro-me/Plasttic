@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.0.1
     version: 2.0.1(postcss@8.4.34)
   '@csstools/postcss-progressive-custom-properties':
-    specifier: ^3.0.0
-    version: 3.0.0(postcss@8.4.34)
+    specifier: ^3.0.3
+    version: 3.0.3(postcss@8.4.34)
   '@fullhuman/postcss-purgecss':
     specifier: ^5.0.0
     version: 5.0.0(postcss@8.4.34)
@@ -2050,16 +2050,6 @@ packages:
       '@csstools/css-tokenizer': 2.2.3
       '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
       postcss: 8.4.34
-    dev: false
-
-  /@csstools/postcss-progressive-custom-properties@3.0.0(postcss@8.4.34):
-    resolution: {integrity: sha512-2/D3CCL9DN2xhuUTP8OKvKnaqJ1j4yZUxuGLsCUOQ16wnDAuMLKLkflOmZF5tsPh/02VPeXRmqIN+U595WAulw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      postcss: 8.4.34
-      postcss-value-parser: 4.2.0
     dev: false
 
   /@csstools/postcss-progressive-custom-properties@3.0.3(postcss@8.4.34):
