@@ -91,7 +91,7 @@
   "dependencies": {
     "@babel/core": "^7.22.9",
     "@babel/eslint-parser": "^7.23.10",
-    "@babel/types": "^7.22.5",
+    "@babel/types": "^7.23.9",
     "@builder.io/partytown": "^0.8.0",
     "@csstools/postcss-global-data": "^2.0.1",
     "@csstools/postcss-progressive-custom-properties": "^3.0.0",
