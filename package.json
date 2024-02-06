@@ -145,7 +145,7 @@
     "postcss-simple-vars": "^7.0.1",
     "postcss-sorting": "^8.0.2",
     "prettier": "^3.2.5",
-    "prettier-eslint": "^15.0.1",
+    "prettier-eslint": "^16.3.0",
     "rehype": "^12.0.1",
     "rehype-cli": "^11.0.1",
     "rehype-format": "^4.0.1",
