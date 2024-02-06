@@ -94,7 +94,7 @@
     "@babel/types": "^7.23.9",
     "@builder.io/partytown": "^0.8.0",
     "@csstools/postcss-global-data": "^2.0.1",
-    "@csstools/postcss-progressive-custom-properties": "^3.0.0",
+    "@csstools/postcss-progressive-custom-properties": "^3.0.3",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@playwright/test": "^1.41.2",
     "@rushstack/eslint-patch": "^1.7.2",
