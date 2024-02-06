@@ -2,8 +2,3 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run lint:commit
-<<<<<<< HEAD
-npm run test:jest:build
-npm run test:play:build
-=======
->>>>>>> develop
