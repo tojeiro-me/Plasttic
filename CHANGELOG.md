@@ -1,4 +1,4 @@
-# v3.0.0 (Jul --, 2023)
+# v3.0.0-alpha.0 (Feb 06, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
@@ -52,6 +52,7 @@
 - Added: plasttic-ci github workflow (linting, testing)
 - Added: system font stacks on tokens.css
 - Updated: templates CSS
+- Updated: Dependabot config and auto-merge workflow
 
 ---
 
