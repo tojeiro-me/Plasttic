@@ -15,14 +15,14 @@ dependencies:
     specifier: ^7.23.9
     version: 7.23.9
   '@builder.io/partytown':
-    specifier: ^0.8.0
-    version: 0.8.0
+    specifier: ^0.9.1
+    version: 0.9.1
   '@csstools/postcss-global-data':
     specifier: ^2.0.1
     version: 2.0.1(postcss@8.4.34)
   '@csstools/postcss-progressive-custom-properties':
-    specifier: ^3.0.0
-    version: 3.0.0(postcss@8.4.34)
+    specifier: ^3.0.3
+    version: 3.0.3(postcss@8.4.34)
   '@fullhuman/postcss-purgecss':
     specifier: ^5.0.0
     version: 5.0.0(postcss@8.4.34)
@@ -1688,8 +1688,9 @@ packages:
     resolution: {integrity: sha512-iZf+UWfL+DogJVpd/xMQyP6X6McYd6ArdYoPMiv/zlOTzeXXfQbYxBNJJBF6tThvsjLMbA8tLjkCdm9RWMFCCw==}
     dev: false
 
-  /@builder.io/partytown@0.8.0:
-    resolution: {integrity: sha512-M6H7nSMwW2dHd1/MQ+9J1Jqdw22uhl1nKv90kIiL9G7gjFVqqouQp4qSS1oZclmtW1XjAa4Q5UnbHB4iytmxZA==}
+  /@builder.io/partytown@0.9.1:
+    resolution: {integrity: sha512-9Bo4eZBoc7FlY38atqaXvuEMjuwU6ege/ZN+lh5G7/dC0LtdZCQJQ6CndrUtYGeia+7JoQyWXBpjcx1jFty0VA==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
     dev: false
 
@@ -2050,16 +2051,6 @@ packages:
       '@csstools/css-tokenizer': 2.2.3
       '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
       postcss: 8.4.34
-    dev: false
-
-  /@csstools/postcss-progressive-custom-properties@3.0.0(postcss@8.4.34):
-    resolution: {integrity: sha512-2/D3CCL9DN2xhuUTP8OKvKnaqJ1j4yZUxuGLsCUOQ16wnDAuMLKLkflOmZF5tsPh/02VPeXRmqIN+U595WAulw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      postcss: 8.4.34
-      postcss-value-parser: 4.2.0
     dev: false
 
   /@csstools/postcss-progressive-custom-properties@3.0.3(postcss@8.4.34):
