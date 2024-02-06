@@ -98,7 +98,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@playwright/test": "^1.41.2",
     "@rushstack/eslint-patch": "^1.7.2",
-    "@total-typescript/ts-reset": "^0.4.2",
+    "@total-typescript/ts-reset": "^0.5.1",
     "@types/jest": "^29.5.3",
     "@types/node": "^20.11.16",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
