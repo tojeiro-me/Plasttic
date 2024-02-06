@@ -141,8 +141,8 @@ dependencies:
     specifier: ^10.0.0
     version: 10.0.0(postcss@8.4.34)
   postcss-custom-properties:
-    specifier: ^13.2.1
-    version: 13.2.1(postcss@8.4.34)
+    specifier: ^13.3.4
+    version: 13.3.4(postcss@8.4.34)
   postcss-discard-empty:
     specifier: ^6.0.0
     version: 6.0.0(postcss@8.4.34)
@@ -9725,19 +9725,6 @@ packages:
       '@csstools/css-tokenizer': 2.2.3
       '@csstools/media-query-list-parser': 2.1.5(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       postcss: 8.4.34
-    dev: false
-
-  /postcss-custom-properties@13.2.1(postcss@8.4.34):
-    resolution: {integrity: sha512-Z8UmzwVkRh8aITyeZoZnT4McSSPmS2EFl+OyPspfvx7v+N36V2UseMAODp3oBriZvcf/tQpzag9165x/VcC3kg==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      '@csstools/cascade-layer-name-parser': 1.0.4(@csstools/css-parser-algorithms@2.3.1)(@csstools/css-tokenizer@2.2.0)
-      '@csstools/css-parser-algorithms': 2.3.1(@csstools/css-tokenizer@2.2.0)
-      '@csstools/css-tokenizer': 2.2.0
-      postcss: 8.4.34
-      postcss-value-parser: 4.2.0
     dev: false
 
   /postcss-custom-properties@13.3.4(postcss@8.4.34):
