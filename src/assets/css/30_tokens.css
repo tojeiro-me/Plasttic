@@ -55,7 +55,7 @@
     * 500 is the main color; shades from 100-900
     * Optional: create middle values like 650
     * Primary and Secondary usually are the brand colors
-    * Theme colors can be changed on page specific styles
+    * Theme colors can be changed on page specific styles (optional)
     */
 
   /* Neutral */
@@ -91,15 +91,24 @@
   --ptt-clr-bkg-main: var(--ptt-clr-neutral-100); /* by section name */
   --ptt-clr-bkg-footer: var(--ptt-clr-neutral-100);
 
-  /* Theme */
+  /* Themes (optional) */
 
   /**
     * FONT
-    * Family, Weights, Sizes
+    * System Font Stacks, Family, Weights, Sizes
     */
 
+  /* System Font Stacks */
+  --ptt-fnt-family-system-sans: ui-sans-serif, system-ui, -apple-system,
+    "SF Pro", "Segoe UI", roboto, ubuntu, sans-serif;
+  --ptt-fnt-family-system-serif: ui-serif, georgia, "Times New Roman", times,
+    serif;
+  --ptt-fnt-family-system-mono: ui-monospace, "SF Mono", "Segoe UI Mono",
+    "Roboto Mono", "Ubuntu Mono", "DejaVu Sans Mono", monaco, consolas,
+    monospace;
+
   /* Font Families */
-  --ptt-fnt-family-primary: "Roboto", sans-serif;
+  --ptt-fnt-family-primary: "Roboto", var(--ptt-fnt-family-system-sans);
 
   /* Font- Weights */
   --ptt-fnt-weight-light: 300;

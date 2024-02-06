@@ -27,7 +27,7 @@
 - Updated: Dependencies
 - Added: Unlighthouse script
 - Updated: Plasttic HTML Boilerplate to v1.3.3
-- Updated: Plasttic CSS Reset to v2.1
+- Updated: Plasttic CSS Reset to v3.0
 - Updated: Plasttic HTML Boilerplate snippet
 - Updated: Start script
 - Updated: .##gitignore##
@@ -44,13 +44,14 @@
 - Updated: print.css use logical properties
 - Updated: VS Code settings (extensions)
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
-- :warning: Updated: replaced Dependabot with Renovate
 - Updated: TODO Tree settings
 - Added: ESLint support for Node
 - Added: Installed [ts-node](https://www.npmjs.com/package/ts-node)
 - Updated: tsconfig (noUncheckedIndexedAccess)
 - Updated: package/.gitignore
 - Added: plasttic-ci github workflow (linting, testing)
+- Added: system font stacks on tokens.css
+- Updated: templates CSS
 
 ---
 
