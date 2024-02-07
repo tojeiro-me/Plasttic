@@ -144,8 +144,8 @@ dependencies:
     specifier: ^13.3.4
     version: 13.3.4(postcss@8.4.34)
   postcss-discard-empty:
-    specifier: ^6.0.0
-    version: 6.0.0(postcss@8.4.34)
+    specifier: ^6.0.1
+    version: 6.0.1(postcss@8.4.34)
   postcss-import:
     specifier: ^16.0.0
     version: 16.0.0(postcss@8.4.34)
@@ -9156,15 +9156,6 @@ packages:
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
-    dependencies:
-      postcss: 8.4.34
-    dev: false
-
-  /postcss-discard-empty@6.0.0(postcss@8.4.34):
-    resolution: {integrity: sha512-b+h1S1VT6dNhpcg+LpyiUrdnEZfICF0my7HAKgJixJLW7BnNmpRH34+uw/etf5AhOlIhIAuXApSzzDzMI9K/gQ==}
-    engines: {node: ^14 || ^16 || >=18.0}
-    peerDependencies:
-      postcss: ^8.2.15
     dependencies:
       postcss: 8.4.34
     dev: false
