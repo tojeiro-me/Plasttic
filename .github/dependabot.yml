@@ -12,7 +12,7 @@ updates:
     open-pull-requests-limit: 25
     schedule:
       # Check for npm updates on Sundays
-      interval: 'daily'
+      interval: 'weekly'
       timezone: 'Europe/Lisbon'
       day: 'sunday'
       time: '21:00'
