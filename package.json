@@ -165,7 +165,7 @@
   "devDependencies": {
     "jest-cli": "^29.7.0",
     "lighthouse": "^11.5.0",
-    "unlighthouse": "^0.10.0",
+    "unlighthouse": "^0.10.6",
     "zod": "^3.22.4"
   },
   "eslintConfig": {
