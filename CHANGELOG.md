@@ -6,6 +6,7 @@
 - :warning: Updated: optimized linting
 - :warning: Updated: tests folders, scripts and configs (CI)
 - :warning: Updated: removed testing from pre-commit
+- :warning: Updated: disabled Forcing https:// from .htaccess
 
 ---
 
