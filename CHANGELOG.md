@@ -15,7 +15,6 @@
 - Added: postcss-purgecss
 - Added: Prettier rules in Stylelint
 - Added: ESLint and Stylelint format on save
-- Updated: VS Code Extensions
 - Added: Installed Jest and Playwright
 - Updated: Quick Start section README
 - Added: Installed Partytown
@@ -45,7 +44,6 @@
 - Updated: CSS updated to logical properties
 - Updated: sitemap.xml
 - Updated: print.css use logical properties
-- Updated: VS Code settings (extensions)
 - Added: visually-hidden utility class (.ptt-u-visually-hidden)
 - Updated: TODO Tree settings
 - Added: ESLint support for Node
@@ -56,6 +54,8 @@
 - Added: system font stacks on tokens.css
 - Updated: templates CSS
 - Updated: Dependabot config and auto-merge workflow
+- Updated: VS Code Extensions
+- Updated: VS Code Settings
 - Updated: TODO Tree settings (vscode.settings.json)
 - Updated: Boilerplate snippet
 - Updated: CLI build script

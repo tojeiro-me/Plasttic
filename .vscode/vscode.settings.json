@@ -181,7 +181,7 @@
     "truetype"
   ],
 
-  "cssvar.files": ["./src/assets/css/30_tokens.css"],
+  "cssVariables.lookupFiles": ["./src/assets/css/*.css"],
 
   "eslint.alwaysShowStatus": true,
 
