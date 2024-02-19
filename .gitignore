@@ -28,9 +28,8 @@ dist/
 archive/
 **/sources/
 **/NOTES.md
-docs/*.tree
-src/boilerplate/
-
+**/boilerplate/
+*.tree
 lib/
 
 # testing

@@ -1,4 +1,4 @@
-# v3.0.0-alpha.0 (Feb 06, 2024)
+# v3.0.0-alpha.1 (Feb --, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
@@ -53,6 +53,8 @@
 - Added: system font stacks on tokens.css
 - Updated: templates CSS
 - Updated: Dependabot config and auto-merge workflow
+- Updated: TODO Tree settings (vscode.settings.json)
+- Updated: Boilerplate snippet
 
 ---
 
