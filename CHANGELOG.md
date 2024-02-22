@@ -55,6 +55,7 @@
 - Updated: Dependabot config and auto-merge workflow
 - Updated: TODO Tree settings (vscode.settings.json)
 - Updated: Boilerplate snippet
+- Updated: CLI build script
 
 ---
 

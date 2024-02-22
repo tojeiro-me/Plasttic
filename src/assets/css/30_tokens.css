@@ -26,21 +26,21 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
+  src: url("../fonts/roboto-latin-300-normal.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
+  src: url("../fonts/roboto-latin-400-normal.woff2") format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("/assets/fonts/roboto-latin-500-normal.woff2") format("woff2");
+  src: url("../fonts/roboto-latin-500-normal.woff2") format("woff2");
   font-display: swap;
 }
 
