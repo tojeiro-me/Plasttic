@@ -6,6 +6,7 @@
 - :warning: Updated: optimized linting
 - :warning: Updated: tests folders, scripts and configs (CI)
 - :warning: Updated: removed testing from pre-commit
+- :warning: Updated: added <base> tag and updated paths in HTML
 
 ---
 
@@ -56,8 +57,8 @@
 - Updated: TODO Tree settings (vscode.settings.json)
 - Updated: Boilerplate snippet
 - Updated: CLI build script
-
----
+- Updated: @font-face paths
+- ***
 
 ##### IN PROGRESS:
 

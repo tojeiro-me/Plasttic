@@ -6,6 +6,8 @@ https://www.w3schools.com/tags/ref_language_codes.asp
 -->
 <html lang="en">
   <head>
+    <!-- Base path: change if needed (eg: html file is in a subfolder) -->
+    <base href="/" />
     <!-- Partytown https://partytown.builder.io/common-services -->
     <script>
       window.partytown = {
@@ -104,16 +106,16 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <!-- 
     https://realfavicongenerator.net/
     -->
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <meta name="msapplication-TileColor" content="#2d89ef" />
 
     <!-- TODO: Web App Manifest -->
     <!-- 
     https://developer.mozilla.org/en-US/docs/Web/Manifest
     -->
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
 
     <!-- TODO: Theme-color -->
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color -->
@@ -133,21 +135,21 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <!-- 1. Local hosted (preload for @font-face) -->
     <link
       rel="preload"
-      href="/assets/fonts/roboto-latin-300-normal.woff2"
+      href="assets/fonts/roboto-latin-300-normal.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="/assets/fonts/roboto-latin-400-normal.woff2"
+      href="assets/fonts/roboto-latin-400-normal.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="/assets/fonts/roboto-latin-500-normal.woff2"
+      href="assets/fonts/roboto-latin-500-normal.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -170,17 +172,17 @@ https://www.w3schools.com/tags/ref_language_codes.asp
     <link rel="preconnect" href="https://unpkg.com/" crossorigin />
     <link rel="dns-prefetch" href="https://unpkg.com/" />
 
-    <link rel="stylesheet" href="/assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
 
     <!-- TODO: Print rules (optional) -->
-    <link rel="stylesheet" href="/assets/css/print.min.css" media="print" />
+    <link rel="stylesheet" href="assets/css/print.min.css" media="print" />
 
     <!-- TODO: JS async/defer -->
     <!--
     All the javascript files will be concatenated and minified into scripts.min.js.
     The files inside the "vendor" folder remain untouched. 
     -->
-    <script src="/assets/js/scripts.min.js" type="module"></script>
+    <script src="assets/js/scripts.min.js" type="module"></script>
   </head>
 
   <body>
