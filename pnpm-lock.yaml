@@ -69,8 +69,8 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0
   cssnano:
-    specifier: ^6.0.1
-    version: 6.0.1(postcss@8.4.34)
+    specifier: ^6.0.5
+    version: 6.0.5(postcss@8.4.34)
   cssnano-preset-default:
     specifier: ^6.0.5
     version: 6.0.5(postcss@8.4.34)
@@ -5189,14 +5189,14 @@ packages:
       postcss: 8.4.34
     dev: false
 
-  /cssnano@6.0.1(postcss@8.4.34):
-    resolution: {integrity: sha512-fVO1JdJ0LSdIGJq68eIxOqFpIJrZqXUsBt8fkrBcztCQqAjQD51OhZp7tc0ImcbwXD4k7ny84QTV90nZhmqbkg==}
+  /cssnano@6.0.5(postcss@8.4.34):
+    resolution: {integrity: sha512-tpTp/ukgrElwu3ESFY4IvWnGn8eTt8cJhC2aAbtA3lvUlxp6t6UPv8YCLjNnEGiFreT1O0LiOM1U3QyTBVFl2A==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
-      postcss: ^8.2.15
+      postcss: ^8.4.31
     dependencies:
       cssnano-preset-default: 6.0.5(postcss@8.4.34)
-      lilconfig: 2.1.0
+      lilconfig: 3.1.1
       postcss: 8.4.34
     dev: false
 
@@ -8676,6 +8676,11 @@ packages:
 
   /lilconfig@3.0.0:
     resolution: {integrity: sha512-K2U4W2Ff5ibV7j7ydLr+zLAkIg5JJ4lPn1Ltsdt+Tz/IjQ8buJ55pZAxoP34lqIiwtF9iAvtLv3JGv7CAyAg+g==}
+    engines: {node: '>=14'}
+    dev: false
+
+  /lilconfig@3.1.1:
+    resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
     engines: {node: '>=14'}
     dev: false
 
