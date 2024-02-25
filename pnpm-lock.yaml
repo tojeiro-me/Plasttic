@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.1.1
     version: 2.1.1(postcss@8.4.34)
   '@csstools/postcss-progressive-custom-properties':
-    specifier: ^3.0.0
-    version: 3.0.0(postcss@8.4.34)
+    specifier: ^3.1.0
+    version: 3.1.0(postcss@8.4.34)
   '@fullhuman/postcss-purgecss':
     specifier: ^5.0.0
     version: 5.0.0(postcss@8.4.34)
@@ -1858,7 +1858,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -1871,7 +1871,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -1927,7 +1927,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -1949,7 +1949,7 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
       postcss-value-parser: 4.2.0
     dev: false
@@ -2075,22 +2075,12 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
-  /@csstools/postcss-progressive-custom-properties@3.0.0(postcss@8.4.34):
-    resolution: {integrity: sha512-2/D3CCL9DN2xhuUTP8OKvKnaqJ1j4yZUxuGLsCUOQ16wnDAuMLKLkflOmZF5tsPh/02VPeXRmqIN+U595WAulw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      postcss: 8.4.34
-      postcss-value-parser: 4.2.0
-    dev: false
-
-  /@csstools/postcss-progressive-custom-properties@3.0.3(postcss@8.4.34):
-    resolution: {integrity: sha512-WipTVh6JTMQfeIrzDV4wEPsV9NTzMK2jwXxyH6CGBktuWdivHnkioP/smp1x/0QDPQyx7NTS14RB+GV3zZZYEw==}
+  /@csstools/postcss-progressive-custom-properties@3.1.0(postcss@8.4.34):
+    resolution: {integrity: sha512-Mfb1T1BHa6pktLI+poMEHI7Q+VYvAsdwJZPFsSkIB2ZUsawCiPxXLw06BKSVPITxFlaY/FEUzfpyOTfX9YCE2w==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -2108,7 +2098,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -9714,7 +9704,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -9876,7 +9866,7 @@ packages:
     peerDependencies:
       postcss: ^8.4
     dependencies:
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
       postcss-value-parser: 4.2.0
     dev: false
@@ -9970,7 +9960,7 @@ packages:
       '@csstools/css-color-parser': 1.5.1(@csstools/css-parser-algorithms@2.5.0)(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-parser-algorithms': 2.5.0(@csstools/css-tokenizer@2.2.3)
       '@csstools/css-tokenizer': 2.2.3
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       postcss: 8.4.34
     dev: false
 
@@ -10268,7 +10258,7 @@ packages:
       '@csstools/postcss-nested-calc': 3.0.0(postcss@8.4.34)
       '@csstools/postcss-normalize-display-values': 3.0.2(postcss@8.4.34)
       '@csstools/postcss-oklab-function': 3.0.9(postcss@8.4.34)
-      '@csstools/postcss-progressive-custom-properties': 3.0.3(postcss@8.4.34)
+      '@csstools/postcss-progressive-custom-properties': 3.1.0(postcss@8.4.34)
       '@csstools/postcss-relative-color-syntax': 2.0.9(postcss@8.4.34)
       '@csstools/postcss-scope-pseudo-class': 3.0.0(postcss@8.4.34)
       '@csstools/postcss-stepped-value-functions': 3.0.4(postcss@8.4.34)
