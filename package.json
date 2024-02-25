@@ -135,7 +135,7 @@
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^10.0.3",
     "postcss-custom-properties": "^13.3.5",
-    "postcss-discard-empty": "^6.0.0",
+    "postcss-discard-empty": "^6.0.2",
     "postcss-import": "^15.1.0",
     "postcss-import-ext-glob": "^2.1.1",
     "postcss-media-minmax": "^5.0.0",
