@@ -159,8 +159,8 @@ dependencies:
     specifier: ^9.0.4
     version: 9.0.4(postcss@8.4.34)
   postcss-nesting:
-    specifier: ^12.0.3
-    version: 12.0.3(postcss@8.4.34)
+    specifier: ^12.1.0
+    version: 12.1.0(postcss@8.4.34)
   postcss-preset-env:
     specifier: ^9.4.0
     version: 9.4.0(postcss@8.4.34)
@@ -2137,6 +2137,15 @@ packages:
       postcss: ^8.4
     dependencies:
       postcss: 8.4.34
+    dev: false
+
+  /@csstools/selector-resolve-nested@1.1.0(postcss-selector-parser@6.0.15):
+    resolution: {integrity: sha512-uWvSaeRcHyeNenKg8tp17EVDRkpflmdyvbE0DHo6D/GdBb6PDnCYYU6gRpXhtICMGMcahQmj2zGxwFM/WC8hCg==}
+    engines: {node: ^14 || ^16 || >=18}
+    peerDependencies:
+      postcss-selector-parser: ^6.0.13
+    dependencies:
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /@csstools/selector-specificity@3.0.0(postcss-selector-parser@6.0.13):
@@ -10114,12 +10123,13 @@ packages:
       sugarss: 4.0.1(postcss@8.4.34)
     dev: false
 
-  /postcss-nesting@12.0.3(postcss@8.4.34):
-    resolution: {integrity: sha512-yrtMRPFNkfZMv9ikBvZ/Eh3RxhpMBKQ3KzD7LCY8+jYVlgju/Mdcxi4JY8bW2Y7ISXw8GTLuF/o+kFtp+yaVfQ==}
+  /postcss-nesting@12.1.0(postcss@8.4.34):
+    resolution: {integrity: sha512-QOYnosaZ+mlP6plQrAxFw09UUp2Sgtxj1BVHN+rSVbtV0Yx48zRt9/9F/ZOoxOKBBEsaJk2MYhhVRjeRRw5yuw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
     dependencies:
+      '@csstools/selector-resolve-nested': 1.1.0(postcss-selector-parser@6.0.15)
       '@csstools/selector-specificity': 3.0.2(postcss-selector-parser@6.0.15)
       postcss: 8.4.34
       postcss-selector-parser: 6.0.15
@@ -10322,7 +10332,7 @@ packages:
       postcss-image-set-function: 6.0.3(postcss@8.4.34)
       postcss-lab-function: 6.0.10(postcss@8.4.34)
       postcss-logical: 7.0.1(postcss@8.4.34)
-      postcss-nesting: 12.0.3(postcss@8.4.34)
+      postcss-nesting: 12.1.0(postcss@8.4.34)
       postcss-opacity-percentage: 2.0.0(postcss@8.4.34)
       postcss-overflow-shorthand: 5.0.1(postcss@8.4.34)
       postcss-page-break: 3.0.4(postcss@8.4.34)
