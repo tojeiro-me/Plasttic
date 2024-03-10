@@ -1,11 +1,12 @@
-# v3.0.0-alpha.1 (Feb --, 2024)
+# v3.0.0-alpha.1 (Mar --, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
-- :warning: Updated: optimized linting
-- :warning: Updated: tests folders, scripts and configs (CI)
-- :warning: Updated: removed testing from pre-commit
+- :warning: Updated: Optimized linting
+- :warning: Updated: Tests folders, scripts and configs (CI)
+- :warning: Updated: Removed testing from pre-commit
+- :warning: Updated: CLI watch time increased to 10000ms
 
 ---
 
