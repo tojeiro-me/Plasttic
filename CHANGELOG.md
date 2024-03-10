@@ -57,7 +57,7 @@
 - Updated: Boilerplate snippet
 - Updated: CLI build script
 - Updated: @font-face paths
-- ***
+- Added: NOTE tag to Todo tree extension
 
 ##### IN PROGRESS:
 
