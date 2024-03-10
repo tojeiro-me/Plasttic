@@ -6,7 +6,7 @@
 - :warning: Updated: Optimized linting
 - :warning: Updated: Tests folders, scripts and configs (CI)
 - :warning: Updated: Removed testing from pre-commit
-- :warning: Updated: CLI watch time increased to 10000ms
+- :warning: Updated: CLI watch time delay increased to 5000ms
 
 ---
 
