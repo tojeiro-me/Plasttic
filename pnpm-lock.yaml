@@ -189,8 +189,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   rehype-minify-javascript-script:
-    specifier: ^4.0.0
-    version: 4.0.0
+    specifier: ^5.0.0
+    version: 5.0.0
   rehype-minify-whitespace:
     specifier: ^5.0.1
     version: 5.0.1
@@ -3160,7 +3160,7 @@ packages:
   /@types/hast@3.0.4:
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
     dependencies:
-      '@types/unist': 2.0.7
+      '@types/unist': 3.0.2
     dev: false
 
   /@types/http-cache-semantics@4.0.1:
@@ -7025,12 +7025,6 @@ packages:
       web-namespaces: 2.0.1
     dev: false
 
-  /hast-util-from-string@2.0.0:
-    resolution: {integrity: sha512-9JlBGWh+RXbT8PDrdwYZloN6poib8xg7Vq+LgN5TTqnaMDO0YqfX4EyZd3Myel6yIXlDsgysiRB1CTjH2K+1Dg==}
-    dependencies:
-      '@types/hast': 2.3.5
-    dev: false
-
   /hast-util-from-string@3.0.0:
     resolution: {integrity: sha512-wHZ8oXSUZGq9noJocMeBOBFVd0YWmSbkVQDcwPHuMqrWxwN8iv20UnYKrWbPZfeHIYkvW34hIik6lQofJzjjaw==}
     dependencies:
@@ -7069,12 +7063,11 @@ packages:
       '@types/unist': 2.0.7
     dev: false
 
-  /hast-util-is-javascript@2.0.0:
-    resolution: {integrity: sha512-1SvdBcow862S+dq1BWC04PkbfUSXk8Blzd6oo/zti8LYH0/fU+VSlsBIKjsCHHwgw4ajSatY2ok6QeJwmaYc0g==}
+  /hast-util-is-javascript@3.0.0:
+    resolution: {integrity: sha512-bY4Foa/zDN71rEaFhicgFo2IcbFSb8oUMqQEN08HpUurBcqGUsiTG5Bgy1WsWG9vUGEATjqBgbFXiVV2lpDaLQ==}
     dependencies:
-      '@types/hast': 2.3.5
-      hast-util-has-property: 2.0.1
-      hast-util-is-element: 2.1.3
+      '@types/hast': 3.0.4
+      collapse-white-space: 2.1.0
     dev: false
 
   /hast-util-parse-selector@3.1.1:
@@ -7134,12 +7127,6 @@ packages:
       space-separated-tokens: 2.0.2
       web-namespaces: 2.0.1
       zwitch: 2.0.4
-    dev: false
-
-  /hast-util-to-string@2.0.0:
-    resolution: {integrity: sha512-02AQ3vLhuH3FisaMM+i/9sm4OXGSq1UhOOCpTLLQtHdL3tZt7qil69r8M8iDkZYyC0HCFylcYoP+8IO7ddta1A==}
-    dependencies:
-      '@types/hast': 2.3.5
     dev: false
 
   /hast-util-to-string@3.0.0:
@@ -11225,17 +11212,15 @@ packages:
       unist-util-visit: 5.0.0
     dev: false
 
-  /rehype-minify-javascript-script@4.0.0:
-    resolution: {integrity: sha512-iY4m9Jl9h9UcYuPKzRMJgMoj/uhagz6P0Jk3OiXE77hxNN1KU7h+7OcSvr/ylC1BBZh6NXWLrGjXO2w3B8ClVw==}
+  /rehype-minify-javascript-script@5.0.0:
+    resolution: {integrity: sha512-DkU4tJt4vGt9Rnz1yW4ttbEypIHBkHT/LLNH+9bwDA5RYN88Fsdq3m42TVCAJNfqXUAiwIIuJzipMAMtlD+mEw==}
     dependencies:
-      '@types/hast': 2.3.5
-      hast-util-from-string: 2.0.0
-      hast-util-has-property: 2.0.1
-      hast-util-is-javascript: 2.0.0
-      hast-util-to-string: 2.0.0
+      '@types/hast': 3.0.4
+      hast-util-from-string: 3.0.0
+      hast-util-is-javascript: 3.0.0
+      hast-util-to-string: 3.0.0
       uglify-js: 3.17.4
-      unified: 10.1.2
-      unist-util-visit: 4.1.2
+      unist-util-visit: 5.0.0
     dev: false
 
   /rehype-minify-whitespace@5.0.1:
