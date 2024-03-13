@@ -7,7 +7,7 @@
 - :warning: Updated: Tests folders, scripts and configs (CI)
 - :warning: Updated: Removed testing from pre-commit
 - :warning: Updated: CLI watch time delay increased to 5000ms
-- :warning: Updated: CLI Browser Sync does not open new window
+- :warning: Updated: Browser Sync does not open new window
 
 ---
 
