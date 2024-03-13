@@ -144,8 +144,8 @@ dependencies:
     specifier: ^13.3.5
     version: 13.3.5(postcss@8.4.34)
   postcss-discard-empty:
-    specifier: ^6.0.2
-    version: 6.0.2(postcss@8.4.34)
+    specifier: ^6.0.3
+    version: 6.0.3(postcss@8.4.34)
   postcss-import:
     specifier: ^16.0.1
     version: 16.0.1(postcss@8.4.34)
@@ -5173,7 +5173,7 @@ packages:
       postcss-convert-values: 6.0.4(postcss@8.4.34)
       postcss-discard-comments: 6.0.1(postcss@8.4.34)
       postcss-discard-duplicates: 6.0.2(postcss@8.4.34)
-      postcss-discard-empty: 6.0.2(postcss@8.4.34)
+      postcss-discard-empty: 6.0.3(postcss@8.4.34)
       postcss-discard-overridden: 6.0.1(postcss@8.4.34)
       postcss-merge-longhand: 6.0.3(postcss@8.4.34)
       postcss-merge-rules: 6.0.4(postcss@8.4.34)
@@ -9910,15 +9910,6 @@ packages:
 
   /postcss-discard-duplicates@6.0.3(postcss@8.4.34):
     resolution: {integrity: sha512-+JA0DCvc5XvFAxwx6f/e68gQu/7Z9ud584VLmcgto28eB8FqSFZwtrLwB5Kcp70eIoWP/HXqz4wpo8rD8gpsTw==}
-    engines: {node: ^14 || ^16 || >=18.0}
-    peerDependencies:
-      postcss: ^8.4.31
-    dependencies:
-      postcss: 8.4.34
-    dev: false
-
-  /postcss-discard-empty@6.0.2(postcss@8.4.34):
-    resolution: {integrity: sha512-rj6pVC2dVCJrP0Y2RkYTQEbYaCf4HEm+R/2StQgJqGHxAa3+KcYslNQhcRqjLHtl/4wpzipJluaJLqBj6d5eDQ==}
     engines: {node: ^14 || ^16 || >=18.0}
     peerDependencies:
       postcss: ^8.4.31
