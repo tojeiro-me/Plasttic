@@ -162,8 +162,8 @@ dependencies:
     specifier: ^12.1.0
     version: 12.1.0(postcss@8.4.34)
   postcss-preset-env:
-    specifier: ^9.4.0
-    version: 9.4.0(postcss@8.4.34)
+    specifier: ^9.5.0
+    version: 9.5.0(postcss@8.4.34)
   postcss-simple-vars:
     specifier: ^7.0.1
     version: 7.0.1(postcss@8.4.34)
@@ -1790,8 +1790,8 @@ packages:
       postcss: 8.4.34
     dev: false
 
-  /@csstools/postcss-gradients-interpolation-method@4.0.10(postcss@8.4.34):
-    resolution: {integrity: sha512-PwKOxVuX8lo52bPtPeKjaIp6oH2EzhcBxCndRcvGZKsqZYQ35k9A5G4yihZ+wp7PoxPqDNiXuhQsvQG2lqMpOA==}
+  /@csstools/postcss-gradients-interpolation-method@4.0.11(postcss@8.4.34):
+    resolution: {integrity: sha512-LFom5jCVUfzF+iuiOZvhvX7RRN8vc+tKpcKo9s4keEBAU2mPwV5/Fgz5iylEfXP/DZbEdq2C0At20urMi/lupw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -5149,8 +5149,8 @@ packages:
     resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
     engines: {node: '>= 6'}
 
-  /cssdb@7.11.0:
-    resolution: {integrity: sha512-YUVAJhjDcTZzVD5XE49l3PQtGE29vvhzaL1bM3BtkvSmIRJeYENdfn1dn5jauBI7BBF+IyyiBS+oSVx3Hz/Gaw==}
+  /cssdb@7.11.2:
+    resolution: {integrity: sha512-lhQ32TFkc1X4eTefGfYPvgovRSzIMofHkigfH8nWtyRL4XJLsRhJFreRvEgKzept7x1rjBuy3J/MurXLaFxW/A==}
     dev: false
 
   /cssesc@3.0.0:
@@ -10488,8 +10488,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /postcss-preset-env@9.4.0(postcss@8.4.34):
-    resolution: {integrity: sha512-5X2UA4Dn4xo7sJFCxlzW/dAGo71Oxh/K5DVls33hd2e3j06OKnW5FJQTw2hB0wTnGv0f6WcMaVBGFqcEfAgwlw==}
+  /postcss-preset-env@9.5.0(postcss@8.4.34):
+    resolution: {integrity: sha512-ZTrTWCSqKVYSABB1GerMBb6F8Uto5YWIq1nqi+TKOHPzrXMcyJNuJTc0v2lp5WjG4Sfvwdo7HF/7/3j7HskRog==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -10500,7 +10500,7 @@ packages:
       '@csstools/postcss-exponential-functions': 1.0.4(postcss@8.4.34)
       '@csstools/postcss-font-format-keywords': 3.0.2(postcss@8.4.34)
       '@csstools/postcss-gamut-mapping': 1.0.3(postcss@8.4.34)
-      '@csstools/postcss-gradients-interpolation-method': 4.0.10(postcss@8.4.34)
+      '@csstools/postcss-gradients-interpolation-method': 4.0.11(postcss@8.4.34)
       '@csstools/postcss-hwb-function': 3.0.9(postcss@8.4.34)
       '@csstools/postcss-ic-unit': 3.0.4(postcss@8.4.34)
       '@csstools/postcss-initial': 1.0.1(postcss@8.4.34)
@@ -10528,7 +10528,7 @@ packages:
       css-blank-pseudo: 6.0.1(postcss@8.4.34)
       css-has-pseudo: 6.0.2(postcss@8.4.34)
       css-prefers-color-scheme: 9.0.1(postcss@8.4.34)
-      cssdb: 7.11.0
+      cssdb: 7.11.2
       postcss: 8.4.34
       postcss-attribute-case-insensitive: 6.0.3(postcss@8.4.34)
       postcss-clamp: 4.1.0(postcss@8.4.34)
