@@ -33,7 +33,8 @@
     "orta.vscode-jest",
     "ms-playwright.playwright",
     "aaron-bond.better-comments",
-    "phoenisx.cssvar"
+    "phoenisx.cssvar",
+    "ionutvmi.path-autocomplete"
   ],
   "unwantedRecommendations": []
 }

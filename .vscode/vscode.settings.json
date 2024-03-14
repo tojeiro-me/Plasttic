@@ -201,6 +201,10 @@
   ],
   "githubPullRequests.pullBranch": "never",
 
+  "path-autocomplete.pathMappings": {
+    "/": "${folder}/src"
+  },
+
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "prettier.configPath": ".vscode/.prettierrc",
