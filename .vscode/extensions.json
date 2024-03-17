@@ -34,7 +34,8 @@
     "ms-playwright.playwright",
     "aaron-bond.better-comments",
     "phoenisx.cssvar",
-    "ionutvmi.path-autocomplete"
+    "ionutvmi.path-autocomplete",
+    "zignd.html-css-class-completion"
   ],
   "unwantedRecommendations": []
 }
