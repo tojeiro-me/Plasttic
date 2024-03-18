@@ -138,8 +138,8 @@ dependencies:
     specifier: ^10.1.0
     version: 10.1.0(postcss@8.4.34)(ts-node@10.9.1)
   postcss-custom-media:
-    specifier: ^10.0.3
-    version: 10.0.3(postcss@8.4.34)
+    specifier: ^10.0.4
+    version: 10.0.4(postcss@8.4.34)
   postcss-custom-properties:
     specifier: ^13.3.5
     version: 13.3.5(postcss@8.4.34)
@@ -1719,17 +1719,6 @@ packages:
     dependencies:
       '@csstools/css-parser-algorithms': 2.3.1(@csstools/css-tokenizer@2.2.0)
       '@csstools/css-tokenizer': 2.2.0
-    dev: false
-
-  /@csstools/media-query-list-parser@2.1.8(@csstools/css-parser-algorithms@2.6.0)(@csstools/css-tokenizer@2.2.3):
-    resolution: {integrity: sha512-DiD3vG5ciNzeuTEoh74S+JMjQDs50R3zlxHnBnfd04YYfA/kh2KiBCGhzqLxlJcNq+7yNQ3stuZZYLX6wK/U2g==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      '@csstools/css-parser-algorithms': ^2.6.0
-      '@csstools/css-tokenizer': ^2.2.3
-    dependencies:
-      '@csstools/css-parser-algorithms': 2.6.0(@csstools/css-tokenizer@2.2.3)
-      '@csstools/css-tokenizer': 2.2.3
     dev: false
 
   /@csstools/media-query-list-parser@2.1.9(@csstools/css-parser-algorithms@2.6.1)(@csstools/css-tokenizer@2.2.4):
@@ -9804,19 +9793,6 @@ packages:
       browserslist: 4.23.0
       postcss: 8.4.34
       postcss-value-parser: 4.2.0
-    dev: false
-
-  /postcss-custom-media@10.0.3(postcss@8.4.34):
-    resolution: {integrity: sha512-wfJ9nKpLn/Qy7LASKu0Rj9Iq2uMzlRt27P4FAE1889IKRMdYUgy8SqvdXfAOs7LJLQX9Fjm0mZ+TSFphD/mKwA==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      '@csstools/cascade-layer-name-parser': 1.0.8(@csstools/css-parser-algorithms@2.6.0)(@csstools/css-tokenizer@2.2.3)
-      '@csstools/css-parser-algorithms': 2.6.0(@csstools/css-tokenizer@2.2.3)
-      '@csstools/css-tokenizer': 2.2.3
-      '@csstools/media-query-list-parser': 2.1.8(@csstools/css-parser-algorithms@2.6.0)(@csstools/css-tokenizer@2.2.3)
-      postcss: 8.4.34
     dev: false
 
   /postcss-custom-media@10.0.4(postcss@8.4.34):
