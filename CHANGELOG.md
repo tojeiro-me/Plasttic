@@ -61,6 +61,7 @@
 - Updated: @font-face paths
 - Added: NOTE tag to Todo tree extension
 - Updated: Increased Stylelint max-nesting-depth to 4
+- Updated: Stylelint at-rule line before
 
 ##### IN PROGRESS:
 
