@@ -44,7 +44,7 @@
     "copy:dirs": "cpx --include-empty-dirs \"./src/!(assets|private)/**/\" $npm_config_dest",
     "copy:files": "copyfiles -u 1 -a \"./src/*\" \"./src/**/*\" -e \"./src/assets/*\" -e \"./src/assets/**/*\" -e \"./src/private/*\" -e \"./src/private/**/*\" $npm_config_dest",
     "copy:fonts": "copyfiles -u 1 ./src/assets/fonts/* $npm_config_dest",
-    "dev:copy:html": "copyfiles -u 1 ./src/*.html ./src/**/*.html $npm_config_dest && npm run mini:html",
+    "dev:copy:html": "copyfiles -u 1 ./src/*.html ./src/**/*.html ./src/**/**/*.html ./src/**/**/**/*.html $npm_config_dest && npm run mini:html",
     "build:copy:html": "npm run lint:html && copyfiles -u 1 ./src/*.html ./src/**/*.html $npm_config_dest && npm run mini:html",
     "copy:img": "copyfiles -u 1 ./src/assets/img/* ./src/assets/img/**/* ./src/assets/img/**/**/* $npm_config_dest",
     "dev:copy:js": "tsc && copyfiles -u 1 ./src/assets/js/vendor/* $npm_config_dest && copyfiles -u 1 ./src/assets/js/modules/*.js ./.plasttic/js/src && copyfiles -u 1 ./src/assets/js/*.js ./.plasttic/js/src && copyfiles -u 3 ./.plasttic/js/src/assets/js/modules/*.js $npm_config_dest && uglifyjs './.plasttic/js/src/assets/js/*.js' --config-file '.dev.configs/uglifyjs-dev.config.json' -o $npm_config_dest'/assets/js/scripts.min.js' && prettier --config ./.vscode/.prettierrc --write $npm_config_dest'/assets/js/modules/*.js' && del-cli ./.plasttic/js/*",
