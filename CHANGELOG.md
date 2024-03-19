@@ -58,6 +58,7 @@
 - Updated: TODO Tree settings (vscode.settings.json)
 - Updated: Boilerplate snippet
 - Updated: CLI build script
+- Updated: CLI dev script
 - Updated: @font-face paths
 - Added: NOTE tag to Todo tree extension
 - Updated: Increased Stylelint max-nesting-depth to 4
