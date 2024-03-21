@@ -63,6 +63,7 @@
 - Added: NOTE tag to Todo tree extension
 - Updated: Increased Stylelint max-nesting-depth to 4
 - Updated: Stylelint at-rule line before
+- Added: BrowserSync reload delay 350ms
 
 ##### IN PROGRESS:
 
