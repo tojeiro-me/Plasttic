@@ -30,8 +30,8 @@ dependencies:
     specifier: ^1.42.1
     version: 1.42.1
   '@rushstack/eslint-patch':
-    specifier: ^1.7.2
-    version: 1.7.2
+    specifier: ^1.8.0
+    version: 1.8.0
   '@total-typescript/ts-reset':
     specifier: ^0.5.1
     version: 0.5.1
@@ -3011,8 +3011,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rushstack/eslint-patch@1.7.2:
-    resolution: {integrity: sha512-RbhOOTCNoCrbfkRyoXODZp75MlpiHMgbE5MEBZAnnnLyQNgrigEj4p0lzsMDyc1zVsJDLrivB58tgg3emX0eEA==}
+  /@rushstack/eslint-patch@1.8.0:
+    resolution: {integrity: sha512-0HejFckBN2W+ucM6cUOlwsByTKt9/+0tWhqUffNIcHqCXkthY/mZ7AuYPK/2IIaGWhdl0h+tICDO0ssLMd6XMQ==}
     dev: false
 
   /@sentry/core@6.19.7:
