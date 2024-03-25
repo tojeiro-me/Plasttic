@@ -29,6 +29,7 @@
   src: url("../fonts/roboto-latin-300-normal.woff2") format("woff2");
   font-display: swap;
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -36,6 +37,7 @@
   src: url("../fonts/roboto-latin-400-normal.woff2") format("woff2");
   font-display: swap;
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -116,7 +118,7 @@
   --ptt-fnt-weight-bold: 500;
 
   /* Font- Sizes: 100: 12px, 200: 14px, 400: 16px, 500: 20px,
-      700nt-: 28px, 900: 36px */
+      700: 28px, 900: 36px */
   --ptt-fnt-size-100: 0.75rem;
   --ptt-fnt-size-200: 0.875rem;
   --ptt-fnt-size-400: 1rem;
@@ -176,9 +178,13 @@
 /* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
 
 @custom-media --ptt-bkp-xs (width >= 30rem);
+
 @custom-media --ptt-bkp-sm (width >= 48rem);
+
 @custom-media --ptt-bkp-md (width >= 62rem);
+
 @custom-media --ptt-bkp-lg (width >= 64rem);
+
 @custom-media --ptt-bkp-xl (width >= 75rem);
 
 /* ==========================================================================
