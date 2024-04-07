@@ -89,7 +89,7 @@
     "watch:ts": "onchange -d 5000 'src/assets/js/**/*.ts' -- npm run del:js"
   },
   "dependencies": {
-    "@babel/core": "^7.24.3",
+    "@babel/core": "^7.24.4",
     "@babel/eslint-parser": "^7.24.1",
     "@babel/types": "^7.24.0",
     "@builder.io/partytown": "^0.10.1",
