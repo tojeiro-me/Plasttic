@@ -1,11 +1,13 @@
-# v3.0.0-alpha.0 (Feb 06, 2024)
+# v3.0.0-alpha.1 (Mar --, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
-- :warning: Updated: optimized linting
-- :warning: Updated: tests folders, scripts and configs (CI)
-- :warning: Updated: removed testing from pre-commit
+- :warning: Updated: Optimized linting
+- :warning: Updated: Tests folders, scripts and configs (CI)
+- :warning: Updated: Removed testing from pre-commit
+- :warning: Updated: CLI watch time delay increased to 5000ms
+- :warning: Updated: Browser Sync does not open new window
 - :warning: Updated: disabled Forcing https:// from .htaccess
 
 ---
@@ -54,8 +56,15 @@
 - Updated: Dependabot config and auto-merge workflow
 - Updated: VS Code Extensions
 - Updated: VS Code Settings
-
----
+- Updated: TODO Tree settings (vscode.settings.json)
+- Updated: Boilerplate snippet
+- Updated: CLI build script
+- Updated: CLI dev script
+- Updated: @font-face paths
+- Added: NOTE tag to Todo tree extension
+- Updated: Increased Stylelint max-nesting-depth to 4
+- Updated: Stylelint at-rule line before
+- Added: BrowserSync reload delay 350ms
 
 ##### IN PROGRESS:
 

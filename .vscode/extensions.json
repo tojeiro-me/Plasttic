@@ -32,8 +32,9 @@
     "orta.vscode-jest",
     "ms-playwright.playwright",
     "aaron-bond.better-comments",
-    "vunguyentuan.vscode-css-variables",
-    "simonsiefke.svg-preview"
+    "phoenisx.cssvar",
+    "ionutvmi.path-autocomplete",
+    "zignd.html-css-class-completion"
   ],
   "unwantedRecommendations": []
 }

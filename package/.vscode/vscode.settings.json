@@ -238,12 +238,12 @@
     "foreground": "black",
     "background": "white",
     "opacity": 50,
-    "iconColour": "red"
+    "iconColour": "orange"
   },
   "todo-tree.highlights.customHighlight": {
     "TODO": {
       "icon": "check",
-      "type": "line",
+      "type": "icon",
       "foreground": "black",
       "background": "white",
       "iconColour": "white",
