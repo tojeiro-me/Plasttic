@@ -227,8 +227,8 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.12.7)(ts-node@10.9.1)
   lighthouse:
-    specifier: ^11.7.0
-    version: 11.7.0
+    specifier: ^11.7.1
+    version: 11.7.1
   unlighthouse:
     specifier: ^0.11.6
     version: 0.11.6(typescript@5.4.5)(vue@3.4.21)
@@ -2635,10 +2635,6 @@ packages:
       '@parcel/watcher-win32-x64': 2.4.1
     dev: true
 
-  /@paulirish/trace_engine@0.0.12:
-    resolution: {integrity: sha512-PglukOOYGvjqgMVKNSa3a4grWrWzL97L47bgDCzqAnDSTJ+vDOKxMPXR3rsnLECoZzpbb9LCzS3CEg/NwwhRHQ==}
-    dev: true
-
   /@paulirish/trace_engine@0.0.19:
     resolution: {integrity: sha512-3tjEzXBBtU83DkCJAdU2UwBBunspiwTCn+Y5jOxm592cfEuLr/T7Lcn+QhRerVqkSik2mnjN4X6NgHZjI9Biwg==}
     dev: true
@@ -2684,23 +2680,6 @@ packages:
       progress: 2.0.3
       proxy-agent: 6.3.1
       tar-fs: 3.0.4
-      unbzip2-stream: 1.4.3
-      yargs: 17.7.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@puppeteer/browsers@2.2.0:
-    resolution: {integrity: sha512-MC7LxpcBtdfTbzwARXIkqGZ1Osn3nnZJlm+i0+VqHl72t//Xwl9wICrXT8BwtgC6s1xJNHsxOpvzISUqe92+sw==}
-    engines: {node: '>=18'}
-    hasBin: true
-    dependencies:
-      debug: 4.3.4
-      extract-zip: 2.0.1
-      progress: 2.0.3
-      proxy-agent: 6.4.0
-      semver: 7.6.0
-      tar-fs: 3.0.5
       unbzip2-stream: 1.4.3
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -3765,11 +3744,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /axe-core@4.8.4:
-    resolution: {integrity: sha512-CZLSKisu/bhJ2awW4kJndluz2HLZYIHh5Uy1+ZwDRkJi69811xgIXXfdU9HSLX0Th+ILrHj8qfL/5wzamsFtQg==}
-    engines: {node: '>=4'}
-    dev: true
-
   /axe-core@4.9.0:
     resolution: {integrity: sha512-H5orY+M2Fr56DWmMFpMrq5Ge93qjNdPVqzBv5gWK3aD1OvjBEJlEzxf09z93dGVQeI0LiW+aCMIx1QtShC/zUw==}
     engines: {node: '>=4'}
@@ -4376,17 +4350,6 @@ packages:
       lighthouse-logger: 2.0.1
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /chromium-bidi@0.5.13(devtools-protocol@0.0.1262051):
-    resolution: {integrity: sha512-OHbYCetDxdW/xmlrafgOiLsIrw4Sp1BEeolbZ1UGJO5v/nekQOJBj/Kzyw6sqKcAVabUTo0GS3cTYgr6zIf00g==}
-    peerDependencies:
-      devtools-protocol: '*'
-    dependencies:
-      devtools-protocol: 0.0.1262051
-      mitt: 3.0.1
-      urlpattern-polyfill: 10.0.0
-      zod: 3.22.4
     dev: true
 
   /chromium-bidi@0.5.17(devtools-protocol@0.0.1262051):
@@ -7951,7 +7914,7 @@ packages:
     hasBin: true
     dependencies:
       '@sentry/node': 6.19.7
-      axe-core: 4.8.4
+      axe-core: 4.9.0
       chrome-launcher: 1.1.1
       configstore: 5.0.1
       csp_evaluator: 1.1.1
@@ -7981,46 +7944,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - encoding
-      - supports-color
-      - utf-8-validate
-    dev: true
-
-  /lighthouse@11.7.0:
-    resolution: {integrity: sha512-oQ9fJyNGibt00Q+046ROZXNcMUwFSEcgsJljww3xLtMkWpq5dnmw7zw39CJFGhXcpAA8D6ayiFuWo7uDXjld/g==}
-    engines: {node: '>=18.16'}
-    hasBin: true
-    dependencies:
-      '@paulirish/trace_engine': 0.0.12
-      '@sentry/node': 6.19.7
-      axe-core: 4.8.4
-      chrome-launcher: 1.1.1
-      configstore: 5.0.1
-      csp_evaluator: 1.1.1
-      devtools-protocol: 0.0.1232444
-      enquirer: 2.4.1
-      http-link-header: 1.1.1
-      intl-messageformat: 10.5.11
-      jpeg-js: 0.4.4
-      js-library-detector: 6.7.0
-      lighthouse-logger: 2.0.1
-      lighthouse-stack-packs: 1.12.1
-      lodash: 4.17.21
-      lookup-closest-locale: 6.2.0
-      metaviewport-parser: 0.3.0
-      open: 8.4.2
-      parse-cache-control: 1.0.1
-      ps-list: 8.1.1
-      puppeteer-core: 22.6.0
-      robots-parser: 3.0.1
-      semver: 5.7.2
-      speedline-core: 1.4.3
-      third-party-web: 0.24.1
-      tldts-icann: 6.1.8
-      ws: 7.5.9
-      yargs: 17.7.2
-      yargs-parser: 21.1.1
-    transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - utf-8-validate
     dev: true
@@ -9949,21 +9872,6 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - encoding
-      - supports-color
-      - utf-8-validate
-    dev: true
-
-  /puppeteer-core@22.6.0:
-    resolution: {integrity: sha512-xclyGFhxHfZ9l62uXFm+JpgtJHLIZ1qHc7iR4eaIqBNKA5Dg2sDr8yvylfCx5bMN89QWIaxpV6IHsy0qUynK/g==}
-    engines: {node: '>=18'}
-    dependencies:
-      '@puppeteer/browsers': 2.2.0
-      chromium-bidi: 0.5.13(devtools-protocol@0.0.1262051)
-      debug: 4.3.4
-      devtools-protocol: 0.0.1262051
-      ws: 8.16.0
-    transitivePeerDependencies:
-      - bufferutil
       - supports-color
       - utf-8-validate
     dev: true
