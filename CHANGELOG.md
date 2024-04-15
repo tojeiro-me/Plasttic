@@ -9,6 +9,7 @@
 - :warning: Updated: disabled Forcing https:// from .htaccess
 - :warning: Updated: CLI watch time delay increased to 5000ms
 - :warning: Updated: Browser Sync does not open new window
+- :warning: Updated: disabled Forcing https:// from .htaccess
 
 ---
 
