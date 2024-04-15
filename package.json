@@ -123,7 +123,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^28.2.0",
     "eslint-plugin-n": "^17.2.0",
-    "eslint-plugin-playwright": "^1.5.4",
+    "eslint-plugin-playwright": "^1.6.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
