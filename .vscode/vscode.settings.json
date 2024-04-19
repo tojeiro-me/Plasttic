@@ -1,6 +1,7 @@
 {
   "css.validate": false,
   "postcss.validate": false,
+  "css.lint.duplicateProperties": "warning",
 
   "[css]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
