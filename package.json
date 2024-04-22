@@ -122,7 +122,7 @@
     "eslint-plugin-html": "^8.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^28.2.0",
-    "eslint-plugin-n": "^17.2.0",
+    "eslint-plugin-n": "^17.2.1",
     "eslint-plugin-playwright": "^1.6.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
@@ -140,8 +140,8 @@
     "postcss-import-ext-glob": "^2.1.1",
     "postcss-media-minmax": "^5.0.0",
     "postcss-mixins": "^10.0.0",
-    "postcss-nesting": "^12.1.1",
-    "postcss-preset-env": "^9.5.5",
+    "postcss-nesting": "^12.1.2",
+    "postcss-preset-env": "^9.5.8",
     "postcss-simple-vars": "^7.0.1",
     "postcss-sorting": "^8.0.2",
     "prettier": "^3.2.5",
@@ -166,7 +166,7 @@
     "jest-cli": "^29.7.0",
     "lighthouse": "^11.7.1",
     "unlighthouse": "^0.11.6",
-    "zod": "^3.22.4"
+    "zod": "^3.22.5"
   },
   "eslintConfig": {
     "extends": [
