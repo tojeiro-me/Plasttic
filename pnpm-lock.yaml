@@ -159,8 +159,8 @@ dependencies:
     specifier: ^10.0.0
     version: 10.0.0(postcss@8.4.38)
   postcss-nesting:
-    specifier: ^12.1.1
-    version: 12.1.1(postcss@8.4.38)
+    specifier: ^12.1.2
+    version: 12.1.2(postcss@8.4.38)
   postcss-preset-env:
     specifier: ^9.5.8
     version: 9.5.8(postcss@8.4.38)
@@ -9356,18 +9356,6 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.38)
       postcss-simple-vars: 7.0.1(postcss@8.4.38)
       sugarss: 4.0.1(postcss@8.4.38)
-    dev: false
-
-  /postcss-nesting@12.1.1(postcss@8.4.38):
-    resolution: {integrity: sha512-qc74KvIAQNa5ujZKG1UV286dhaDW6basbUy2i9AzNU/T8C9hpvGu9NZzm1SfePe2yP7sPYgpA8d4sPVopn2Hhw==}
-    engines: {node: ^14 || ^16 || >=18}
-    peerDependencies:
-      postcss: ^8.4
-    dependencies:
-      '@csstools/selector-resolve-nested': 1.1.0(postcss-selector-parser@6.0.16)
-      '@csstools/selector-specificity': 3.0.3(postcss-selector-parser@6.0.16)
-      postcss: 8.4.38
-      postcss-selector-parser: 6.0.16
     dev: false
 
   /postcss-nesting@12.1.2(postcss@8.4.38):
