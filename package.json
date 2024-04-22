@@ -166,7 +166,7 @@
     "jest-cli": "^29.7.0",
     "lighthouse": "^11.7.1",
     "unlighthouse": "^0.11.6",
-    "zod": "^3.22.4"
+    "zod": "^3.22.5"
   },
   "eslintConfig": {
     "extends": [
