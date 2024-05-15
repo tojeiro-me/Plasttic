@@ -24,7 +24,7 @@
     "email": "global@plasttic.dev"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "files": [
     "package/*",
