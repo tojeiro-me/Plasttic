@@ -37,7 +37,7 @@
     "dev": "npm run start:dev --dest=dev",
     "dev:ssl": "npm run start:dev:ssl --dest=dev",
     "build": "npm run start:build --dest=dist && chalk green bold '\nSUCCESS!' && chalk -t '{visible Production files on: {bold.magenta dist/}}'",
-    "start": "npm install && husky install && npx playwright install && npm install typescript@5.1.5 && sudo npm install -g typescript@5.1.5",
+    "start": "npm install && husky install && npx playwright install && npm install typescript && sudo npm install -g typescript",
     "copy:assets": "copyfiles -u 1 -a ./src/assets/*.* $npm_config_dest",
     "dev:copy:css": "postcss --config ./.dev.configs/ src/assets/css/styles.css --no-map -o dev/assets/css/styles.min.css && postcss --config ./.dev.configs/ src/assets/css/print.css --no-map -o dev/assets/css/print.min.css",
     "build:copy:css": "npm run lint:css && postcss src/assets/css/styles.css --no-map -o dist/assets/css/styles.min.css && postcss src/assets/css/print.css --no-map -o dist/assets/css/print.min.css",
