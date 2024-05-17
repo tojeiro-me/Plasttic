@@ -9,7 +9,7 @@
 - :warning: Updated: CLI watch time delay increased to 5000ms
 - :warning: Updated: Browser Sync does not open new window
 - :warning: Updated: Node engine >= 20
-- :warning: Updated: CLI start script installs latest typescript version
+- :warning: Updated: CLI start script installs typescript@5.3.3
 
 ---
 
