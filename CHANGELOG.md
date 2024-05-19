@@ -8,7 +8,7 @@
 - :warning: Updated: Removed testing from pre-commit
 - :warning: Updated: CLI watch time delay increased to 5000ms
 - :warning: Updated: Browser Sync does not open new window
-- :warning: Updated: typescript@5.4.6
+- :warning: Updated: typescript@5.4.5
 
 ---
 
