@@ -12,10 +12,10 @@ updates:
     open-pull-requests-limit: 25
     schedule:
       # Check for npm updates on Sundays
-      interval: 'weekly'
+      interval: 'daily'
       timezone: 'Europe/Lisbon'
-      day: 'sunday'
-      time: '21:00'
+      #day: 'sunday'
+      #time: '21:00'
     # Raise pull requests for version updates
     # against the `develop` branch
     target-branch: 'develop'
@@ -29,7 +29,7 @@ updates:
     directory: '/' # Location of package manifests
     open-pull-requests-limit: 25
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
       timezone: 'Europe/Lisbon'
-      day: 'sunday'
-      time: '23:00'
+      #day: 'sunday'
+      #time: '23:00'
