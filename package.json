@@ -103,7 +103,7 @@
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "@typescript-eslint/parser": "^7.9.0",
-    "@typescript-eslint/typescript-estree": "^7.9.0",
+    "@typescript-eslint/typescript-estree": "^7.11.0",
     "autoprefixer": "^10.4.19",
     "babel-preset-airbnb": "^5.0.0",
     "browser-sync": "^3.0.2",
