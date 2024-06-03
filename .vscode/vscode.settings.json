@@ -201,6 +201,11 @@
   ],
   "githubPullRequests.pullBranch": "never",
 
+  "jest.runMode": {
+    "type": "on-demand",
+    "deferred": true
+  },
+
   "path-autocomplete.pathMappings": {
     "/": "${folder}/src"
   },
