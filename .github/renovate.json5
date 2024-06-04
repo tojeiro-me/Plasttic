@@ -12,7 +12,7 @@
   baseBranches: ['develop'],
   timezone: 'Europe/Lisbon',
   // schedule: ['after 01:00 on sunday'],
-  schedule: ['hourly'],
+  schedule: ['every 1 hour after 10am and before 12pm every weekday'],
   postUpdateOptions: ['pnpmDedupe'],
   prHourlyLimit: 0,
   prConcurrentLimit: 0,
