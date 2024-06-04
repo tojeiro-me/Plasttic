@@ -10,6 +10,7 @@
 - :warning: Updated: Browser Sync does not open new window
 - :warning: Updated: typescript@5.4.5
 - :warning: Updated: Jest config in vscode.settings.json
+- :warning: Updated: Replaced Dependabot with Renovate
 
 ---
 
