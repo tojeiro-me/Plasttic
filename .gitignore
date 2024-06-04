@@ -42,3 +42,8 @@ tests/playwright/.cache/
 !tests/**/**/_*.txt
 !**/tests/**/dev/
 !.unlighthouse/_*.txt
+
+# lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
