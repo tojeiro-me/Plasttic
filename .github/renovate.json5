@@ -1,11 +1,10 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
-  extends: [
-    'config:recommended',
-    'group:allNonMajor',
-  ],
+  extends: ['config:recommended', 'group:allNonMajor'],
   dependencyDashboardApproval: true,
   labels: ['dependency'],
+  rangeStrategy: 'bump',
+  ignorePaths: ['**/node_modules/**'],
 
   // Wait well over npm's three day window for any new package as a precaution against malicious publishes
   // minimumReleaseAge: '7 days',
