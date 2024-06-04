@@ -11,6 +11,7 @@
 - :warning: Updated: typescript@5.4.5
 - :warning: Updated: Jest config in vscode.settings.json
 - :warning: Updated: Replaced Dependabot with Renovate
+- :warning: Updated: Added lock files to gitignore
 
 ---
 
