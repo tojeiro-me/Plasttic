@@ -1,4 +1,4 @@
-# v3.0.0-alpha.1 (Mar --, 2024)
+# v3.0.0-alpha.1 (Jun --, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
@@ -9,6 +9,7 @@
 - :warning: Updated: CLI watch time delay increased to 5000ms
 - :warning: Updated: Browser Sync does not open new window
 - :warning: Updated: typescript@5.4.5
+- :warning: Updated: Jest config in vscode.settings.json
 
 ---
 
