@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: 'github-actions'
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
       timezone: 'Europe/Lisbon'
       day: 'sunday'
       time: '23:00'
