@@ -12,6 +12,7 @@
 - :warning: Updated: Jest config in vscode.settings.json
 - :warning: Updated: Replaced Dependabot with Renovate
 - :warning: Updated: Added lock files to gitignore
+- :warning: Updated: Ignore Dependabot and Renovate branches in plasttic-ci.yml
 
 ---
 
