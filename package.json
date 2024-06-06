@@ -64,7 +64,7 @@
     "lint:commit": "npx lint-staged --allow-empty",
     "lint:css": "npx stylelint src/assets/css/*.css --fix --quiet && prettier --config ./.vscode/.prettierrc --write src/assets/css/*.css --log-level silent",
     "lint:html": "prettier --config ./.vscode/.prettierrc --write src/*.html src/**/*.html --log-level silent",
-    "lint:js": "npx eslint --ext .js,.ts ./src/assets/js/ ./src/assets/js/modules/ ./tests/jest/**/ ./tests/playwright/**/ --no-error-on-unmatched-pattern --fix",
+    "lint:js": "npx eslint ./src/assets/js/ ./src/assets/js/modules/ ./tests/jest/**/ ./tests/playwright/**/ --no-error-on-unmatched-pattern --fix",
     "mini:html": "rehype --setting allowDangerousCharacters:true $npm_config_dest/*.html $npm_config_dest/**/*.html  --use format --use remove-comments --use minify-css-style --use minify-javascript-script --output --silent",
     "package:commit": "del-cli ./package/* ./package/.??** !./package/.##gitignore## !./package/.github/** !./package/.husky/** !./package/.plasttic/** !./package/tests/** !./package/.unlighthouse/** && cpx --include-empty-dirs \"./src/!(boilerplate|sources)/**/*\" package/src && copyfiles -u 1 -a \"./src/*.*\" package/src && copyfiles -a -e ./pnpm-lock.yaml -e ./.gitignore -e ./CHANGELOG.md \"./*.*\" package && copyfiles -a \"./.vscode/**/*\" \"./.dev.configs/**/*\" -e ./.vscode/settings.json package && partytown copylib package/src/~partytown",
     "partytown:libs": "partytown copylib $npm_config_dest/~partytown",
