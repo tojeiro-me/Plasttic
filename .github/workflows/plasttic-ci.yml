@@ -47,19 +47,19 @@ jobs:
              echo "condition=false" >> $GITHUB_OUTPUT  
           fi
       # Checks-out your repository under $GITHUB_WORKSPACE
-      # - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      # # Provides functionality for GitHub Actions
-      # - name: ci
-      #   uses: pnpm/action-setup@v4
-      #   with:
-      #     version: 8.x
+      # Provides functionality for GitHub Actions
+      - name: ci
+        uses: pnpm/action-setup@v4
+        with:
+          version: 8.x
 
-      # # Installs dependencies
-      # - run: pnpm install
+      # Installs dependencies
+      - run: pnpm install
 
-      # # Run CI scripts
-      # - run: pnpm lint:all
-      # - run: pnpm test:jest:ci
-      # - run: pnpm test:play:ci
-      # - run: pnpm package:commit
+      # Run CI scripts
+      - run: pnpm lint:all
+      - run: pnpm test:jest:ci
+      - run: pnpm test:play:ci
+      - run: pnpm package:commit
