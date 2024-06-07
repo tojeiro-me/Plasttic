@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ github.triggering_actor != 'renovate[bot]' }}
+    if: ${{ vars.GITHUB_HEAD_REF != 'renovate' && vars.GITHUB_HEAD_REF != 'dependabot' }}
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
