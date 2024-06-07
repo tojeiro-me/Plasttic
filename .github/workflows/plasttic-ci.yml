@@ -41,7 +41,7 @@ jobs:
     steps:
       - id: condition
         run: |
-          if [[ ${{ github.head_ref }} != *"dependabot/"* || ${{ github.head_ref }} != *"renovate/"* ]]; then
+          if [[ ${{ github.head_ref }} != *"dependabot/"* && ${{ github.head_ref }} != *"renovate/"* ]]; then
              echo "condition=true" >> $GITHUB_OUTPUT
           else
              echo "condition=false" >> $GITHUB_OUTPUT  
