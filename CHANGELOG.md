@@ -13,6 +13,7 @@
 - :warning: Updated: Replaced Dependabot with Renovate
 - :warning: Updated: Added lock files to gitignore
 - :warning: Updated: Ignore Dependabot and Renovate branches in plasttic-ci.yml
+- :warning: Updated: Dependabot updates github-actions in main branch
 - :warning: Updated: Eslint fixed version 8.57.0
 
 ---
