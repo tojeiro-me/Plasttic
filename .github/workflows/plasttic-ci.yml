@@ -25,7 +25,6 @@ permissions:
 jobs:
   # This workflow contains a single job called "plasttic_ci"
   plasttic_ci:
-    
     permissions:
       # For stefanzweifel/git-auto-commit-action
       # Give the default GITHUB_TOKEN write permission to commit and push the
@@ -34,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ github.ref == 'refs/heads/renovate/*' }}
+    if: ${{ github.ref == '*/renovate/**' }}
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
