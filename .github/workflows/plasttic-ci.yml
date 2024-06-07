@@ -37,6 +37,9 @@ jobs:
     if: ${{ github.actor != 'renovate[bot]' && github.actor != 'dependabot[bot]' }}
 
     steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
       # Checks-out your repository under $GITHUB_WORKSPACE
       - uses: actions/checkout@v4
 
