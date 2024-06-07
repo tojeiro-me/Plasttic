@@ -17,4 +17,8 @@
   postUpdateOptions: ['pnpmDedupe'],
   prHourlyLimit: 0,
   prConcurrentLimit: 0,
+  ignoreDeps: [
+    // ignore "engines" update
+    'node',
+  ],
 }
