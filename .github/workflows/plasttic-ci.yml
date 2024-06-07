@@ -6,15 +6,13 @@ on:
   push:
     branches:
       - 'develop'
-    branches-ignore:
-      - 'renovate/**'
-      - 'dependabot/**'
+      - '!renovate/**'
+      - '!dependabot/**'
   pull_request: # pull_request/push/
     branches:
       - '**'
-    branches-ignore:
-      - 'renovate/**'
-      - 'dependabot/**'
+      - '!renovate/**'
+      - '!dependabot/**'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
