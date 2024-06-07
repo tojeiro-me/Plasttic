@@ -25,6 +25,7 @@ permissions:
 jobs:
   # This workflow contains a single job called "plasttic_ci"
   plasttic_ci:
+    if: ${{ github.actor != 'dependabot[bot]' ||  github.actor != 'renovate[bot]' }}
     permissions:
       # For stefanzweifel/git-auto-commit-action
       # Give the default GITHUB_TOKEN write permission to commit and push the
