@@ -34,7 +34,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ github.actor == 'renovate[bot]' }}
+    if: ${{ github.ref == 'refs/heads/dependabot/*' }}
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
