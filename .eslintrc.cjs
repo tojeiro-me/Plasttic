@@ -1,18 +1,4 @@
 module.exports = {
-  files: ['**/*.ts', '**/*.js'],
-  ignores: [
-    'node_modules/**', 
-    'dist/**', 
-    'dev/**',
-    'package/**',
-    'tests-examples/**',
-    '~partytown/**',
-    'ts-no.ts',
-    '**/vendor/**',
-    '/*.ts',
-    '/*.cjs',
-    '/*.js'
-  ],
   extends: [
     'airbnb-base',
     'prettier',
