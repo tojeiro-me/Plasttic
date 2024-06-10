@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ ! contains(github.ref, 'develop') }} && ${{ ! contains(github.ref, 'dependabot/') }}
+    if: ${{ !contains(github.ref, 'develop') }}
 
     steps:
       - uses: actions/setup-node@v4
