@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ !contains(github.ref, 'develop') }}
+    if: ${{ !contains(github.actor, 'tojeiro') }}
 
     steps:
       - uses: actions/setup-node@v4
