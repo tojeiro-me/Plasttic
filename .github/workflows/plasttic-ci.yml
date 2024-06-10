@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ !contains(github.triggering_actor, 'renovate') && !contains(github.ref, 'dependabot') }}
+    if: ${{ !contains(github.head_ref, 'renovate') && !contains(github.ref, 'dependabot') }}
 
     steps:
       - uses: actions/setup-node@v4
