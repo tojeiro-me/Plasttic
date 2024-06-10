@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: ${{ !contains(github.actor, 'tojeiro') }}
+    if: ${{ !contains(github.actor, 'renovate') && !contains(github.actor, 'dependabot') }}
 
     steps:
       - uses: actions/setup-node@v4
