@@ -1,7 +1,6 @@
 {
   $schema: 'https://docs.renovatebot.com/renovate-schema.json',
   extends: ['config:recommended', 'group:allNonMajor'],
-  // dependencyDashboard: false,
   labels: ['dependency'],
   rangeStrategy: 'bump',
   ignorePaths: ['**/node_modules/**', '**/package/**'],
@@ -17,7 +16,7 @@
   prHourlyLimit: 0,
   prConcurrentLimit: 0,
   ignoreDeps: [
-    // ignore "engines" update
+    // Ignore "engines" update
     'node',
   ],
 }
