@@ -6,14 +6,17 @@
   ignorePaths: ['**/node_modules/**', '**/package/**'],
 
   // Wait well over npm's three day window for any new package as a precaution against malicious publishes
-  // matchDatasources: ['npm'],
-  // minimumReleaseAge: '3 days',
+  matchDatasources: ['npm'],
+  minimumReleaseAge: '3 days',
 
   baseBranches: ['develop'],
   timezone: 'Europe/Lisbon',
-  // schedule: ['after 01:00 on sunday'],
-  schedule: ['every 1 hour after 10am and before 12pm every weekday'],
+  schedule: ['after 10pm on sunday'],
   postUpdateOptions: ['pnpmDedupe'],
   prHourlyLimit: 0,
   prConcurrentLimit: 0,
+  ignoreDeps: [
+    // Ignore "engines" update
+    'node',
+  ],
 }
