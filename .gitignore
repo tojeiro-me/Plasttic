@@ -20,6 +20,7 @@ certs/
 # development folders
 dev/
 dist/
+lib/
 
 # ignore files adding -nogit
 *-nogit*
@@ -28,10 +29,8 @@ dist/
 archive/
 **/sources/
 **/NOTES.md
-docs/*.tree
-src/boilerplate/
-
-lib/
+**/boilerplate/
+*.tree
 
 # testing
 tests/**/reports/*.*
@@ -43,3 +42,7 @@ tests/playwright/.cache/
 !tests/**/**/_*.txt
 !**/tests/**/dev/
 !.unlighthouse/_*.txt
+
+# lock files
+yarn.lock
+package-lock.json

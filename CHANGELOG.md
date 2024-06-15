@@ -1,11 +1,21 @@
-# v3.0.0-alpha.0 (Feb 06, 2024)
+# v3.0.0-alpha.1 (Jun --, 2024)
 
 - :warning: Updated: Replaced Sass style nesting with CSS native nesting
 - :warning: Updated: Replaced CSS individual imports with glob import
 - :warning: Updated: replaced postcss-nested with postcss-nesting
-- :warning: Updated: optimized linting
-- :warning: Updated: tests folders, scripts and configs (CI)
-- :warning: Updated: removed testing from pre-commit
+- :warning: Updated: Optimized linting
+- :warning: Updated: Tests folders, scripts and configs (CI)
+- :warning: Updated: Removed testing from pre-commit
+- :warning: Updated: CLI watch time delay increased to 5000ms
+- :warning: Updated: Browser Sync does not open new window
+- :warning: Updated: typescript@5.4.5
+- :warning: Updated: Jest config in vscode.settings.json
+- :warning: Updated: Replaced Dependabot with Renovate for dependency updates Develop branch (maintain Dependabot for GitHub Actions on Main branch)
+- :warning: Updated: Added lock files to gitignore
+- :warning: Updated: Ignore Dependabot and Renovate branches in plasttic-ci.yml
+- :warning: Updated: Dependabot updates github-actions in main branch
+- :warning: Updated: Eslint fixed version 8.57.0
+- :warning: Updated: Github Actions to use Node 20
 
 ---
 
@@ -53,8 +63,15 @@
 - Added: system font stacks on tokens.css
 - Updated: templates CSS
 - Updated: Dependabot config and auto-merge workflow
-
----
+- Updated: TODO Tree settings (vscode.settings.json)
+- Updated: Boilerplate snippet
+- Updated: CLI build script
+- Updated: CLI dev script
+- Updated: @font-face paths
+- Added: NOTE tag to Todo tree extension
+- Updated: Increased Stylelint max-nesting-depth to 4
+- Updated: Stylelint at-rule line before
+- Added: BrowserSync reload delay 350ms
 
 ##### IN PROGRESS:
 
