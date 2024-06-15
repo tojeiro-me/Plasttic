@@ -1,0 +1,35 @@
+/**
+  * 00_reset.css
+  *
+  * INDEX
+  * -----
+  *
+  * Customize values from plasttic-reset 
+  * (global scope)
+  *
+  */
+
+@import "https://unpkg.com/plasttic-reset@2.1";
+
+/* Available properties to customize the reset defaults */
+
+:root {
+  /* Focus style color: Brand Primary Color 300 - CUSTOMIZED */
+  --ptt-reset-focus-color: var(--ptt-clr-primary-300);
+
+  /* The next properties best values depends on the font used */
+  --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
+  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
+  --ptt-reset-body-spacing: 0.012em; /* letter spacing */
+  --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
+  --ptt-reset-h1-width: 30ch;
+  --ptt-reset-h2-width: 35ch;
+  --ptt-reset-h3-width: 45ch;
+  --ptt-reset-h4-width: 55ch;
+
+  /* Better spacing between content */
+  --ptt-reset-content-space-top: 0.5em;
+  --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
+  --ptt-reset-header-space-top: 2em;
+  /* h1: if not inside a header with role=banner */
+}

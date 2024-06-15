@@ -1,0 +1,221 @@
+/**
+  * 30_tokens.css
+  *
+  * INDEX
+  * -----
+  *
+  * LOAD FONTS................Self hosted fonts
+  *
+  * TOKENS (:root)
+  * Colors
+  * Font
+  * Text
+  * Box Model
+  * 
+  * Breakpoints
+  *
+  * TYPOGRAPHY TOKENS...........Extends Font and Text
+  * 
+  */
+
+/* ==========================================================================
+   Load Fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/roboto-latin-300-normal.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/roboto-latin-400-normal.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/roboto-latin-500-normal.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+
+:root {
+  /**
+    * COLORS
+    * Shade number classification light to dark
+    * 500 is the main color; shades from 100-900
+    * Optional: create middle values like 650
+    * Primary and Secondary usually are the brand colors
+    * Theme colors can be changed on page specific styles
+    */
+
+  /* Neutral */
+  --ptt-clr-neutral-100: hsl(0 0% 100%); /* white */
+  --ptt-clr-neutral-200: hsl(0 0% 87.5%);
+  --ptt-clr-neutral-300: hsl(0 0% 75%);
+  --ptt-clr-neutral-400: hsl(0 0% 62.5%);
+  --ptt-clr-neutral-500: hsl(0 0% 50%);
+  --ptt-clr-neutral-600: hsl(0 0% 37.5%);
+  --ptt-clr-neutral-700: hsl(0 0% 25%);
+  --ptt-clr-neutral-800: hsl(0 0% 12.5%);
+  --ptt-clr-neutral-900: hsl(0 0% 0%); /* black */
+
+  /* Primary (Brand) */
+  --ptt-clr-primary-100: hsl(191 50% 87%);
+  --ptt-clr-primary-300: hsl(190 50% 59%);
+  --ptt-clr-primary-400: hsl(190 50% 35%);
+  --ptt-clr-primary-800: hsl(192 41% 20%);
+
+  /* Secondary */
+  --ptt-clr-secondary-400: var(--ptt-clr-neutral-800);
+
+  /* Complementary */
+  --ptt-clr-complement-red-400: hsl(348 68% 42%);
+
+  /* Utility */
+  --ptt-clr-util-error-400: hsl(0 86% 38%);
+  --ptt-clr-util-success-400: hsl(121 83% 33%);
+
+  /* Backgrounds */
+  --ptt-clr-bkg-body: var(--ptt-clr-neutral-100);
+  --ptt-clr-bkg-nav: var(--ptt-clr-neutral-100);
+  --ptt-clr-bkg-main: var(--ptt-clr-neutral-100); /* by section name */
+  --ptt-clr-bkg-footer: var(--ptt-clr-neutral-100);
+
+  /* Theme */
+
+  /**
+    * FONT
+    * Family, Weights, Sizes
+    */
+
+  /* Font Families */
+  --ptt-fnt-family-primary: "Roboto", sans-serif;
+
+  /* Font- Weights */
+  --ptt-fnt-weight-light: 300;
+  --ptt-fnt-weight-regular: 400;
+  --ptt-fnt-weight-bold: 500;
+
+  /* Font- Sizes: 200: 14px, 400: 16px, 500: 20px,
+      700nt-: 28px, 900: 36px */
+  --ptt-fnt-size-100: 0.85rem;
+  --ptt-fnt-size-200: 0.875rem;
+  --ptt-fnt-size-400: 1rem;
+  --ptt-fnt-size-500: 1.25rem;
+  --ptt-fnt-size-700: 1.75rem;
+  --ptt-fnt-size-900: 2.25rem;
+
+  /**
+    * TEXT
+    * Line height, ...
+    */
+
+  /* Line Heights */
+  --ptt-txt-line-height-100: 0.85;
+  --ptt-txt-line-height-200: 1;
+  --ptt-txt-line-height-300: 1.2;
+  --ptt-txt-line-height-400: 1.45; /* default: reset.css */
+
+  /**
+    * BOX
+    * Padding, margin
+    */
+
+  /* Padding */
+  --ptt-padding-200: 0.75em;
+  --ptt-padding-300: 0.9em;
+  --ptt-padding-400: 1em;
+  --ptt-padding-500: 1.1em;
+  --ptt-padding-700: 1.5em;
+  --ptt-padding-900: 2em;
+
+  /* Margin */
+  --ptt-margin-400: 1rem;
+  --ptt-margin-600: 1.5rem;
+
+  /* Border */
+  --ptt-border-400: 1px solid;
+
+  /* Border radius */
+  --ptt-border-radius-400: 1rem;
+
+  /**
+    * GRID / FLEXBOX
+    * Gap, 
+    */
+
+  /* Gap */
+  --ptt-gap-400: 1rem;
+  --ptt-gap-700: 2rem;
+}
+
+/**
+  * BREAKPOINTS
+  * Mobile, Tablet, Laptop, Desktop
+  */
+
+/* 30rem: 480px, 48rem: 768px, 62rem: 992px, 64rem: 1024px, 75rem: 1200px */
+
+@custom-media --ptt-bkp-xs (width >= 30rem);
+@custom-media --ptt-bkp-sm (width >= 48rem);
+@custom-media --ptt-bkp-md (width >= 62rem);
+@custom-media --ptt-bkp-lg (width >= 64rem);
+@custom-media --ptt-bkp-xl (width >= 75rem);
+
+/* ==========================================================================
+   Typography Tokens
+   ========================================================================== */
+
+:root {
+  /**
+    * TYPOGRAPHY
+    * Body, Headers, Navigation, Footer
+    */
+
+  /* Body */
+  --ptt-fnt-family-body: var(--ptt-fnt-family-primary);
+  --ptt-fnt-weight-body: var(--ptt-fnt-weight-light);
+  --ptt-fnt-size-body: var(--ptt-fnt-size-400);
+
+  /* Headers */
+  --ptt-fnt-weight-header: var(--ptt-fnt-weight-bold);
+  --ptt-fnt-size-header-h1: var(--ptt-fnt-size-700);
+  --ptt-fnt-size-header-h2: var(--ptt-fnt-size-500);
+  --ptt-txt-line-height-header: var(--ptt-txt-line-height-200);
+
+  /* Navigation */
+  --ptt-fnt-weight-primary-nav: var(--ptt-fnt-weight-regular);
+  --ptt-fnt-size-primary-nav: var(--ptt-fnt-size-200);
+
+  /* Footer */
+  --ptt-fnt-weight-footer: var(--ptt-fnt-weight-regular);
+  --ptt-fnt-size-footer: var(--ptt-fnt-size-200);
+}
+
+/**
+  * RESPONSIVE TYPOGRAPHY
+  * Redefine Typography token values by Breakpoint
+  * whenever needed
+  */
+
+/* Increase font sizes for desktop */
+
+@media (--ptt-bkp-md) {
+  :root {
+    --ptt-fnt-size-body: var(--ptt-fnt-size-500);
+    --ptt-fnt-size-header-h1: var(--ptt-fnt-size-900);
+    --ptt-fnt-size-header-h2: var(--ptt-fnt-size-700);
+    --ptt-fnt-size-primary-nav: var(--ptt-fnt-size-200);
+    --ptt-fnt-size-footer: var(--ptt-fnt-size-200);
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "css.validate": false,
+  "postcss.validate": false,
+
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.stylelint": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on"
+  },
+  "[javascript][typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.minimap.enabled": false,
+  "editor.suggest.showStatusBar": true,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": false,
+  "editor.parameterHints.enabled": false,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorWidth": 2,
+  "editor.fontSize": 13,
+  "editor.tabCompletion": "on",
+
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "emmet.syntaxProfiles": {
+    "postcss": "css"
+  },
+
+  "explorer.compactFolders": false,
+  "explorer.incrementalNaming": "disabled",
+  "explorer.confirmDragAndDrop": true,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.readonlyInclude": {
+    "node_modules/**": true
+  },
+
+  "git.autofetch": "all",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetchPeriod": 60,
+
+  "html.format.unformatted": "",
+  "html.format.wrapLineLength": 150,
+
+  "jest.autoRun": false,
+
+  "markdown.validate.enabled": true,
+  "markdown.updateLinksOnFileMove.enabled": "always",
+
+  "playwright.reuseBrowser": false,
+
+  "terminal.integrated.automationProfile.windows": null,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontSize": 13,
+
+  "window.commandCenter": true,
+
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#505c57",
+    "editor.selectionBackground": "#515151",
+    "editorIndentGuide.activeBackground": "#bca23a"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#b52929",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*"
+    }
+  ],
+  "better-comments.multilineComments": false,
+
+  "colorInfo.fields": ["hsl", "rgb", "hex"],
+  "colorInfo.languages": [
+    {
+      "selector": "css",
+      "colors": "css"
+    },
+    {
+      "selector": "postcss",
+      "colors": "css"
+    }
+  ],
+
+  "cSpell.ignoreWords": ["Plasttic"],
+  "cSpell.userWords": [
+    "blockquote",
+    "cssnano",
+    "fieldset",
+    "figcaption",
+    "googlebot",
+    "iframe",
+    "nogit",
+    "nowrap",
+    "tabindex",
+    "truetype"
+  ],
+
+  "cssvar.files": ["./src/assets/css/30_tokens.css"],
+
+  "eslint.alwaysShowStatus": true,
+
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
+  ],
+  "githubPullRequests.pullBranch": "never",
+
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.configPath": ".vscode/.prettierrc",
+
+  "projectManager.git.baseFolders": ["/path/to/projects/folder/"],
+  "projectManager.git.ignoredFolders": [
+    "node_modules",
+    "out",
+    "typings",
+    "test",
+    ".haxelib"
+  ],
+  "projectManager.tags": ["Project", "Work", "Archive"],
+  "projectManager.confirmSwitchOnActiveWindow": "always",
+
+  "stylelint.validate": ["css", "postcss", "html"],
+
+  "todo-tree.general.enableFileWatcher": true,
+  "todo-tree.general.tagGroups": {},
+  "todo-tree.general.tags": ["TODO", "FIX", "CHECK", "DONE"],
+  "todo-tree.general.statusBar": "current file",
+  "todo-tree.highlights.backgroundColourScheme": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "indigo",
+    "violet",
+    "grey"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "icon",
+    "foreground": "black",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "red"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "foreground": "black",
+      "background": "white",
+      "iconColour": "white",
+      "gutterIcon": false
+    },
+    "FIX": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "CHECK": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "orange",
+      "iconColour": "orange",
+      "gutterIcon": true
+    },
+    "DONE": {
+      "icon": "check",
+      "type": "icon",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green",
+      "gutterIcon": true
+    }
+  },
+
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+
+  "vs-code-prettier-eslint.prettierLast": false
+}

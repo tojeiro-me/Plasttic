@@ -1,0 +1,287 @@
+/**
+  * 70_templates.css
+  *
+  * INDEX
+  * -----
+  *
+  * Temporary
+  * Homepage
+  * 
+  */
+
+/* ==========================================================================
+   Templates
+   ========================================================================== */
+
+/* GLOBAL STYLES (Styling across templates)
+   About: Prevent defining the same styling in every template. 
+   Can be overwritten when needed.
+   ========================================================================== */
+
+body {
+  background: var(--ptt-clr-bkg-body);
+
+  color: var(--ptt-clr-neutral-800);
+  font-family: var(--ptt-fnt-family-body);
+  font-size: var(--ptt-fnt-size-body);
+  font-weight: var(--ptt-fnt-weight-body);
+}
+
+/**
+  * WRAPPER
+  * Main layout definition
+  */
+
+.ptt-wrapper {
+  margin-block: max(2vw, 1rem);
+}
+
+/**
+  * CONTAINER
+  * Sections layout settings
+  * global, per area or section
+  */
+
+.ptt-container {
+  inline-size: min(100% - 2rem, 75rem);
+  margin-inline: auto;
+}
+
+/* Temporary (Splash Page, Error Page, Under Construction, ...)
+   ========================================================================== */
+
+/* see GLOBAL STYLES for global defaults */
+
+body.ptt-tpl__temporary {
+  display: grid;
+
+  text-align: center;
+
+  @media (--ptt-bkp-md) {
+    text-align: left;
+  }
+
+  /**
+    * WRAPPER
+    * Main layout definition
+    */
+
+  .ptt-wrapper {
+    display: grid;
+    grid-template-areas:
+      "nav"
+      "main"
+      "footer";
+    gap: var(--ptt-gap-700);
+  }
+
+  /**
+    * CONTAINER
+    * Sections layout settings
+    * global, per area or section
+    */
+  /* .ptt-container {}  */
+
+  /**
+    * MAIN NAV
+    * Area
+    */
+
+  .ptt-nav {
+    .ptt-container {
+      display: flex;
+      justify-content: left;
+    }
+
+    .ptt-nav__logo {
+      @mixin main-nav-logo-dyn;
+    }
+  }
+
+  /**
+    * MESSAGE
+    * Section
+    */
+
+  .ptt-message .ptt-container {
+    display: grid;
+    grid-template-areas:
+      "image"
+      "title"
+      "message"
+      "cta";
+    gap: var(--ptt-gap-700);
+
+    margin-block: min(2vw, 1em);
+
+    @media (--ptt-bkp-md) {
+      grid-template-areas:
+        "title   image"
+        "message image"
+        "cta     image";
+      grid-template-columns: 1fr 50vh;
+      grid-template-rows: auto auto 1fr;
+
+      margin-block: 5vh;
+    }
+  }
+
+  .ptt-message {
+    .ptt-message__image {
+      grid-area: image;
+      justify-self: center;
+
+      inline-size: 50%;
+
+      @media (--ptt-bkp-md) {
+        justify-self: right;
+
+        inline-size: 50vh;
+      }
+
+      & img {
+        inline-size: 100%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+      }
+    }
+
+    .ptt-message__header {
+      grid-area: title;
+      justify-self: center;
+
+      margin-block-end: 0;
+
+      color: var(--ptt-clr-neutral-700);
+      font-size: 4rem;
+      line-height: var(--ptt-txt-line-height-100);
+      overflow-wrap: normal;
+
+      @media (--ptt-bkp-md) {
+        font-size: clamp(4rem, 8vw + 2rem, 10rem);
+      }
+    }
+
+    .ptt-message__text {
+      grid-area: message;
+      justify-self: center;
+
+      max-inline-size: 45ch;
+
+      @media (--ptt-bkp-md) {
+        justify-self: left;
+
+        margin-inline-start: 1.5rem;
+
+        font-size: var(--ptt-fnt-size-500);
+      }
+
+      & ul {
+        margin-inline-start: 2rem;
+        padding-block-start: var(--ptt-padding-700);
+
+        text-align: left;
+        list-style: disc;
+
+        @media (--ptt-bkp-md) {
+          margin-inline-start: 2.5rem;
+        }
+      }
+
+      & li {
+        padding-block-start: var(--ptt-padding-200);
+      }
+    }
+
+    .ptt-message__cta {
+      grid-area: cta;
+      justify-self: center;
+
+      margin-block-start: 1.5rem;
+
+      @media (--ptt-bkp-md) {
+        justify-self: left;
+
+        margin-inline-start: 1rem;
+      }
+
+      & a {
+        @mixin link-button-xl;
+      }
+    }
+  }
+  /**
+    * FOOTER
+    * Area
+    */
+
+  .ptt-footer {
+    padding-block-end: var(--ptt-padding-900);
+
+    font-size: var(--ptt-fnt-size-footer);
+
+    .ptt-footer__credit {
+      display: flex;
+      justify-content: center;
+
+      margin-block-start: var(--ptt-margin-400);
+    }
+
+    .ptt-footer__social {
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+      justify-content: center;
+
+      margin-block-start: var(--ptt-margin-400);
+
+      & img {
+        display: block;
+
+        block-size: 20px;
+        aspect-ratio: 1/1;
+
+        @media (--ptt-bkp-md) {
+          block-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+/* Homepage (Single Page Template)
+   ========================================================================== */
+
+/* see GLOBAL STYLES for global defaults */
+
+body.ptt-tpl__homepage {
+  /**
+    * WRAPPER
+    * Main layout definition
+    */
+
+  .ptt-wrapper {
+    display: grid;
+    grid-template-areas:
+      "nav"
+      "header"
+      "main"
+      "footer";
+  }
+
+  /**
+    * CONTAINER
+    * Sections layout settings
+    * global, per area or section
+    */
+  /* .ptt-container {}  */
+
+  /**
+    * FOOTER
+    * Area
+    */
+
+  .ptt-footer {
+    font-size: var(--ptt-fnt-size-footer);
+  }
+}
