@@ -11,6 +11,7 @@
 - :warning: Updated: typescript@5.4.5
 - :warning: Updated: Jest config in vscode.settings.json
 - :warning: Updated: Replaced Dependabot with Renovate for dependency updates Develop branch (maintain Dependabot for GitHub Actions on Main branch)
+- :warning: Removed: Dependabot Auto Merge
 - :warning: Updated: Added lock files to gitignore
 - :warning: Updated: Ignore Dependabot and Renovate branches in plasttic-ci.yml
 - :warning: Updated: Dependabot updates github-actions in main branch
